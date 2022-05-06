@@ -4,8 +4,8 @@
 - `API Title` -> api 이름
 - `URL` -> api 경로
 - `Method` -> request 방식
-- Data Params -> Post 요청시 body 안에 넣어줄 값
-- URL Params(만약 있을 경우)
+- `Data Params` -> Post 요청시 body 안에 넣어줄 값
+- `URL Params`(만약 있을 경우)
   - Required -> url params로 넘길 값
 - Success Response -> 응답이 성공적이지 못할 경우 반환되는 값과 코드
 - Sample Casll -> 요청과 응답 예시
