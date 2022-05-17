@@ -1,7 +1,7 @@
 # Back-end API 문서 효율적인 설계방법
 
 ### 꼭 들어가야 하는 내용
-- API Title -> api 이름
+- `API Title` -> api 이름
 - URL -> api 경로
 - Method -> request 방식
 - Data Params -> Post 요청시 body 안에 넣어줄 값
