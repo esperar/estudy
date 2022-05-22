@@ -2,8 +2,8 @@
 
 ### 꼭 들어가야 하는 내용
 - `API Title` -> api 이름
-- URL -> api 경로
-- Method -> request 방식
+- `URL` -> api 경로
+- `Method` -> request 방식
 - Data Params -> Post 요청시 body 안에 넣어줄 값
 - URL Params(만약 있을 경우)
   - Required -> url params로 넘길 값
