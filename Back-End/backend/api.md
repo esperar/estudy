@@ -1,14 +1,14 @@
 # Back-end API 문서 효율적인 설계방법
 
 ### 꼭 들어가야 하는 내용
-- API Title - api 이름
-- URL - api 경로
-- Method - request 방식
-- Data Params - Post 요청시 body 안에 넣어줄 값
+- API Title -> api 이름
+- URL -> api 경로
+- Method -> request 방식
+- Data Params -> Post 요청시 body 안에 넣어줄 값
 - URL Params(만약 있을 경우)
-  - Required - url params로 넘길 값
-- Success Response - 응답이 성공적이지 못할 경우 반환되는 값과 코드
-- Sample Casll - 요청과 응답 예시
+  - Required -> url params로 넘길 값
+- Success Response -> 응답이 성공적이지 못할 경우 반환되는 값과 코드
+- Sample Casll -> 요청과 응답 예시
 
 위의 내용은 꼭 들어가야하고 api 문서를 표로 작성해도 좋고 글머리 표를 이용해서 작성해도 좋다.
 
