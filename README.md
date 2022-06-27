@@ -18,7 +18,7 @@
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object.md">객체</a>
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/%232%20%5B2021%20UPDATE%5D%20WELCOME%20TO%20JAVASCRIPT">Todo Lsit<a>
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/PaintJS">PaintJS</a>
-- [DotoriDark](https://github.com/KIMHUEMANG/DotoriDark)
+- [Dotori Dark](https://github.com/KIMHUEMANG/DotoriDark)
 
 
  <br/>
