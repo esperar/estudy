@@ -11,14 +11,14 @@
 
 
 2. 초기 설정을 한다.
-```
+```bash
 git config --global user.name "NAME"
 git config --global user.email "EMAIL"
 ```
 
 3. 파일 준비를한다
 
-```
+```bash
 git init  // git파일 생성
 git add . // 선택한 프로젝트 폴더 내의 모든 파일 관리
 git status // 상태확인
@@ -26,7 +26,7 @@ git commit -m '내용' // 커밋하기
 ```
 
 4. 업로드를 한다
-```
+```bash
 git remote add origin 리퍼지토리주소
 git push -u origin master
 ```
@@ -40,19 +40,19 @@ ___
 위에 나온건 생략했습니다
 <br/>
 ### clone
-```
+```bash
 git clone URL //저장소 복제 , 다운로드
 git clone /로컬/저장소/경로  //로컬 저장소 복제
 ```
 
 ### commit
-```
+```bash
 $ git add <파일명>
 $ git add *   // 커밋에 단일 파일의 변경 사항을 포함
 ```
 
 ### branch
-```
+```bash
 $ git branch // 브랜치 목록
 $ git branch // <브랜치이름>	새 브랜치 생성 (local로 만듦)
 $ git checkout -b // <브랜치이름>	브랜치 생성 & 이동
@@ -60,7 +60,7 @@ $ git checkout master	// master branch로 되돌아 옴
 ```
 
 ### push
-```
+```bash
 $ git push origin master // 변경사항 원격 서버에 업로드
 $ git push < remote > // <브랜치이름>	커밋을 원격 서버에 업로드
 $ git push -u < remote > // <브랜치이름>	커밋을 원격 서버에 업로드
