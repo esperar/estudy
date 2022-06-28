@@ -68,6 +68,7 @@ console.log("우리 집 강아지는 " + myDog.breed() + "입니다.");
 
 ### 프로토타입 객체 확장
 
-- 프로토타입 객체도 객체이므로 일반 객체와 같이 프로퍼티를 추가/삭제할 수 있다. 그리고 이렇게 추가/삭제된 프로퍼티는 즉시 프로토타입 체인에 반영된다.
+- 프로토타입 객체도 객체이므로 일반 객체와 같이 프로퍼티를 추가/삭제할 수 있다. 그리고 이렇게 추가/삭제된 프로퍼티는 즉시 프로토타입 체인에 반영된다.  
+<br>
 
-[프로토타입 객체 확장](https://poiemaweb.com/img/extension_prototype.png)
+![프로토타입 객체 확장](https://poiemaweb.com/img/extension_prototype.png)
