@@ -81,3 +81,32 @@ timeout(() => {
 
   위 처럼 작성하면 3초후에 hello가 출력된 뒤에 done이 출력된다  
   저렇게 하지 않고 그냥 밖에서 화면을 실행시키면 done이 먼저 출력이 된다.
+
+<br>
+
+  ### this
+  - 한 객체에서 자신을 지칭 하는 것
+
+  ```js
+  const Huemang = {
+    firstName : "Huemang",
+    lastName : "Kim",
+    getFullName: function(){
+      return `${this.firstName} ${this.lastName}`
+    }
+  }
+  console.log(Huemang.getFullName()); // Huemang Kim
+  ```
+
+### 생성자 함수
+-  new 키워드와 함께 쓰이는 함수이다. 우리가 직접 함수를 정의하여 new 키워드로 생성자 함수를 만들어 사용할 수도 있지만, 자바스크립트에 기본적으로 내장된 생성자 함수를 사용할 수도 있다
+```js
+function user(first, last){
+  this.firstName = first,
+  this.lastName = last
+}
+
+const huemang = new user('Huemang',"Kim");
+
+console.log(huemang); // huemang의 객체가 출력
+```

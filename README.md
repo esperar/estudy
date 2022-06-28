@@ -15,8 +15,9 @@
 # Front-End
 
    ### JavaScript  
-ㅎ- [함수](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/function.md)
+- [함수](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/function.md)
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object.md">객체</a>
+- [프로토타입](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object2.md)
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/%232%20%5B2021%20UPDATE%5D%20WELCOME%20TO%20JAVASCRIPT">Todo Lsit<a>
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/PaintJS">PaintJS</a>
 - [Dotori Dark](https://github.com/KIMHUEMANG/DotoriDark)
@@ -26,6 +27,7 @@
 # GIT
 
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가?<a>
+- [branch](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)
 
 <br/>
 
