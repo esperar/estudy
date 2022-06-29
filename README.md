@@ -19,6 +19,7 @@
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object.md">객체</a>
 - [프로토타입](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object2.md)
 - [클래스](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/class.md)
+- [String + Method](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/typeStirng.md) 
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/%232%20%5B2021%20UPDATE%5D%20WELCOME%20TO%20JAVASCRIPT">Todo Lsit<a>
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/PaintJS">PaintJS</a>
 - [Dotori Dark](https://github.com/KIMHUEMANG/DotoriDark)
