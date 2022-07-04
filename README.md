@@ -18,6 +18,7 @@
 - [함수](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/function.md)
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object.md">객체</a>
 - [프로토타입](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object2.md)
+- [객체 메소드](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object3.md)
 - [클래스](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/class.md)
 
 - [String + Method](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/typeString.md) 
