@@ -25,6 +25,10 @@
 - [Math](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Number.md)
 - [배열 메소드](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/array.md)
 - [배열 메소드2](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/array2.md)
+- [데이터불변성](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Immutability.md)
+- [구조 분해 할당](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/destruct.md)
+- [export](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/export.md)
+- [import](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/import.md)
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/%232%20%5B2021%20UPDATE%5D%20WELCOME%20TO%20JAVASCRIPT">Todo Lsit<a>
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/PaintJS">PaintJS</a>
 - [Dotori Dark](https://github.com/KIMHUEMANG/DotoriDark)
@@ -32,14 +36,17 @@
  <br/>
  
 # GIT
+- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가? + basic<a>  
 
-- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가? + basic<a>
-- [basic2](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)
-- [branch](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)
+- [Git 버전확인](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
+- [basic2](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
+- [branch](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)  
+- [다른사람의 Repo 가져오기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pushR.md)  
 
 <br/>
 
 # 정처기
 - [Java , 객체지향](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
+
 - [응용SW_1](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
 - [응용SW_2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
