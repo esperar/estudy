@@ -14,14 +14,14 @@ import { export1 , export2 as alias2 , [...] } from "module-name";
 import defaultExport, { export1 [ , [...] ] } from "module-name";
 import defaultExport, * as name from "module-name";
 import "module-name";
-var promise = import("module-name");
+let promise = import("module-name");
 ```
 
 - `defalutExport` : 모듈에서 가져온 기본 내보내기를 가리킬 이름.
 
 - `module-name` : 가져올 대상 모듈. 보통, 모듈을 담은 js파일로의 절대 또는 상대 경로
 
--`name` : 가져온 대상에 접근할 때 일종의 이름공간으로 사용할, 모듈 객체의 이름.
+- `name` : 가져온 대상에 접근할 때 일종의 이름공간으로 사용할, 모듈 객체의 이름.
 
 - `exportN` : 내보낸 대상 중 가져올 것의 이름.
 - `aliasN` : 가져온 유명 내보내기를 가리킬 이름.

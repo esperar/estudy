@@ -1,36 +1,51 @@
 # TIL
 
 ### 시작 날짜
- `2022년6월27일`
+ `2022년6월27일`  
+
 
 ### TIL이란 ?
-`TIL` Today I Learn의 약어로 해석하면 **오늘 내가 공부한 것** 이다.
+ `TIL` Today I Learn의 약어로 해석하면 **오늘 내가 공부한 것** 이다.
+
+<br>
+
+### TIL 작성시 장점
+1. `성취감` : 매일매일 TIL을 커밋하면서 심어지는 잔디를 보면서 성취감을 느낀다
+2. `성실성` : 기록하는 습관을 만들면 앞으로의 개발자 인생에서 큰 도움이 될 것이다. 
+3. `개이득` : TIL을 작성하면 과거를 성찰할 수도 있고 복습도 할 수 있다.
+
+<br>
 
 ### 나의 다짐
 1. 하루도 빠짐 없이 매일매일 쓴다.
 2. 나의 전공 위주로 공부를 먼저 한다.
 3. 열심히 한다.
+
  <br/><br/>
 
 # Front-End
 
    ### JavaScript  
-- [함수](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/function.md)
-- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object.md">객체</a>
-- [프로토타입](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object2.md)
-- [객체 메소드](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Object3.md)
-- [클래스](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/class.md)
+- [함수](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/function.md)
+- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Object.md">객체</a>
+- [프로토타입](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Object2.md)
+- [객체 메소드](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Object3.md)
+- [클래스](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/class.md)
 
-- [String + Method](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/typeString.md) 
-- [Math](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Number.md)
-- [배열 메소드](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/array.md)
-- [배열 메소드2](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/array2.md)
-- [데이터불변성](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/Immutability.md)
-- [구조 분해 할당](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/destruct.md)
-- [export](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/export.md)
-- [import](https://github.com/KIMHUEMANG/MyTIL/blob/master/JS/import.md)
-- <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/%232%20%5B2021%20UPDATE%5D%20WELCOME%20TO%20JAVASCRIPT">Todo Lsit<a>
+- [String + Method](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/typeString.md) 
+- [Math](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Number.md)
+- [배열 메소드](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/array.md)
+- [배열 메소드2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/array2.md)
+- [데이터불변성](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Immutability.md)
+- [구조 분해 할당](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/destruct.md)
+- [export](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/export.md)
+- [import](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/import.md)
+- [Lodash](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Lodash.md)
+- [JSON](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JSON.md)
+- [Storage](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Storage.md)
+- <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/%232%20%5B2021%20UPDATE%5D%20WELCOME%20TO%20JAVASCRIPT">TodoLsit<a>
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/PaintJS">PaintJS</a>
+- [GSM-Webtoon](https://github.com/KIMHUEMANG/GSM_Webtoon)
 - [Dotori Dark](https://github.com/KIMHUEMANG/DotoriDark)
 
  <br/>
@@ -41,12 +56,14 @@
 - [Git 버전확인](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
 - [basic2](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
 - [branch](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)  
-- [다른사람의 Repo 가져오기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pushR.md)  
+- [다른 사람의 Repository 가져오기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pushR.md)  
+- [commit 버전 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/revert.md)
 
 <br/>
 
-# 정처기
+# Engineer Information Processing
 - [Java , 객체지향](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
 
 - [응용SW_1](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
 - [응용SW_2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
+- [데이터베이스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
