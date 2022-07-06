@@ -7,14 +7,12 @@
 ### TIL이란 ?
  `TIL` Today I Learn의 약어로 해석하면 **오늘 내가 공부한 것** 이다.
 
-<br>
 
 ### TIL 작성시 장점
 1. `성취감` : 매일매일 TIL을 커밋하면서 심어지는 잔디를 보면서 성취감을 느낀다
 2. `성실성` : 기록하는 습관을 만들면 앞으로의 개발자 인생에서 큰 도움이 될 것이다. 
 3. `개이득` : TIL을 작성하면 과거를 성찰할 수도 있고 복습도 할 수 있다.
 
-<br>
 
 ### 나의 다짐
 1. 하루도 빠짐 없이 매일매일 쓴다.
@@ -43,10 +41,16 @@
 - [Lodash](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Lodash.md)
 - [JSON](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JSON.md)
 - [Storage](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Storage.md)
+- [정규표현식](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/정규표현식.md)
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/%232%20%5B2021%20UPDATE%5D%20WELCOME%20TO%20JAVASCRIPT">TodoLsit<a>
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/PaintJS">PaintJS</a>
 - [GSM-Webtoon](https://github.com/KIMHUEMANG/GSM_Webtoon)
 - [Dotori Dark](https://github.com/KIMHUEMANG/DotoriDark)
+
+<br>
+
+### TypeScript
+- [TypeScript란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TypeScript.md)
 
  <br/>
  
