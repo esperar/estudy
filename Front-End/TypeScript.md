@@ -24,3 +24,11 @@
 - 컴파일하는 시점 X
 - 코드 자체를 실행
 - 코드를 실행하는 시점 o
+
+## TypeScript vs JavaScript
+
+- TypeScript는 JavaScript 기반의 언어
+- JavaScript는 클라이언트 측 스크립팅 언어
+- TypeScript는 객체 지향 컴파일 언어  
+- 객체 지향 프로그래밍 패러다임은 데이터 추상화에 중심
+> 객체와 클래스라는 두 주요 개념을 기반으로 함

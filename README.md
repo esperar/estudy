@@ -51,6 +51,14 @@
 
 ### TypeScript
 - [TypeScript란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TypeScript.md)
+  
+- [Basic Types](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_Type.md)
+- [작성자와 사용자의 관점으로 코드 바라보기](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeSystem.md)
+- [Structural Type System vs Nominal Type System](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeSystem2.md)
+- [타입 호환성 Type Compatibility](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeCompatibility.md)
+- [타입 별칭 Type Alias](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeAlias.md)
+
+  
 
  <br/>
  
@@ -71,3 +79,4 @@
 - [응용SW_1](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
 - [응용SW_2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [데이터베이스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
+- [데이터베이스 종류와 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
