@@ -55,6 +55,7 @@
 - [TypeScript란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TypeScript.md)
   
 - [Basic Types](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_Type.md)
+- [Basic Function](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_function.md)
 - [작성자와 사용자의 관점으로 코드 바라보기](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeSystem.md)
 - [Structural Type System vs Nominal Type System](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeSystem2.md)
 - [타입 호환성 Type Compatibility](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeCompatibility.md)
