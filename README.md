@@ -60,6 +60,7 @@
 - [Structural Type System vs Nominal Type System](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeSystem2.md)
 - [타입 호환성 Type Compatibility](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeCompatibility.md)
 - [타입 별칭 Type Alias](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeAlias.md)
+- [TypeScript Compiler](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeAlias.md)
 
   
 
