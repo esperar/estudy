@@ -61,7 +61,7 @@
 - [타입 호환성 Type Compatibility](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeCompatibility.md)
 - [타입 별칭 Type Alias](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeAlias.md)
 - [TypeScript Compiler](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeAlias.md)
-- [constructor, Access Modifier, Getter && Setter](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_constructor.md)
+- [constructor, Access Modifier, Getter & Setter](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_constructor.md)
 - [interface](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_interface.md)
 - [interface2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_interface2.md)
 
