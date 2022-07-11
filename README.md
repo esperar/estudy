@@ -78,6 +78,8 @@
 - [다른 사람의 Repository 가져오기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pushR.md)  
 - [commit 버전 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/revert.md)
 - [원격저장소 동기화](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pull.md)
+- [pull request](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/request.md)
+
 
 <br/>
 
