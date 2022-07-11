@@ -64,6 +64,7 @@
 - [constructor, Access Modifier, Getter & Setter](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_constructor.md)
 - [interface](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_interface.md)
 - [interface2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_interface2.md)
+- [class](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_class.md)
 
   
 
