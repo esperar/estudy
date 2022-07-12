@@ -29,7 +29,7 @@ Document `Object` Model인 만큼, 태그 하나하나가 전부 **객체**이�
 > 스크립트를 작성할 때 인라인 요소를 사용하거나 웹 페이지 안에 있는 스크립트 로딩 명령을 사용하여, 문서 자체를 조작하거나 문서의 children을 얻기 위해 document 또는 window elements 를 위한 API 를 즉시 사용할 수 있다.
 
 ### 2.2 DOM 수정
-객체에 접근했다면 , DOM API를 활용해 DOM을 수정할 수 있다.
+객체에 접근했다면 , `DOM API`를 활용해 `DOM`을 수정할 수 있다.
 
 ![API](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbnAfcx%2FbtqDRNhmftL%2FK2n3pKhOfEE1NikYKzm0BK%2Fimg.png)
 
