@@ -44,6 +44,7 @@
 - [정규표현식](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/정규표현식.md)
 - [DOM](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/DOM.md)
 - [DOM API](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/DOM2.md)
+- [Promise](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/promise.md)
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/%232%20%5B2021%20UPDATE%5D%20WELCOME%20TO%20JAVASCRIPT">TodoLsit<a>
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/PaintJS">PaintJS</a>
 - [GSM-Webtoon](https://github.com/KIMHUEMANG/GSM_Webtoon)
@@ -54,17 +55,18 @@
 ### TypeScript
 - [TypeScript란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TypeScript.md)
   
-- [Basic Types](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_Type.md)
-- [Basic Function](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_function.md)
+- [Basic_Types](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_Type.md)
+- [Basic_Function](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_function.md)
 - [작성자와 사용자의 관점으로 코드 바라보기](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeSystem.md)
 - [Structural Type System vs Nominal Type System](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeSystem2.md)
 - [타입 호환성 Type Compatibility](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeCompatibility.md)
 - [타입 별칭 Type Alias](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeAlias.md)
-- [TypeScript Compiler](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeAlias.md)
+- [TypeScript_Compiler](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeAlias.md)
 - [constructor, Access Modifier, Getter & Setter](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_constructor.md)
 - [interface](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_interface.md)
 - [interface2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_interface2.md)
 - [class](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_class.md)
+- [Generic](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS_generic.md)
 
   
 
