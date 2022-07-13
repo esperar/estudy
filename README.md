@@ -27,10 +27,11 @@
 - [함수](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/function.md)
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Object.md">객체</a>
 - [프로토타입](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Object2.md)
+- [가비지 컬렉션](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/garbage.md)
 - [객체 메소드](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Object3.md)
 - [클래스](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/class.md)
 
-- [String + Method](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/typeString.md) 
+- [String Method](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/typeString.md) 
 - [Math](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/Number.md)
 - [배열 메소드](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/array.md)
 - [배열 메소드2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/array2.md)
