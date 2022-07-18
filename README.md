@@ -30,7 +30,6 @@
 - [가비지 컬렉션](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/garbage.md)
 - [객체 메소드](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/Object3.md)
 - [클래스](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/class.md)
-
 - [String Method](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/typeString.md) 
 - [Math](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/Number.md)
 - [배열 메소드](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/array.md)
@@ -55,7 +54,6 @@
 
 ### TypeScript
 - [TypeScript란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TypeScript.md)
-  
 - [Basic_Types](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_Type.md)
 - [Basic_Function](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_function.md)
 - [작성자와 사용자의 관점으로 코드 바라보기](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeSystem.md)
@@ -73,11 +71,21 @@
 
  # Back-End 
 
+ ### Internet
+ - [인터넷 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/internet.md)
+ - [HTTP](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/http.md)
+ - [DNS와 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/dns.md) 
+ - [도메인 네임](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/domain.md)
+ - [브라우저 동작 원리]([http](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/webactive.md))
+ - [호스팅]([http](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md))
+
+
+
+<br>
+
  ### Node.js
 
  - [Node.js 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
-
-
  - [npm 기초 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm.md)
  - [패키지 설치 , 삭제](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm1.md)
  - [기타 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm2.md)
@@ -88,11 +96,13 @@
 ### Java
 - [Java 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
 
+
+
+
  <br/><br>
  
 # GIT
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가? + basic<a>  
-
 - [Git 버전확인](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
 - [basic2](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
 - [branch](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)  
@@ -108,7 +118,6 @@
 
 # Engineer Information Processing
 - [Java , 객체지향](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
-
 - [응용SW_1](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
 - [응용SW_2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [데이터베이스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
