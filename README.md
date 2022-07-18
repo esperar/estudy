@@ -73,11 +73,11 @@
 
  ### Internet
  - [인터넷 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/internet.md)
- - [HTTP](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/http.md)
+ - [HTTP 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/http.md)
  - [DNS와 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/dns.md) 
  - [도메인 네임](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/domain.md)
- - [브라우저 동작 원리]([http](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/webactive.md))
- - [호스팅]([http](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md))
+ - [브라우저 동작 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/webactive.md)
+ - [호스팅이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
 
 
 
