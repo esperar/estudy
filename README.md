@@ -130,3 +130,4 @@
 - [GSM-Webtoon](https://github.com/KIMHUEMANG/GSM_Webtoon)
 - [Dotori Dark](https://github.com/KIMHUEMANG/DotoriDark)
 - [Stars-Festival](https://github.com/KIMHUEMANG/Stars-Festival)
+- [Study-Project](https://github.com/SPGM-Project/SPGM/tree/master)
