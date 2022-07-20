@@ -118,7 +118,7 @@
 - [응용SW_1](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
 - [응용SW_2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [데이터베이스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
-- [데이터베이스 종류와 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
+- [데이터베이스 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
 - [테스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
 
 <br><br>
