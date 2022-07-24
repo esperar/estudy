@@ -15,9 +15,9 @@
 
 
 ### 나의 다짐
-1. 하루도 빠짐 없이 매일매일 쓴다.
+1. 하루하루 꾸준하게 작성한다.
 2. 나의 전공 위주로 공부를 먼저 한다.
-3. 열심히 한다.
+3. 힘들다고 말할 시간에 주석 한줄 더쓴다.
 
  <br/><br/>
 
@@ -45,6 +45,8 @@
 - [DOM](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/DOM.md)
 - [DOM API](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/DOM2.md)
 - [Promise](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/promise.md)
+- [ajax](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/ajax.md)
+- [fetch API](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/fetch.md)
 
 
 <br>
