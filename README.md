@@ -21,7 +21,7 @@
 
  <br/><br/>
 
-# Front-End
+# 🖥️ Front-End
 
    ### JavaScript  
 - [함수](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/function.md)
@@ -49,7 +49,7 @@
 - [fetch API](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/fetch.md)
 
 
-<br>
+
 
 ### TypeScript
 - [TypeScript란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TypeScript.md)
@@ -66,15 +66,15 @@
 - [class](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_class.md)
 - [Generic](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_generic.md)
 
-<br>
 
 ### React
 - [React 시작하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/react.md)
 - [Component](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/component.md)
+- [함수형 컴포넌트](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/funcompo.md)
 
- <br><br>
+ <br>
 
- # Back-End 
+ # 💾 Back-End 
 
  ### Internet
  - [인터넷 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/internet.md)
@@ -85,9 +85,6 @@
  - [호스팅이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
 
 
-
-<br>
-
  ### Node.js
 
  - [Node.js 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
@@ -96,7 +93,6 @@
  - [기타 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm2.md)
  - [package.json 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npmjson.md)
 
-<br>
 
 ### Java
 - [Java 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
@@ -104,9 +100,9 @@
 
 
 
- <br/><br>
+ <br/>
  
-# GIT
+# 📂 GIT
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가? + basic<a>  
 - [Git 버전확인](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
 - [basic2](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
@@ -121,7 +117,7 @@
 
 <br/><br>
 
-# Engineer Information Processing
+# 📘 Engineer Information Processing
 - [Java , 객체지향](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
 - [응용SW_1](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
 - [응용SW_2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
@@ -130,10 +126,10 @@
 - [테스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
 - [자료구조,알고리즘](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/자료구조알고리즘.md)
 
-<br><br>
+<br>
 
 
-# My Project
+# 🗃️ My Project
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/%232%20%5B2021%20UPDATE%5D%20WELCOME%20TO%20JAVASCRIPT">TodoLsit<a>
 - <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/PaintJS">PaintJS</a>
 - [GSM-Webtoon](https://github.com/KIMHUEMANG/GSM_Webtoon)
