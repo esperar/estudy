@@ -70,7 +70,8 @@
 ### React
 - [React 시작하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/react.md)
 - [Component](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/component.md)
-- [함수형 컴포넌트](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/funcompo.md)
+- [함수형 , 클래스형 컴포넌트 1](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/funcompo.md)
+- [함수형 , 클래스형 컴포넌트 2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/classcompo.md)
 
  <br>
 
