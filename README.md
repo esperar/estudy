@@ -17,7 +17,7 @@
 ### 나의 다짐
 1. 하루하루 꾸준하게 작성한다.
 2. 나의 전공 위주로 공부를 먼저 한다.
-3. 힘들다고 말할 시간에 주석 한줄 더쓴다.
+3. 힘들다고 말할 시간에 코드 한줄 더쓴다.
 
  <br/><br/>
 
@@ -96,6 +96,7 @@
 
 ### Java
 - [Java 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
+- [클래스 객체 인스턴스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/coi.md)
 
 
 
