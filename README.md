@@ -128,6 +128,7 @@
 - [테스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
 - [자료구조,알고리즘](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/자료구조알고리즘.md)
 - [SQL 기초문법](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
+- [DDL(데이터 정의어)](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/ddl.md)
 
 <br>
 
