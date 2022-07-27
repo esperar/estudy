@@ -127,6 +127,7 @@
 - [데이터베이스 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
 - [테스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
 - [자료구조,알고리즘](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/자료구조알고리즘.md)
+- [SQL 기초문법](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
 
 <br>
 
