@@ -130,6 +130,7 @@
 - [SQL 기초문법](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
 - [DDL(데이터 정의어)](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/ddl.md)
 - [네트워크 기초](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/network.md)
+- [네트워크 프로토콜](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/protocall.md)
 
 <br>
 
