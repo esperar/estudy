@@ -59,11 +59,11 @@
 - [Structural Type System vs Nominal Type System](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeSystem2.md)
 - [타입 호환성 Type Compatibility](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeCompatibility.md)
 - [타입 별칭 Type Alias](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeAlias.md)
-- [TypeScript_Compiler](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeAlias.md)
-- [constructor, Access Modifier, Getter & Setter](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_constructor.md)
+- [TypeScript_Compiler](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/compiler.md)
+- [constructor, Access Modifier, Getter & Setter](https://github.com/KIMHUEMANG/Study_TypeScript/tree/main/class/example6.ts)
 - [interface](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_interface.md)
 - [interface2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_interface2.md)
-- [class](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_class.md)
+- [class](https://github.com/KIMHUEMANG/Study_TypeScript/tree/main/class)
 - [Generic](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_generic.md)
 
 
