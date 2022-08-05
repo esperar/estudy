@@ -77,15 +77,6 @@
 
  # 💾 Back-End 
 
- ### Internet
- - [인터넷 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/internet.md)
- - [HTTP 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/http.md)
- - [DNS와 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/dns.md) 
- - [도메인 네임](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/domain.md)
- - [브라우저 동작 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/webactive.md)
- - [호스팅이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
-
-
  ### Node.js
 
  - [Node.js 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
@@ -120,18 +111,26 @@
 
 <br/><br>
 
-# 📘 Engineer Information Processing
+# 📘 Computer Science
 - [Java , 객체지향](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
 - [응용SW_1](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
 - [응용SW_2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [데이터베이스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
 - [데이터베이스 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
-- [테스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
+- [테스트 종류](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
+- [워크스루 , 인스펙션](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/검토.md)
 - [자료구조,알고리즘](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/자료구조알고리즘.md)
 - [SQL 기초문법](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
 - [DDL(데이터 정의어)](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/ddl.md)
 - [네트워크 기초](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/network.md)
 - [네트워크 프로토콜](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/protocall.md)
+- [인터넷 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/internet.md)
+- [HTTP 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/http.md)
+- [DNS와 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/dns.md) 
+- [도메인 네임](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/domain.md)
+- [브라우저 동작 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/webactive.md)
+- [호스팅이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
+- [OS(운영체제) 구조와 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
 
 <br>
 
