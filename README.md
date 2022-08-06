@@ -131,7 +131,7 @@
 - [브라우저 동작 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/webactive.md)
 - [호스팅이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
 - [OS(운영체제) 구조와 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
-- [멀티 스레드와 멀티 프로세스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/processthread.md)
+- [멀티 스레드와 멀티 프로세스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/processthread.md)
 
 <br>
 
