@@ -133,7 +133,7 @@
 - [OS(운영체제) 구조와 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
 - [멀티 스레드와 멀티 프로세스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/processthread.md)
 - [CPU 스케줄링](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/cpus.md)
-
+- [Synchronize(동기화)와 Deadlock](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
 <br>
 
 
