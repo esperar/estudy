@@ -111,8 +111,8 @@
 
 # 📘 Computer Science
 - [Java , 객체지향](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
-- [응용SW_1](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
-- [응용SW_2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
+- [컴퓨터 시스템 일반](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
+- [컴퓨터 시스템 일반2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [데이터베이스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
 - [데이터베이스 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
 - [테스트 종류](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
