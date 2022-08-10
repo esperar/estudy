@@ -21,6 +21,26 @@
 
  <br/><br/>
 
+ # 💾 Back-End 
+
+ ### Node.js
+
+ - [Node.js 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
+ - [npm 기초 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm.md)
+ - [패키지 설치 , 삭제](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm1.md)
+ - [기타 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm2.md)
+ - [package.json 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npmjson.md)
+ - [서버 구축하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/server.md)
+
+
+### Java
+- [Java 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
+- [클래스 객체 인스턴스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/coi.md)
+
+
+<br/>
+<br/>
+
 # 🖥️ Front-End
 
    ### JavaScript  
@@ -74,25 +94,9 @@
 - [함수형 , 클래스형 컴포넌트 2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/classcompo.md)
 
  <br>
-
- # 💾 Back-End 
-
- ### Node.js
-
- - [Node.js 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
- - [npm 기초 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm.md)
- - [패키지 설치 , 삭제](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm1.md)
- - [기타 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm2.md)
- - [package.json 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npmjson.md)
- - [서버 구축하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/server.md)
+<br/>
 
 
-### Java
-- [Java 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
-- [클래스 객체 인스턴스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/coi.md)
-
-
- <br/>
  
 # 📂 GIT
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가? + basic<a>  
@@ -133,6 +137,9 @@
 - [멀티 스레드와 멀티 프로세스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/processthread.md)
 - [CPU 스케줄링](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/cpus.md)
 - [Synchronize(동기화)와 Deadlock](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
+
+
+<br/>
 <br>
 
 
