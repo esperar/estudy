@@ -34,8 +34,10 @@
 
 
 ### Java
-- [Java 란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
-- [클래스 객체 인스턴스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/coi.md)
+- [What is Java?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
+- [클래스와 인스턴스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/coi.md)
+- [생성자와 초기화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/생성자.md)
+- [오버라이딩과 오버로딩](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/overding.md)
 
 
 <br/>
