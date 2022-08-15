@@ -117,7 +117,7 @@
 <br/><br>
 
 # 📘 Computer Science
-- [Java , 객체지향](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
+- [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
 - [컴퓨터 시스템 일반](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
 - [컴퓨터 시스템 일반2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [데이터베이스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
@@ -140,6 +140,8 @@
 - [멀티 스레드와 멀티 프로세스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/processthread.md)
 - [CPU 스케줄링](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/cpus.md)
 - [Synchronize(동기화)와 Deadlock](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
+- [HTTP 메서드](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
+
 
 
 <br/>
