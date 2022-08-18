@@ -19,7 +19,7 @@
 2. 나의 전공 위주로 공부를 먼저 한다.
 3. 힘들다고 말할 시간에 코드 한줄 더쓴다.
 
- <br/><br/>
+ <br/>
 
  # 💾 Back-End 
 
@@ -43,7 +43,7 @@
 - [컬렉션 프레임워크](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/collection.md)
 
 <br/>
-<br/>
+
 
 # 🖥️ Front-End
 
@@ -98,24 +98,10 @@
 - [함수형 , 클래스형 컴포넌트 2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/classcompo.md)
 
  <br>
-<br/>
 
 
  
-# 📂 GIT
-- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가? + basic<a>  
-- [Git 버전확인](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
-- [basic2](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
-- [branch](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)  
-- [다른 사람의 Repository 가져오기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pushR.md)  
-- [commit 버전 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/revert.md)
-- [원격저장소 동기화](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pull.md)
-- [pull request](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/request.md)
-- [git log](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/log.md)
-- [충돌 방지](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/conflict.md)
 
-
-<br/><br>
 
 # 📘 Computer Science
 - [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
@@ -144,15 +130,21 @@
 - [HTTP 메서드](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
 
 
+<br/>
+
+# 📂 GIT
+- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가? + basic<a>  
+- [Git 버전확인](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
+- [basic2](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
+- [branch](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)  
+- [다른 사람의 Repository 가져오기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pushR.md)  
+- [commit 버전 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/revert.md)
+- [원격저장소 동기화](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pull.md)
+- [pull request](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/request.md)
+- [git log](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/log.md)
+- [충돌 방지](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/conflict.md)
+
+
+
 
 <br/>
-<br>
-
-
-# 🗃️ My Project
-- <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/%232%20%5B2021%20UPDATE%5D%20WELCOME%20TO%20JAVASCRIPT">TodoLsit<a>
-- <a href ="https://github.com/KIMHUEMANG/Javascript-for-Beginners/tree/main/PaintJS">PaintJS</a>
-- [GSM-Webtoon](https://github.com/KIMHUEMANG/GSM_Webtoon)
-- [Dotori Dark](https://github.com/KIMHUEMANG/DotoriDark)
-- [Stars-Festival](https://github.com/KIMHUEMANG/Stars-Festival)
-- [Study-Project](https://github.com/SPGM-Project/SPGM/tree/master)
