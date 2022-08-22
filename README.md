@@ -42,6 +42,7 @@
 - [다형성 (Polymorphism)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/다형성.md)
 - [컬렉션 프레임워크](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/collection.md)
 - [예외처리 (Exception)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/exception.md)
+- [RuntimeException과 Exception](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/runtime.md)
 
 <br/>
 
