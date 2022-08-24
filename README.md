@@ -79,7 +79,7 @@
 
 
 ### TypeScript
-- [TypeScript란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TypeScript.md)
+- [TypeScript란 ?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TypeScript.md)
 - [Basic_Types 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_Type.md)
 - [Basic_Function 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_function.md)
 - [작성자와 사용자의 관점으로 코드 바라보기](https://github.com/KIMHUEMANG/Study_TypeScript/blob/main/Type_System/TypeSystem.md)
@@ -137,7 +137,7 @@
 <br/>
 
 # 📂 GIT
-- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가? + basic<a>  
+- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가 ?<a>  
 - [Git 버전확인하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
 - [git 기초 문법 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
 - [branch 와 리퍼지토리 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)  
