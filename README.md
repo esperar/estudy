@@ -112,7 +112,7 @@
 - [컴퓨터 시스템 일반2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [데이터베이스란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
 - [데이터베이스 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
-- [테스트의 종류](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
+- [테스트의 종류 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
 - [워크스루와 인스펙션](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/검토.md)
 - [자료구조,알고리즘](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/자료구조알고리즘.md)
 - [SQL 기초문법 정리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
