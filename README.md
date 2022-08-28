@@ -147,6 +147,7 @@
 - [pull request 알아보기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/request.md)
 - [git log와 사용법](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/log.md)
 - [충돌 방지하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/conflict.md)
+- [GitHub 용어정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/용어.md)
 
 
 
