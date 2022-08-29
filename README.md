@@ -132,6 +132,7 @@
 - [Synchronize(동기화)와 Deadlock](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
 - [HTTP 메서드 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
 - [도커와 쿠버네티스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/doker.md)
+- [런타임과 컴파일타임](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/comrun.md)
 
 
 <br/>
