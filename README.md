@@ -133,6 +133,7 @@
 - [HTTP 메서드 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
 - [도커와 쿠버네티스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/doker.md)
 - [런타임과 컴파일타임](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/comrun.md)
+- [RESTful API 의미와 설계규칙](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/rest.md)
 
 
 <br/>
