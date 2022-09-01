@@ -35,6 +35,22 @@ git push origin master
 
 ___
 
+<br>
+
+### git 리퍼지토리 업데이트하기
+
+- 초기설정을 끝마쳤고 업데이트를 할때 사용
+
+```bash
+git add .
+git commit -m '커밋메시지'
+git push origin master
+```
+
+> 현재 상태를 확인하고싶을때 git status를 쳐서 확인해도 된다.
+
+<br>
+
 ## git 명령어 모음 ((몇개만))
 
 위에 나온건 생략했습니다
