@@ -19,16 +19,16 @@ git config --global user.email "EMAIL"
 3. 파일 준비를한다
 
 ```bash
-git init  // git파일 생성
-git add . // 선택한 프로젝트 폴더 내의 모든 파일 관리
-git status // 상태확인
-git commit -m '내용' // 커밋하기
+git init  # git파일 생성
+git add . # 선택한 프로젝트 폴더 내의 모든 파일 관리
+git status # 상태확인
+git commit -m '내용' # 커밋하기
 ```
 
 4. 업로드를 한다
 ```bash
 git remote add origin 리퍼지토리주소
-git push -u origin master
+git push origin master
 ```
 
 5. 끝
