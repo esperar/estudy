@@ -26,8 +26,10 @@
 
 
 
-### Java
-- [What is Java?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
+### Java & OOP
+- [Java 가 무엇일까?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
+- [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
+- [객체지향 설계의 5원칙](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/5원칙.md)
 - [클래스와 인스턴스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/coi.md)
 - [생성자와 초기화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/생성자.md)
 - [오버라이딩과 오버로딩](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/overding.md)
@@ -35,7 +37,7 @@
 - [다형성 (Polymorphism)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/다형성.md)
 - [컬렉션 프레임워크](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/collection.md)
 - [예외처리 (Exception)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/exception.md)
-- [RuntimeException과 Exception](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/runtime.md)
+- [RuntimeException & Exception](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/runtime.md)
 - [HashMap 메소드 및 사용법](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/hashmap.md)
 
 ### Spring
@@ -60,9 +62,8 @@
 
 
 # 📘 Computer Science
-- [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
-- [컴퓨터 시스템 일반](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
-- [컴퓨터 시스템 일반2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
+- [꼭 알아야 할 기본 CS 지식](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
+- [데이터베이스 맛보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [데이터베이스란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
 - [데이터베이스 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
 - [테스트의 종류 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
