@@ -23,14 +23,7 @@
 
  # 💾 Back-End 
 
- ### Node.js
 
- - [Node.js 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
- - [npm 기초 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm.md)
- - [패키지 설치와 삭제](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm1.md)
- - [기타 명령어 모음](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm2.md)
- - [package.json 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npmjson.md)
- - [서버 구축해보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/server.md)
 
 
 ### Java
@@ -45,8 +38,58 @@
 - [RuntimeException과 Exception](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/runtime.md)
 - [HashMap 메소드 및 사용법](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/hashmap.md)
 
+### Spring
+- [MVC 패턴과 사용하는 이유](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
+
+ ### Node.js
+
+ - [Node.js 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
+ - [npm 기초 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm.md)
+ - [패키지 설치와 삭제](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm1.md)
+ - [기타 명령어 모음](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm2.md)
+ - [package.json 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npmjson.md)
+ - [서버 구축해보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/server.md)
+
 <br/>
 
+
+
+
+ 
+
+
+# 📘 Computer Science
+- [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
+- [컴퓨터 시스템 일반](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
+- [컴퓨터 시스템 일반2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
+- [데이터베이스란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
+- [데이터베이스 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
+- [테스트의 종류 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
+- [워크스루와 인스펙션](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/검토.md)
+- [자료구조,알고리즘](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/자료구조알고리즘.md)
+- [SQL 기초문법 정리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
+- [DDL(데이터 정의어)](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/ddl.md)
+- [네트워크의 기초](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/network.md)
+- [네트워크 프로토콜](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/protocall.md)
+- [인터넷 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/internet.md)
+- [HTTP 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/http.md)
+- [DNS와 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/dns.md) 
+- [도메인 네임이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/domain.md)
+- [브라우저 동작 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/webactive.md)
+- [호스팅이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
+- [OS(운영체제) 구조와 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
+- [스레드와 동시성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
+- [멀티 스레드와 멀티 프로세스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/processthread.md)
+- [CPU 스케줄링이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/cpus.md)
+- [Synchronize(동기화)와 Deadlock](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
+- [HTTP 메서드 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
+- [도커와 쿠버네티스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/doker.md)
+- [런타임과 컴파일타임](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/comrun.md)
+- [RESTful API 의미와 설계규칙](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/rest.md)
+- [네트워크 계층별 프로토콜](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/osiproto.md)
+
+
+<br/>
 
 # 🖥️ Front-End
 
@@ -103,41 +146,7 @@
  <br>
 
 
- 
 
-
-# 📘 Computer Science
-- [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
-- [컴퓨터 시스템 일반](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
-- [컴퓨터 시스템 일반2](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
-- [데이터베이스란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
-- [데이터베이스 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
-- [테스트의 종류 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
-- [워크스루와 인스펙션](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/검토.md)
-- [자료구조,알고리즘](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/자료구조알고리즘.md)
-- [SQL 기초문법 정리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
-- [DDL(데이터 정의어)](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/ddl.md)
-- [네트워크의 기초](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/network.md)
-- [네트워크 프로토콜](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/protocall.md)
-- [인터넷 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/internet.md)
-- [HTTP 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/http.md)
-- [DNS와 작동 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/dns.md) 
-- [도메인 네임이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/domain.md)
-- [브라우저 동작 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/webactive.md)
-- [호스팅이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
-- [OS(운영체제) 구조와 원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
-- [스레드와 동시성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Internet/host.md)
-- [멀티 스레드와 멀티 프로세스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/processthread.md)
-- [CPU 스케줄링이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/cpus.md)
-- [Synchronize(동기화)와 Deadlock](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
-- [HTTP 메서드 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
-- [도커와 쿠버네티스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/doker.md)
-- [런타임과 컴파일타임](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/comrun.md)
-- [RESTful API 의미와 설계규칙](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/rest.md)
-- [네트워크 계층별 프로토콜](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/osiproto.md)
-
-
-<br/>
 
 # 📂 GIT
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가 ?<a>  
