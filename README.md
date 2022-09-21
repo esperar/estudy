@@ -46,7 +46,8 @@
 - [Controller, Service, Repository 역할](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/cre.md)
 
 ### Design Pattern
-- [디자인 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
+- [디자인 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/designp.md)
+- [싱글톤 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/singleton.md)
 
 
 
