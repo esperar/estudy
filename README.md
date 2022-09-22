@@ -44,6 +44,7 @@
 #### Spring
 - [MVC 패턴과 사용하는 이유](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
 - [Controller, Service, Repository 역할](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/cre.md)
+- [IoC 컨테이너 (Inversion of Controll)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/ioc.md)
 
 #### Design Pattern
 - [디자인 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/designp.md)
