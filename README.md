@@ -21,12 +21,12 @@
 
  <br/>
 
- # 💾 Back-End 
+ ## 💾 Back-End 
 
 
 
 
-### Java & OOP
+#### Java & OOP
 - [Java 가 무엇일까?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
 - [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
 - [객체지향 설계의 5원칙](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/5원칙.md)
@@ -41,17 +41,17 @@
 - [HashMap 메소드 및 사용법](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/hashmap.md)
 - [Optional\<T> 클래스 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/optional.md)
 
-### Spring
+#### Spring
 - [MVC 패턴과 사용하는 이유](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
 - [Controller, Service, Repository 역할](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/cre.md)
 
-### Design Pattern
+#### Design Pattern
 - [디자인 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/designp.md)
 - [싱글톤 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/singleton.md)
 
 
 
- ### Node.js
+ #### Node.js
 
  - [Node.js 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
  - [npm 기초 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm.md)
@@ -68,7 +68,7 @@
  
 
 
-# 📘 Computer Science
+## 📘 Computer Science
 - [꼭 알아야 할 기본 CS 지식](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
 - [데이터베이스 맛보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [데이터베이스란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
@@ -100,9 +100,9 @@
 
 <br/>
 
-# 🖥️ Front-End
+## 🖥️ Front-End
 
-   ### JavaScript  
+   #### JavaScript  
 - [함수와 함수의 종류](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/function.md)
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/Object.md">객체란 무엇일까?</a>
 - [프로토타입이란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/Object2.md)
@@ -130,7 +130,7 @@
 
 
 
-### TypeScript
+#### TypeScript
 - [TypeScript란 ?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TypeScript.md)
 - [Basic_Types 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_Type.md)
 - [Basic_Function 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_function.md)
@@ -146,7 +146,7 @@
 - [Generic 알아보기](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/TS/TS_generic.md)
 
 
-### React
+#### React
 - [React 시작하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/react.md)
 - [Component](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/component.md)
 - [함수형 , 클래스형 컴포넌트 1](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/funcompo.md)
@@ -157,7 +157,7 @@
 
 
 
-# 📂 GIT
+## 📂 GIT
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가 ?<a>  
 - [Git 버전확인하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
 - [git 기초 문법 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
