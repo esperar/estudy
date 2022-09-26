@@ -64,6 +64,7 @@
 #### Internet & Network
 - [IP(인터넷 프로토콜)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/ip.md)
 - [TCP & UDP](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/tcpudp.md)
+- [PORT & DNS](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/port.md)
 
 <br/>
 
