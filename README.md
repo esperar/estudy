@@ -66,6 +66,8 @@
   - [IP(인터넷 프로토콜)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/ip.md)
   - [TCP & UDP](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/tcpudp.md)
   - [PORT & DNS](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/port.md)
+- URI와 웹 브라우저 요청 흐름
+- [URI](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/uri.md)
 
 <br/>
 
