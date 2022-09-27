@@ -5,7 +5,7 @@
 - URI는 locater , name 또는 둘 다 추가로 분류될 수 있다.
 - URI 안에는 URL , URN 이 있다.
 
-![uri](image/uri.png)
+![uri](../image/uri.png)
 
 위가 URL , 아래가 URN 인데 보통 URL을 주로 쓴다.
 
