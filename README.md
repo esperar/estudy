@@ -21,7 +21,7 @@
 
  <br/>
 
- ## 💾 Back-End 
+ ### 💾 Back-End 
 
 
 
@@ -68,6 +68,7 @@
   - [PORT & DNS](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/network/port.md)
 - URI와 웹 브라우저 요청 흐름
   - [URI](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/URI/uri.md)
+  - [웹 브라우저 요청 흐름](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/URI/web.md)
 
 <br/>
 
@@ -77,7 +78,7 @@
  
 
 
-## 📘 Computer Science
+### 📘 Computer Science
 - [꼭 알아야 할 기본 CS 지식](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW.md)
 - [데이터베이스 맛보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [데이터베이스란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
@@ -109,7 +110,7 @@
 
 <br/>
 
-## 🖥️ Front-End
+### 🖥️ Front-End
 
    #### JavaScript  
 - [함수와 함수의 종류](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/function.md)
@@ -166,7 +167,7 @@
 
 
 
-## 📂 GIT
+### 📂 GIT
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가 ?<a>  
 - [Git 버전확인하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
 - [git 기초 문법 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
