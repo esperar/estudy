@@ -63,11 +63,11 @@
 
 #### 모든 개발자를 위한 HTTP 웹 기본 지식
 - 인터넷 네트워크
-  - [IP(인터넷 프로토콜)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/ip.md)
-  - [TCP & UDP](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/tcpudp.md)
-  - [PORT & DNS](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/port.md)
+  - [IP(인터넷 프로토콜)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/network/ip.md)
+  - [TCP & UDP](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/network/tcpudp.md)
+  - [PORT & DNS](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/network/port.md)
 - URI와 웹 브라우저 요청 흐름
-- [URI](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/uri.md)
+- [URI](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/URI/uri.md)
 
 <br/>
 
