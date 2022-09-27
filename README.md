@@ -67,7 +67,7 @@
   - [TCP & UDP](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/network/tcpudp.md)
   - [PORT & DNS](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/network/port.md)
 - URI와 웹 브라우저 요청 흐름
-- [URI](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/URI/uri.md)
+  - [URI](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/URI/uri.md)
 
 <br/>
 
