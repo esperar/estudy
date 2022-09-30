@@ -51,6 +51,7 @@
   - [클라이언트 서버 구조](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP기본/structclient.md) 
   - [Stateful, Stateless](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP기본/state.md) 
   - [비 연결성(connectionless)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP기본/state.md) 
+  - [HTTP 메시지](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP기본/httpmessage.md) 
 
 <br/>
 
