@@ -5,6 +5,7 @@
 #### Java & OOP
 - [Java 가 무엇일까?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
 - [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
+- [JVM 메모리 구조](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/jvm.md)
 - [객체지향 설계의 5원칙](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/5원칙.md)
 - [클래스와 인스턴스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/coi.md)
 - [생성자와 초기화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/생성자.md)
