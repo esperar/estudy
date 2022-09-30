@@ -22,7 +22,8 @@
 - [MVC 패턴과 사용하는 이유](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
 - [Controller, Service, Repository 역할](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/cre.md)
 - [IoC 컨테이너 (Inversion of Controll)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/ioc.md)
-- [Spring의 대표적인 @Annotation과 역할](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/annotation.md) 
+- [Spring의 대표적인 @Annotation과 역할](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/annotation.md)
+- [Lombok 반드시 알고 써야하는 @Annotation 모음](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/lombok.md) 
 
  #### Node.js
 
