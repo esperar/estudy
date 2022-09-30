@@ -43,6 +43,9 @@
 - [어댑터 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/adapter.md)
 
 #### 모든 개발자를 위한 HTTP 웹 기본 지식
+  
+  <br>
+
 - 인터넷 네트워크
   - [IP(인터넷 프로토콜)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/network/ip.md)
   - [TCP & UDP](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/network/tcpudp.md)
@@ -50,8 +53,6 @@
 - URI와 웹 브라우저 요청 흐름
   - [URI](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/URI/uri.md)
   - [웹 브라우저 요청 흐름](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/URI/web.md)
-
-
 - HTTP 기본
   - [모든것이 HTTP](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP기본/everyhttp.md) 
   - [클라이언트 서버 구조](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP기본/structclient.md) 
