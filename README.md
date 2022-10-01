@@ -63,6 +63,7 @@
   - [HTTP API 설계 예시](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP메서드/exam.md)
 - HTTP 상태코드
   - [HTTP 상태코드 소개](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP상태코드/status.md)
+  - [2xx - 성공](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP상태코드/2xx.md)
 
 <br/>
 
