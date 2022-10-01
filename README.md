@@ -60,6 +60,7 @@
   - [HTTP 메서드 - PUT, PATCH, DELETE](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP메서드/putpadel.md) 
   - [HTTP 메서드의 속성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP메서드/attrib.md) 
   - [클라이언트에서 서버로 데이터 전송](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP메서드/submit.md)
+  - [HTTP API 설계 예시](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP메서드/exam.md)
 
 <br/>
 
