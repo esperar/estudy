@@ -58,6 +58,7 @@
   - [HTTP API를 만들어보자](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP메서드/httpapi.md)
   - [HTTP 메서드 - GET, POST](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP메서드/getpost.md)
   - [HTTP 메서드 - PUT, PATCH, DELETE](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP메서드/putpadel.md) 
+  - [HTTP 메서드의 속성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP메서드/attrib.md) 
 
 <br/>
 
