@@ -64,6 +64,7 @@
 - HTTP 상태코드
   - [HTTP 상태코드 소개](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP상태코드/status.md)
   - [2xx - 성공](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP상태코드/2xx.md)
+  - [3xx - 리다이렉션]([Back-End/designP/adapter.md](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP상태코드/3xx.md))
 
 <br/>
 
