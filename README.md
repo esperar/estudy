@@ -16,7 +16,7 @@
 - [HashMap 메소드 및 사용법](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/hashmap.md)
 - [Optional\<T> 클래스 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/optional.md)
 
-#### Springboot
+#### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
 - [Controller, Service, Repository 역할](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/cre.md)
 - [IoC 컨테이너 (Inversion of Controll)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/ioc.md)
