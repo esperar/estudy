@@ -71,6 +71,8 @@
   - [협상, 전송 방식](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더/nego.md)
   - [일반 정보, 특별한 정보](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더/info.md)
   - [인증, 쿠키](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더/cookie.md)
+- HTTP 헤더 - 캐시와 조건부 요청
+  - [캐시 기본 동작](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더2/cache.md)
 
 
 <br/>
