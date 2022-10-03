@@ -69,6 +69,7 @@
 - HTTP 헤더
   - [HTTP 헤더 개요, 표현](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더/summary.md)
   - [협상, 전송 방식](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더/nego.md)
+  - [일반 정보, 특별한 정보](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더/info.md)
 
 
 <br/>
