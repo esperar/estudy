@@ -74,6 +74,7 @@
 - HTTP 헤더 - 캐시와 조건부 요청
   - [캐시 기본 동작](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더2/cache.md)
   - [검증 헤더와 조건부 요청](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더2/verify.md)
+  - [캐시와 조건부 요청 헤더](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더2/cachehead.md)
 
 
 <br/>
