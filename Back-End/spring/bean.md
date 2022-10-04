@@ -44,6 +44,7 @@ public class MemberController {
 
 하지만 이 상태로 서버를 작동시키면 오류가 발생할 것이다.
 ![springcontainer2](./image/bean2.png)
+  
 바로 memberService가 스프링 컨테이너에 스프링 빈으로 등록되어 있지 않기 때문이다.  
 memberService도 스프링 빈으로 등록해주어야 한다.
 
