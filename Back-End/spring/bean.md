@@ -15,6 +15,7 @@
 - @Component를 포함하는 @Controller, @Service, @Repository 어노테이션도 스프링 빈으로 자동 등록된다.
 
 ![spring container](./image/bean.png)
+
 회원 컨트롤러를 등록하고, 회원 컨트롤러가 회원 서비스와 회원 리퍼지토리를 사용할 수 있게 의존관계를 설정해보자.
 
 ```java
