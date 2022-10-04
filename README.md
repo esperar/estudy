@@ -40,6 +40,7 @@
 - [디자인 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/designp.md)
 - [싱글톤 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/singleton.md)
 - [어댑터 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/adapter.md)
+- [프록시 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/proxyp.md)
 
 **모든 개발자를 위한 HTTP 웹 기본 지식**
 - 인터넷 네트워크
