@@ -16,6 +16,7 @@
 - [RuntimeException & Exception](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/runtime.md)
 - [HashMap 메소드 및 사용법](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/hashmap.md)
 - [Optional\<T> 클래스 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/optional.md)
+- [[Web] 서블릿(Servlet) 이란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/servlet.md))
 
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
