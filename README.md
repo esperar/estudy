@@ -1,5 +1,3 @@
-### 💾 Back-End 
-
 #### Java & OOP
 - [Java 가 무엇일까?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
 - [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
@@ -116,16 +114,12 @@
 - [테스트의 종류 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
 - [워크스루와 인스펙션](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/검토.md)
 
-
 #### DevOps
 - [도커와 쿠버네티스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/doker.md)
+- [클라우드와 AWS의 기본 개념](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/aws.md)
 
 
-<br/>
-
-### 🖥️ Front-End
-
-   #### JavaScript  
+#### JavaScript  
 - [함수와 함수의 종류](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/function.md)
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/Object.md">객체란 무엇일까?</a>
 - [프로토타입이란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/JS/Object2.md)
@@ -174,10 +168,8 @@
 - [함수형 , 클래스형 컴포넌트 1](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/funcompo.md)
 - [함수형 , 클래스형 컴포넌트 2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/classcompo.md)
 
- <br>
 
-
-### 📂 GIT
+#### GIT
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가 ?<a>  
 - [Git 버전확인하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
 - [git 기초 문법 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
