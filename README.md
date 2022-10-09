@@ -15,6 +15,7 @@
 - [HashMap 메소드 및 사용법](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/hashmap.md)
 - [Optional\<T> 클래스 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/optional.md)
 - [[Web] 서블릿(Servlet) 이란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/servlet.md) 
+- [StringBuilder 사용법과 주요 메서드](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/StringBuilder.md)
 
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
