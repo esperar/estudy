@@ -14,7 +14,7 @@
 - [RuntimeException & Exception](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/runtime.md)
 - [HashMap 메소드 및 사용법](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/hashmap.md)
 - [Optional\<T> 클래스 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/optional.md)
-- [[Web] 서블릿(Servlet) 이란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/servlet.md) 
+- [Web 서블릿(Servlet) 이란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/servlet.md) 
 - [StringBuilder 사용법과 주요 메서드](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/StringBuilder.md)
 
 #### Spring boot
@@ -167,9 +167,9 @@
 
 #### React
 - [React 시작하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/react.md)
-- [Component](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/component.md)
-- [함수형 , 클래스형 컴포넌트 1](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/funcompo.md)
-- [함수형 , 클래스형 컴포넌트 2](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/classcompo.md)
+- [Component란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/component.md)
+- [함수형 컴포넌트](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/funcompo.md)
+- [클래스형 컴포넌트](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/classcompo.md)
 
 
 #### GIT
