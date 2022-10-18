@@ -21,6 +21,7 @@
 - [Optional\<T> 클래스 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/optional.md)
 - [Web 서블릿(Servlet) 이란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/servlet.md) 
 - [StringBuilder 사용법과 주요 메서드](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/StringBuilder.md)
+- [래퍼 클래스(Wrapper Class), 박싱 언박싱](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/wrapper.md)
 
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
