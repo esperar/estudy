@@ -180,15 +180,16 @@
 - [클래스형 컴포넌트](https://github.com/KIMHUEMANG/MyTIL/blob/master/Front-End/React/classcompo.md)
 
 
-#### GIT
+#### Git
 - <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가 ?<a>  
 - [Git 버전확인하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
 - [git 기초 문법 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
-- [branch 와 리퍼지토리 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)  
+- [branch와 리퍼지토리 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)  
 - [다른 사람의 Repository 가져오기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pushR.md)  
 - [commit과 버전 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/revert.md)
 - [원격저장소 동기화하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pull.md)
 - [pull request 알아보기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/request.md)
 - [git log와 사용법](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/log.md)
 - [충돌 방지하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/conflict.md)
-- [GitHub 용어정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/용어.md)
+- [GitHub 갖가지 용어정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/용어.md)
+- [git/github Issue란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/issue.md)
