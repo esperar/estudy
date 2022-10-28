@@ -93,9 +93,9 @@
 
 #### DataBase
 - [데이터베이스 맛보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
-- [데이터베이스란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
-- [데이터베이스 관리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
-- [SQL 기초문법 정리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
+- [What is DataBase?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
+- [DataBase Mangement System](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
+- [MySQL Query문 정리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
 - [DDL(데이터 정의어)](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/ddl.md)
 
 #### Internet & Network
