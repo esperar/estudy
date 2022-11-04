@@ -98,6 +98,7 @@
 - [DataBase Mangement System](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
 - [MySQL Query문 정리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
 - [DDL(데이터 정의어)](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/ddl.md)
+- [키(Key)의 개념 및 종류](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/database/key.md)
 
 #### Internet & Network
 - [네트워크의 기초 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/network.md)
