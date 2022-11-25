@@ -42,6 +42,7 @@
 - [Spring Validation을 이용한 유효성 검증](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/valid.md)
 - [Spring boot @ExceptionHandler를 통한 예외처리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/exception.md)
 - [(Spring boot + Security) SecurityConfig 설정하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/scuconfig.md)
+- [Swagger를 활용한 API 문서 자동화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/swagger.md)
 
  #### Node.js
 
