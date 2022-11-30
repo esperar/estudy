@@ -193,3 +193,41 @@ tree의 모든 원소들을 오름차순으로 배열했을때 1,2,5,7(y),8,11 �
 실제로 삭제된 노드가 y가 red였다면 그냥 종료하면된다. red는 연속할 수 없으니, red의 자식과 부모는 black일 것 이며 따라서 중간의 red를 지워도 black-black의 연속은 문제되지 않는다.  
   
 하지만 y가 black였다면 RB-Delete-Fixup을 호출해줘야한다. 이는 다음 그림을 보면 좀 더 이해갈 것이다.
+
+(y는 삭제할 노드이고, x는 y의 자식이다.)
+
+![](image/deleteexam.png)
+
+중간의 black노드를 삭제하면 red-red충돌이 발생하여 조건4를 위반하게 된다. 또한 조건5의 문제도 추가적으로 생긴다. 갑자기 중간에 black하나가 사라졌기 때문.  
+  
+이 두가지 문제를 해결해주기 위해 RB-Delete-Fixup을 호출해준다.  
+  
+삭제 이후에 우리의 tree는 RB tree의 조건 5가지를 만족해야 한다. 이를 확인해보자.
+1. 성립한다.
+2. y가 root였고, x가 red인 경우 위반이다.
+y가 삭제되고 나면 그 자리를 x가 차지한다. 즉 x가 root가 된 것이다. 하지만 x의 색은 red다. root는 red가 될 수 없다. 이는 간단하게 새롭게 root가 된 x의 색을 black으로 변경해주면 끝난다.
+3. 성립한다.
+4. p[y]와 x가 모두 red일 경우 성립하지 않는다. 이는 바로 직전에 보인 그림의 경우에 해당한다.  
+
+5. 원래 y(black)를 포함했던 모든 경로는 이제 black노드가 하나 부족하다.
+- 노드 x에 "extra black"을 부여해서 일단 조건 5를 억지로 라도 만족시킨다. 다음 그림을 통해 확인해보자
+
+![](image/deleteexam2.png)
+위의 그림을 보면 검정 노드가 하나 삭제되어 black height가 문제되는데, 이를 막고자 한 노드에 2개의 black node를 삽입했다고 우선 생각하자.
+
+#### RB-Delete-Fixup의 구현
+아이디어
+- extra black을 트리의 위쪽으로 올려보낸다. 올려보내다가 해당노드 x가 red black이 되면 그냥 black노드로 만들고 끝낸다.
+
+![](image/deleteexam3.png)
+
+- 계속 올리다가 root에 도달하면 그냥 extra black을 제거함
+- 이를 그림으로 확인해보면 다음과 같다. 가상ㅇ 상단이 루트라고 생각하자
+
+![](./image/deleteexam4.png)
+
+Loop Invariant(함수가 도는동안의 불변의 조건)
+- x는 루트가 아닌 double-black노드
+- w는 x의 형제노드
+- w는 NIL노드가 될 수 없다. 만약 NIL이 되버리면 조건 5를 위반
+
