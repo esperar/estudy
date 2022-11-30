@@ -144,7 +144,7 @@
 
 
 #### 자료구조
-- [Red-Black Tree: 레드 블랙 트리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-structure/redblack.md)
+- [Red-Black Tree: 레드 블랙 트리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/redblack.md)
 
 
 #### JavaScript  
