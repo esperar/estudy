@@ -231,3 +231,30 @@ Loop Invariant(함수가 도는동안의 불변의 조건)
 - w는 x의 형제노드
 - w는 NIL노드가 될 수 없다. 만약 NIL이 되버리면 조건 5를 위반
 
+#### 총 4가지 case가 Delete에서 존재한다.
+
+참고로 1234는 모두 x가 부모의 왼쪽 자식인 경우들이다.  
+case5678은 x가 부모의 오른쪽 자식인 경우로, 그냥 좌우만 바꿔주면됨. 
+
+- case1: w가 red인 경우
+
+w의 자식들은 black이다. 이들은 NIL일 수가 없다. NIL인 경우 조건 5에 위배됨.  
+  
+이후 w(D)를 black으로 변경해준후, p[x]\(B)를 red로 변경한다. 이후 p[x]를 기준으로 left-rotation을 적용한다.  
+기존의 w의 자식이였던 C는 B의 자식으로 편입된다.
+  
+이후 case 234로 진행된다. 
+
+- case 2 : w 가 black w 자식들도 black
+
+회색 노드는 black일수도 있고, Red일 수도있다.
+![](./image/deletecase2.png)
+x의 extra-black을 p[x]\(B)에게 전달하고 w를 red로 바꾼다 p[x]\(B)를 새로운 x로 지정한다.  
+만약 case1에서 이 경우에 도착했다면 p[x]는 red였고, 따라서 새로운 x는 red&black이 되었다. 그냥 black으로 변경 후 끝
+
+- case3 : w는 black, w 왼쪽 자식이 red
+w를 red로 변경하고 w의 왼쪽 자식을 black으로 변경함. 이후 w에 대하여 right-rotation적용 x의 새로운 형제 w는 오른쪽 자식이 red 이는 case 4 해당
+
+- case4 : w는 Black, w 오른쪽 자식이 red
+
+w와 B의 색을 교환 w의 오른쪽 자식을 black으로 변경
