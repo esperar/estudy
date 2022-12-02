@@ -151,7 +151,7 @@
   - [스택 stack](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/선형/stack/stack.md)
 - 비선형 구조
   - [트리 Tree](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/비선형/tree/tree.md)
-    - [Red-Black Tree: 레드 블랙 트리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/redblack.md)
+    - [Red-Black Tree: 레드 블랙 트리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/redblack.md)`
   - [그래프 graph](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/비선형/graph/graph.md)
 
 
