@@ -141,7 +141,7 @@
 - [클라우드와 AWS의 기본 개념](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/aws.md)
 - [IaaS, PaaS, SaaS 차이](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/XaaS.md)
 - [Amazon Web Service EC2란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/ec2.md)
-- [CI/CD 파이프라인과 구현과정](ttp://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/cicd.md)
+- [CI/CD 파이프라인과 구현과정](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/cicd.md)
 
 
 #### 자료구조
