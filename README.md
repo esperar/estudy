@@ -145,7 +145,13 @@
 
 
 #### 자료구조
-- [Red-Black Tree: 레드 블랙 트리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/redblack.md)
+- 선형 구조
+  - [선형 리스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/선형/linearlist/linearlist.md)
+  - [스택 stack](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/선형/stack/stack.md)
+- 비선형 구조
+  - [트리 Tree](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/비선형/tree/tree.md)
+    - [Red-Black Tree: 레드 블랙 트리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/redblack.md)
+  - [그래프 graph](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/비선형/graph/graph.md)
 
 
 #### JavaScript  
@@ -199,7 +205,7 @@
 
 
 #### Git
-- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가 ?<a>  
+- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가?<a>  
 - [Git 버전확인하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
 - [git 기초 문법 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
 - [branch와 리퍼지토리 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)  
