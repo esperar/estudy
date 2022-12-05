@@ -150,6 +150,7 @@
   - [선형 리스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/선형/linearlist/linearlist.md)
   - [연결 리스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/선형/linearlist/linkedlist.md)
   - [스택 stack](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/선형/stack/stack.md)
+  - [큐 queue](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/선형/queue/queue.md)
 - 비선형 구조
   - [트리 Tree](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/비선형/tree/tree.md)
     - [Red-Black Tree: 레드 블랙 트리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Data-Structure/redblack.md)
