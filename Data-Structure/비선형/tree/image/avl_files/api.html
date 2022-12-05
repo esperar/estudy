@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://yoongrammer.tistory.com/api -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head>
+<body>
+<script>
+	var openWindow, source, origin;
+
+	function handleMessage(event) {
+	    var entryId = event.data;
+		if (entryId === parseInt(entryId, 10)) {
+			editEntry(entryId);
+			source = event.source;
+			origin = event.origin;
+		}
+	}
+
+	function editEntry(entryId) {
+		if (openWindow) {
+		    openWindow.close();
+        }
+		openWindow = window.open("/manage/post/" + entryId + "?popupEditor&returnURL=CLOSEME", "tatter", "width="+1169+",height="+600+",location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0");
+		openWindow.focus();
+	}
+
+	function reloadPost() {
+		if (source && origin) {
+		    source.postMessage('reload', origin)
+		}
+	}
+
+	if (document.addEventListener){
+		window.addEventListener("message", handleMessage, false);
+	} else {
+		window.attachEvent('onmessage', handleMessage);
+	}
+</script>
+
+
+</body></html>

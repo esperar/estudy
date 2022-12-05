@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NanumGothic'), local('NanumGothic Regular'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/nanum-gothic/nanum-gothic-regular.woff2') format('woff2'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/nanum-gothic/nanum-gothic-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NanumGothic Bold'), local('NanumGothic-Bold'), local('Nanum Gothic Bold'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/nanum-gothic/nanum-gothic-700.woff2') format('woff2'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/nanum-gothic/nanum-gothic-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NanumMyeongjo'), local('Nanum Myeongjo Regular'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/nanum-myeongjo/nanum-myeongjo-regular.woff2') format('woff2'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/nanum-myeongjo/nanum-myeongjo-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NanumMyeongjo Bold'), local('NanumMyeongjoBold'), local('Nanum Myeongjo Bold'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/nanum-myeongjo/nanum-myeongjo-700.woff2') format('woff2'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/nanum-myeongjo/nanum-myeongjo-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nanum BarunGothic';
+    src: local('NanumBarunGothic'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/NanumBarunGothic/NanumBarunGothicWeb.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Nanum BarunGothic';
+    src: local('NanumBarunGothic Bold'), local('NanumBarunGothicBold'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/NanumBarunGothic/NanumBarunGothicWebBold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Noto Sans DemiLight';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans KR'), local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
+    url('https://t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-DemiLight.woff2') format('woff2'),
+    url('https://t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-DemiLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans KR'), local('NotoSansKR-Regular'),
+    url('https://t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Regular.woff2') format('woff2'),
+    url('https://t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans Light';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans Light'),
+    url('https://t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Light.woff2') format('woff2'),
+    url('https://t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Serif KR'), local('NotoSerifKR-Regular'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/noto-serif-kr/noto-serif-kr-regular.woff2') format('woff2'),
+    url('https://t1.daumcdn.net/tistory_admin/static/font/noto-serif-kr/noto-serif-kr-regular.woff') format('woff');
+}

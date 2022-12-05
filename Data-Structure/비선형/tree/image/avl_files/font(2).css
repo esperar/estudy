@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* webfont */
+
+@font-face {
+    font-family: 'Noto Sans Light';
+    font-weight: normal;
+    src: local(/tistory-admin-2017/font/NotoSansCJKkr-Light.woff);
+    src: local(☺),
+    url(//t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Light.woff) format('woff'),
+    url(//t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans DemiLight';
+    font-weight: normal;
+    src: local(/tistory-admin-2017/font/NotoSansCJKkr-DemiLight.woff);
+    src: local("☺"),
+    url(//t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-DemiLight.woff) format('woff'),
+    url(//t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-DemiLight.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Regular';
+    font-weight: normal;
+    src: local(/tistory-admin-2017/font/NotoSansCJKkr-Regular.woff);
+    src: local("☺"),
+    url(//t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Regular.woff) format('woff'),
+    url(//t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Medium';
+    font-weight: normal;
+    src: local(//t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Medium.woff);
+    src: local("☺"),
+    url(//t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Medium.woff) format('woff'),
+    url(//t1.daumcdn.net/tistory_admin/static/manage/font/NotoSansCJKkr-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'AvenirNext Bold';
+    font-weight: normal;
+    src: local(https://t1.daumcdn.net/tistory_admin/static/font/AvenirNextLTPro/AvenirNextLTPro-Bold.eot);
+    src: local("☺"),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/AvenirNextLTPro/AvenirNextLTPro-Bold.woff2) format('woff2'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/AvenirNextLTPro/AvenirNextLTPro-Bold.woff) format('woff'),
+    url(https://t1.daumcdn.net/tistory_admin/static/font/AvenirNextLTPro/AvenirNextLTPro-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir Next Regular';
+    font-weight: normal;
+    src: local(//t1.daumcdn.net/tistory_admin/static/font/AvenirNext-Regular.eot);
+    src: local("☺"),
+    url(//t1.daumcdn.net/tistory_admin/static/font/AvenirNextLTPro/AvenirNext-Regular.woff2) format('woff2'),
+    url(//t1.daumcdn.net/tistory_admin/static/font/AvenirNextLTPro/AvenirNext-Regular.woff) format('woff'),
+    url(//t1.daumcdn.net/tistory_admin/static/font/AvenirNextLTPro/AvenirNext-Regular.otf)format('opentype'),
+    url(//t1.daumcdn.net/tistory_admin/static/font/AvenirNextLTPro/AvenirNext-Regular.ttf)format('truetype');
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.business_license_ico_comm{display:inline-block;overflow:hidden;background:url(//t1.daumcdn.net/tistory_admin/static/mobile/m320/ico_comm_160809.png) no-repeat 0 0;text-indent:-9999px;vertical-align:top}
+
+.business_license_layer{padding-top:25px;margin-bottom:-8px}
+.business_license_layer .link_info{padding:5px 0;font-size:13px;line-height:31px;color:#666;text-decoration: none;}
+.business_license_layer .ico_fold{display:inline-block;width:16px;height:16px;margin:7px 6px 0 0;background-position:-280px -90px;vertical-align:top}
+.business_license_layer .license_info{display:none;padding:16px 20px;border:1px solid #D8D8D8;font-size:13px;line-height:21px;color:#888}
+.business_license_layer .link_shoppolicy{color:#888}
+.unfold_license{margin-bottom:0}
+.unfold_license .ico_fold{background-position:-300px -90px}
+.unfold_license .license_info{display:block}
+

@@ -1,0 +1,30 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('SpoqaHanSans-Bold'), local('SpoqaHanSans-Bold'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Bold.eot) format('eot'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Bold.svg) format('svg'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Bold.ttf) format('truetype'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('SpoqaHanSans-Regular'), local('SpoqaHanSans-Regular'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Regular.eot) format('eot'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Regular.svg) format('svg'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Regular.ttf) format('truetype'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 200;
+    src: local('SpoqaHanSans-Thin'), local('SpoqaHanSans-Thin'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Thin.eot) format('eot'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Thin.svg) format('svg'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Thin.ttf) format('truetype'),
+    url(//t1.daumcdn.net/tistory_admin/static/webfont/SpoqaHanSans-Thin.woff) format('woff');
+}

@@ -1,0 +1,1718 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://yoongrammer.tistory.com/72 -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                
+                
+                        <!-- BusinessLicenseInfo - START -->
+        
+            <link href="./avl_files/style.css" rel="stylesheet" type="text/css">
+
+            <script src="./avl_files/wpm.js" async=""></script><script type="text/javascript" async="" src="./avl_files/analytics.js"></script><script>function switchFold(entryId) {
+    var businessLayer = document.getElementById("businessInfoLayer_" + entryId);
+
+    if (businessLayer) {
+        if (businessLayer.className.indexOf("unfold_license") > 0) {
+            businessLayer.className = "business_license_layer";
+        } else {
+            businessLayer.className = "business_license_layer unfold_license";
+        }
+    }
+}
+</script>
+
+        
+        <!-- BusinessLicenseInfo - END -->
+        <!-- DaumShow - START -->
+        <style type="text/css">#daumSearchBox {
+    height: 21px;
+    background-image: url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+    margin: 5px auto;
+    padding: 0;
+}
+
+#daumSearchBox input {
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#daumSearchBox #daumLogo {
+    width: 34px;
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+    background-image: url(//i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+}
+
+#daumSearchBox #show_q {
+    background-color: transparent;
+    border: none;
+    font: 12px Gulim, Sans-serif;
+    color: #555;
+    margin-top: 4px;
+    margin-right: 15px;
+    float: left;
+}
+
+#daumSearchBox #show_btn {
+    background-image: url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+    width: 37px;
+    height: 21px;
+    float: left;
+    margin: 0;
+    cursor: pointer;
+    text-indent: -1000em;
+}
+</style>
+
+        <!-- DaumShow - END -->
+
+        <!-- GoogleAnalytics - START -->
+        <script src="./avl_files/js" async="async"></script>
+<script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config','UA-193975976-1');</script>
+
+        <!-- GoogleAnalytics - END -->
+
+<!-- MetaTag - START -->
+
+<!-- MetaTag - END -->
+
+<!-- Revenue - START -->
+
+<!-- Revenue - END -->
+
+        <!-- GoogleSearchConsole - START -->
+        
+<!-- BEGIN GOOGLE_SITE_VERIFICATION -->
+<meta name="google-site-verification" content="hUPldEOZn9tie4ByAIlHpJy7xU_9hx5lxw8LTyZLkMs">
+<!-- END GOOGLE_SITE_VERIFICATION -->
+
+        <!-- GoogleSearchConsole - END -->
+
+        <!-- TistoryProfileLayer - START -->
+        <link href="./avl_files/style(1).css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./avl_files/script.js"></script>
+
+        <!-- TistoryProfileLayer - END -->
+
+                
+                <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="format-detection" content="telephone=no">
+<script src="./avl_files/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="./avl_files/lightbox-v2.10.0.min.js" defer=""></script>
+<script type="text/javascript" src="./avl_files/tiara.min.js"></script><meta name="referrer" content="always">
+<meta name="google-adsense-platform-account" content="ca-host-pub-9691043933427338">
+<meta name="google-adsense-platform-domain" content="tistory.com">
+<meta name="description" content="목차 AVL 트리(Tree) 개념 및 구현 AVL 트리는 스스로 균형을 잡는 이진 탐색 트리입니다. 트리의 높이가 h일 때 이진 탐색 트리의 시간 복잡도는 O(h)입니다. 한쪽으로 치우친 편향 이진트리가 되면 트리의 높이가 높아지기 때문에 이를 방지하고자 높이 균형을 유지하는 AVL 트리를 사용하게 됩니다. AVL트리는 다음과 같은 특징을 가집니다. AVL 트리는 이진 탐색 트리의 속성을 가집니다. 왼쪽, 오른쪽 서브 트리의 높이 차이가 최대 1 입니다. 어떤 시점에서 높이 차이가 1보다 커지면 회전(rotation)을 통해 균형을 잡아 높이 차이를 줄입니다. AVL 트리는 높이를 logN으로 유지하기 때문에 삽입, 검색, 삭제의 시간 복잡도는 O(logN) 입니다. Balance Factor(BF) B..">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://yoongrammer.tistory.com/72">
+<meta property="og.article.author" content="yoongrammer">
+<meta property="og:site_name" content="yoongrammer">
+<meta property="og:title" content="[자료구조] AVL 트리(Tree)">
+<meta name="by" content="yoongrammer">
+<meta property="og:description" content="목차 AVL 트리(Tree) 개념 및 구현 AVL 트리는 스스로 균형을 잡는 이진 탐색 트리입니다. 트리의 높이가 h일 때 이진 탐색 트리의 시간 복잡도는 O(h)입니다. 한쪽으로 치우친 편향 이진트리가 되면 트리의 높이가 높아지기 때문에 이를 방지하고자 높이 균형을 유지하는 AVL 트리를 사용하게 됩니다. AVL트리는 다음과 같은 특징을 가집니다. AVL 트리는 이진 탐색 트리의 속성을 가집니다. 왼쪽, 오른쪽 서브 트리의 높이 차이가 최대 1 입니다. 어떤 시점에서 높이 차이가 1보다 커지면 회전(rotation)을 통해 균형을 잡아 높이 차이를 줄입니다. AVL 트리는 높이를 logN으로 유지하기 때문에 삽입, 검색, 삭제의 시간 복잡도는 O(logN) 입니다. Balance Factor(BF) B..">
+<meta property="og:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FblxsRD%2Fbtq21CW9Fw3%2FWOk8F74J254K1pczckskEK%2Fimg.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@TISTORY">
+<meta name="twitter:title" content="[자료구조] AVL 트리(Tree)">
+<meta name="twitter:description" content="목차 AVL 트리(Tree) 개념 및 구현 AVL 트리는 스스로 균형을 잡는 이진 탐색 트리입니다. 트리의 높이가 h일 때 이진 탐색 트리의 시간 복잡도는 O(h)입니다. 한쪽으로 치우친 편향 이진트리가 되면 트리의 높이가 높아지기 때문에 이를 방지하고자 높이 균형을 유지하는 AVL 트리를 사용하게 됩니다. AVL트리는 다음과 같은 특징을 가집니다. AVL 트리는 이진 탐색 트리의 속성을 가집니다. 왼쪽, 오른쪽 서브 트리의 높이 차이가 최대 1 입니다. 어떤 시점에서 높이 차이가 1보다 커지면 회전(rotation)을 통해 균형을 잡아 높이 차이를 줄입니다. AVL 트리는 높이를 logN으로 유지하기 때문에 삽입, 검색, 삭제의 시간 복잡도는 O(logN) 입니다. Balance Factor(BF) B..">
+<meta property="twitter:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FblxsRD%2Fbtq21CW9Fw3%2FWOk8F74J254K1pczckskEK%2Fimg.png">
+<meta content="https://yoongrammer.tistory.com/72" property="dg:plink">
+<meta name="plink">
+<meta name="title" content="[자료구조] AVL 트리(Tree)">
+<meta name="article:media_name" content="yoongrammer">
+<meta property="article:mobile_url" content="https://yoongrammer.tistory.com/m/72">
+<meta property="article:pc_url" content="https://yoongrammer.tistory.com/72">
+<meta property="article:mobile_view_url" content="https://yoongrammer.tistory.com/m/72">
+<meta property="article:pc_view_url" content="https://yoongrammer.tistory.com/72">
+<meta property="article:talk_channel_view_url" content="https://yoongrammer.tistory.com/m/72">
+<meta property="article:pc_service_home" content="https://www.tistory.com">
+<meta property="article:mobile_service_home" content="https://www.tistory.com/m">
+<meta property="article:txid" content="4321840_72">
+<meta property="article:published_time" content="2021-04-20T12:10:13+09:00">
+<meta property="og:regDate" content="20210420121013">
+<meta property="article:modified_time" content="2022-08-17T14:25:59+09:00">
+<link rel="stylesheet" type="text/css" href="./avl_files/lightbox.min.css">
+<link rel="stylesheet" type="text/css" href="./avl_files/font.css">
+<link rel="stylesheet" type="text/css" href="./avl_files/content.css">
+<link rel="stylesheet" type="text/css" href="./avl_files/uselessPMargin.css">
+<script type="text/javascript">(function() {
+    var tjQuery = jQuery.noConflict(true);
+    window.tjQuery = tjQuery;
+    window.orgjQuery = window.jQuery; window.jQuery = tjQuery;
+    window.jQuery = window.orgjQuery; delete window.orgjQuery;
+})()</script>
+<script type="text/javascript" src="./avl_files/base.js"></script>
+<script type="text/javascript">if (!window.T) { window.T = {} }
+window.T.config = {"TOP_SSL_URL":"https://www.tistory.com","PREVIEW":false,"ROLE":"guest","PREV_PAGE":"","NEXT_PAGE":"","BLOG":{"id":4321840,"name":"yoongrammer","title":"yoongrammer","isDormancy":false},"NEED_COMMENT_LOGIN":true,"COMMENT_LOGIN_CONFIRM_MESSAGE":"이 블로그는 로그인한 사용자에게만 댓글 작성을 허용했습니다. 지금 로그인하시겠습니까?","LOGIN_URL":"https://www.tistory.com/auth/login/?redirectUrl=https%3A%2F%2Fyoongrammer.tistory.com%2F72","DEFAULT_URL":"https://yoongrammer.tistory.com","USER":{"name":null,"homepage":null},"SUBSCRIPTION":{"status":"none","isConnected":false,"isPending":false,"isWait":false,"isProcessing":false,"isNone":true},"IS_LOGIN":false,"HAS_BLOG":false,"TOP_URL":"http://www.tistory.com","JOIN_URL":"https://www.tistory.com/member/join","ROLE_GROUP":"visitor"};
+window.appInfo = {"domain":"tistory.com","topUrl":"https://www.tistory.com","loginUrl":"https://www.tistory.com/auth/login","logoutUrl":"https://www.tistory.com/auth/logout"};
+window.initData = {};
+
+window.TistoryBlog = {
+    basePath: "",
+    url: "https://yoongrammer.tistory.com",
+    tistoryUrl: "https://yoongrammer.tistory.com",
+    manageUrl: "https://yoongrammer.tistory.com/manage",
+    token: "PFNg/+yoVaB+OMlwqR4XaL7L5wMqqxEezmMtxjjBA6topFEnB/yDdYAuXarHSM1B"
+};
+var servicePath = "";
+var blogURL = "";</script>
+<script type="text/javascript" src="./avl_files/kakao.min.js"></script>
+
+                
+<!-- 수학 수식 START -->
+<script src="./avl_files/polyfill.min.js"></script>
+<script id="MathJax-script" async="" src="./avl_files/tex-mml-chtml.js"></script>
+<!-- 수학 수식 END -->
+	
+	<meta name="google-site-verification" content="hUPldEOZn9tie4ByAIlHpJy7xU_9hx5lxw8LTyZLkMs">
+	<meta name="naver-site-verification" content="6c2e72d6549d2951c3992f26a8e8c249b7014d98">
+	
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<title>[자료구조] AVL 트리(Tree)</title>
+	<link rel="alternate" type="application/rss+xml" title="yoongrammer" href="https://yoongrammer.tistory.com/rss">
+
+	<link rel="stylesheet" href="./avl_files/style(2).css">
+	<link rel="stylesheet" href="./avl_files/font(1).css">
+	<style>
+		
+		.wrap_sub {
+			background-image: url('https://t1.daumcdn.net/tistory/0/Ray2/images/header_default.jpg');
+		}
+		
+	</style>
+	<!--[if lt IE 9]>
+	<script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+	<script src="./avl_files/jquery-3.2.1.min.js"></script>
+	<!--<![endif]-->
+	
+<!-- jQueryToc Plugin -->	
+<script type="text/javascript" src="./avl_files/jquery.toc.min.js"></script>
+<script>
+    $("#toc").toc({content: "div.container", headings: "h2,h3,h4"});
+</script>	
+
+<!-- CodeBlock Plugin -->
+<link rel="stylesheet" href="./avl_files/tomorrow-night.css">
+<script src="./avl_files/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- Line Number 적용
+<script src="./images/highlightjs-line-numbers.js"></script>
+<script>
+	$(document).ready(function() {
+	$('code.hljs').each(function(i, block) {
+		hljs.lineNumbersBlock(block);
+	});
+});
+</script> -->
+
+<link href="./avl_files/css" rel="stylesheet">
+<style>
+    pre>code {
+        font-family: 'Roboto Mono' !important; 
+        font-size: 15px !important;
+    }
+</style>
+	
+<!-- Global site tag (gtag.js) - Google Analytics START-->
+<script async="" src="./avl_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-193975976-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics END-->
+
+                
+                
+                <style type="text/css">.another_category {
+    border: 1px solid #E5E5E5;
+    padding: 10px 10px 5px;
+    margin: 10px 0;
+    clear: both;
+}
+
+.another_category h4 {
+    font-size: 12px !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #E5E5E5 !important;
+    padding: 2px 0 6px !important;
+}
+
+.another_category h4 a {
+    font-weight: bold !important;
+}
+
+.another_category table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+* html .another_category table {
+    width: auto !important;
+}
+
+*:first-child + html .another_category table {
+    width: auto !important;
+}
+
+.another_category th, .another_category td {
+    padding: 0 0 4px !important;
+}
+
+.another_category th {
+    text-align: left;
+    font-size: 12px !important;
+    font-weight: normal;
+    word-break: break-all;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+.another_category td {
+    text-align: right;
+    width: 80px;
+    font-size: 11px;
+}
+
+.another_category th a {
+    font-weight: normal;
+    text-decoration: none;
+    border: none !important;
+}
+
+.another_category th a.current {
+    font-weight: bold;
+    text-decoration: none !important;
+    border-bottom: 1px solid !important;
+}
+
+.another_category th span {
+    font-weight: normal;
+    text-decoration: none;
+    font: 10px Tahoma, Sans-serif;
+    border: none !important;
+}
+
+.another_category_color_gray, .another_category_color_gray h4 {
+    border-color: #E5E5E5 !important;
+}
+
+.another_category_color_gray * {
+    color: #909090 !important;
+}
+
+.another_category_color_gray th a.current {
+    border-color: #909090 !important;
+}
+
+.another_category_color_gray h4, .another_category_color_gray h4 a {
+    color: #737373 !important;
+}
+
+.another_category_color_red, .another_category_color_red h4 {
+    border-color: #F6D4D3 !important;
+}
+
+.another_category_color_red * {
+    color: #E86869 !important;
+}
+
+.another_category_color_red th a.current {
+    border-color: #E86869 !important;
+}
+
+.another_category_color_red h4, .another_category_color_red h4 a {
+    color: #ED0908 !important;
+}
+
+.another_category_color_green, .another_category_color_green h4 {
+    border-color: #CCE7C8 !important;
+}
+
+.another_category_color_green * {
+    color: #64C05B !important;
+}
+
+.another_category_color_green th a.current {
+    border-color: #64C05B !important;
+}
+
+.another_category_color_green h4, .another_category_color_green h4 a {
+    color: #3EA731 !important;
+}
+
+.another_category_color_blue, .another_category_color_blue h4 {
+    border-color: #C8DAF2 !important;
+}
+
+.another_category_color_blue * {
+    color: #477FD6 !important;
+}
+
+.another_category_color_blue th a.current {
+    border-color: #477FD6 !important;
+}
+
+.another_category_color_blue h4, .another_category_color_blue h4 a {
+    color: #1960CA !important;
+}
+
+.another_category_color_violet, .another_category_color_violet h4 {
+    border-color: #E1CEEC !important;
+}
+
+.another_category_color_violet * {
+    color: #9D64C5 !important;
+}
+
+.another_category_color_violet th a.current {
+    border-color: #9D64C5 !important;
+}
+
+.another_category_color_violet h4, .another_category_color_violet h4 a {
+    color: #7E2CB5 !important;
+}
+</style>
+
+                
+                <link rel="stylesheet" type="text/css" href="./avl_files/dialog.css">
+<link rel="stylesheet" type="text/css" href="./avl_files/font(2).css">
+<link rel="stylesheet" type="text/css" href="./avl_files/postBtn.css">
+<link rel="stylesheet" type="text/css" href="./avl_files/tistory.css">
+<link rel="stylesheet" type="text/css" href="./avl_files/revenue.css">
+<link rel="canonical" href="https://yoongrammer.tistory.com/72">
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"https://yoongrammer.tistory.com/72","name":null},"url":"https://yoongrammer.tistory.com/72","headline":"[자료구조] AVL 트리(Tree)","description":"목차 AVL 트리(Tree) 개념 및 구현 AVL 트리는 스스로 균형을 잡는 이진 탐색 트리입니다. 트리의 높이가 h일 때 이진 탐색 트리의 시간 복잡도는 O(h)입니다. 한쪽으로 치우친 편향 이진트리가 되면 트리의 높이가 높아지기 때문에 이를 방지하고자 높이 균형을 유지하는 AVL 트리를 사용하게 됩니다. AVL트리는 다음과 같은 특징을 가집니다. AVL 트리는 이진 탐색 트리의 속성을 가집니다. 왼쪽, 오른쪽 서브 트리의 높이 차이가 최대 1 입니다. 어떤 시점에서 높이 차이가 1보다 커지면 회전(rotation)을 통해 균형을 잡아 높이 차이를 줄입니다. AVL 트리는 높이를 logN으로 유지하기 때문에 삽입, 검색, 삭제의 시간 복잡도는 O(logN) 입니다. Balance Factor(BF) B..","author":{"@type":"Person","name":"yoongrammer","logo":null},"image":{"@type":"ImageObject","url":"https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FblxsRD%2Fbtq21CW9Fw3%2FWOk8F74J254K1pczckskEK%2Fimg.png","width":"800px","height":"800px"},"datePublished":"20210420T12:10:13","dateModified":"20220817T14:25:59","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https://t1.daumcdn.net/tistory_admin/static/images/openGraph/opengraph.png","width":"800px","height":"800px"}}}
+</script>
+<!-- END STRUCTURED_DATA -->
+<script type="text/javascript" src="./avl_files/common.js"></script>
+
+                <style type="text/css">#DragSchLayer{display:block;position:absolute;z-index:1000;width:61px;height:31px;margin:-30px 0px 0px -5px;background:url(//search1.daumcdn.net/search/statics/common/pi/btn_drag_rect.png);cursor:pointer}             @media             only screen and (-webkit-min-device-pixel-ratio: 1.5),             only screen and (min-device-pixel-ratio: 1.5),             only screen and (min-resolution: 1.5dppx) {             #DragSchLayer{background-image:url(//search1.daumcdn.net/search/statics/common/pi/r2/btn_drag_rect.png);background-size:61px 31px}}            </style><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style></head>
+
+                                <body id="tt-body-page">
+                
+                
+
+
+	<div id="dkIndex">
+		<!--웹접근성용 바로가기 링크 모음-->
+		<a href="https://yoongrammer.tistory.com/72#dkBody">본문 바로가기</a>
+	</div>
+	<div id="dkWrap" class="wrap_skin">
+		<!-- 카테고리버튼 클릭시 'navi_on' 클래스 부여 -->
+		<div id="dkHead" role="banner" class="area_head">
+			<h1 class="screen_out">yoongrammer</h1>
+			<button type="button" class="btn_cate">
+				<span class="ico_skin ico_cate">카테고리</span>
+			</button>
+			<div class="area_search ">
+				<button type="button" class="btn_search">
+					<span class="ico_skin ico_search">검색하기</span>
+				</button>
+				
+					<form action="https://yoongrammer.tistory.com/72#" method="get" class="frm_search box_search" onsubmit="try {
+    window.location.href = &#39;/search&#39; + &#39;/&#39; + looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);
+    document.getElementsByName(&#39;search&#39;)[0].value = &#39;&#39;;
+    return false;
+} catch (e) {}">
+						<fieldset>
+							<legend class="screen_out">검색하기</legend>
+							<label for="search" class="lab_search screen_out">Search</label>
+							<input type="text" name="search" id="search" class="tf_search" placeholder="Search" value="" data-value="">
+							<span class="ico_skin ico_search"></span>
+						</fieldset>
+					</form>
+				
+			</div>
+			<div class="area_profile">
+				<div class="tit_post">
+					<a href="https://yoongrammer.tistory.com/" class="link_post">yoongrammer</a>
+				</div>
+				<span class="thumb_profile">
+                <img src="./avl_files/8c8610b09fd141d8b0a5886961c2ffd1" class="img_profile" alt="프로필사진">
+            </span>
+				<span class="txt_profile">yoongrammer</span>
+			</div>
+		</div>
+		<hr class="hide">
+		<div id="dkContent" class="cont_skin" role="main">
+			<div id="cMain">
+				<div id="mFeature" class="wrap_sub">
+					<div class="cont_sub">
+						<div class="inner_sub">
+							<div class="area_sub">
+								<div role="navigation" class="area_navi">
+									<ul class="tt_category"><li class=""><a href="https://yoongrammer.tistory.com/category" class="link_tit"> 분류 전체보기 <span class="c_cnt">(100)</span> </a>
+  <ul class="category_list"><li class=""><a href="https://yoongrammer.tistory.com/category/Infra" class="link_item"> Infra <span class="c_cnt">(9)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://yoongrammer.tistory.com/category/Infra/Docker" class="link_sub_item"> Docker <span class="c_cnt">(3)</span> </a></li>
+<li class=""><a href="https://yoongrammer.tistory.com/category/Infra/YugabyteDB" class="link_sub_item"> YugabyteDB <span class="c_cnt">(2)</span> </a></li>
+<li class=""><a href="https://yoongrammer.tistory.com/category/Infra/CockroachDB" class="link_sub_item"> CockroachDB <span class="c_cnt">(3)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://yoongrammer.tistory.com/category/%EC%96%B8%EC%96%B4" class="link_item"> 언어 <span class="c_cnt">(16)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://yoongrammer.tistory.com/category/%EC%96%B8%EC%96%B4/Go%20%EC%96%B8%EC%96%B4" class="link_sub_item"> Go 언어 <span class="c_cnt">(14)</span> </a></li>
+<li class=""><a href="https://yoongrammer.tistory.com/category/%EC%96%B8%EC%96%B4/Rust" class="link_sub_item"> Rust <span class="c_cnt">(2)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://yoongrammer.tistory.com/category/%EB%B6%84%EC%82%B0%EC%BB%B4%ED%93%A8%ED%8C%85" class="link_item"> 분산컴퓨팅 <span class="c_cnt">(5)</span> </a></li>
+<li class=""><a href="https://yoongrammer.tistory.com/category/VCS%20%28Version%20Control%20System%29" class="link_item"> VCS (Version Control System.. <span class="c_cnt">(12)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://yoongrammer.tistory.com/category/VCS%20%28Version%20Control%20System%29/git" class="link_sub_item"> git <span class="c_cnt">(11)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://yoongrammer.tistory.com/category/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%28Data%20structure%29" class="link_item"> 자료구조 (Data structure) <span class="c_cnt">(22)</span> </a></li>
+<li class=""><a href="https://yoongrammer.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98" class="link_item"> 알고리즘 <span class="c_cnt">(17)</span> </a></li>
+<li class=""><a href="https://yoongrammer.tistory.com/category/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%28OS%29" class="link_item"> 운영체제(OS) <span class="c_cnt">(14)</span> </a></li>
+<li class=""><a href="https://yoongrammer.tistory.com/category/OOP" class="link_item"> OOP <span class="c_cnt">(5)</span> </a></li>
+</ul>
+</li>
+</ul>
+
+									<a href="https://yoongrammer.tistory.com/guestbook" class="link_guestbook">Guestbook</a>
+								</div>
+								<div class="wrap_etc">
+									<div class="col_aside left_side">
+										            <div class="revenue_unit_wrap">
+  <div class="revenue_unit_item adfit">
+    <div class="revenue_unit_info">250x250</div>
+    <ins class="kakao_ad_area" style="display: none;" data-ad-unit="DAN-LccHxxDfYEXuDfp4" data-ad-width="250px" data-ad-height="250px"></ins>
+    <script type="text/javascript" src="./avl_files/ba.min.js" async="async"></script>
+  </div>
+</div>
+												<!-- 공지사항 -->
+												
+													<div class="box_aside">
+														<strong class="tit_aside">Notice</strong>
+														<ul class="list_board">
+															
+														</ul>
+													</div>
+												
+											
+												<!-- 최근에 올라온 글 -->
+												<div class="box_aside">
+													<strong class="tit_aside">Recent Posts</strong>
+													<ul class="list_board">
+														
+															<li><a href="https://yoongrammer.tistory.com/104" class="link_board">펜윅 트리(Fenwick Tree, Binary ⋯</a></li>
+														
+															<li><a href="https://yoongrammer.tistory.com/103" class="link_board">세그먼트 트리(Segment Tree) 개념 및 ⋯</a></li>
+														
+															<li><a href="https://yoongrammer.tistory.com/102" class="link_board">서로소 집합(Disjoint Set) &amp; 유니온 ⋯</a></li>
+														
+															<li><a href="https://yoongrammer.tistory.com/101" class="link_board">캐시(Cache) 알아보기</a></li>
+														
+													</ul>
+												</div>
+											
+												<!-- 최근에 달린 댓글 -->
+												<div class="box_aside">
+													<strong class="tit_aside">Recent Comments</strong>
+													<ul class="list_board">
+														
+															<li><a href="https://yoongrammer.tistory.com/67#comment14647119" class="link_board">[승인대기]</a></li>
+														
+															<li><a href="https://yoongrammer.tistory.com/72#comment14645555" class="link_board">[승인대기]</a></li>
+														
+															<li><a href="https://yoongrammer.tistory.com/102#comment14584412" class="link_board">감사합니다.^^ 자주 놀러 오세요~ :)</a></li>
+														
+															<li><a href="https://yoongrammer.tistory.com/102#comment14583507" class="link_board">저랑 관심분야가 비슷하시네요 :) 좋은 글 잘 보고 갑⋯</a></li>
+														
+													</ul>
+												</div>
+											
+									</div>
+
+
+									<div class="col_aside right_side">
+										
+												<!-- 달력 -->
+												<div class="box_aside box_calendar">
+													<table class="tt-calendar" cellpadding="0" cellspacing="1" style="width: 100%; table-layout: fixed">
+  <caption class="cal_month"><a href="https://yoongrammer.tistory.com/archive/202211" title="1개월 앞의 달력을 보여줍니다.">«</a> &nbsp; <a href="https://yoongrammer.tistory.com/archive/202212" title="현재 달의 달력을 보여줍니다.">2022/12</a> &nbsp; <a href="https://yoongrammer.tistory.com/archive/202301" title="1개월 뒤의 달력을 보여줍니다.">»</a></caption>
+  <thead>
+    <tr>
+      <th class="cal_week2">일</th>
+      <th class="cal_week1">월</th>
+      <th class="cal_week1">화</th>
+      <th class="cal_week1">수</th>
+      <th class="cal_week1">목</th>
+      <th class="cal_week1">금</th>
+      <th class="cal_week1">토</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="cal_week cal_current_week">
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day cal_day3">1</td>
+      <td class="cal_day cal_day3">2</td>
+      <td class="cal_day cal_day3">3</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">4</td>
+      <td class="cal_day cal_day4">5</td>
+      <td class="cal_day cal_day3">6</td>
+      <td class="cal_day cal_day3">7</td>
+      <td class="cal_day cal_day3">8</td>
+      <td class="cal_day cal_day3">9</td>
+      <td class="cal_day cal_day3">10</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">11</td>
+      <td class="cal_day cal_day3">12</td>
+      <td class="cal_day cal_day3">13</td>
+      <td class="cal_day cal_day3">14</td>
+      <td class="cal_day cal_day3">15</td>
+      <td class="cal_day cal_day3">16</td>
+      <td class="cal_day cal_day3">17</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">18</td>
+      <td class="cal_day cal_day3">19</td>
+      <td class="cal_day cal_day3">20</td>
+      <td class="cal_day cal_day3">21</td>
+      <td class="cal_day cal_day3">22</td>
+      <td class="cal_day cal_day3">23</td>
+      <td class="cal_day cal_day3">24</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">25</td>
+      <td class="cal_day cal_day3">26</td>
+      <td class="cal_day cal_day3">27</td>
+      <td class="cal_day cal_day3">28</td>
+      <td class="cal_day cal_day3">29</td>
+      <td class="cal_day cal_day3">30</td>
+      <td class="cal_day cal_day3">31</td>
+    </tr>
+  </tbody>
+</table>
+												</div>
+											
+												<!-- 글 보관함 -->
+												<div class="box_aside box_archive">
+													<strong class="tit_aside">Archives</strong>
+													<ul class="list_keep">
+														
+															<li><a href="https://yoongrammer.tistory.com/archive/202211" class="link_keep">2022/11</a> (1)</li>
+														
+															<li><a href="https://yoongrammer.tistory.com/archive/202210" class="link_keep">2022/10</a> (1)</li>
+														
+															<li><a href="https://yoongrammer.tistory.com/archive/202209" class="link_keep">2022/09</a> (1)</li>
+														
+															<li><a href="https://yoongrammer.tistory.com/archive/202208" class="link_keep">2022/08</a> (1)</li>
+														
+															<li><a href="https://yoongrammer.tistory.com/archive/202206" class="link_keep">2022/06</a> (1)</li>
+														
+													</ul>
+												</div>
+											
+												<!-- 방문자수 -->
+												<div class="box_aside box_visitor">
+													<dl class="list_visitor">
+														<dt>Today</dt>
+														<dd>102</dd>
+													</dl>
+													<dl class="list_total">
+														<dt>Total</dt>
+														<dd>224,587</dd>
+													</dl>
+												</div>
+											
+									</div>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="ico_skin btn_close">닫기</button>
+
+						<strong class="screen_out">관리 메뉴</strong>
+						<ul class="list_control">
+							<li><a href="https://yoongrammer.tistory.com/manage/entry/post" class="ico_skin link_write" title="글쓰기">글쓰기</a></li>
+							<li><a href="https://yoongrammer.tistory.com/guestbook" class="ico_skin link_memo" title="방명록">방명록</a></li>
+							<li><a href="https://yoongrammer.tistory.com/rss" class="ico_skin link_rss" title="RSS">RSS</a></li>
+							<li><a href="https://yoongrammer.tistory.com/manage" class="ico_skin link_manage" title="관리">관리</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="mArticle" class="article_skin">
+
+					
+
+					<div class="index_title">
+						<h2 class="tit_skin"><span class="txt_title">yoongrammer</span></h2>
+					</div>
+
+					           
+               
+	
+
+
+	
+		<h2 id="dkBody" class="screen_out">[자료구조] AVL 트리(Tree) 본문</h2>
+		<div class="area_title">
+			<strong class="tit_category"><a href="https://yoongrammer.tistory.com/category/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%28Data%20structure%29">자료구조 (Data structure)</a></strong>
+			<h3 class="tit_post">[자료구조] AVL 트리(Tree)</h3>
+			<span class="info_post">yoongrammer
+                           <span class="txt_bar"></span>2021. 4. 20. 12:10
+			
+		</span>
+		</div>
+
+		<div class="area_view">
+			                    <!-- Revenue - START -->
+        <div class="revenue_unit_wrap">
+  <div class="revenue_unit_item adfit">
+    <div class="revenue_unit_info">728x90</div>
+    <ins class="kakao_ad_area" style="display: none;" data-ad-unit="DAN-CYWWzTplAugsDHgr" data-ad-width="728px" data-ad-height="90px"></ins>
+    <script type="text/javascript" src="./avl_files/ba.min.js" async="async"></script>
+  </div>
+</div>
+        <!-- Revenue - END -->
+
+            <div class="tt_article_useless_p_margin contents_style"><p data-ke-size="size16">목차</p>
+<ul id="toc" style="list-style-type: disc;" data-toc="div.content" data-ke-list-type="disc"><li><a href="https://yoongrammer.tistory.com/72#AVL_%ED%8A%B8%EB%A6%AC(Tree)_%EA%B0%9C%EB%85%90_%EB%B0%8F_%EA%B5%AC%ED%98%84">AVL 트리(Tree) 개념 및 구현</a><ul><li><a href="https://yoongrammer.tistory.com/72#Balance_Factor(BF)">Balance Factor(BF)</a></li><li><a href="https://yoongrammer.tistory.com/72#%EC%8B%9C%EA%B0%84_%EB%B3%B5%EC%9E%A1%EB%8F%84_(Time_complexity)">시간 복잡도 (Time complexity)</a></li><li><a href="https://yoongrammer.tistory.com/72#%ED%9A%8C%EC%A0%84_(rotation)">회전 (rotation)</a><ul><li><a href="https://yoongrammer.tistory.com/72#LL(Left_Left)_case">LL(Left Left) case</a></li><li><a href="https://yoongrammer.tistory.com/72#RR(Right_Right)_case">RR(Right Right) case</a></li><li><a href="https://yoongrammer.tistory.com/72#LR(Left_Right)_case">LR(Left Right) case</a></li><li><a href="https://yoongrammer.tistory.com/72#RL(Right_Left)_case">RL(Right Left) case</a></li></ul></li><li><a href="https://yoongrammer.tistory.com/72#%EC%82%BD%EC%9E%85_%EA%B5%AC%ED%98%84">삽입 구현</a></li></ul></li></ul>
+<div class="content">
+<h1 data-ke-size="size26" id="AVL_트리(Tree)_개념_및_구현">AVL 트리(Tree) 개념 및 구현</h1>
+<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style6">
+<p data-ke-size="size16">AVL 트리는 스스로 균형을 잡는 이진 탐색 트리입니다.</p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16">트리의 높이가 h일 때 이진 탐색 트리의 시간 복잡도는 O(h)입니다.</p>
+<p data-ke-size="size16">한쪽으로 치우친 편향 이진트리가 되면 트리의 높이가 높아지기 때문에 이를 방지하고자 높이 균형을 유지하는 AVL 트리를 사용하게 됩니다.</p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16">AVL트리는 다음과 같은 특징을 가집니다.</p>
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li>AVL 트리는 이진 탐색 트리의 속성을 가집니다.</li>
+<li>왼쪽, 오른쪽 서브 트리의 높이 차이가 최대 1 입니다.</li>
+<li>어떤 시점에서 높이 차이가 1보다 커지면 회전(rotation)을 통해 균형을 잡아 높이 차이를 줄입니다.</li>
+<li>AVL 트리는 높이를 logN으로 유지하기 때문에 삽입, 검색, 삭제의 시간 복잡도는 O(logN) 입니다.</li>
+</ul>
+<p data-ke-size="size16">&nbsp;</p>
+<h2 data-ke-size="size26" id="Balance_Factor(BF)">Balance Factor(BF)</h2>
+<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style6">
+<p data-ke-size="size16">Balance Factor(BF)는 외쪽 서브트리의 높이에서 오른쪽 서브트리의 높이를 뺀 값입니다.</p>
+<blockquote data-ke-style="style2">Balance Factor (k) = height (left(k)) - height(right(k))</blockquote>
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li>BF가 1이면 왼쪽 서브트리가 오른쪽 서브트리보다 높이가 한단계 높다는 것을 의미합니다.</li>
+<li>BF가 0이면 왼쪽 서브트리와 오른쪽 서브트리의 높이가 같다는 것을 의미합니다.</li>
+<li>BF가 -1이면 왼쪽 서브트리가 오른쪽 서브트리보다 높이가 한단계 낮다는 것을 의미합니다.</li>
+</ul>
+<p data-ke-size="size16">다음은 ALV 트리의 예입니다. BF가 -1과 +1 사이에 있음을 알 수 있습니다.</p>
+<figure class="imageblock alignCenter" data-ke-mobilestyle="widthContent" data-origin-width="437" data-origin-height="430"><span data-url="https://blog.kakaocdn.net/dn/blxsRD/btq21CW9Fw3/WOk8F74J254K1pczckskEK/img.png" data-lightbox="lightbox" data-alt="AVL tree"><img src="./avl_files/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FblxsRD%2Fbtq21CW9Fw3%2FWOk8F74J254K1pczckskEK%2Fimg.png" onerror="this.onerror=null; this.src=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;; this.srcset=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;;" data-origin-width="437" data-origin-height="430"></span><figcaption>AVL tree</figcaption>
+</figure>
+
+<h2 data-ke-size="size26" id="시간_복잡도_(Time_complexity)"><span>시간 복잡도 (Time complexity)</span></h2>
+<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style6">
+<table style="border-collapse: collapse; width: 100%;" border="1" data-ke-style="style12" data-ke-align="alignLeft">
+<tbody>
+<tr>
+<td>Operation</td>
+<td><span style="color: #000000;">Average</span></td>
+<td><span style="color: #000000;">Worst</span></td>
+</tr>
+<tr>
+<td>Access</td>
+<td><span style="color: #000000;">Θ(logN)</span></td>
+<td><span style="color: #000000;">O(logN)</span></td>
+</tr>
+<tr>
+<td>Search</td>
+<td><span style="color: #000000;">Θ(logN)</span></td>
+<td><span style="color: #000000;">O(logN)</span></td>
+</tr>
+<tr>
+<td>Insert</td>
+<td><span style="color: #000000;">Θ(logN)</span></td>
+<td><span style="color: #000000;">O(logN)</span></td>
+</tr>
+<tr>
+<td>Delete</td>
+<td><span style="color: #000000;">Θ(logN)</span></td>
+<td><span style="color: #000000;">O(logN)</span></td>
+</tr>
+</tbody>
+</table>
+<p data-ke-size="size16">N은 트리의 노드 수입니다.</p>
+<p data-ke-size="size16"><span>AVL 트리는 높이를 logN으로 유지하기 때문에 삽입, 검색, 삭제의 시간 복잡도는 O(logN)입니다.</span></p>
+<h2 data-ke-size="size26" id="회전_(rotation)">회전 (rotation)</h2>
+<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style6">
+<p data-ke-size="size16">AVL트리는 이진 탐색 트리이기 때문에 모든 작업은 이진 탐색 트리에서 사용하는 방식으로 수행됩니다.</p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16">검색 및 순회 연산은 BF를 변경하지 않지만 삽입 및 삭제에서는 BF가 변경될 수 있습니다.</p>
+<p data-ke-size="size16">삽입 삭제 시 불균형 상태(BF가 -1 ,0, 1이 아닌 경우) 가 되면 AVL트리는 불균형 노드를 기준으로 서브트리의 위치를 변경하는 rotation 작업을 수행하여 트리의 균형을 맞추게 됩니다.</p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16">삽입 삭제시 노드들의 배열에 따라 4가지<span style="color: #333333;">(LL, RR, LR, RL)</span> 불균형이 발생할 수 있으며 각 상황마다 rotation에 방향을 달리하여 트리의 균형을 맞춥니다.</p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16">그림에서 T1~4는 서브 트리를 나타냅니다.</p>
+<h3 data-ke-size="size23" id="LL(Left_Left)_case">LL(Left Left) case</h3>
+<p data-ke-size="size16">y는 z의 <b>왼쪽</b> 자식 노드이고, x는 y의 <b>왼쪽</b> 자식 노드인 경우 right rotation을 수행하여 균형을 맞춥니다.</p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16">right rotation 수행 과정</p>
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li>y노드의 오른쪽 자식 노드를 z노드로 변경합니다.</li>
+<li>z노드 왼쪽 자식 노드를 y노드 오른쪽 서브트리(T2)로 변경합니다.</li>
+<li>y는 새로운 루트 노드가 됩니다.</li>
+</ul>
+<figure class="imageblock alignCenter" data-ke-mobilestyle="widthOrigin" data-origin-width="1054" data-origin-height="508"><span data-url="https://blog.kakaocdn.net/dn/biiR2r/btrJUY5baM4/yUDa0wduJaJ4pmL0glLMl1/img.png" data-lightbox="lightbox" data-alt="LL case"><img src="./avl_files/img(1).png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbiiR2r%2FbtrJUY5baM4%2FyUDa0wduJaJ4pmL0glLMl1%2Fimg.png" onerror="this.onerror=null; this.src=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;; this.srcset=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;;" data-origin-width="1054" data-origin-height="508"></span><figcaption>LL case</figcaption>
+</figure>
+
+<h4 data-ke-size="size20"><span><span>Right Rotation 구현</span></span></h4>
+<pre id="code_1660713905728" class="cpp" data-ke-language="cpp" data-ke-type="codeblock"><code class="hljs"><span class="hljs-function">struct node *<span class="hljs-title">rightRotate</span> <span class="hljs-params">(struct node *z)</span> </span>{
+  <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">node</span> *<span class="hljs-title">y</span> =</span> z-&gt;left;
+  <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">node</span> *<span class="hljs-title">T2</span> =</span> y-&gt;right;
+
+<span class="hljs-comment">// right 회전 수행</span>
+  y-&gt;right = z;
+  z-&gt;left = T2;
+
+<span class="hljs-comment">// 노드 높이 갱신</span>
+  z-&gt;height = <span class="hljs-number">1</span> + <span class="hljs-built_in">max</span>(z-&gt;left-&gt;height, z-&gt;right-&gt;height);
+  y-&gt;height = <span class="hljs-number">1</span> + <span class="hljs-built_in">max</span>(y-&gt;left-&gt;height, y-&gt;right-&gt;height);
+
+<span class="hljs-comment">// 새로운 루트 노드 y를 반환  </span>
+  <span class="hljs-keyword">return</span> y;
+}</code></pre>
+<p data-ke-size="size16">&nbsp;</p>
+<div class="revenue_unit_wrap">
+  <div class="revenue_unit_item adfit">
+    <div class="revenue_unit_info">728x90</div>
+    <ins class="kakao_ad_area" style="display: none;" data-ad-unit="DAN-AfszRBfVJhWPvnET" data-ad-width="728px" data-ad-height="90px"></ins>
+    <script type="text/javascript" src="./avl_files/ba.min.js" async="async"></script>
+  </div>
+</div>
+<h3 data-ke-size="size23" id="RR(Right_Right)_case"><span>RR(Right Right) case</span></h3>
+<p data-ke-size="size16"><span>y는 z의 <b>오른쪽</b> 자식 노드이고, x는 y의 <b>오른쪽</b> 자식 노드인 경우 left rotation을 수행하여 균형을 맞춥니다.</span></p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16"><span>left rotation 수행 과정</span></p>
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li>y노드의 왼쪽 자식 노드를 z노드로 변경합니다.</li>
+<li>z노드 오른쪽 자식 노드를 y노드 왼쪽 서브트리(T2)로 변경합니다.</li>
+<li>y는 새로운 루트 노드가 됩니다.</li>
+</ul>
+<figure class="imageblock alignCenter" data-ke-mobilestyle="widthContent" data-origin-width="1802" data-origin-height="860"><span data-url="https://blog.kakaocdn.net/dn/MgydF/btq2ZpcT9dF/WNzhK8Ka9KmiuX6iqj5Ws0/img.png" data-lightbox="lightbox" data-alt="RR case"><img src="./avl_files/img(2).png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FMgydF%2Fbtq2ZpcT9dF%2FWNzhK8Ka9KmiuX6iqj5Ws0%2Fimg.png" onerror="this.onerror=null; this.src=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;; this.srcset=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;;" data-origin-width="1802" data-origin-height="860"></span><figcaption>RR case</figcaption>
+</figure>
+
+<h4 data-ke-size="size20">Left Rotation 구현</h4>
+<pre id="code_1660713849552" class="cpp" data-ke-language="cpp" data-ke-type="codeblock"><code class="hljs"><span class="hljs-function">struct node *<span class="hljs-title">leftRotate</span> <span class="hljs-params">(struct node *z)</span> </span>{
+  <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">node</span> *<span class="hljs-title">y</span> =</span> z-&gt;right;
+  <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">node</span> *<span class="hljs-title">T2</span> =</span> y-&gt;left;
+
+<span class="hljs-comment">// left 회전 수행</span>
+  y-&gt;left = z;
+  z-&gt;right = T2;
+
+<span class="hljs-comment">// 노드 높이 갱신</span>
+  z-&gt;height = <span class="hljs-number">1</span> + <span class="hljs-built_in">max</span>(z-&gt;left-&gt;height, z-&gt;right-&gt;height);
+  y-&gt;height = <span class="hljs-number">1</span> + <span class="hljs-built_in">max</span>(y-&gt;left-&gt;height, y-&gt;right-&gt;height);
+
+<span class="hljs-comment">// 새로운 루트 노드 y를 반환  </span>
+  <span class="hljs-keyword">return</span> y;
+}</code></pre>
+<h3 data-ke-size="size23" id="LR(Left_Right)_case">LR(Left Right) case</h3>
+<p data-ke-size="size16">y는 z의 <b>왼쪽</b> 자식 노드이고, x는 y의 <b>오른쪽</b> 자식 노드인 경우 left , right 순으로 총 두 번의 rotation을 수행하여 균형을 맞춥니다.</p>
+<figure class="imageblock alignCenter" data-ke-mobilestyle="widthContent" data-origin-width="2000" data-origin-height="679"><span data-url="https://blog.kakaocdn.net/dn/tMu3I/btq21Mk69Ei/TToajHJiFvy3FmNYlbagj0/img.png" data-lightbox="lightbox" data-alt="LR case"><img src="./avl_files/img(3).png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtMu3I%2Fbtq21Mk69Ei%2FTToajHJiFvy3FmNYlbagj0%2Fimg.png" onerror="this.onerror=null; this.src=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;; this.srcset=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;;" data-origin-width="2000" data-origin-height="679"></span><figcaption>LR case</figcaption>
+</figure>
+
+<h4 data-ke-size="size20">구현</h4>
+<pre id="code_1618886033742" class="c arduino" data-ke-language="c" data-ke-type="codeblock"><code class="hljs">y = z-&gt;left;
+y = leftRotate(y);
+z = rightRotate(z);</code></pre>
+<h3 data-ke-size="size23" id="RL(Right_Left)_case">RL(Right Left) case</h3>
+<p data-ke-size="size16">y는 z의 <b>오른쪽</b> 자식 노드이고, x는 y의 <b>왼쪽</b> 자식 노드인 경우, right, left 순으로 총 두번의 rotation을 수행하여 균형을 맞춥니다.</p>
+<figure class="imageblock alignCenter" data-ke-mobilestyle="widthContent" data-origin-width="2000" data-origin-height="679"><span data-url="https://blog.kakaocdn.net/dn/brTQV1/btq2TcMbXA3/mhrY8bPspDrRT90kkGDIR1/img.png" data-lightbox="lightbox" data-alt="RL case"><img src="./avl_files/img(4).png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbrTQV1%2Fbtq2TcMbXA3%2FmhrY8bPspDrRT90kkGDIR1%2Fimg.png" onerror="this.onerror=null; this.src=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;; this.srcset=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;;" data-origin-width="2000" data-origin-height="679"></span><figcaption>RL case</figcaption>
+</figure>
+
+<h4 data-ke-size="size20">구현</h4>
+<pre id="code_1618886110072" class="c arduino" data-ke-language="c" data-ke-type="codeblock"><code class="hljs">y = z-&gt;right;
+y = rightRotate(y);
+z = leftRotate(z);</code></pre>
+<h2 data-ke-size="size26" id="삽입_구현">삽입 구현</h2>
+<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style6">
+<p data-ke-size="size16">AVL트리의 삽입 삭제 방식은 이진 탐색 트리와 같습니다. 하지만 높이 균형을 유지하기 위해 노드의 높이 정보와 case별 rotation 과정이 추가됩니다.</p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16">삭제도 과정이 비슷하기 때문에 삽입만 알아보도록 하겠습니다.</p>
+<pre id="code_1618886154470" class="python" data-ke-language="python" data-ke-type="codeblock"><code class="hljs">struct node {
+  <span class="hljs-built_in">int</span> key;
+  struct node *left, *right;
+  <span class="hljs-built_in">int</span> height;
+};
+
+<span class="hljs-built_in">int</span> <span class="hljs-built_in">max</span>(<span class="hljs-built_in">int</span> a, <span class="hljs-built_in">int</span> b) {
+  <span class="hljs-keyword">return</span> (a &gt; b)? a : b;
+}
+
+struct node* newNode(<span class="hljs-built_in">int</span> key) {
+  struct node *temp = (struct *node)malloc(sizeof(struct node));
+
+  temp-&gt;data = key;
+  temp-&gt;left = NULL;
+  temp-&gt;right = NULL;
+  temp-&gt;height = <span class="hljs-number">1</span>;
+  <span class="hljs-keyword">return</span> temp;
+}
+
+struct node *leftRotate (struct node *z) {
+  struct node *y = z-&gt;right;
+  struct node *T2 = y-&gt;left;
+
+// left 회전 수행
+  y-&gt;left = z;
+  z-&gt;right = T2;
+
+// 노드 높이 갱신
+  z-&gt;height = <span class="hljs-number">1</span> + <span class="hljs-built_in">max</span>(z-&gt;left-&gt;height, z-&gt;right-&gt;height);
+  y-&gt;height = <span class="hljs-number">1</span> + <span class="hljs-built_in">max</span>(y-&gt;left-&gt;height, y-&gt;right-&gt;height);
+
+// 새로운 루트 노드 y를 반환  
+  <span class="hljs-keyword">return</span> y;
+}
+
+
+struct node *rightRotate (struct node *z) {
+  struct node *y = z-&gt;left;
+  struct node *T2 = y-&gt;right;
+
+// right 회전 수행
+  y-&gt;right = z;
+  z-&gt;left = T2;
+
+// 노드 높이 갱신
+  z-&gt;height = <span class="hljs-number">1</span> + <span class="hljs-built_in">max</span>(z-&gt;left-&gt;height, z-&gt;right-&gt;height);
+  y-&gt;height = <span class="hljs-number">1</span> + <span class="hljs-built_in">max</span>(y-&gt;left-&gt;height, y-&gt;right-&gt;height);
+
+// 새로운 루트 노드 y를 반환  
+  <span class="hljs-keyword">return</span> y;
+}
+
+// BF(BalanceFactor)값을 가져오는 함수.
+<span class="hljs-built_in">int</span> getBalanceFactor(struct node *n) {
+  <span class="hljs-keyword">if</span> (n == NULL)
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+  <span class="hljs-keyword">return</span> n-&gt;left-&gt;height - n-&gt;right-&gt;height;
+}
+
+// 트리의 높이 균형을 유지하는 함수.
+// <span class="hljs-number">4</span>가지 케이스를 가지고 rotate를 수행함.
+struct node* rebalance(struct node* root) {
+  
+  <span class="hljs-built_in">int</span> bFactor = getBalanceFactor(root);
+  
+  // LL Case
+  <span class="hljs-keyword">if</span> (bFactor &gt; <span class="hljs-number">1</span> &amp;&amp; key &lt; node-&gt;left-&gt;key)
+    <span class="hljs-keyword">return</span> rightRotate(root);
+  // RR Case
+  <span class="hljs-keyword">if</span> (bFactor &lt; -<span class="hljs-number">1</span> &amp;&amp; key &gt; node-&gt;right-&gt;key)
+    <span class="hljs-keyword">return</span> leftRotate(root);
+  // LR Case
+  <span class="hljs-keyword">if</span> (bFactor &gt; <span class="hljs-number">1</span> &amp;&amp; key &gt; node-&gt;left-&gt;key){
+    root-&gt;left = leftRotate(root-&gt;left);
+    <span class="hljs-keyword">return</span> rightRotate(root);
+  }
+  // RL Case
+  <span class="hljs-keyword">if</span> (bFactor &lt; -<span class="hljs-number">1</span> &amp;&amp; key &lt; node-&gt;right-&gt;key){
+    root-&gt;right = rightRotate(root-&gt;right);
+    <span class="hljs-keyword">return</span> leftRotate(root);
+  }
+
+  <span class="hljs-keyword">return</span> root;
+}
+
+// 삽입 함수.
+struct node* insert(struct node* root, <span class="hljs-built_in">int</span> key) {
+
+// 삽입 수행
+  <span class="hljs-keyword">if</span> (root == NULL)
+    <span class="hljs-keyword">return</span> newNode(key);
+  <span class="hljs-keyword">if</span> (key &gt; root-&gt;data)
+    root-&gt;right = insert(root-&gt;right, key);
+  <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (key &lt; root-&gt;data)
+    root-&gt;left = insert(root-&gt;left, key);
+  <span class="hljs-keyword">else</span>
+    <span class="hljs-keyword">return</span> root;
+
+// 노드 높이 갱신
+  root-&gt;height = <span class="hljs-number">1</span> + <span class="hljs-built_in">max</span>(node-&gt;left-&gt;height, node-&gt;right-&gt;height);
+
+// 노드 균형 유지  
+  root = rebalance(root);
+  
+  <span class="hljs-keyword">return</span> root;
+}</code></pre>
+</div></div>
+                    <!-- Revenue - START -->
+        <div class="revenue_unit_wrap">
+  <div class="revenue_unit_item adfit">
+    <div class="revenue_unit_info">728x90</div>
+    <ins class="kakao_ad_area" style="display: none;" data-ad-unit="DAN-UeMR2tQH7yTKLDN1" data-ad-width="728px" data-ad-height="90px"></ins>
+    <script type="text/javascript" src="./avl_files/ba.min.js" async="async"></script>
+  </div>
+</div>
+        <!-- Revenue - END -->
+
+                    <div class="container_postbtn #post_button_group">
+  <div class="postbtn_like"><script>window.ReactionButtonType = 'reaction';
+window.ReactionApiUrl = '//yoongrammer.tistory.com/reaction';
+window.ReactionReqBody = {
+    entryId: 72
+}</script>
+<div class="wrap_btn" id="reaction-72"><button class="btn_post uoc-icon"><div class="uoc-icon"><span class="ico_postbtn ico_like">좋아요</span><span class="txt_like uoc-count">7</span></div></button></div>
+<script src="./avl_files/reaction-button-container.min.js"></script><div class="wrap_btn wrap_btn_share"><button type="button" class="btn_post sns_btn btn_share" aria-expanded="false" data-thumbnail-url="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FblxsRD%2Fbtq21CW9Fw3%2FWOk8F74J254K1pczckskEK%2Fimg.png" data-title="[자료구조] AVL 트리(Tree)" data-description="목차 AVL 트리(Tree) 개념 및 구현 AVL 트리는 스스로 균형을 잡는 이진 탐색 트리입니다. 트리의 높이가 h일 때 이진 탐색 트리의 시간 복잡도는 O(h)입니다. 한쪽으로 치우친 편향 이진트리가 되면 트리의 높이가 높아지기 때문에 이를 방지하고자 높이 균형을 유지하는 AVL 트리를 사용하게 됩니다. AVL트리는 다음과 같은 특징을 가집니다. AVL 트리는 이진 탐색 트리의 속성을 가집니다. 왼쪽, 오른쪽 서브 트리의 높이 차이가 최대 1 입니다. 어떤 시점에서 높이 차이가 1보다 커지면 회전(rotation)을 통해 균형을 잡아 높이 차이를 줄입니다. AVL 트리는 높이를 logN으로 유지하기 때문에 삽입, 검색, 삭제의 시간 복잡도는 O(logN) 입니다. Balance Factor(BF) B.." data-profile-image="https://tistory1.daumcdn.net/tistory/4321840/attach/8c8610b09fd141d8b0a5886961c2ffd1" data-profile-name="yoongrammer" data-pc-url="https://yoongrammer.tistory.com/72" data-relative-pc-url="/72" data-blog-title="yoongrammer"><span class="ico_postbtn ico_share">공유하기</span></button>
+  <div class="layer_post" id="tistorySnsLayer" style="display: none;"><div class="bundle_post"><a href="https://yoongrammer.tistory.com/72#none" class="btn_mark" data-service="facebook"><span class="ico_sns ico_fb"></span>페이스북으로 공유</a><a href="https://yoongrammer.tistory.com/72#none" class="btn_mark" data-service="kakaostory"><span class="ico_sns ico_ks"></span>카카오스토리로 공유</a><a href="https://yoongrammer.tistory.com/72#none" class="btn_mark" data-service="twitter"><span class="ico_sns ico_tw"></span>트위터로 공유</a><a href="https://yoongrammer.tistory.com/72#none" class="btn_mark" data-service="url"><span class="ico_sns ico_url"></span>URL 복사</a><span class="ico_postbtn ico_arrbt"></span></div></div>
+</div><div class="wrap_btn wrap_btn_etc" data-entry-id="72" data-entry-visibility="public" data-category-visibility="public"><button type="button" class="btn_post btn_etc2" aria-expanded="false"><span class="ico_postbtn ico_etc">게시글 관리</span></button>
+  <div class="layer_post" id="tistoryEtcLayer" style="display: none;"></div>
+</div></div>
+<button type="button" class="btn_menu_toolbar btn_subscription  #subscribe" data-blog-id="4321840" data-url="https://yoongrammer.tistory.com/72" data-device="web_pc"><em class="txt_state">구독하기</em><strong class="txt_tool_id">yoongrammer</strong><span class="img_common_tistory ico_check_type1"></span></button><div class="postbtn_ccl" data-ccl-type="1">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko" target="_blank" class="link_ccl" rel="license">
+        <span class="bundle_ccl">
+            <span class="ico_postbtn ico_ccl1">저작자표시</span> <span class="ico_postbtn ico_ccl2">비영리</span> <span class="ico_postbtn ico_ccl3">변경금지</span> 
+        </span>
+    </a>
+</div>
+<!--
+<rdf:RDF xmlns="https://web.resource.org/cc/" xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Work rdf:about="">
+        <license rdf:resource="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko" />
+    </Work>
+    <License rdf:about="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko">
+        <permits rdf:resource="https://web.resource.org/cc/Reproduction"/>
+        <permits rdf:resource="https://web.resource.org/cc/Distribution"/>
+        <requires rdf:resource="https://web.resource.org/cc/Notice"/>
+        <requires rdf:resource="https://web.resource.org/cc/Attribution"/>
+        <prohibits rdf:resource="https://web.resource.org/cc/CommercialUse"/>
+
+    </License>
+</rdf:RDF>
+--></div>
+
+                    <!-- PostListinCategory - START -->
+<div class="another_category another_category_color_gray">
+  <h4>'<a href="https://yoongrammer.tistory.com/category/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%28Data%20structure%29">자료구조 (Data structure)</a>' 카테고리의 다른 글</h4>
+  <table>
+    <tbody><tr>
+      <th><a href="https://yoongrammer.tistory.com/80">[자료구조] 힙 (Heap) or 이진 힙(binary heap)</a>&nbsp;&nbsp;<span>(0)</span></th>
+      <td>2021.06.13</td>
+    </tr>
+    <tr>
+      <th><a href="https://yoongrammer.tistory.com/73">[자료구조] 다원 탐색 트리 (Multiway Search Tree)</a>&nbsp;&nbsp;<span>(0)</span></th>
+      <td>2021.05.02</td>
+    </tr>
+    <tr>
+      <th><a href="https://yoongrammer.tistory.com/71">[자료구조] 이진 탐색 트리 (BST, Binary Search Tree)</a>&nbsp;&nbsp;<span>(7)</span></th>
+      <td>2021.04.15</td>
+    </tr>
+    <tr>
+      <th><a href="https://yoongrammer.tistory.com/70">[자료구조] 트리 순회 (Tree Traversal)</a>&nbsp;&nbsp;<span>(1)</span></th>
+      <td>2021.04.08</td>
+    </tr>
+    <tr>
+      <th><a href="https://yoongrammer.tistory.com/69">[자료구조] 이진 트리 (Binary tree) 알아보기</a>&nbsp;&nbsp;<span>(0)</span></th>
+      <td>2021.04.05</td>
+    </tr>
+  </tbody></table>
+</div>
+
+<!-- PostListinCategory - END -->
+
+		</div>
+		<div class="area_etc">
+			
+				<dl class="list_tag">
+					<dt>Tag</dt>
+					<dd><a href="https://yoongrammer.tistory.com/tag/Tree" rel="tag">Tree</a>, <a href="https://yoongrammer.tistory.com/tag/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0" rel="tag">자료구조</a></dd>
+				</dl>
+			
+		</div>
+
+		
+			<div class="area_related">
+				<strong class="tit_related">'자료구조 (Data structure)' Related Articles</strong>
+				<ul class="list_related">
+					
+						<li class="thumb_type">
+							<a href="https://yoongrammer.tistory.com/80?category=956616" class="link_related">
+								
+								<span class="thumb_related">
+									<img src="./avl_files/saved_resource" class="img_related" alt="">
+								</span>
+								
+								<span class="txt_related">[자료구조] 힙 (Heap) or 이진 힙(binary heap)</span>
+								<span class="date_related">2021.06.13</span>
+								<span class="frame_related"></span>
+							</a>
+						</li>
+					
+						<li class="thumb_type">
+							<a href="https://yoongrammer.tistory.com/73?category=956616" class="link_related">
+								
+								<span class="thumb_related">
+									<img src="./avl_files/saved_resource(1)" class="img_related" alt="">
+								</span>
+								
+								<span class="txt_related">[자료구조] 다원 탐색 트리 (Multiway Search Tree)</span>
+								<span class="date_related">2021.05.02</span>
+								<span class="frame_related"></span>
+							</a>
+						</li>
+					
+						<li class="thumb_type">
+							<a href="https://yoongrammer.tistory.com/71?category=956616" class="link_related">
+								
+								<span class="thumb_related">
+									<img src="./avl_files/saved_resource(2)" class="img_related" alt="">
+								</span>
+								
+								<span class="txt_related">[자료구조] 이진 탐색 트리 (BST, Binary Search Tree)</span>
+								<span class="date_related">2021.04.15</span>
+								<span class="frame_related"></span>
+							</a>
+						</li>
+					
+						<li class="thumb_type">
+							<a href="https://yoongrammer.tistory.com/70?category=956616" class="link_related">
+								
+								<span class="thumb_related">
+									<img src="./avl_files/saved_resource(3)" class="img_related" alt="">
+								</span>
+								
+								<span class="txt_related">[자료구조] 트리 순회 (Tree Traversal)</span>
+								<span class="date_related">2021.04.08</span>
+								<span class="frame_related"></span>
+							</a>
+						</li>
+					
+				</ul>
+				<a href="https://yoongrammer.tistory.com/category/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%28Data%20structure%29" class="link_more">more</a>
+			</div>
+		
+
+		<div class="area_reply">
+			<strong class="tit_reply" onclick=""><span id="commentCount72_0">3</span>  Comments</strong>
+			<div id="entry72Comment">
+				
+					<ul class="list_reply">
+						            
+
+            <li id="comment14540244" class="rp_general">
+                                            <span class="ico_skin thumb_profile">
+												<img src="./avl_files/saved_resource(4)" width="48" height="48" class="img_profile" alt="프로필사진">
+											</span>
+													<span class="reply_content">
+                                                <span class="tit_nickname"><a href="https://iamgamja.tistory.com/" onclick="return openLinkInNewWindow(this)">iamgamja</a></span>
+                                                <span class="txt_date">2022.08.14 17:39 <a href="https://yoongrammer.tistory.com/toolbar/popup/abuseReport/?entryId=72&amp;commentId=14540244" onclick="window.open(this.href, &#39;ThisBlogReportPopup&#39;, &#39;width=550, height=510, toolbar=no, menubar=no, status=no, scrollbars=no&#39;); return false;">신고</a></span>
+                                                <span class="txt_reply">글 잘 봤습니다. 다만, 오류가 조금 있는것 같아 알려드립니다.<br>
+1. right rotation와 left rotation의 코드 위치가 바뀌어 있습니다.<br>
+2. 코드에서 lefttRotate와 leftRotate가 혼용되어 사용되고 있습니다.<br>
+3. right rotation의 이미지(2, 4번째) 중 Balanced tree에서 z의 오른쪽 자식은 T4가 아니라 T1입니다.</span>
+                                            </span>
+													<div class="area_more">
+														<!-- on_more 클래스 추가시 레이어 오픈 -->
+														<a href="https://yoongrammer.tistory.com/72#none" class="more_reply">
+															<span class="ico_skin ico_more">댓글 메뉴 보기</span>
+														</a>
+														<div class="reply_layer">
+															<div class="inner_reply_layer">
+																<div class="layer_head">
+																	<strong class="screen_out">댓글메뉴</strong>
+																</div>
+																<div class="layer_body">
+																	<a href="https://yoongrammer.tistory.com/72#comment14540244" class="link_reply">댓글주소</a>
+																	<a href="https://yoongrammer.tistory.com/72#none" onclick="deleteComment(14540244);return false" class="link_reply">수정/삭제</a>
+																	<a href="https://yoongrammer.tistory.com/72#none" onclick="commentRequireLogin(); return false;commentComment(14540244); return false" class="link_reply">댓글쓰기</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li><li id="comment14543448" class="re_reply rp_admin">
+                                                    <span class="ico_skin thumb_profile">
+														<img src="./avl_files/saved_resource(5)" width="48" height="48" class="img_profile" alt="프로필사진">
+													</span>
+															<span class="reply_content">
+                                                        <span class="tit_nickname"><a href="https://yoongrammer.tistory.com/" onclick="return openLinkInNewWindow(this)">yoongrammer</a></span>
+                                                        <span class="txt_date">2022.08.17 14:28 <a href="https://yoongrammer.tistory.com/toolbar/popup/abuseReport/?entryId=72&amp;commentId=14543448" onclick="window.open(this.href, &#39;ThisBlogReportPopup&#39;, &#39;width=550, height=510, toolbar=no, menubar=no, status=no, scrollbars=no&#39;); return false;">신고</a></span>
+                                                        <span class="txt_reply">지적해 주신 오류들 수정했습니다.<br>
+감사합니다. ^^</span>
+                                                    </span>
+															<div class="area_more">
+																<!-- on_more 클래스 추가시 레이어 오픈 -->
+																<a href="https://yoongrammer.tistory.com/72#none" class="more_reply">
+																	<span class="ico_skin ico_more">댓글 메뉴 보기</span>
+																</a>
+																<div class="reply_layer">
+																	<div class="inner_reply_layer">
+																		<div class="layer_head">
+																			<strong class="screen_out">댓글메뉴</strong>
+																		</div>
+																		<div class="layer_body">
+																			<a href="https://yoongrammer.tistory.com/72#comment14543448" class="link_reply">댓글주소</a>
+																			<a href="https://yoongrammer.tistory.com/72#none" onclick="deleteComment(14543448); return false;" class="link_reply">수정/삭제</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li><li id="comment14645555" class="rp_general">
+                                            <span class="ico_skin thumb_profile">
+												<img src="./avl_files/saved_resource(4)" width="48" height="48" class="img_profile" alt="프로필사진">
+											</span>
+													<span class="reply_content">
+                                                <span class="tit_nickname">고운고운해</span>
+                                                <span class="txt_date">2022.11.30 23:26</span>
+                                                <span class="txt_reply">관리자의 승인을 기다리고 있는 댓글입니다</span>
+                                            </span>
+													<div class="area_more">
+														<!-- on_more 클래스 추가시 레이어 오픈 -->
+														<a href="https://yoongrammer.tistory.com/72#none" class="more_reply">
+															<span class="ico_skin ico_more">댓글 메뉴 보기</span>
+														</a>
+														<div class="reply_layer">
+															<div class="inner_reply_layer">
+																<div class="layer_head">
+																	<strong class="screen_out">댓글메뉴</strong>
+																</div>
+																<div class="layer_body">
+																	<a href="https://yoongrammer.tistory.com/72#comment14645555" class="link_reply">댓글주소</a>
+																	<a href="https://yoongrammer.tistory.com/72#none" onclick="deleteComment(14645555);return false" class="link_reply">수정/삭제</a>
+																	<a href="https://yoongrammer.tistory.com/72#none" onclick="alert(&#39;승인되지 않은 댓글에는 답글을 작성할 수 없습니다.&#39;); return false;commentComment(14645555); return false" class="link_reply">댓글쓰기</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li><li id="none_display_division_for_comment_list_72" style="display: none;"></li>
+<script type="text/javascript">
+    setInitialEntryComments(72, 1670198908)
+</script>
+
+					</ul>
+				
+
+				       <form method="post" action="https://yoongrammer.tistory.com/comment/add/72" onsubmit="return false" style="margin: 0">
+           
+<fieldset class="fld_reply">
+	<legend class="screen_out">댓글쓰기 폼</legend>
+	
+		
+			<div class="writer_info">
+                                          <span class="info_name">
+                                              <label for="name" class="lab_info screen_out">이름</label>
+                                              <span class="wrap_info">
+                                                  <input type="text" name="name" id="name" class="inp_info" placeholder="Name" tabindex="1">
+                                              </span>
+                                          </span>
+				<span class="info_pw ">
+                                              <label for="password" class="lab_info screen_out">비밀번호</label>
+                                              <span class="wrap_info">
+                                                  <input type="password" name="password" id="password" class="inp_info" placeholder="Password" tabindex="2">
+                                              </span>
+                                          </span>
+			</div>
+		
+		<div class="writer_check">
+                                      <span class="check_secret ">
+                                          <input type="checkbox" name="secret" id="secret" class="inp_secret" tabindex="4">
+                                          <label for="secret" class="lab_secret">
+                                              <span class="ico_skin ico_check"></span>
+                                              Secret
+                                          </label>
+                                      </span>
+		</div>
+	
+
+	<div class="reply_write ">
+		<label for="comment" class="lab_write screen_out">내용</label>
+		<textarea name="comment" id="comment" class="tf_reply" placeholder="여러분의 소중한 댓글을 입력해주세요" tabindex="3"></textarea>
+	</div>
+
+	<div class="writer_btn">
+		<button type="submit" class="btn_enter" onclick="addComment(this, 72); return false;" tabindex="5">Send</button>
+	</div>
+</fieldset>
+
+       </form>
+			</div>
+<script type="text/javascript">loadedComments[72]=true;
+findFragmentAndHighlight(72);</script>
+
+		</div>
+
+
+	
+
+               
+           
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+				</div>
+			</div>
+		</div>
+		<hr class="hide">
+		<div id="dkFoot" role="contentinfo" class="area_foot">
+			<small class="info_copyright">
+				Blog is powered by
+				<a href="http://www.kakaocorp.com/" class="emph_t" target="_blank">kakao</a> / Designed by
+				<a href="http://www.tistory.com/" class="emph_t" target="_blank">Tistory</a>
+			</small>
+		</div>
+	</div>
+
+
+
+<script src="./avl_files/script(1).js"></script>
+<div class="#menubar menu_toolbar ">
+  <h2 class="screen_out">티스토리툴바</h2>
+<div class="btn_tool"><button class="btn_menu_toolbar btn_subscription  #subscribe" data-blog-id="4321840" data-url="https://yoongrammer.tistory.com" data-device="web_pc"><strong class="txt_tool_id">yoongrammer</strong><em class="txt_state">구독하기</em><span class="img_common_tistory ico_check_type1"></span></button></div></div>
+<div class="#menubar menu_toolbar "></div>
+<iframe id="editEntry" style="position:absolute;width:1px;height:1px;left:-100px;top:-100px" src="./avl_files/api.html"></iframe>
+
+                <!-- DragSearchHandler - START -->
+<script src="./avl_files/search_dragselection.min.js"></script>
+
+<!-- DragSearchHandler - END -->
+
+                
+                <script>window.tiara = {"svcDomain":"user.tistory.com","section":"글뷰","trackPage":"글뷰_보기","page":"글뷰","key":"4321840-72","customProps":{"userId":"0","blogId":"4321840","entryId":"72","role":"guest","filterTarget":false,"trackPage":"글뷰_보기"},"entry":{"entryId":"72","categoryName":"자료구조 (Data structure)","categoryId":"956616","author":"4641816","image":"kage@blxsRD/btq21CW9Fw3/WOk8F74J254K1pczckskEK","plink":"/72","tags":["Tree","자료구조"]},"kakaoAppKey":"3e6ddd834b023f24221217e370daed18","appUserId":"null"}</script>
+<script type="text/javascript" src="./avl_files/tiara.min(1).js"></script>
+<script type="text/javascript">(function($) {
+    $(document).ready(function() {
+        lightbox.options.fadeDuration = 200;
+        lightbox.options.resizeDuration = 200;
+        lightbox.options.wrapAround = false;
+        lightbox.options.albumLabel = "%1 / %2";
+    })
+})(tjQuery);</script>
+<div style="{margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0}"></div>
+<script type="text/javascript" src="./avl_files/common.js"></script>
+<script type="text/javascript">window.roosevelt_params_queue = window.roosevelt_params_queue || [{channel_id: 'dk', channel_label: '{tistory}'}]</script>
+<script type="text/javascript" src="./avl_files/roosevelt_dk_bt.js" async="async"></script>
+<script type="text/javascript" src="./avl_files/menubar.min.js"></script>
+<script>            (function (win, doc, src) {
+    win.Wpm = win.Wpm || function (name, param) {
+        win.Wpm.queue = win.Wpm.queue || [];
+        const { queue } = win.Wpm;
+        queue.push([name, param]);
+    };
+    const script = doc.createElement('script');
+    script.src = src;
+    script.async = 1;
+    const [elem] = doc.getElementsByTagName('script');
+    elem.parentNode.insertBefore(script, elem);
+})(window, document, 'https://t1.kakaocdn.net/malibu_prod/wpm.js');
+            const APP_KEY = 'd3cda7e82e6e4144bdc998b8e25f125d';
+            Wpm('appKey', APP_KEY);</script>
+
+                
+
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="width: 843px; height: 11173px; display: block;"></div><div id="lightbox" class="lightbox" style="top: 1903.5px; left: 0px;"><div class="lb-outerContainer" style="width: 445px; height: 438px;"><div class="lb-container"><img class="lb-image" src="./avl_files/img.png" style="width: 437px; height: 430px;" alt="AVL tree"><div class="lb-nav" style=""><a class="lb-prev" href="https://yoongrammer.tistory.com/72" style="display: none;"></a><a class="lb-next" href="https://yoongrammer.tistory.com/72" style=""></a></div><div class="lb-loader" style="display: none;"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer" style="width: 445px;"><div class="lb-data"><div class="lb-details"><span class="lb-caption" style="display: none;"></span><span class="lb-number">1 / 5</span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>

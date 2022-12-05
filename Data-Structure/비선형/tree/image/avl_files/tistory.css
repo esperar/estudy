@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+
+/* reset */
+.menu_toolbar div,.menu_toolbar dl,.menu_toolbar dt,.menu_toolbar dd,.menu_toolbar ul,.menu_toolbar ol,.menu_toolbar li,
+.menu_toolbar fieldset,.menu_toolbar legend,.menu_toolbar textarea,.menu_toolbar p,.menu_toolbar blockquote,.menu_toolbar th,.menu_toolbar td,.menu_toolbar input,.menu_toolbar select,.menu_toolbar button,
+.menu_toolbar h1, .menu_toolbar h2, .menu_toolbar h3, .menu_toolbar h4, .menu_toolbar h5, .menu_toolbar h6{margin:0;padding:0}
+.menu_toolbar fieldset,.menu_toolbar img{border:0 none}
+.menu_toolbar dl,.menu_toolbar ul,.menu_toolbar ol,.menu_toolbar menu,.menu_toolbar li{list-style:none}
+.menu_toolbar blockquote, .menu_toolbar q{quotes: none}
+.menu_toolbar blockquote:before, .menu_toolbar blockquote:after,.menu_toolbar q:before, .menu_toolbar q:after{content:'';content:none}
+.menu_toolbar input,.menu_toolbar select, .menu_toolbar textarea,.menu_toolbar button{vertical-align:middle}
+.menu_toolbar input::-ms-clear{display:none}
+.menu_toolbar button{border:0 none;background-color:transparent;cursor:pointer;outline:none}
+.menu_toolbar th,.menu_toolbar td,.menu_toolbar input,.menu_toolbar select,.menu_toolbar textarea,.menu_toolbar button{font-size:13px;line-height:1.5;font-family:Noto Sans DemiLight,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;-webkit-font-smoothing: antialiased} /* color값은 디자인가이드에 맞게사용 */
+.menu_toolbar a{color:#333;text-decoration:none}
+.menu_toolbar a:active, .menu_toolbar a:hover{text-decoration:underline}
+.menu_toolbar a:active{background-color:transparent}
+.menu_toolbar address,.menu_toolbar caption,.menu_toolbar cite,.menu_toolbar code,.menu_toolbar dfn,.menu_toolbar em,.menu_toolbar var{font-style:normal;font-weight:normal}
+.menu_toolbar * {font-family:Noto Sans DemiLight,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;letter-spacing:normal}
+
+
+/* global */
+#kakaoIndex{overflow:hidden;position:absolute;left:-9999px;width:0;height:1px;margin:0;padding:0}
+.ir_pm{display:block;overflow:hidden;font-size:0;line-height:0;text-indent:-9999px} /* PC용 사용된 이미지내 의미있는 텍스트의 대체텍스트를 제공할때 */
+.ir_wa{display:block;overflow:hidden;position:relative;z-index:-1;width:100%;height:100%} /* 중요한 이미지 대체텍스트로 이미지off시에도 대체 텍스트를 보여주고자 할때 */
+.ir_caption{overflow:hidden;width:1px;font-size:1px;line-height:0;text-indent:-9999px} /* Table caption에 숨김텍스트를 제공할때 */
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px} /* 대체텍스트가 아닌 접근성을 위한 숨김텍스트를 제공할때 */
+.show{display:block}
+.hide{display:none}
+
+
+.tistorytoolbar a {font-weight:normal;text-decoration:none;}
+.tistorytoolbar div {background:none;}
+.tistorytoolbar .tt_menubar_bg_toolbar {position:absolute;left:0;top:0;width:372px;height:26px;font:0/0 Arial;z-index:-1; border-radius:5px}
+.tt_menubar_custom .tt_menubar_bg_toolbar {border-radius:4px;-moz-border-radius:4px;}
+.tistorytoolbar .tt_menubar_close .tt_menubar_bg_toolbar {display:none;}
+
+.tistorytoolbar .tt_menubar_bg_tistorylayer {background:url(//t1.daumcdn.net/tistory_admin/static/admin/new/bg_tistorylayer.gif) 0 0 no-repeat;vertical-align:middle;}
+.tistorytoolbar .tt_menubar_bg_linkarr {width:3px;height:5px;margin-top:-2px;background-position:-10px -5px;}
+.tistorytoolbar .tt_menubar_bg_linknew {width:9px;height:9px;margin-top:-2px;background-position:0 -5px;}
+.tistorytoolbar .tt_menubar_btn_mylink {width:120px;height:23px;border:0 none;background-position:-20px 0;text-indent:-999em;}
+.tt_menubar_whiteBar .tt_menubar_bg_toolbar {background:url(//t1.daumcdn.net/tistory_admin/static/admin/new/box_w01.png) no-repeat;_background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/box_w01.png',sizingMethod='image');}
+.tt_menubar_whiteSemiBar .tt_menubar_bg_toolbar {background:url(//t1.daumcdn.net/tistory_admin/static/admin/new/box_w02.png) no-repeat;_background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/box_w02.png',sizingMethod='image');}
+.tt_menubar_blackBar .tt_menubar_bg_toolbar {background:url(//t1.daumcdn.net/tistory_admin/static/admin/new/box_d01.png) no-repeat;_background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/box_d01.png',sizingMethod='image');}
+.tt_menubar_blackSemiBar .tt_menubar_bg_toolbar {background:url(//t1.daumcdn.net/tistory_admin/static/admin/new/box_d02.png) no-repeat;_background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/box_d02.png',sizingMethod='image');}
+
+.tt_menubar_login .tt_menubar_whiteBar .tt_menubar_bg_toolbar {background:url(//t1.daumcdn.net/tistory_admin/static/admin/new/box_w01_logout.png) no-repeat;_background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/box_w01_logout.png',sizingMethod='image');}
+.tt_menubar_login .tt_menubar_whiteSemiBar .tt_menubar_bg_toolbar {background:url(//t1.daumcdn.net/tistory_admin/static/admin/new/box_w02_logout.png) no-repeat;_background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/box_w02_logout.png',sizingMethod='image');}
+.tt_menubar_login .tt_menubar_blackBar .tt_menubar_bg_toolbar {background:url(//t1.daumcdn.net/tistory_admin/static/admin/new/box_d01_logout.png) no-repeat;_background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/box_d01_logout.png',sizingMethod='image');}
+.tt_menubar_login .tt_menubar_blackSemiBar .tt_menubar_bg_toolbar {background:url(//t1.daumcdn.net/tistory_admin/static/admin/new/box_d02_logout.png) no-repeat;_background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/box_d02_logout.png',sizingMethod='image');}
+
+.tt_menubar_whiteBar .tt_menubar_inner .tt_menubar_link_tit {color:#7b7b7b;}
+.tt_menubar_whiteSemiBar .tt_menubar_inner .tt_menubar_link_tit {color:#787878;}
+.tt_menubar_white .tt_menubar_inner .tt_menubar_link_tit {color:#7d7d7d;}
+
+.tt_menubar_blackBar .tt_menubar_inner .tt_menubar_link_tit {color:#bdbdbd;}
+.tt_menubar_blackSemiBar .tt_menubar_inner .tt_menubar_link_tit {color:#adadad;}
+.tt_menubar_black .tt_menubar_inner .tt_menubar_link_tit {color:#a8a8a8;}
+
+.tt_menubar_white .tt_menubar_inner .tt_menubar_bg_bar,
+.tt_menubar_whiteSemiBar .tt_menubar_inner .tt_menubar_bg_bar,
+.tt_menubar_whiteBar .tt_menubar_inner .tt_menubar_bg_bar {background-color:#000;opacity:0.16;filter:alpha(opacity=16);}
+
+.tt_menubar_black .tt_menubar_inner .tt_menubar_bg_bar,
+.tt_menubar_blackSemiBar .tt_menubar_inner .tt_menubar_bg_bar,
+.tt_menubar_blackBar .tt_menubar_inner .tt_menubar_bg_bar {background-color:#fff;opacity:0.2;filter:alpha(opacity=20);}
+
+.tt_menubar_whiteBar .tt_menubar_inner .tt_menubar_link_tit:hover,
+.tt_menubar_whiteBar .tt_menubar_inner .tt_menubar_on .tt_menubar_link_tit,
+.tt_menubar_whiteSemiBar .tt_menubar_inner .tt_menubar_link_tit:hover,
+.tt_menubar_whiteSemiBar .tt_menubar_inner .tt_menubar_on .tt_menubar_link_tit,
+.tt_menubar_white .tt_menubar_inner .tt_menubar_link_tit:hover,
+.tt_menubar_white .tt_menubar_inner .tt_menubar_on .tt_menubar_link_tit {color:#3f3f3f;}
+.tt_menubar_blackBar .tt_menubar_inner .tt_menubar_link_tit:hover,
+.tt_menubar_blackBar .tt_menubar_inner .tt_menubar_on .tt_menubar_link_tit,
+.tt_menubar_blackSemiBar .tt_menubar_inner .tt_menubar_link_tit:hover,
+.tt_menubar_blackSemiBar .tt_menubar_inner .tt_menubar_on .tt_menubar_link_tit,
+.tt_menubar_black .tt_menubar_inner .tt_menubar_link_tit:hover,
+.tt_menubar_black .tt_menubar_inner .tt_menubar_on .tt_menubar_link_tit {color:#f8f8f8;}
+
+.tistorytoolbar .tt_menubar_inner {float:left;position:relative;width:371px;height:21px;padding:5px 0 0 10px;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_bg_bar {overflow:hidden;float:left;width:1px;height:8px;margin:4px 7px 0;font-size:0;line-height:0;display:inline;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_link_tit {float:left;padding-top:2px;font-size:11px;vertical-align:top;line-height:13px;height:22px;cursor:pointer;font-family:"�뗭�",Dotum,sans-serif;letter-spacing:-2px;display:inline;background:none;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_link_tit_daum {font-weight:bold;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_link_tit_eng {font-family:tahoma,sans-serif;padding-top:1px;letter-spacing:0;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_link_tit:hover,
+.tistorytoolbar .tt_menubar_inner .tt_menubar_on .tt_menubar_link_tit {text-decoration:none;}
+
+.tistorytoolbar .tt_menubar_inner .tt_menubar_box_list {display:none;position:absolute;top:26px;left:0;}
+.tistorytoolbar .tt_menubar_on .tt_menubar_box_list {display:block;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_list_blogmenu {float:left;padding:2px 1px;border:1px solid #9d9d9d;background-color:#fff;font-size:0;line-height:0;margin:0;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_list_blogmenu li {list-style:none;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_list_blogmenu a {display:block;padding:0 6px;font-size:11px;line-height:20px;letter-spacing:-1px;text-decoration:none;color:#666;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_list_blogmenu .tt_menubar_hover {background-color:#f5f5f5;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_list_blogmenu .tt_menubar_hover a {color:#f25b00;background-color:#f5f5f5;text-decoration:none;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_list_blogmenu a:hover {color:#f25b00;background-color:#f5f5f5;text-decoration:none;}
+.tistorytoolbar .tt_menubar_mainmenu {float:left;}
+.tistorytoolbar .tt_menubar_thisblog {float:left;}
+.tistorytoolbar .tt_menubar_thisblog .tt_menubar_list_blogmenu a {width:67px;}
+
+.tistorytoolbar .tt_menubar_myblog {float:left;}
+.tistorytoolbar .tt_menubar_myblog .tt_menubar_list_blogmenu {width:192px;}
+.tistorytoolbar .tt_menubar_myblog .tt_menubar_list_blogmenu li {float:left;width:189px;padding-right:3px;}
+.tistorytoolbar .tt_menubar_myblog .tt_menubar_box_list .tt_menubar_link {float:left;width:125px;padding:0 0 0 6px;}
+.tistorytoolbar .tt_menubar_myblog .tt_menubar_box_list .tt_menubar_box_btn {float:right;}
+.tistorytoolbar .tt_menubar_myblog .tt_menubar_box_list .tt_menubar_box_btn a {display:inline;padding:0 3px;color:#989898;}
+.tistorytoolbar .tt_menubar_myblog .tt_menubar_box_list .tt_menubar_box_btn a:hover {color:#000000;text-decoration:none;}
+.tistorytoolbar .tt_menubar_myblog .tt_menubar_box_list .tt_menubar_box_btn .tt_menubar_txt_bar {font-size:11px;line-height:20px;color:#ccc;}
+.tistorytoolbar .tt_menubar_warp_mylink {float:left;}
+
+.tistorytoolbar .tt_menubar_inner .tt_menubar_arr {float:right;padding:1px 7px 0 0;}
+.tistorytoolbar .tt_menubar_inner .tt_menubar_arr .tt_menubar_btn_arr {display:block;overflow:hidden;float:left;width:9px;height:12px;margin:0;padding:0;text-indent:-9999px;cursor:pointer;}
+.tistorytoolbar .tt_menubar_close {background:none;}
+.tistorytoolbar .tt_menubar_close .tt_menubar_mainmenu,
+.tistorytoolbar .tt_menubar_close .tt_menubar_myblog,
+.tistorytoolbar .tt_menubar_close .tt_menubar_mylink,
+.tistorytoolbar .tt_menubar_close .tt_menubar_thisblog,
+.tistorytoolbar .tt_menubar_close .tt_menubar_random,
+.tistorytoolbar .tt_menubar_close .tt_menubar_logout,
+.tistorytoolbar .tt_menubar_close .tt_menubar_bg_bar {display:none;}
+
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink {display:none;position:absolute;top:26px;overflow:hidden;width:218px;max-height:413px;border:1px solid #9d9d9d;background-color:#fff;}
+.tistorytoolbar .tt_menubar_on .tt_menubar_box_mylink {display:block;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_opt {width:100%;height:32px;border-bottom:1px solid #ebebeb;background-color:#f5f5f5;text-align:center;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_opt select {width:206px;margin:0 auto;margin-top:6px;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list {position:relative;overflow:hidden;overflow-y:scroll;width:218px;height:348px;font-size:0;line-height:0;top:0;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list ul {padding:0;margin:0;list-style:none;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_list_mylink li {position:relative;padding-bottom:6px;border-top:1px solid #efefef;overflow:hidden;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_tit {overflow:hidden;width:100%;height:26px;font:12px/14px dotum,sans-serif;color:#444;letter-spacing:-1px;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_tit a {display:block;width:100%;height:18px;padding-top:10px;text-indent:9px;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_tit .tt_menubar_num {padding-left:4px;letter-spacing:0;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_tit .tt_menubar_bg_linkopenclose {width:8px;height:4px;margin-top:-2px;background-position:0 0;position:absolute;top:16px;left:183px;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_cont {display:none;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_on .tt_menubar_cont {display:block;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_on .tt_menubar_tit .tt_menubar_bg_linkopenclose {background-position:-10px 0;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_cont .tt_menubar_list_link li {padding:0;border:0 none;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_cont .tt_menubar_list_link li a {display:block;width:100%;height:14px;padding:4px 0 3px;font:12px/14px dotum,sans-serif;color:#666;text-indent:9px;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_list .tt_menubar_cont .tt_menubar_list_link li a:hover {color:#f25b00;background-color:#f5f5f5;text-decoration:none;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_control {position:relative;overflow:hidden;width:100%;height:13px;padding:7px 0;border-top:1px solid #d6d6d6;text-align:center;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_control a {font:11px/13px dotum,sans-serif;color:#aaa;letter-spacing:-1px;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_control a.tt_menubar_on {color:#444;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_control .tt_menubar_txt_bar {padding:0 2px;font-size:11px;line-height:13px;color:#ddd;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_control .tt_menubar_edit {position:absolute;top:9px;right:9px;color:#888;text-decoration:underline;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_txt {font:12px/18px dotum,sans-serif;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_txt .tt_menubar_tit {display:block;width:auto;height:auto;margin:117px 31px 0;line-height:16px;font-weight:bold;color:#444;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_txt .tt_menubar_txt {display:block;margin:6px 31px 0 30px;color:#999;}
+.tistorytoolbar .tt_menubar_mylink .tt_menubar_box_mylink .tt_menubar_box_txt .tt_menubar_btn_mylink {margin:11px 0 0 32px;}
+
+.tistorytoolbar .tt_menubar_random {float:left;}
+.tistorytoolbar .tt_menubar_logout {float:left;white-space:nowrap;}
+.tt_menubar_login .tt_menubar_inner {width:95px;}
+.tt_menubar_login .tt_menubar_bg_toolbar {width:95px; border-radius:5px}
+.tistorytoolbar .tt_menubar_link_tit .tt_menubar_ico_arrow {font:7px '�뗭�',dotum,sans-serif !important;opacity:0.45;filter:alpha(opacity=45);margin-left:3px;letter-spacing:0;}
+.tt_menubar_chrome_browser .tt_menubar_link_tit .tt_menubar_ico_arrow {font:7px tahoma,sans-serif !important;}
+
+
+/* common Image */
+.img_common_tistory{display:block;font-size:0;line-height:0;text-indent:-9999px;background-image:url(//t1.daumcdn.net/tistory_admin/static/top/pc/img_common_tistory_190314.png);background-size:120px 100px}
+
+.ico_tistory_sign{display:inline-block;width:14px;height:16px;margin-top:1px;background-position:-30px -40px;vertical-align:middle;}/*2019-02-28 수정 */
+/*.ico_check_type1{display:inline-block;width:10px;height:7px;background-position:-60px -40px;vertical-align:middle;}*/
+/*.ico_plus{display:inline-block;width:10px;height:10px;background-position:-50px -40px;vertical-align:middle;}*/
+
+.menu_toolbar{position:fixed;top:20px;right:20px;z-index:9999;text-align:right;font-size:0;line-height:0}/* 2019-02-28 수정*/
+.menu_toolbar .btn_tool{display:inline-block;position:relative;}
+.menu_toolbar .btn_tool_type1{position:absolute;top:0;right:0}
+.menu_toolbar .btn_tool + .btn_tool{margin:0 36px 0 0 }
+.menu_toolbar .ico_tistory_sign, .ico_check_type1{vertical-align:middle;}
+.menu_toolbar .txt_state + .ico_check_type1{margin:5px 0 0 3px}
+.menu_toolbar .btn_menu_toolbar{display:inline-block;height:30px;padding:0 15px 0 0;border-radius:15px;box-sizing:border-box;box-shadow:0 0 0 1px rgba(0,0,0,0.1) , 0 2px 5px rgba(0,0,0,0.1);background-color:#fff;font-size:0;line-height:0;font-family:Noto Sans DemiLight,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif}/* 2019-02-28 (클래스명 수정 : 개발페이지 와 통일) */
+.menu_toolbar .ico_check_type1{display:none}
+.menu_toolbar .btn_tool .following .ico_check_type1{display:inline-block;width:9px;height:7px;background-position:-70px -40px;}/* 2019-02-28 수정*/
+.menu_toolbar .btn_menu_toolbar:hover{box-shadow:0 0 0 1px rgba(0,0,0,0.1) , 0 2px 5px rgba(0,0,0,0.2)}/* 2019-02-28 수정 (클래스명 개발페이지 통일 및 스타일수정) */
+.menu_toolbar .btn_menu_type2{width:30px;padding:0}/* 2019-02-28 수정 */
+
+.menu_toolbar .txt_tool_id{display:inline-block;overflow:hidden;max-width:109px;padding:0 3px 0 15px;font-size:13px;line-height:16px;font-weight:normal;color:#777;white-space:nowrap;text-overflow:ellipsis;vertical-align:top}
+.menu_toolbar .txt_state{display:inline-block;font-size:13px;line-height:16px;font-weight:normal;color:#000;vertical-align:top}
+
+.menu_toolbar .header_layer{top:44px;right:-9px}
+.menu_toolbar .header_layer:after{right:16px}
+.menu_toolbar .layer_tool{width:140px;height:151px}
+.menu_toolbar .list_toolbar {padding:15px 0 24px;} /* zelda 수정 */
+.menu_toolbar .list_toolbar .link_list{display:block;height:30px;padding:6px 0 0 24px;font-size:14px;line-height:18px;color:#000;box-sizing:border-box;}/* 2019-02-28 수정 */
+.menu_toolbar .list_toolbar li:last-child .link_list{height:22px;font-size:12px;color:#909090}
+.toolbar_rc{top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);transform:translateY(-50%);}
+.toolbar_rc .ico_tistory_sign{margin-top:2px}/* 2019-03-11 추가 */
+.toolbar_rc .btn_tool{display:block;position:relative;}
+.toolbar_rc .btn_tool + .btn_tool{margin:10px 0 0;}
+.toolbar_rc .txt_state{width:0;font-size:0;line-height:0;text-indent:-9999px;opacity: 0;transition:opacity 0.1s ease 0.2s;text-align:left}/* 2019-03-07 수정 */
+.toolbar_rc .btn_menu_toolbar:hover{position:relative;width:89px;text-align:right}/* 2019-02-28 수정 (클래스명 개발페이지 통일 및 스타일수정) *//* 2019-03-07 수정 */
+.toolbar_rc .txt_state + .ico_check_type1{display:inline-block;width:10px;height:10px;margin:1px 10px 0  0;background-position:-50px -40px;vertical-align:middle;}/* 2019-02-28 수정*//* 2019-03-07 수정 */
+.toolbar_rc .following .txt_state + .ico_check_type1{width:10px;height:7px;vertical-align:middle;background-position:-60px -40px}/* 2019-02-28 수정*/
+/*.toolbar_rc .btn_menu_toolbar.following:hover .txt_state + .ico_check_type1{margin:1px 10px 0 20px;}/* 2019-02-28 (클래스명 수정 : 개발페이지 와 통일)  2019-03-07 삭제 */
+.toolbar_rc .btn_menu_toolbar:hover .txt_state{position:absolute;top:6px;left:13px;width:50px;font-size:13px;line-height:18px;text-indent:0;opacity: 1}/* 2019-02-28 수정 (클래스명 개발페이지 통일 및 스타일수정) // 2019-03-07 수정 // 2019-03-15 수정 */
+/* .toolbar_rc .btn_menu_toolbar:hover .txt_state +.ico_check_type1{margin:4px 0 0 8px;}2019-02-28 (클래스명 수정 : 개발페이지 와 통일) 2019-03-07 삭제 */
+.toolbar_rc .btn_menu_type2:hover{width:30px;}
+.toolbar_rc .btn_menu_toolbar{display:inline-block;width:30px;padding:0;transition: 0.25s ease 0.1s;text-align:right}/* 2019-02-28 수정 (클래스명 개발페이지 통일 및 스타일수정) *//* 2019-03-07 수정*/
+.toolbar_rc .btn_menu_toolbar.btn_menu_type2 {text-align:center}/* 2019-03-07 추가*/
+.toolbar_rc .header_layer {top:50%;right:44px;transform:translateY(-50%);}
+.toolbar_rc .header_layer:after {top:50%;right:-11px;transform:translateY(-50%);width:12px;height:16px;background-image:url(//t1.daumcdn.net/tistory_admin/static/top/pcrtn/layer_edge1_ct.png);background-size:12px 16px}/* 2019-03-14 이미지경로수정 */
+.toolbar_rb{top:auto;bottom:20px;height:30px}/* 2019-02-28 수정 */
+.toolbar_rc .txt_tool_id {display:none}
+.toolbar_rb .header_layer{top:auto;bottom:44px}
+.toolbar_rb .header_layer:after{top:auto;bottom:-11px;width:16px;height:12px;background-image:url(//t1.daumcdn.net/tistory_admin/static/top/pcrtn/layer_edge1_bt.png);background-size:16px 12px;background-position:50% 50%}/* 2019-03-14 이미지경로수정 */
+.toolbar_lb{top:auto;left:19px;right:auto;bottom:20px;}/* 2019-02-28 수정 */
+.toolbar_lb .header_layer{top:auto;bottom:44px;left:-10px;}
+.toolbar_lb .header_layer:after{top:auto;bottom:-10px;left:16px;right:auto;background-image:url(//t1.daumcdn.net/tistory_admin/static/top/pcrtn/layer_edge1_bt.png);}/* 2019-03-14 이미지경로수정 */
+.toolbar_lb .btn_tool{display:inline-block;position:relative;}
+.toolbar_lb .btn_tool + .btn_tool{margin:0 0 0 6px;}
+
+/*layer*/
+.header_layer{position:absolute;top:84px;right:99px;width:400px;border-radius:3px;box-sizing:content-box;box-shadow:0 2px 5px 0 rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.1);font-family:Noto Sans DemiLight,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;background-color:#fff;text-align:left;}
+.header_layer:after{content:"";position:absolute;top:-9px;right:24px;width:16px;height:10px;background-image:url(//t1.daumcdn.net/tistory_admin/static/top/pcrtn/layer_edge1.png);background-size:16px 10px}/* 2019-03-14 이미지경로수정 */
+.inner_header_layer .tit_list{display:block;height:32px;padding:12px 0 0 24px;font-size:13px;line-height:1.5;color:#000;font-family:Noto Sans Medium,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-weight:normal;border-bottom:1px solid #F0F0F0}
+.inner_header_layer .tit_list_type{display:block;padding:20px 24px 6px 25px;font-size:12px;line-height:1.5;color:#909090;font-family:Noto Sans Medium,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-weight:normal;}
+.info_profile_type1 + .tit_list_type{padding-top:24px;}
+.inner_header_layer .tit_list em{padding:0 0 0 6px;font-size:13px;line-height:1.5;font-family:arial;color:#909090;font-weight:normal;}
+.inner_header_layer .info_profile{overflow:hidden;position:relative;padding:18px 86px 21px 25px;border-bottom:1px solid #F0F0F0;line-height:1.5}
+.inner_header_layer .info_profile_type1{padding:2px 86px 7px 24px;border-bottom:none}
+.inner_header_layer .info_profile_type1:last-child{margin-bottom:13px;}
+.inner_header_layer .txt_id{display:block;overflow:hidden;text-overflow:ellipsis;color:#000;font-size:16px;line-height:1.5;white-space:nowrap;}
+.inner_header_layer .txt_id_type2{font-family:Noto Sans Medium,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif}
+.inner_header_layer .info_profile_type1 .txt_id{font-size:14px}
+.inner_header_layer .info_profile_type1 .link_setting{bottom:10px;}/* 2019-02-26 수정 */
+.inner_header_layer .txt_email{display:block;overflow:hidden;width:170px;padding:2px 0 0;text-overflow:ellipsis;color:#909090;font-size:12px;line-height:1.5;white-space:nowrap;}
+.inner_header_layer .link_setting{position:absolute;bottom:22px;right:25px;width:14px;height:14px;background-position:-70px -20px}
+.inner_header_layer .link_setting_type2{bottom:20px;width:inherit;height:inherit;font-size:12px;color:#909090}
+.inner_header_layer .link_edit{position:absolute;bottom:10px;right:53px;width:13px;height:14px;background-position:-70px 0}/* 2019-02-26 수정 */
+.inner_header_layer .btn_logout{width:100%;height:47px;padding-left:25px;border-top:1px solid #F0F0F0;border-bottom-left-radius:3px;border-bottom-right-radius:3px;font-size:12px;line-height:1.5;color:#909090;font-family:Noto Sans DemiLight,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;text-align:left}
+.inner_header_layer .btn_logout:hover{text-decoration:underline}
+.inner_header_layer .wrap_list {overflow-y:auto;min-height:87px}/* 2019-02-26 수정 */
+.inner_header_layer .wrap_list + .wrap_toolbar {border-top:1px solid #F0F0F0}/* 2019-02-28 추가*/
+.layer_news{top:84px;right:110px;width:400px}
+.layer_profile{width:282px;right:46px;}
+.list_layer {overflow-y:auto;min-height:77px;border-bottom-left-radius:3px;border-bottom-right-radius:3px}
+.list_layer li{display:block;border-top:1px solid #F0F0F0;font-size:13px;line-height:1}
+.list_layer li:first-child{border-top:none}
+.list_layer .link_cont{display:block;overflow:hidden;position:relative;padding:17px 24px 20px;}
+.list_layer .link_cont:hover{background-color:#fafafa;text-decoration:none}
+.list_layer .on .link_cont{background-color:#f5f5f5}
+.list_layer .on .link_cont:hover{background-color:#f0f0f0}
+.list_layer .thumb_profile{float:left;margin:3px 16px 0 0}
+.list_layer .wrap_cont{overflow:hidden}
+.inner_header_layer .desc_news {overflow:hidden;padding:49px 0 49px;color:#777;font-size:13px;text-align:center;}
+.inner_header_layer .list_layer .desc_news {overflow:hidden;max-width:300px;padding:0 60px 2px 0;line-height:19px;text-align:left;border-top:none}
+.inner_header_layer .list_layer .desc_news + .desc_news{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.inner_header_layer .on .desc_news {color:#000}
+.inner_header_layer .desc_news em{display:inline-block;overflow:hidden;max-width:98px;color:#FF5544;font-family:Noto Sans Medium,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;white-space:nowrap;text-overflow:ellipsis;vertical-align:top}
+.inner_header_layer .desc_name {display:block;overflow:hidden;padding:7px 60px 0 0;font-size:12px;color:#909090;white-space:nowrap;text-overflow:ellipsis}
+.list_layer .list_date{position:absolute;top:21px;right:24px;color:#909090;font-size:12px}
+.profile_tistory .btn_log_info{display:inline-block;margin:32px 28px 0 0;vertical-align:top;border:1px solid #fff;-webkit-transition:background-color 0.5s, border-color 0.5s;-moz-transition:background-color 0.5s, border-color 0.5s;transition:background-color 0.5s, border-color 0.5s}
+@media only screen and (max-width:1260px){
+    .menu_toolbar{display: none}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+only screen and (min-resolution: 1.5dppx) {
+    .img_common_tistory{background-image:url(//t1.daumcdn.net/tistory_admin/static/top/pcrtn/img_common_tistory_190314.png)}/*2019-03-14 이미지경로수정 */
+}

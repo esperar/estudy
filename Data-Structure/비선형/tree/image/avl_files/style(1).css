@@ -1,0 +1,327 @@
+@charset "utf-8";
+
+.tistoryProfileLayerTrigger {
+    width:40px;
+    height:13px;
+    display:inline-block;
+    cursor:pointer;
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/ico_profile.png) no-repeat;
+    margin:0 4px;
+}
+
+* html .tistoryProfileLayerTrigger {
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/profilelayer/ico_profile.png',sizingMethod ='crop');
+}
+
+#tistoryProfileLayer {
+    width:172px;
+    display:block;
+    position:absolute;
+    visibility:hidden;
+    z-index:99999;
+    text-align:left;
+}
+
+#tistorySidebarProfileLayer {
+    width:172px;
+    display:block;
+    text-align:left;
+    margin:0 auto;
+}
+
+#tistorySidebarProfileLayer div {
+    margin:0;
+    padding:0;
+    float:none;
+}
+
+#tistoryProfileLayer ul.itemWrap,
+#tistorySidebarProfileLayer ul.itemWrap {
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-size:0;
+    position:relative;
+    width:auto;
+}
+
+#tistoryProfileLayer ul li,
+#tistorySidebarProfileLayer ul li {
+    padding:0 !important;
+    margin:0;
+    border:0 none;
+    display:block;
+}
+
+#tistoryProfileLayer .wrapTop,
+#tistorySidebarProfileLayer .wrapTop {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_comment_bg1.png) no-repeat;
+    height:3px;
+    font-size:0;
+}
+
+#tistoryProfileLayer div,
+#tistorySidebarProfileLayer div {
+    border:0 none;
+    padding:0;
+    width:auto;
+    clear:none;
+    background-color:transparent;
+    line-height:normal;
+}
+
+* html #tistoryProfileLayer .wrapTop {
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_comment_bg1.png',sizingMethod ='crop');
+}
+
+* html #tistorySidebarProfileLayer .wrapTop {
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_comment_t6.png',sizingMethod ='crop');
+}
+
+#tistoryProfileLayer .wrapMiddle,
+#tistorySidebarProfileLayer .wrapMiddle {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_comment_bg2.png) no-repeat;
+}
+
+* html #tistoryProfileLayer .wrapMiddle {
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_comment_bg2.png',sizingMethod ='crop');
+}
+
+* html #tistorySidebarProfileLayer .wrapMiddle {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_comment_m6.gif) repeat-y;
+}
+
+#tistoryProfileLayer .wrapMiddle li.item,
+#tistorySidebarProfileLayer .wrapMiddle li.item {
+    height:29px;
+    margin:0 2px;
+    padding-top:1px !important;
+    font-family:dotum;
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/ico_dotted.gif) repeat-x left top !important;
+    width:auto;
+    line-height:normal;
+    float:none;
+}
+
+#tistoryProfileLayer .wrapMiddle li.item.first {
+    background-image:none !important;
+    height:21px;
+    padding-top:3px !important;
+}
+
+#tistorySidebarProfileLayer .wrapMiddle li.item.first  {
+    background:none !important
+}
+
+#tistoryProfileLayer .wrapMiddle .innerItem,
+#tistorySidebarProfileLayer .wrapMiddle .innerItem {
+    padding:7px 0 0 10px;
+    height:23px;
+    font-size:11px;
+    color:#999;
+}
+
+#tistoryProfileLayer .wrapMiddle .innerItem a,
+#tistorySidebarProfileLayer .wrapMiddle .innerItem a {
+    color:#333;
+    text-decoration:none;
+    letter-spacing:-1px;
+    white-space:nowrap;
+    border:0 none;
+    width:131px;
+    padding:0;
+    display:inline-block;
+    font-family:dotum;
+    font-size:11px;
+    overflow:hidden;
+}
+
+#tistoryProfileLayer .wrapMiddle .innerItem a .info,
+#tistorySidebarProfileLayer .wrapMiddle .innerItem a .info {
+    color:#999;
+    background:none;
+    border:0 none;
+    margin:0;
+    padding:0 1px 0 0;
+}
+
+#tistoryProfileLayer .wrapMiddle .innerItem a .info .infoCount,
+#tistorySidebarProfileLayer .wrapMiddle .innerItem a .info .infoCount {
+    color:#999;
+    font-weight:bold;
+}
+
+#tistoryProfileLayer .wrapMiddle .innerItem .favicon,
+#tistorySidebarProfileLayer .wrapMiddle .innerItem .favicon {
+    margin:0 6px 0 0;
+    vertical-align:top;
+}
+
+#tistoryProfileLayer .wrapMiddle .item.first .innerItem {
+    padding:0 0 0 10px;
+    height:22px;
+    background-position:center top;
+}
+
+#tistoryProfileLayer .wrapMiddle .innerItem.hover,
+#tistorySidebarProfileLayer .wrapMiddle .innerItem.hover {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_select_box.gif) no-repeat;
+}
+
+#tistoryProfileLayer .wrapMiddle .innerItem.hover a,
+#tistoryProfileLayer .wrapMiddle .innerItem.hover a .info,
+#tistoryProfileLayer .wrapMiddle .innerItem.hover a .info .infoCount,
+#tistorySidebarProfileLayer .wrapMiddle .innerItem.hover a,
+#tistorySidebarProfileLayer .wrapMiddle .innerItem.hover a .info,
+#tistorySidebarProfileLayer .wrapMiddle .innerItem.hover a .info .infoCount {
+    text-decoration:underline;
+    color:#ff621d;
+}
+
+#tistoryProfileLayer .wrapBottom {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_comment_p2.png) no-repeat;
+    height:52px;
+    padding:5px 0 0 10px;
+}
+
+* html #tistoryProfileLayer .wrapBottom {
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_comment_p2.png',sizingMethod ='crop');
+}
+
+#tistorySidebarProfileLayer .wrapBottom {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_sidebar_p2.png) no-repeat;
+    height:52px;
+    padding:5px 0 0 10px;
+}
+
+* html #tistorySidebarProfileLayer .wrapBottom {
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_sidebar_p6.png',sizingMethod ='crop');
+}
+
+#tistoryProfileLayer .wrapBottomM {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_comment_bg3.png) no-repeat;
+    height:52px;
+    padding:10px 0 0 10px;
+}
+
+* html #tistoryProfileLayer .wrapBottomM {
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_comment_bg3.png',sizingMethod ='crop');
+}
+
+#tistorySidebarProfileLayer .wrapBottomM {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_sidebar_b2.png) no-repeat;
+    height:52px;
+    padding:10px 0 0 10px;
+}
+
+* html #tistorySidebarProfileLayer .wrapBottomM {
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/profilelayer/bg_sidebar_b6.png',sizingMethod ='crop');
+}
+
+#tistoryProfileLayer .profileInfoWrap,
+#tistorySidebarProfileLayer .profileInfoWrap {
+    float:left;
+    width:109px;
+    padding-top:1px;
+    position:relative;
+}
+
+#tistoryProfileLayer .profileInfoWrap .profileTitle a.title,
+#tistorySidebarProfileLayer .profileInfoWrap .profileTitle a.title {
+    font-family:dotum;
+    font-weight:bold;
+    font-size:11px;
+    color:#333;
+    width:85px;
+    overflow:hidden;
+    display:inline-block;
+    white-space:nowrap;
+    float:left;
+    text-decoration:none;
+    padding:0;
+    margin:0;
+    border:0 none;
+}
+
+#tistoryProfileLayer .profileTitle .AddRss {
+    float: right;
+}
+
+#tistoryProfileLayer .profileTitle .AddRss,
+#tistorySidebarProfileLayer .profileTitle .AddRss {
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:7px;
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bt_plus.gif) no-repeat;
+    width:14px;
+    height:14px;
+    border:0 none;
+    padding:0;
+    display:inline-block;
+}
+
+#tistoryProfileLayer .profileInfoWrap .profileNickname,
+#tistorySidebarProfileLayer .profileInfoWrap .profileNickname {
+    color:#999;
+    letter-spacing:-1px;
+    margin-top:3px;
+    clear:both;
+    font-size:11px;
+    width:110px;
+    overflow:hidden;
+    white-space:nowrap
+}
+
+#tistoryProfileLayer .profileImageWrap,
+#tistorySidebarProfileLayer .profileImageWrap {
+    float:left;
+    width:35px;
+    height:35px;
+    margin-right:8px;
+    display:inline;
+    position:relative;
+}
+
+#tistoryProfileLayer .profileButtonWrap,
+#tistorySidebarProfileLayer .profileButtonWrap {
+    height:8px;
+    padding-top:5px;
+    position:relative;
+}
+
+#tistoryProfileLayer .profileButtonWrap .profileHelp,
+#tistorySidebarProfileLayer .profileButtonWrap .profileHelp {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bt_help.gif) no-repeat;
+    width:6px;
+    height:8px;
+    display:inline-block;
+    float:right;
+}
+
+#tistoryProfileLayer .profileButtonWrap .profileClose,
+#tistorySidebarProfileLayer .profileButtonWrap .profileClose {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/bt_close_x2.gif) no-repeat;
+    width:7px;
+    height:7px;
+    display:inline-block;
+    float:right;
+    margin-right:8px;
+    cursor:pointer;
+}
+
+#tistoryProfileLayer .profileButtonWrap .div,
+#tistorySidebarProfileLayer .profileButtonWrap .div {
+    background:url(//t1.daumcdn.net/tistory_admin/static/profilelayer/img_topline.gif) no-repeat;
+    margin:0 7px;
+    width:1px;
+    height:7px;
+    float:right;
+}

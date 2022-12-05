@@ -1,0 +1,353 @@
+@CHARSET "UTF-8";
+
+#tt_wrapSameIdAlert p,
+#tt_wrapSameIdAlert button {
+    margin: 0;
+    padding: 0;
+}
+
+#tt_wrapSameIdAlert button {
+    border: none;
+}
+
+#tt_wrapSameIdAlert .hide {
+    display: none !important;
+}
+
+#tt_wrapSameIdAlert .wrap_popup {
+    position: absolute;
+    width: 378px;
+    z-index: 99;
+}
+
+#tt_wrapSameIdAlert .wrap_dialog {
+    position: relative;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_btn .btn_dialog {
+    background-image: url(//t1.daumcdn.net/tistory_admin/static/admin/new/btn_comm.gif);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .label_dialog {
+    position: absolute;
+    left: -10000em;
+    top: -10000em
+}
+
+#tt_wrapSameIdAlert .wrap_popup .bg_top {
+    display: block;
+    width: 100%;
+    height: 14px;
+    background: url(//t1.daumcdn.net/tistory_admin/static/admin/new/popup_basetop.png) 0 0 no-repeat;
+    _background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/popup_basetop.png', sizingMethod='scale');
+    _zoom: 1;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .bg_top .tit {
+    display: none;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .wrap_popuplayer {
+    overflow: hidden;
+    width: 100%;
+    background: url(//t1.daumcdn.net/tistory_admin/static/admin/new/popup_basemiddle.png) 0 0 repeat-y;
+    _background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/popup_basemiddle.png', sizingMethod='scale');
+    _zoom: 1;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .bg_bottom {
+    display: block;
+    width: 100%;
+    height: 14px;
+    background: url(//t1.daumcdn.net/tistory_admin/static/admin/new/popup_basebottom.png) 0 0 no-repeat;
+    _background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/popup_basebottom.png', sizingMethod='scale');
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_close {
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    width: 28px;
+    height: 28px
+}
+
+#tt_wrapSameIdAlert .wrap_popup .btn_popup {
+    overflow: hidden;
+    width: 28px;
+    height: 28px;
+    background: url(//t1.daumcdn.net/tistory_admin/static/admin/new/popup_close.png) 0 0 no-repeat;
+    _background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/popup_close.png', sizingMethod='scale');
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option {
+    overflow: hidden;
+    float: left;
+    width: 378px;
+    padding: 31px 0 34px;
+    position: relative;
+    _zoom: 1;
+    height: 100%;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .txt_link {
+    font: 14px/21px dotum, sans-serif;
+    width: 342px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .txt_link_more {
+    margin-top: 8px;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .notice_sameId {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    color: #666;
+    margin-left: 20px;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .notice_sameId .more_info {
+    color: #444;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .select {
+    margin-top: 26px;
+    text-align: center;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .select select {
+    width: 194px;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .select .group {
+    padding-right: 14px;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .box_check {
+    overflow: hidden;
+    padding: 21px 0 2px;
+    margin: 0 24px 0 20px;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .box_check input {
+    float: left;
+    width: 13px;
+    height: 13px;
+    font-size: 0;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .box_check label {
+    float: left;
+    width: 98px;
+    padding-left: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #666;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_btn {
+    overflow: hidden;
+    width: 350px;
+    height: 25px;
+    margin: 0 auto;
+    padding: 12px 0 8px;
+    border-top: 1px solid #e7e7e7;
+    clear: both;
+    text-align: center;
+    _zoom: 1;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_btn .btn_pluginno {
+    *margin-left: 4px;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .txt,
+#tt_wrapSameIdAlert .wrap_popup .list_option,
+#tt_wrapSameIdAlert .wrap_popup .more {
+    display: none;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .dialog_buttons {
+    position: relative
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup {
+    position: absolute;
+    width: 413px;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .bg_top {
+    display: block;
+    width: 100%;
+    height: 46px;
+    background: url(//t1.daumcdn.net/tistory_admin/static/admin/new/popup_bgtop.png) 0 0 no-repeat;
+    _background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/popup_bgtop.png', sizingMethod='scale');
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .bg_top .tit {
+    display: block;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .wrap_popuplayer {
+    height: 1%;
+    background: url(//t1.daumcdn.net/tistory_admin/static/admin/new/popup_bgmiddle.png) 0 0 repeat-y;
+    _background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/popup_bgmiddle.png', sizingMethod='scale');
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .bg_bottom {
+    display: block;
+    width: 100%;
+    height: 14px;
+    background: url(//t1.daumcdn.net/tistory_admin/static/admin/new/popup_bgbottom.png) 0 0 no-repeat;
+    _background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/admin/new/popup_bgbottom.png', sizingMethod='scale');
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .txt,
+#tt_wrapSameIdAlert .wrap_titpopup .list_option,
+#tt_wrapSameIdAlert .wrap_titpopup .more {
+    display: block;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .tit {
+    padding: 19px 0 0 28px;
+    font: 14px/16px dotum;
+    color: #444;
+    letter-spacing: -1px;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .txt {
+    margin: 0 24px 0 20px;
+    font: 12px/18px dotum;
+    color: #666;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .list_option {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .list_option input {
+    float: left;
+    width: 224px;
+    height: 20px;
+    padding: 3px 5px 0;
+    border: 1px solid #b6b6b6;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .list_option dt {
+    float: left;
+    width: 49px;
+    height: 25px;
+    margin-top: 8px;
+    padding-left: 20px;
+    clear: both;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .list_option dd {
+    float: left;
+    width: 285px;
+    height: 25px;
+    margin-top: 8px;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .list_option .btn_comm {
+    float: left;
+    width: 38px;
+    height: 23px;
+    margin: 1px 0 0 4px;
+    background-position: -340px -50px;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .more {
+    width: 320px;
+    margin: 19px 0 0 20px;
+    font: 11px/16px dotum;
+    color: #aaa;
+    letter-spacing: -1px;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .box_btn {
+    width: 369px;
+    text-align: center;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .box_option {
+    width: 369px;
+    padding: 24px 22px 21px;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option, .wrap_popup .box_btn {
+    position: relative;
+    z-index: 200;
+}
+
+#tt_wrapSameIdAlert .mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 98;
+    background: url(//t1.daumcdn.net/tistory_admin/static/tabloid/edit/png.png) repeat;
+    _background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//t1.daumcdn.net/tistory_admin/static/tabloid/edit/png.png', sizingMethod='scale');
+}
+
+#tt_wrapSameIdAlert .btn_checkno {
+    width: 53px;
+    height: 25px;
+    background-position: -320px -370px;
+}
+
+#tt_wrapSameIdAlert .btn_pluginok {
+    width: 45px;
+    height: 25px;
+    background-position: -320px -25px;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_btn .btn_pluginchange {
+    width: 96px;
+    height: 25px;
+    margin-left: 5px;
+    background: url("//t1.daumcdn.net/tistory_admin/static/personal/btn_change_pw.gif") no-repeat scroll 0 0 transparent;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_btn .btn_pluginmove {
+    width: 71px;
+    height: 25px;
+    margin-left: 5px;
+    background: url("//t1.daumcdn.net/tistory_admin/static/personal/btn_cs.gif") no-repeat scroll 0 0 transparent;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .ip_info {
+    color: #444;
+    padding-top: 12px;
+}
+
+#tt_wrapSameIdAlert .wrap_popup .box_option .ip_info a {
+    color: #4F81BD;
+    text-decoration: underline;
+}
+
+#tt_wrapSameIdAlert .wrap_titpopup .sameId_box_option {
+    padding: 24px 22px 15px;
+    width: 369px;
+}
+
+img.txc-emo {
+    width: auto !important;
+    display: inline !important
+}
