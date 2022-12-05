@@ -22,7 +22,7 @@ Balance Factor는 왼쪽 서브트리의 높이에서 오른쪽 서브트리의 
 
 다음은 AVL 트리의 예입니다. BF가 -1과 +1 사이에 있음을 알 수 있습니다.
 
-![](./image/avl)
+![](./image/avl.png)
 
 <br>
 
@@ -39,4 +39,89 @@ AVL트리는 이진 탐색 트리이기 때문에 모든 작업은 이진 탐색
 삽입 삭제시 노드들의 배열에 따라 4가지 (LL, RR , LR , RL) 불균형이 발생할 수 있으며 각 상황마다 rotation에 방향을 달리하여 트리의 균형을 맞춥니다.  
 
 #### LL Left Left Case
+
+y는 z의 왼쪽 자식 노드이고, x는 y의 왼쪽 자식 노드인 경우 right rotation을 수행하여 균형을 맞춥니다.
+  
+right rotation 수행 과정
+- y노드의 오른쪽 자식 노드를 z노드로 변경합니다.
+- z노드의 왼쪽 자식 노드를 y노드 오른쪽 서브트리로 변경합니다.
+- y는 새로운 루트 노드가 됩니다.
+
+![](./image/LLcase.png)
+
+#### Right Rotation 구현
+
+```c
+struct node *rightRotate (struct node *z) {
+  struct node *y = z->left;
+  struct node *T2 = y->right;
+
+// right 회전 수행
+  y->right = z;
+  z->left = T2;
+
+// 노드 높이 갱신
+  z->height = 1 + max(z->left->height, z->right->height);
+  y->height = 1 + max(y->left->height, y->right->height);
+
+// 새로운 루트 노드 y를 반환  
+  return y;
+}
+```
+
+<br>
+
+#### RR Right Right Case
+y는 z의 오른쪽 자식 노드이고, x는 y의 오른쪽 자식 노드인 경우 left rotation을 수행하여 균형을 맞춥니다.
+
+left rotation 수행 과정
+- y노드의 왼쪽 자식 노드를 z노드로 변경합니다.
+- z노드 오른쪽 자식 노드를 y노드 왼쪽 서브트리로 변경합니다.
+
+![](./image/rr.png)
+
+#### Left Rotation 구현
+
+```c
+struct node *leftRotate (struct node *z) {
+  struct node *y = z->right;
+  struct node *T2 = y->left;
+
+// left 회전 수행
+  y->left = z;
+  z->right = T2;
+
+// 노드 높이 갱신
+  z->height = 1 + max(z->left->height, z->right->height);
+  y->height = 1 + max(y->left->height, y->right->height);
+
+// 새로운 루트 노드 y를 반환  
+  return y;
+}
+```
+
+#### Left Right LR Case
+y는 z의 왼쪽 자식 노드이고 x는 y의 오른쪽 자식 노드인 경우 Left Right 순으로 총 두번의 rotation을 수행하여 균형을 맞춥니다.
+
+![](./image/lr.png)
+
+#### 구현
+
+```java
+y = z->left;
+y = leftRotate(y);
+z = rightRotate(z);
+```
+
+### RL Right Left case
+y는 z은 오른쪽 자식 노드이고, x는 y의 왼쪽 자식 노드인 경우, right left 순으롷 총 두번에 rotation을 수행하여 균형을 맞춥니다.
+
+![](./image/rl.png)
+
+#### 구현
+```
+y = z->right;
+y = rightRotate(y);
+z = leftRotate(z);
+```
 
