@@ -32,6 +32,7 @@
 - [Controller, Service, Repository 역할](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/cre.md)
 - [IoC 컨테이너 (Inversion of Controll)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/ioc.md)
 - [스프링 빈(Bean)과 빈 등록 방법](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/bean.md)
+- [Spring AOP (Aspect Oriented Programming) 개념](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/aop.md)
 - [Spring의 대표적인 @Annotation과 역할](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/annotation.md)
 - [Spring JDBC와 DataSorce 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/jdbc.md)
 - [스프링 패키지 구조(Spring Package Structure) - 계층형 vs 도메인형](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/package.md)
