@@ -48,3 +48,13 @@ IP 주소를 문자로 표현한 주소
 
 ![](./image/dnsserver.png)
 
+1. DNS 서버에 DNS Query(www.example.com)를 전송
+ : 우리나라의 경우에는 통신사별로 지정된 DNS 서버가 있다.
+2. DNS 서버는 루트 네임 서버에 DNS Query를 질의한다.
+ : 루트 네임 서버는 .com의 ip주소를 반환한다.
+3. .com 네임 서버에 DNS 쿼리를 질의한다.
+ : .com 네임 서버는 example.com의 ip주소를 반환한다.
+4. example.com 네임 서버에 DNS 쿼리를 질의한다.
+ : www.example.com의 IP 주소를 반환한다.
+
+ DNS 서버는 계층화 구조를 이루는데, 최상단인 계층인 가장 뒤쪽(.com .kr 등등)을 담당하는 DNS 서버는 전세계에 13개 뿐이다.
