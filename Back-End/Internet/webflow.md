@@ -58,3 +58,15 @@ IP 주소를 문자로 표현한 주소
  : www.example.com의 IP 주소를 반환한다.
 
  DNS 서버는 계층화 구조를 이루는데, 최상단인 계층인 가장 뒤쪽(.com .kr 등등)을 담당하는 DNS 서버는 전세계에 13개 뿐이다.
+
+ <br>
+
+ ### 웹 서버 접속
+
+위의 과정으로 접속하려는 서버의 IP 주소를 알아냈다.
+1. HTTP Request를 위해 TCP socket을 개방하고 연결한다.
+
+![](./image/websocket.png)
+
+2. TCP 연결에 성공하면, HTTP Request가 TCP socket을 통해 보내짐
+3. 웹 페이지의 정보가 응답으로 돌아옴
