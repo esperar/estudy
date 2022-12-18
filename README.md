@@ -48,7 +48,10 @@
 - [(Spring boot + Security) SecurityConfig 설정하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/scuconfig.md)
 - [Swagger를 활용한 API 문서 자동화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/swagger.md)
 
- #### Node.js
+#### JPA
+- [영속성 컨텍스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/persistcontext.md)
+
+#### Node.js
 
  - [Node.js 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
  - [npm 기초 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm.md)
