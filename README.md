@@ -50,7 +50,7 @@
 
 #### JPA
 - [영속성 컨텍스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/persistcontext.md)
-
+- [플러시 (flush)](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/flush.md)
 #### Node.js
 
  - [Node.js 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
