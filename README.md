@@ -63,6 +63,7 @@
 - [ORM의 개념과 종류, 활용 방안](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/ORMs.md)
 - [트랜잭션과 ACID](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/ACID.md)
 - [데이터베이스 정규화(Normalization)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/normal.md)
+- [데이터베이스 성능을 위한 Index와 동작원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/index.md)
 
 
 #### Node.js
