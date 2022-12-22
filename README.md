@@ -48,19 +48,21 @@
 - [(Spring boot + Security) SecurityConfig 설정하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/scuconfig.md)
 - [Swagger를 활용한 API 문서 자동화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/swagger.md)
 
-#### JPA
+#### JPA & Hibernate
 
 - [영속성 컨텍스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/persistcontext.md)
 - [플러시 (flush)](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/flush.md)
 
-### DB
-- [데이터베이스 맛보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
+#### DataBase
+- [데이터베이스 맛보기](http:/`/github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [What is DataBase?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
 - [DataBase Mangement System](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
 - [MySQL Query문 정리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
 - [DDL(데이터 정의어)](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/ddl.md)
 - [키(Key)의 개념 및 종류](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/database/key.md)
 - [ORM의 개념과 종류, 활용 방안](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/database/ORMs.md)
+- [트랜잭션과 ACID](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/database/ACID.md)
+
 
 #### Node.js
 
