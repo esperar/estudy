@@ -70,7 +70,6 @@
 
 
 #### Node.js
-
  - [Node.js 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
  - [npm 기초 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm.md)
  - [패키지 설치와 삭제](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/npm1.md)
@@ -89,6 +88,15 @@
     - [프록시 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/구조/proxyp.md)
     - [어댑터 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/구조/adapter.md)
 
+
+#### DevOps
+- [도커와 쿠버네티스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/doker.md)
+- [클라우드와 AWS의 기본 개념](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/aws.md)
+- [IaaS, PaaS, SaaS 차이](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/XaaS.md)
+- [Amazon Web Service EC2란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/ec2.md)
+- [CI/CD 파이프라인과 구현과정](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/cicd.md)
+- [가상머신(Virtual Machine) vs 컨테이너(Container)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/vircon.md)
+- [도커(Doker)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Doker/doker.md)
 
 **모든 개발자를 위한 HTTP 웹 기본 지식**
 - 인터넷 네트워크
@@ -160,14 +168,6 @@
 - [테스트의 종류 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
 - [워크스루와 인스펙션](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/검토.md)
 - [TDD란 (테스트 주도 개발)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/test/tdd.md)
-
-#### DevOps
-- [도커와 쿠버네티스](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/doker.md)
-- [클라우드와 AWS의 기본 개념](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/aws.md)
-- [IaaS, PaaS, SaaS 차이](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/XaaS.md)
-- [Amazon Web Service EC2란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/ec2.md)
-- [CI/CD 파이프라인과 구현과정](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/cicd.md)
-- [가상머신(Virtual Machine) vs 컨테이너(Container)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/vircon.md)
 
 #### 자료구조
 - 선형 구조
