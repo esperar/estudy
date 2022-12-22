@@ -167,7 +167,7 @@
 - [IaaS, PaaS, SaaS 차이](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/XaaS.md)
 - [Amazon Web Service EC2란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/ec2.md)
 - [CI/CD 파이프라인과 구현과정](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/cicd.md)
-- [가상머신(Virtual Machine) vs 컨테이너(Container)](ttp://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/vircon.md)
+- [가상머신(Virtual Machine) vs 컨테이너(Container)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/vircon.md)
 
 #### 자료구조
 - 선형 구조
