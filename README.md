@@ -49,8 +49,19 @@
 - [Swagger를 활용한 API 문서 자동화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/swagger.md)
 
 #### JPA
+
 - [영속성 컨텍스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/persistcontext.md)
 - [플러시 (flush)](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/flush.md)
+
+### DB
+- [데이터베이스 맛보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
+- [What is DataBase?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
+- [DataBase Mangement System](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
+- [MySQL Query문 정리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
+- [DDL(데이터 정의어)](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/ddl.md)
+- [키(Key)의 개념 및 종류](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/database/key.md)
+- [ORM의 개념과 종류, 활용 방안](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/database/ORMs.md)
+
 #### Node.js
 
  - [Node.js 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Node/node.md)
@@ -62,11 +73,11 @@
 
 
 #### Design Pattern
-- [디자인 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/designp.md)
-- [싱글톤 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/singleton.md)
-- [어댑터 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/adapter.md)
-- [프록시 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/proxyp.md)
-- [템플릿 메서드 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/designP/template.md)
+- [디자인 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/designp.md)
+- [싱글톤 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/singleton.md)
+- [어댑터 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/adapter.md)
+- [프록시 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/proxyp.md)
+- [템플릿 메서드 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/template.md)
 
 **모든 개발자를 위한 HTTP 웹 기본 지식**
 - 인터넷 네트워크
@@ -105,13 +116,6 @@
   - [캐시와 조건부 요청 헤더](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더2/cachehead.md)
   - [프록시 캐시, 캐시 무효화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/http/HTTP헤더2/proxy.md)
 
-#### DataBase
-- [데이터베이스 맛보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
-- [What is DataBase?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
-- [DataBase Mangement System](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database2.md)
-- [MySQL Query문 정리](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/sql.md)
-- [DDL(데이터 정의어)](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/ddl.md)
-- [키(Key)의 개념 및 종류](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/database/key.md)
 
 #### Internet & Network
 - [네트워크의 기초 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/network.md)
