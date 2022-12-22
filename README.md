@@ -65,6 +65,7 @@
 - [데이터베이스 정규화(Normalization)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/normal.md)
 - [데이터베이스 성능을 위한 Index와 동작원리](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/index.md)
 - [리플리케이션(Replication) vs 클러스터링(Clustering)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/rep_clu.md)
+- [DataBase Sharding (분산처리)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/sharding.md)
 
 
 #### Node.js
