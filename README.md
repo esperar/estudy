@@ -43,10 +43,10 @@
 - [(스프링/Spring URL) Mapping 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mapping.md)
 - [Spring Security Access Token & Refresh Token](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/token.md)
 - [Jwt (Json Web Token) 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/jwt.md)
-- [Spring Validation을 이용한 유효성 검증](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/valid.md)
-- [Spring boot @ExceptionHandler를 통한 예외처리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/exception.md)
-- [(Spring boot + Security) SecurityConfig 설정하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/scuconfig.md)
-- [Swagger를 활용한 API 문서 자동화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/Spring/swagger.md)
+- [Spring Validation을 이용한 유효성 검증](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/valid.md)
+- [Spring boot @ExceptionHandler를 통한 예외처리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/exception.md)
+- [(Spring boot + Security) SecurityConfig 설정하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/scuconfig.md)
+- [Swagger를 활용한 API 문서 자동화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/swagger.md)
 
 #### JPA & Hibernate
 
