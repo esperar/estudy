@@ -1,7 +1,8 @@
 #### Backend & Dev
 - [인증(Authentication) vs 인가(Authorization)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/auth.md)
 - [개발자라면 꼭 해야하는 Log 관리, Slf4j Logger](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/logger.md)
-- [MSA 마이크로서비스 아키텍쳐 (MicroService Architecture)란?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/msa.md)
+- [마이크로서비스 아키텍쳐 (MicroService Architecture)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/msa.md)
+- [모놀리식 아키텍처 (Monolithic Architecture)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/mono.md)
 - [Back-end API 문서 효율적인 설계방법](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/api.md)
 - [Java Backend 웹 기술 역사](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/history.md)
 - [클린 아키텍처 with Spring boot](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/cleanspring.md)
