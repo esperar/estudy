@@ -54,7 +54,7 @@
 - [영속성 컨텍스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/persistcontext.md)
 - [플러시 (flush)](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/flush.md)
 - [객체와 테이블 매핑](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/table/entity.md)
-- []()
+- [데이터베이스 스키마 자동 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/table/util.md)
 
 
 #### DataBase
