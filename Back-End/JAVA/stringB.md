@@ -4,7 +4,8 @@
 
 그렇기에 이 주제로 한번 정리를 해보려고 한다.
 
-[##_Image|kage@bKp5oh/btrWINxZAtP/xygt4xxzCGrYfmC3nqYPoK/img.png|CDM|1.3|{"originWidth":275,"originHeight":183,"style":"alignLeft","width":367}_##]
+![](image/stringbuilder.png)
+
 
 #### 자바의 문자열 클래스
 
@@ -36,7 +37,10 @@ String, StringBuilder, StringBuffer 클래스를 사용해 문자열을 선언�
 
 값을 바꾸고 hashCode로 주소값을 출력했을때 String 객체에 주소만 변환이 되어서 출력이 된다.
 
-[##_Image|kage@dEVcsV/btrWI2BpMsx/1HUem6ozvnWZC8XqIdnIl0/img.png|CDM|1.3|{"originWidth":1276,"originHeight":844,"style":"alignLeft","width":547,"height":362}_##][##_Image|kage@VrXMO/btrWJWmWQzw/PUlrr85Qwa6k3cxDbOk7e0/img.png|CDM|1.3|{"originWidth":790,"originHeight":346,"style":"alignLeft","width":457,"height":200}_##]
+![](./image/stringcode.png)
+
+![](./image/stringrun.png)
+
 
 #### String Constant Pool
 
@@ -45,6 +49,7 @@ String 변수에 값을 할당하는 방법은 2가지가 있다.
 1\. 리터럴 변수에 대입
 
 2\. new 키워드를 사용하는 방법
+
 
 리터럴 값으로 할당하는 경우와 new 키워드에 할당하는 경우에 값만 같을 경우
 
@@ -78,7 +83,10 @@ new 키워드를 통해 String 변수에 값을 할당하게 되면 일반적인
 
 String과 달리 StringBuilder와 StringBuffer는 둘 다 가변성을 갖는다고 배웠다.
 
-[##_Image|kage@LSI6y/btrWJI3sYFc/QKdjmI9G6kkgHTjlOoqx2K/img.png|CDM|1.3|{"originWidth":1502,"originHeight":186,"style":"alignLeft","width":755}_##][##_Image|kage@JlRxe/btrWKbj112i/SwbE39waSBJ7ExI0QFEFrK/img.png|CDM|1.3|{"originWidth":1456,"originHeight":168,"style":"alignLeft","width":747,"height":86}_##]
+
+![](./image/stringin1.png)
+
+![](./image/stringin2.png)
 
 위에 보이는 것처럼 두 클래스 모두 AbstractStringBuilder라는 추상 클래스를 상속받아 구현되어있기 때문이다.
 
@@ -88,11 +96,15 @@ AbstractStringBuilder 추상클래스의 멤버 변수엔 다음 2가지 변수�
 
 \- count: 현재 문자열 크기의 값을 가지는 int형 변수
 
+
+
 StringBuilder, StringBuffer클래스의 문자열을 수정하고싶으면 append()라는 메서드를 사용하게 된다.
 
 AbstractStringBuilder안에 append라는 메서드가 구현되어있는데 내부 구조는 이렇게 되어있다.
 
-[##_Image|kage@Jcyap/btrWLhRNlgF/kCCdbhbu9OEcVVatCYI8E1/img.png|CDM|1.3|{"originWidth":1366,"originHeight":490,"style":"alignLeft","width":639}_##]
+
+![](./image/stringin3.png)
+
 
 다음과 같이 문자열을 추가하게되면 추가할 문자열의 크기만큼 현재의 문자열을 저장하는 공간을 늘리고
 
