@@ -49,6 +49,9 @@
 - [Spring boot @ExceptionHandler를 통한 예외처리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/exception.md)
 - [(Spring boot + Security) SecurityConfig 설정하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/scuconfig.md)
 - [Swagger를 활용한 API 문서 자동화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/swagger.md)
+- [IoC, DI, Spring Container, Bean 완벽하게 알아보자 📗](https://esperer.tistory.com/6)
+- [AOP(Aspect Oriented Programming) 대체 뭘까? 🧐](https://esperer.tistory.com/8)
+- [디스패처 서블릿 Dispatcher-Servlet의 개념과 동작 과정 알아보기](https://esperer.tistory.com/7)
 
 #### JPA & Hibernate
 
