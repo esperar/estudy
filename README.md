@@ -30,6 +30,7 @@
 - [래퍼 클래스(Wrapper Class), 박싱 언박싱](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/wrapper.md)
 - [SocketAdress 클래스 & NetworkInterface 클래스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/javanet.md)
 - [Java String, StringBuilder, StringBuffer 차이 알아보기 📗](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/stringB.md)
+- [POJO (Plain Old Java Object) 알아보기](https://esperer.tistory.com/12)
 
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
