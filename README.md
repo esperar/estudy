@@ -6,6 +6,7 @@
 - [Back-end API 문서 효율적인 설계방법](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/api.md)
 - [Java Backend 웹 기술 역사](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/history.md)
 - [클린 아키텍처 with Spring boot](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/cleanspring.md)
+- [OAuth 2.0 개념과 권한 부여 방식 알아보기](https://esperer.tistory.com/14)
 
 
 #### Java & OOP
