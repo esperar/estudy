@@ -55,6 +55,7 @@
 - [AOP(Aspect Oriented Programming) 대체 뭘까? 🧐](https://esperer.tistory.com/8)
 - [디스패처 서블릿 Dispatcher-Servlet의 개념과 동작 과정 알아보기](https://esperer.tistory.com/7)
 - [Servlet Filter, Spring Intercepter 특징과 차이 이해하기](https://esperer.tistory.com/9)
+- [[Kotlin, Spring boot] copy() 깊은복사, 얕은복사 성능상의 이점? 🤔](https://esperer.tistory.com/16)
 
 #### JPA & Hibernate
 
