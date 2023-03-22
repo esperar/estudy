@@ -56,9 +56,9 @@
 - [디스패처 서블릿 Dispatcher-Servlet의 개념과 동작 과정 알아보기](https://esperer.tistory.com/7)
 - [Servlet Filter, Spring Intercepter 특징과 차이 이해하기](https://esperer.tistory.com/9)
 - [[Kotlin, Spring boot] copy() 깊은복사, 얕은복사 성능상의 이점? 🤔](https://esperer.tistory.com/16)
+- [[Kotlin, Spring boot] 검색 api에서 find Query vs Internal Function 데이터 처리 효율? 🤔](https://esperer.tistory.com/17)
 
 #### JPA & Hibernate
-
 - [영속성 컨텍스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/persistcontext.md)
 - [플러시 (flush)](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/flush.md)
 - [객체와 테이블 매핑](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/table/entity.md)
