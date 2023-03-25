@@ -8,6 +8,7 @@
 - [클린 아키텍처 with Spring boot](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/cleanspring.md)
 - [OAuth 2.0 개념과 권한 부여 방식 알아보기](https://esperer.tistory.com/14)
 - [DDD(Domain Driven Design) 도메인 주도 설계 알아보기](https://esperer.tistory.com/18)
+- [[Domain-Driven-Design] 바운디드 컨텍스트 (Bounded-Context)](https://esperer.tistory.com/19)
 
 
 #### Java & OOP
@@ -31,7 +32,7 @@
 - [StringBuilder 사용법과 주요 메서드](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/StringBuilder.md)
 - [래퍼 클래스(Wrapper Class), 박싱 언박싱](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/wrapper.md)
 - [SocketAdress 클래스 & NetworkInterface 클래스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/javanet.md)
-- [Java String, StringBuilder, StringBuffer 차이 알아보기 📗](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/stringB.md)
+- [Java String, StringBuilder, StringBuffer 차이 알아보기 ](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/stringB.md)
 - [POJO (Plain Old Java Object) 알아보기](https://esperer.tistory.com/12)
 
 #### Spring boot
@@ -52,12 +53,12 @@
 - [Spring boot @ExceptionHandler를 통한 예외처리](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/exception.md)
 - [(Spring boot + Security) SecurityConfig 설정하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/scuconfig.md)
 - [Swagger를 활용한 API 문서 자동화](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/swagger.md)
-- [IoC, DI, Spring Container, Bean 완벽하게 알아보자 📗](https://esperer.tistory.com/6)
-- [AOP(Aspect Oriented Programming) 대체 뭘까? 🧐](https://esperer.tistory.com/8)
+- [IoC, DI, Spring Container, Bean 완벽하게 알아보자](https://esperer.tistory.com/6)
+- [AOP(Aspect Oriented Programming) 대체 뭘까?](https://esperer.tistory.com/8)
 - [디스패처 서블릿 Dispatcher-Servlet의 개념과 동작 과정 알아보기](https://esperer.tistory.com/7)
 - [Servlet Filter, Spring Intercepter 특징과 차이 이해하기](https://esperer.tistory.com/9)
-- [[Kotlin, Spring boot] copy() 깊은복사, 얕은복사 성능상의 이점? 🤔](https://esperer.tistory.com/16)
-- [[Kotlin, Spring boot] 검색 api에서 find Query vs Internal Function 데이터 처리 효율? 🤔](https://esperer.tistory.com/17)
+- [[Kotlin, Spring boot] copy() 깊은복사, 얕은복사 성능상의 이점?](https://esperer.tistory.com/16)
+- [[Kotlin, Spring boot] 검색 api에서 find Query vs Internal Function 데이터 처리 효율?](https://esperer.tistory.com/17)
 
 #### JPA & Hibernate
 - [영속성 컨텍스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/persistcontext.md)
