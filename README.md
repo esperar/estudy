@@ -62,10 +62,10 @@
 - [[Kotlin, Spring boot] 검색 api에서 find Query vs Internal Function 데이터 처리 효율?](https://esperer.tistory.com/17)
 
 #### JPA & Hibernate
-- [영속성 컨텍스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/persistcontext.md)
-- [플러시 (flush)](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/persistence/flush.md)
-- [객체와 테이블 매핑](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/table/entity.md)
-- [데이터베이스 스키마 자동 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/jpa/table/util.md)
+- [영속성 컨텍스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/persistence/persistcontext.md)
+- [플러시 (flush)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/persistence/flush.md)
+- [객체와 테이블 매핑](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/table/entity.md)
+- [데이터베이스 스키마 자동 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/table/util.md)
 
 
 #### DataBase
@@ -112,12 +112,12 @@
 - [CI/CD 파이프라인과 구현과정](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/cicd.md)
 - [가상머신(Virtual Machine) vs 컨테이너(Container)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/vircon.md)
 - [데몬(daemon) 프로세스의 정의](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/데몬프로세스.md)
-- [도커(Docker)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Docker/docker.md)
-  - [컨테이너 제어 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Docker/컨테이너제어명령어.md)
-  - [컨테이너 관리 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Docker/컨테이너관리명령어.md)
-  - [이미지 관련 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/Docker/이미지관련명령어.md)
-  - [Docker Swarm](http://github.com/KIMHUEMANG/MyTIL/blob/master/Docker/swarm.md)
-  - [spring boot 프로젝트를 Docker를 사용해 배포하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Docker/spring_docker.md)
+- [도커(Docker)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/Docker/docker.md)
+  - [컨테이너 제어 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/Docker/컨테이너제어명령어.md)
+  - [컨테이너 관리 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/Docker/컨테이너관리명령어.md)
+  - [이미지 관련 명령어](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/Docker/이미지관련명령어.md)
+  - [Docker Swarm](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/Docker/swarm.md)
+  - [spring boot 프로젝트를 Docker를 사용해 배포하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/Docker/spring_docker.md)
 
 
 **모든 개발자를 위한 HTTP 웹 기본 지식**
@@ -258,15 +258,15 @@
 
 
 #### Git
-- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic.md">git이란 무엇인가?<a>  
-- [Git 버전확인하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/version.md)  
-- [git 기초 문법 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/basic2.md)  
-- [branch와 리퍼지토리 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/branch.md)  
-- [다른 사람의 Repository 가져오기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pushR.md)  
-- [commit과 버전 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/revert.md)
-- [원격저장소 동기화하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/pull.md)
-- [pull request 알아보기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/request.md)
-- [git log와 사용법](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/log.md)
-- [충돌 방지하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/conflict.md)
-- [GitHub 갖가지 용어정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/용어.md)
-- [git/github Issue란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/git/issue.md)
+- <a href ="https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/basic.md">git이란 무엇인가?<a>  
+- [Git 버전확인하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/version.md)  
+- [git 기초 문법 정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/basic2.md)  
+- [branch와 리퍼지토리 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/branch.md)  
+- [다른 사람의 Repository 가져오기](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/pushR.md)  
+- [commit과 버전 관리](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/revert.md)
+- [원격저장소 동기화하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/pull.md)
+- [pull request 알아보기](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/request.md)
+- [git log와 사용법](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/log.md)
+- [충돌 방지하기](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/conflict.md)
+- [GitHub 갖가지 용어정리](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/용어.md)
+- [git/github Issue란?](https://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/git/issue.md)
