@@ -11,7 +11,7 @@
 - [[Domain-Driven-Design] 바운디드 컨텍스트 (Bounded-Context)](https://esperer.tistory.com/19)
 - [도메인 주도 설계 애그리거트(Aggregate) 알아보기](https://esperer.tistory.com/20)
 
-#### Java & OOP
+#### Java & Kotlin & OOP
 - [Java 가 무엇일까?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
 - [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
 - [JVM 메모리 구조 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/jvm.md)
