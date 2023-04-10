@@ -11,7 +11,7 @@
 - [[Domain-Driven-Design] 바운디드 컨텍스트 (Bounded-Context)](https://esperer.tistory.com/19)
 - [도메인 주도 설계 애그리거트(Aggregate) 알아보기](https://esperer.tistory.com/20)
 
-#### Java & Kotlin & OOP
+#### Java & OOP
 - [Java 가 무엇일까?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
 - [객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/Java.md)
 - [JVM 메모리 구조 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/jvm.md)
@@ -34,7 +34,10 @@
 - [SocketAdress 클래스 & NetworkInterface 클래스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/javanet.md)
 - [Java String, StringBuilder, StringBuffer 차이 알아보기 ](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/stringB.md)
 - [POJO (Plain Old Java Object) 알아보기](https://esperer.tistory.com/12)
-= [고차 함수 (High-order-function)](https://velog.io/@hope0206)
+
+#### Kotlin
+
+- [고차 함수 (High-order-function)](https://velog.io/@hope0206/kotlin-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98-High-order-function)
 - [Kotlin 시퀀스와 지연 계산 (Sequences and Lazy Evaluation)](https://esperer.tistory.com/21)
 - [Kotlin 함수형 인터페이스와 SAM 생성자](https://esperer.tistory.com/22)
 
