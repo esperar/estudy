@@ -34,6 +34,7 @@
 - [SocketAdress 클래스 & NetworkInterface 클래스](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/javanet.md)
 - [Java String, StringBuilder, StringBuffer 차이 알아보기 ](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/stringB.md)
 - [POJO (Plain Old Java Object) 알아보기](https://esperer.tistory.com/12)
+= [고차 함수 (High-order-function)](https://velog.io/@hope0206)
 - [Kotlin 시퀀스와 지연 계산 (Sequences and Lazy Evaluation)](https://esperer.tistory.com/21)
 - [Kotlin 함수형 인터페이스와 SAM 생성자](https://esperer.tistory.com/22)
 
