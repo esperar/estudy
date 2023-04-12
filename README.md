@@ -38,6 +38,7 @@
 #### Kotlin
 
 - [고차 함수 (High-order-function)](https://velog.io/@hope0206/kotlin-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98-High-order-function)
+- [스코프 함수 (Scope Function)](https://esperer.tistory.com/24)
 - [Kotlin 시퀀스와 지연 계산 (Sequences and Lazy Evaluation)](https://esperer.tistory.com/21)
 - [Kotlin 함수형 인터페이스와 SAM 생성자](https://esperer.tistory.com/22)
 
