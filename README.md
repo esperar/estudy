@@ -68,11 +68,12 @@
 - [[Kotlin, Spring boot] copy() 깊은복사, 얕은복사 성능상의 이점?](https://esperer.tistory.com/16)
 - [[Kotlin, Spring boot] 검색 api에서 find Query vs Internal Function 데이터 처리 효율?](https://esperer.tistory.com/17)
 
-#### JPA & Hibernate
+#### JPA & ORM
 - [영속성 컨텍스트](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/persistence/persistcontext.md)
 - [플러시 (flush)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/persistence/flush.md)
 - [객체와 테이블 매핑](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/table/entity.md)
 - [데이터베이스 스키마 자동 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/table/util.md)
+- [MSG GAuth QueryDSL 적용 사례](https://esperer.tistory.com/27)
 
 
 #### DataBase
