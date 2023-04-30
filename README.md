@@ -10,6 +10,7 @@
 - [DDD(Domain Driven Design) 도메인 주도 설계 알아보기](https://esperer.tistory.com/18)
 - [[Domain-Driven-Design] 바운디드 컨텍스트 (Bounded-Context)](https://esperer.tistory.com/19)
 - [도메인 주도 설계 애그리거트(Aggregate) 알아보기](https://esperer.tistory.com/20)
+- [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
 
 #### Java & OOP
 - [Java 가 무엇일까?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
