@@ -76,7 +76,8 @@
 - [플러시 (flush)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/persistence/flush.md)
 - [객체와 테이블 매핑](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/table/entity.md)
 - [데이터베이스 스키마 자동 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/table/util.md)
-- [MSG GAuth QueryDSL 적용 사례](https://esperer.tistory.com/27)
+- [Team.MSG GAuth-BackEnd 동적 검색 API QueryDSL 적용 사례](https://esperer.tistory.com/27)
+- [Hibernate 하이버 네이트, Spring Data JPA](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/hibernate.md)
 
 
 #### DataBase
