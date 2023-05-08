@@ -93,6 +93,7 @@
 - [리플리케이션(Replication) vs 클러스터링(Clustering)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/rep_clu.md)
 - [DataBase Sharding (분산처리)](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/sharding.md)
 - [CAP 이론](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/cap.md)
+- [데이터 모델링과 데이터 성질에 따른 DB 종류](http://github.com/KIMHUEMANG/MyTIL/blob/master/DataBase/modeling.md)
 
 
 #### Node.js
