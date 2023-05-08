@@ -202,6 +202,7 @@
 - [CPU 스케줄링이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/cpus.md)
 - [Synchronize(동기화)와 Deadlock](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
 - [런타임과 컴파일타임](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/comrun.md)
+- [JVM Garbage Collection 구조와 동작](http://github.com/KIMHUEMANG/MyTIL/blob/master/Computer_Science/gc.md)
 
 #### Test
 - [테스트의 종류 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
