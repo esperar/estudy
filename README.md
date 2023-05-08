@@ -7,9 +7,6 @@
 - [Java Backend 웹 기술 역사](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/history.md)
 - [클린 아키텍처 with Spring boot](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/backend/cleanspring.md)
 - [OAuth 2.0 개념과 권한 부여 방식 알아보기](https://esperer.tistory.com/14)
-- [DDD(Domain Driven Design) 도메인 주도 설계 알아보기](https://esperer.tistory.com/18)
-- [[Domain-Driven-Design] 바운디드 컨텍스트 (Bounded-Context)](https://esperer.tistory.com/19)
-- [도메인 주도 설계 애그리거트(Aggregate) 알아보기](https://esperer.tistory.com/20)
 - [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
 
 #### Java & OOP
@@ -79,6 +76,10 @@
 - [Team.MSG GAuth-BackEnd 동적 검색 API QueryDSL 적용 사례](https://esperer.tistory.com/27)
 - [Hibernate 하이버 네이트, Spring Data JPA](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/hibernate.md)
 
+### Domain Driven Design
+- [DDD(Domain Driven Design) 도메인 주도 설계 알아보기](https://esperer.tistory.com/18)
+- [[Domain-Driven-Design] 바운디드 컨텍스트 (Bounded-Context)](https://esperer.tistory.com/19)
+- [도메인 주도 설계 애그리거트(Aggregate) 알아보기](https://esperer.tistory.com/20)
 
 #### DataBase
 - [데이터베이스 맛보기](http:/`/github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
