@@ -113,6 +113,7 @@
     - [팩토리 메서드 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/생성/factory_method.md)
   - 행동 패턴
     - [템플릿 메서드 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/행동/template.md)
+    - [옵저버 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/행동/observer.md)
   - 구조 패턴
     - [프록시 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/구조/proxyp.md)
     - [어댑터 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/구조/adapter.md)
