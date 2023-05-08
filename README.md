@@ -40,6 +40,7 @@
 - [Kotlin 시퀀스와 지연 계산 (Sequences and Lazy Evaluation)](https://esperer.tistory.com/21)
 - [Kotlin 함수형 인터페이스와 SAM 생성자](https://esperer.tistory.com/22)
 - [kapt와 annotation processor](https://esperer.tistory.com/25)
+- [코틀린에서는 왜 Lombok 라이브러리를 사용할 수 없을까?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/kotlin/lombokcant.md)
 
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/spring/mvc.md)
