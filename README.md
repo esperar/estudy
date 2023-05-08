@@ -135,6 +135,7 @@
   - [Docker Swarm](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/Docker/swarm.md)
   - [spring boot 프로젝트를 Docker를 사용해 배포하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/Docker/spring_docker.md)
 - [애자일(Agile) 방법론](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/agile.md)
+- [클라우드 아키텍처 Cloud Architecture](ttp://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/cloud_architecture.md)
 
 **모든 개발자를 위한 HTTP 웹 기본 지식**
 - 인터넷 네트워크
