@@ -108,16 +108,16 @@
 
 
 #### Design Pattern
-- [디자인 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/designp.md)
+- [디자인 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/designp.md)
   - 생성 패턴
-    - [싱글톤 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/생성/singleton.md)
-    - [팩토리 메서드 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/생성/factory_method.md)
+    - [싱글톤 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/생성/singleton.md)
+    - [팩토리 메서드 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/생성/factory_method.md)
   - 행동 패턴
-    - [템플릿 메서드 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/행동/template.md)
-    - [옵저버 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/행동/observer.md)
+    - [템플릿 메서드 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/행동/template.md)
+    - [옵저버 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/행동/observer.md)
   - 구조 패턴
-    - [프록시 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/구조/proxyp.md)
-    - [어댑터 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design_Pattern/구조/adapter.md)
+    - [프록시 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/구조/proxyp.md)
+    - [어댑터 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/구조/adapter.md)
 
 
 #### DevOps
@@ -202,7 +202,7 @@
 - [CPU 스케줄링이란 ?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/cpus.md)
 - [Synchronize(동기화)와 Deadlock](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
 - [런타임과 컴파일타임](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/comrun.md)
-- [JVM Garbage Collection 구조와 동작](http://github.com/KIMHUEMANG/MyTIL/blob/master/Computer_Science/gc.md)
+- [JVM Garbage Collection 구조와 동작](http://github.com/KIMHUEMANG/MyTIL/blob/master/Computer-Science/gc.md)
 
 #### Test
 - [테스트의 종류 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
