@@ -210,6 +210,7 @@
 - [런타임과 컴파일타임](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/comrun.md)
 - [JVM Garbage Collection 구조와 동작](http://github.com/KIMHUEMANG/MyTIL/blob/master/Computer-Science/gc.md)
 - [OS의 스와핑 Swapping](http://github.com/KIMHUEMANG/MyTIL/blob/master/Computer-Science/swapping.md)
+- [가상 메모리 Virtual Memory System](http://github.com/KIMHUEMANG/MyTIL/blob/master/Computer-Science/vm.md)
 
 #### 자료구조
 - 선형 구조
