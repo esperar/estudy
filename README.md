@@ -138,6 +138,10 @@
 - [애자일(Agile) 방법론](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/agile.md)
 - [클라우드 아키텍처 Cloud Architecture](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/cloud_architecture.md)
 - [하이브리드 클라우드 Hybird Cloud](http://github.com/KIMHUEMANG/MyTIL/blob/master/DevOps/hybrid.md)
+- [테스트의 종류 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
+- [워크스루와 인스펙션](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/검토.md)
+- [TDD란 (테스트 주도 개발)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/test/tdd.md)
+
 
 **모든 개발자를 위한 HTTP 웹 기본 지식**
 - 인터넷 네트워크
@@ -205,11 +209,7 @@
 - [Synchronize(동기화)와 Deadlock](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/동기화.md)
 - [런타임과 컴파일타임](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/comrun.md)
 - [JVM Garbage Collection 구조와 동작](http://github.com/KIMHUEMANG/MyTIL/blob/master/Computer-Science/gc.md)
-
-#### Test
-- [테스트의 종류 알아보기](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/test.md)
-- [워크스루와 인스펙션](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/검토.md)
-- [TDD란 (테스트 주도 개발)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/test/tdd.md)
+- [OS의 스와핑 Swapping](http://github.com/KIMHUEMANG/MyTIL/blob/master/Computer-Science/swapping.md)
 
 #### 자료구조
 - 선형 구조
