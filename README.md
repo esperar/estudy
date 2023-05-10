@@ -38,6 +38,8 @@
 - [Kotlin DSL, gradle.kts](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/kotlin/dsl.md)
 - [mapOf(), to로 Pair 인스턴스 생성하기](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/kotlin/toPair.md)
 - [코틀린에서의 객체지향 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/kotlin/kotlinoop.md)
+- [코틀린 함수형 프로그래밍](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/kotlin/fun.md)
+- [코틀린 컬렉션즈](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/kotlin/collection.md)
 - [고차 함수 (High-order-function)](https://velog.io/@hope0206/kotlin-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98-High-order-function)
 - [스코프 함수 (Scope Function)](https://esperer.tistory.com/24)
 - [Kotlin 시퀀스와 지연 계산 (Sequences and Lazy Evaluation)](https://esperer.tistory.com/21)
