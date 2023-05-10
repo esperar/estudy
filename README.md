@@ -113,6 +113,7 @@
   - 생성 패턴
     - [싱글톤 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/생성/singleton.md)
     - [팩토리 메서드 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/생성/factory_method.md)
+    - [추상 팩토리 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/생성/abstract_factory.md)
   - 행동 패턴
     - [템플릿 메서드 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/행동/template.md)
     - [옵저버 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/행동/observer.md)
