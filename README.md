@@ -34,7 +34,7 @@
 - [POJO (Plain Old Java Object) 알아보기](https://esperer.tistory.com/12)
 
 #### Kotlin
-
+- [코틀린이란 무엇이며 왜 필요한가?](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/kotlin/kotlin.md)
 - [고차 함수 (High-order-function)](https://velog.io/@hope0206/kotlin-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98-High-order-function)
 - [스코프 함수 (Scope Function)](https://esperer.tistory.com/24)
 - [Kotlin 시퀀스와 지연 계산 (Sequences and Lazy Evaluation)](https://esperer.tistory.com/21)
