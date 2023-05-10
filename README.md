@@ -121,6 +121,7 @@
   - 구조 패턴
     - [프록시 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/구조/proxyp.md)
     - [어댑터 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/구조/adapter.md)
+    - [컴포지트 패턴](http://github.com/KIMHUEMANG/MyTIL/blob/master/Design-Pattern/구조/composite.md)
 
 
 #### DevOps
