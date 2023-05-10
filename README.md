@@ -76,6 +76,7 @@
 - [데이터베이스 스키마 자동 생성](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/table/util.md)
 - [Team.MSG GAuth-BackEnd 동적 검색 API QueryDSL 적용 사례](https://esperer.tistory.com/27)
 - [Hibernate 하이버 네이트, Spring Data JPA](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/hibernate.md)
+- [임베디드 타입, @Embedded, @Embeddable, @AttributeOverride](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/jpa/embedded.md)
 
 #### Domain Driven Design
 - [DDD(Domain Driven Design) 도메인 주도 설계 알아보기](https://esperer.tistory.com/18)
