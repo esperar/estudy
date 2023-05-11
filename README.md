@@ -9,7 +9,7 @@
 - [OAuth 2.0 개념과 권한 부여 방식 알아보기](https://esperer.tistory.com/14)
 - [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
 
-#### Java & OOP
+#### Java & Kotlin & OOP
 - [Java 가 무엇일까?](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
 - [객체지향 프로그래밍](http://github.com/esperar/MyTIL/blob/master/정보처리/Java.md)
 - [JVM 메모리 구조 알아보기](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/jvm.md)
@@ -32,8 +32,6 @@
 - [SocketAdress 클래스 & NetworkInterface 클래스](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/javanet.md)
 - [Java String, StringBuilder, StringBuffer 차이 알아보기 ](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/stringB.md)
 - [POJO (Plain Old Java Object) 알아보기](https://esperer.tistory.com/12)
-
-#### Kotlin
 - [코틀린이란 무엇이며 왜 필요한가?](http://github.com/esperar/MyTIL/blob/master/Back-End/kotlin/kotlin.md)
 - [Kotlin DSL, gradle.kts](http://github.com/esperar/MyTIL/blob/master/Back-End/kotlin/dsl.md)
 - [mapOf(), to로 Pair 인스턴스 생성하기](http://github.com/esperar/MyTIL/blob/master/Back-End/kotlin/toPair.md)
