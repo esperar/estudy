@@ -91,7 +91,7 @@
 - [[Domain-Driven-Design] 바운디드 컨텍스트 (Bounded-Context)](https://esperer.tistory.com/19)
 - [도메인 주도 설계 애그리거트(Aggregate) 알아보기](https://esperer.tistory.com/20)
 - [응용 서비스와 표현 영역 (presentation, application)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/ddd/presentation.md)
-
+- [여러 애그리거트가 필요한 기능과 도메인 서비스(응용 서비스와의 차이)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/ddd/domainservice.md)
 #### DataBase
 - [데이터베이스 맛보기](http:/`/github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
 - [What is DataBase?](http://github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/database.md)
