@@ -90,6 +90,7 @@
 - [DDD(Domain Driven Design) 도메인 주도 설계 알아보기](https://esperer.tistory.com/18)
 - [[Domain-Driven-Design] 바운디드 컨텍스트 (Bounded-Context)](https://esperer.tistory.com/19)
 - [도메인 주도 설계 애그리거트(Aggregate) 알아보기](https://esperer.tistory.com/20)
+- [응용 서비스와 표현 영역 (presentation, application)](http://github.com/KIMHUEMANG/MyTIL/blob/master/Back-End/ddd/presentation.md)
 
 #### DataBase
 - [데이터베이스 맛보기](http:/`/github.com/KIMHUEMANG/MyTIL/blob/master/정보처리/응용SW2.md)
