@@ -86,6 +86,7 @@
 - [Team.MSG GAuth-BackEnd 동적 검색 API QueryDSL 적용 사례](https://esperer.tistory.com/27)
 - [Hibernate 하이버 네이트, Spring Data JPA](http://github.com/esperar/MyTIL/blob/master/Back-End/jpa/hibernate.md)
 - [임베디드 타입, @Embedded, @Embeddable, @AttributeOverride](http://github.com/esperar/MyTIL/blob/master/Back-End/jpa/embedded.md)
+- [@Query 어노테이션에서 FK로 객체를 찾는 방법](http://github.com/esperar/MyTIL/blob/master/Back-End/jpa/queryfk.md)
 
 #### Domain Driven Design
 - [DDD(Domain Driven Design) 도메인 주도 설계 알아보기](https://esperer.tistory.com/18)
@@ -93,6 +94,8 @@
 - [도메인 주도 설계 애그리거트(Aggregate) 알아보기](https://esperer.tistory.com/20)
 - [응용 서비스와 표현 영역 (presentation, application)](http://github.com/esperar/MyTIL/blob/master/Back-End/ddd/presentation.md)
 - [여러 애그리거트가 필요한 기능과 도메인 서비스(응용 서비스와의 차이)](http://github.com/esperar/MyTIL/blob/master/Back-End/ddd/domainservice.md)
+
+
 #### DataBase
 - [데이터베이스 맛보기](http://github.com/esperer/MyTIL/blob/master/정보처리/응용SW2.md)
 - [What is DataBase?](http://github.com/esperar/MyTIL/blob/master/정보처리/database.md)
