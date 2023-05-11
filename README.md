@@ -154,6 +154,7 @@
 - [테스트의 종류 알아보기](http://github.com/esperar/MyTIL/blob/master/정보처리/test.md)
 - [워크스루와 인스펙션](http://github.com/esperar/MyTIL/blob/master/정보처리/검토.md)
 - [TDD란 (테스트 주도 개발)](http://github.com/esperar/MyTIL/blob/master/Back-End/test/tdd.md)
+- [깃허브 액션 GitHub Actions](http://github.com/esperar/MyTIL/blob/master/Back-End/test/gitaction.md)
 
 
 **모든 개발자를 위한 HTTP 웹 기본 지식**
