@@ -9,12 +9,12 @@
 - [OAuth 2.0 개념과 권한 부여 방식 알아보기](https://esperer.tistory.com/14)
 - [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
 
-#### Java & Kotlin & OOP
+#### Java & OOP
 - [Java란](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/JAVA.md)
 - [객체지향 프로그래밍](http://github.com/esperar/MyTIL/blob/master/정보처리/Java.md)
-- [JVM 메모리 구조](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/jvm.md)
+- [JVM 메모리 구조 알아보기](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/jvm.md)
 - [객체지향의 4가지 특징](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/4특징.md)
-- [Solid 객체지향 설계의 5원칙](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/5원칙.md)
+- [객체지향 설계의 5원칙(SOLID)](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/5원칙.md)
 - [클래스와 인스턴스 개념과 차이](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/coi.md)
 - [생성자와 객체 선언, 초기화란?](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/생성자.md)
 - [오버라이딩과 오버로딩](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/overding.md)
@@ -31,7 +31,9 @@
 - [래퍼 클래스(Wrapper Class), 박싱 언박싱](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/wrapper.md)
 - [SocketAdress 클래스 & NetworkInterface 클래스](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/javanet.md)
 - [Java String, StringBuilder, StringBuffer 차이 알아보기 ](http://github.com/esperar/MyTIL/blob/master/Back-End/JAVA/stringB.md)
-- [POJO (Plain Old Java Object) 알아보기](https://esperer.tistory.com/12)
+- [POJO (Plain Old Java Object)](https://esperer.tistory.com/12)
+
+#### Kotlin
 - [코틀린이란 무엇이며 왜 필요한가?](http://github.com/esperar/MyTIL/blob/master/Back-End/kotlin/kotlin.md)
 - [Kotlin DSL, gradle.kts](http://github.com/esperar/MyTIL/blob/master/Back-End/kotlin/dsl.md)
 - [mapOf(), to로 Pair 인스턴스 생성하기](http://github.com/esperar/MyTIL/blob/master/Back-End/kotlin/toPair.md)
