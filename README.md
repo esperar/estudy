@@ -1,6 +1,5 @@
 #### Backend & Dev
 - [인증(Authentication) vs 인가(Authorization)](http://github.com/esperar/MyTIL/blob/master/Back-End/backend/auth.md)
-- [개발자라면 꼭 해야하는 Log 관리, Slf4j Logger](http://github.com/esperar/MyTIL/blob/master/Back-End/backend/logger.md)
 - [마이크로서비스 아키텍쳐 (MicroService Architecture)](http://github.com/esperar/MyTIL/blob/master/Back-End/backend/msa.md)
 - [모놀리식 아키텍처 (Monolithic Architecture)](http://github.com/esperar/MyTIL/blob/master/Back-End/backend/mono.md)
 - [Back-end API 문서 효율적인 설계방법](http://github.com/esperar/MyTIL/blob/master/Back-End/backend/api.md)
@@ -63,6 +62,7 @@
 - [Spring boot @Builder에 대하여](http://github.com/esperar/MyTIL/blob/master/Back-End/spring/builder.md)
 - [(스프링/Spring URL) Mapping 알아보기](http://github.com/esperar/MyTIL/blob/master/Back-End/spring/mapping.md)
 - [Spring Security Access Token & Refresh Token](http://github.com/esperar/MyTIL/blob/master/Back-End/spring/token.md)
+- [개발자라면 꼭 해야하는 Log 관리, Slf4j Logger](http://github.com/esperar/MyTIL/blob/master/Back-End/backend/logger.md)
 - [Jwt (Json Web Token) 알아보기](http://github.com/esperar/MyTIL/blob/master/Back-End/spring/jwt.md)
 - [Spring Validation을 이용한 유효성 검증](http://github.com/esperar/MyTIL/blob/master/Back-End/spring/valid.md)
 - [Spring boot @ExceptionHandler를 통한 예외처리](http://github.com/esperar/MyTIL/blob/master/Back-End/spring/exception.md)
