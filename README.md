@@ -115,6 +115,7 @@
 - [데이터 모델링과 데이터 성질에 따른 DB 종류](http://github.com/esperar/MyTIL/blob/master/DataBase/modeling.md)
 - [데이터 베이스의 커넥션 풀 (Connection Pool CP)](http://github.com/esperar/MyTIL/blob/master/DataBase/connectionp.md)
 - [데이터 베이스 옵티마이저 Optimizer](http://github.com/esperar/MyTIL/blob/master/DataBase/optimizer.md)
+- [옵티마이저의 최적화와 목표 그리고 한계](http://github.com/esperar/MyTIL/blob/master/DataBase/optimizer2.md)
 
 
 
