@@ -48,6 +48,7 @@
 - [코틀린에서는 왜 Lombok 라이브러리를 사용할 수 없을까?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/lombokcant.md)
 - [Kotlin으로 Spring Framework 사용하기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kopring.md)
 - [data 클래스로 persistence 구현하기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/datapersist.md)
+- [@JvmField $$ @JvmStatic 어노테이션](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/jvmannotation.md)
 
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/esperar/estudy/blob/master/Back-End/spring/mvc.md)
