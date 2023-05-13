@@ -112,6 +112,7 @@
 - [DataBase Sharding (분산처리)](http://github.com/esperar/MyTIL/blob/master/DataBase/sharding.md)
 - [CAP 이론](http://github.com/esperar/MyTIL/blob/master/DataBase/cap.md)
 - [데이터 모델링과 데이터 성질에 따른 DB 종류](http://github.com/esperar/MyTIL/blob/master/DataBase/modeling.md)
+- [데이터 베이스의 커넥션 풀 (Connection Pool CP)](http://github.com/esperar/MyTIL/blob/master/DataBase/connectionp.md)
 
 
 #### Node.js
