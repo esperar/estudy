@@ -118,6 +118,7 @@
 - [데이터 베이스 옵티마이저 Optimizer](http://github.com/esperar/estudy/blob/master/DataBase/optimizer.md)
 - [옵티마이저의 최적화와 목표 그리고 한계](http://github.com/esperar/estudy/blob/master/DataBase/optimizer2.md)
 - [데이터베이스에서의 클러스터 (Cluster)](http://github.com/esperar/estudy/blob/master/DataBase/cluster.md)
+- [Clustering (Active Clustering, Standby Clustering)](http://github.com/esperar/estudy/blob/master/DataBase/clustering.md)
 
 
 
