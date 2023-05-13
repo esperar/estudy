@@ -78,6 +78,7 @@
 - [Spring WebFlux, Reactive Stream, R2DBC, Mono, Flux 정복하기](https://esperer.tistory.com/29)
 - [Springboot에서 데이터베이스 인덱싱 하는 방법](http://github.com/esperar/MyTIL/blob/master/Back-End/spring/indexing.md)
 - [Spring Test시에 Spring Security인증을 할 수 있는 어노테이션](http://github.com/esperar/MyTIL/blob/master/Back-End/spring/testsecurity.md)
+- [Spring 에서의 Connection Pool, HikariCP](http://github.com/esperar/MyTIL/blob/master/Back-End/spring/springcp.md)
 
 #### JPA & ORM
 - [영속성 컨텍스트](http://github.com/esperar/MyTIL/blob/master/Back-End/jpa/persistence/persistcontext.md)
