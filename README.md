@@ -116,14 +116,6 @@
 - [데이터 베이스의 커넥션 풀 (Connection Pool CP)](http://github.com/esperar/MyTIL/blob/master/DataBase/connectionp.md)
 
 
-#### Node.js
- - [Node.js 알아보기](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/node.md)
- - [npm 기초 명령어](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/npm.md)
- - [패키지 설치와 삭제](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/npm1.md)
- - [기타 명령어 모음](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/npm2.md)
- - [package.json 생성](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/npmjson.md)
- - [서버 구축해보기](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/server.md)
-
 
 #### Design Pattern
 - [디자인 패턴](http://github.com/esperar/MyTIL/blob/master/Design-Pattern/designp.md)
@@ -293,12 +285,19 @@
 - [클래스 (class)](https://github.com/esperar/Study_TypeScript/tree/main/class)
 - [Generic 알아보기](https://github.com/esperar/MyTIL/blob/master/Front-End/TS/TS_generic.md)
 
-
 #### React
 - [React 시작하기](https://github.com/esperar/MyTIL/blob/master/Front-End/React/react.md)
 - [Component란?](https://github.com/esperar/MyTIL/blob/master/Front-End/React/component.md)
 - [함수형 컴포넌트](https://github.com/esperar/MyTIL/blob/master/Front-End/React/funcompo.md)
 - [클래스형 컴포넌트](https://github.com/esperar/MyTIL/blob/master/Front-End/React/classcompo.md)
+
+#### Node.js
+ - [Node.js 알아보기](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/node.md)
+ - [npm 기초 명령어](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/npm.md)
+ - [패키지 설치와 삭제](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/npm1.md)
+ - [기타 명령어 모음](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/npm2.md)
+ - [package.json 생성](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/npmjson.md)
+ - [서버 구축해보기](http://github.com/esperar/MyTIL/blob/master/Back-End/Node/server.md)
 
 
 #### Git
