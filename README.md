@@ -99,6 +99,7 @@
 - [여러 애그리거트가 필요한 기능과 도메인 서비스(응용 서비스와의 차이)](http://github.com/esperar/estudy/blob/master/Back-End/ddd/domainservice.md)
 - [애그리거트 트랜잭션 관리 (선점,비선점,오프라인 잠금)](http://github.com/esperar/estudy/blob/master/Back-End/ddd/transaction.md)
 - [도메인 모델과 바운디드 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/ddd/boundcontext.md)
+- [시스템 간 강결합(high coupling) 문제](http://github.com/esperar/estudy/blob/master/Back-End/ddd/event.md)
 
 
 #### DataBase
