@@ -89,3 +89,52 @@ JPA는 애그리거트 루트가 아닌 다른 엔티티가 변경되었을 때 
 하지만 애그리거트 관점에서 보앗을 때 애그리거트의 구성요소가 바뀌면 논리적으로 애그리거트도 바뀐 것이다.  
   
 JPA는 이러한 문제를 처리하기 위해 조회 퀴리를 수행할 때 LockModeType.OPTIMISTIC_FORCE_INCREMENT를 사용해 트랜잭션 종료 시점에 버전 값 증가 처리를 한다.
+
+## 오프라인 선점 잠금
+> 오프라인 선점 잠금 방식은 누군가 수정 화면을 보고 있을 때 수정 화면 자체를 실행하지 못하게 막는다.
+
+엄격하게 데이터 충돌을 막기 위해 누군가 수정 화면을 보고 있을 때 수정 화면 자체를 실행하지 못하게 하는 것이 **오프라인 선점 잠금 방식**이다.  
+한 트랜잭션 범위에서만 적용되는 선점 잠금 방식이나 나중에 버전 충돌을 확인하는 비선점 잠금 방식으로 구현할 수 없다.
+
+![](https://camo.githubusercontent.com/533d638e8146b288ef7afc3df73bb7b37cf6b1a2abc38b30e7be679a5da0ae3c/68747470733a2f2f333535333234383434362d66696c65732e676974626f6f6b2e696f2f7e2f66696c65732f76302f622f676974626f6f6b2d6c65676163792d66696c65732f6f2f6173736574732532462d4d35484f53747876782d4a723066715a6879572532462d4d43766b674932366a743949326d36793079332532462d4d43766c694e37554e5031344f687530474a7a253246382e382e706e673f616c743d6d6564696126746f6b656e3d32303139323164382d646439302d343035342d383064632d663061346161303739656363)
+
+만약 이런 상황에서 사용자 A가 수정 요청을 수행하지 않는다면 잠금이 해제되지 않으므로 잠금 유효 시간을 가져야 한다.  
+  
+잠금 유효 시간이지나면 잠금을 해제해 다른 사용자가 잠금을 다시 구할 수 있도록 해야한다.  
+  
+하지만 유효 시간이 지난 뒤 얼마 되지 않아 수정 요청을 수행한다면 실패하게 된다.  
+  
+이를 방지하기 위해 일정 주기로 유효 시간을 증가시키는 방식이 필요하다.
+
+## 오프라인 선점 잠금을 위한 LockManager 인터페이스와 관련 클래스
+- 잠금 선점 시도
+- 잠금 확인
+- 잠금 해제
+- 잠금 유효시간 연장
+
+```java
+public interface LockManager {
+  LockId tryLock(String type, String id) throws LockException;  // 잠금 선점 시도
+  void checkLock(LockId lockId) throws LockException;   // 잠금 확인
+  void releaseLock(LockId lockId) throws LockException;   // 잠금 해제
+  void extendLockExpiration(LockId lockId, long inc) throws LockException;  // 락 유효 시간 연장
+}
+```
+
+잠금을 선점한 이후에 실행하는 기능은 다음과 같은 상황을 고려해 잠금이 유효한지 확인해야 한다.
+- 잠금의 유효시간이 지났으면 아마 다른 사용자가 잠금을 선점한다.
+- 잠금을 선점하지 않은 사용자가 기능을 실행했다면 기능 실행을 막아야한다.
+
+## DB를 이용한 LockManager 구현
+잠금 정보를 저장하기 위한 테이블 생성 쿼리
+```sql
+create table locks (
+  `type` varchar(255),
+  id varchar(255),
+  lockid varchar(255),
+  expiration_time datetime,
+  primary key (`type`, id)
+) character set utf8;
+
+create unique index locks_idx ON locks (lockid);
+```
