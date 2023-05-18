@@ -18,7 +18,7 @@ public class ExecutorEx {
 }
 ```
 이 코드를 실행해 보면
-![](https://github.com/jyeonjyan/TIL/raw/master/img/newSingleThreadExecutorEx.png)
+![](./image/newSingleThreadExecutorEx.png)
 
 이처럼 newSingleThreadExecutor()은 무제한 큐에서 작동하는 단일 스레드를 사용하는 Executor를 만들어 준다.  
 그래서 프로세스가 실행되고 계속 유지되고 종료되지 않는 것을 확인할 수 있다.
