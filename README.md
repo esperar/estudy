@@ -84,6 +84,7 @@
 - [Spring Test시에 Spring Security인증을 할 수 있는 어노테이션](http://github.com/esperar/estudy/blob/master/Back-End/spring/testsecurity.md)
 - [Spring 에서의 Connection Pool, HikariCP](http://github.com/esperar/estudy/blob/master/Back-End/spring/springcp.md)
 - [스프링 부트 배치 Spring boot Batch](http://github.com/esperar/estudy/blob/master/Back-End/spring/batch.md)
+- [ControllerAdvice는 AOP로 구현되어 있을까? 동작 과정 살펴보기](http://github.com/esperar/estudy/blob/master/Back-End/spring/controlleradvice.md)
 
 #### JPA & ORM
 - [영속성 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/jpa/persistence/persistcontext.md)
