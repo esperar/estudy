@@ -52,6 +52,7 @@
 - [Kotlin으로 Spring Framework 사용하기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kopring.md)
 - [data 클래스로 persistence 구현하기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/datapersist.md)
 - [@JvmField, @JvmStatic 어노테이션](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/jvmannotation.md)
+- [kotest를 사용해서 테스트 코드 작성하기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kotest.md)
 
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/esperar/estudy/blob/master/Back-End/spring/mvc.md)
