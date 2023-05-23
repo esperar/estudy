@@ -96,6 +96,7 @@
 - [Hibernate 하이버 네이트, Spring Data JPA](http://github.com/esperar/estudy/blob/master/Back-End/jpa/hibernate.md)
 - [임베디드 타입, @Embedded, @Embeddable, @AttributeOverride](http://github.com/esperar/estudy/blob/master/Back-End/jpa/embedded.md)
 - [@Query 어노테이션에서 FK로 객체를 찾는 방법](http://github.com/esperar/estudy/blob/master/Back-End/jpa/queryfk.md)
+- [JPA N+1 문제 해결 방법 및 실무 적용](http://github.com/esperar/estudy/blob/master/Back-End/jpa/n+1.md)
 
 #### Domain Driven Design
 - [DDD(Domain Driven Design) 도메인 주도 설계 알아보기](https://esperer.tistory.com/18)
