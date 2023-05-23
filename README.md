@@ -86,6 +86,7 @@
 - [Spring 에서의 Connection Pool, HikariCP](http://github.com/esperar/estudy/blob/master/Back-End/spring/springcp.md)
 - [스프링 부트 배치 Spring boot Batch](http://github.com/esperar/estudy/blob/master/Back-End/spring/batch.md)
 - [ControllerAdvice는 AOP로 구현되어 있을까? 동작 과정 살펴보기](http://github.com/esperar/estudy/blob/master/Back-End/spring/controlleradvice.md)
+- [ObjectMapper의 동작 방식과 Spring boot가 제공하는 추가 기능들](http://github.com/esperar/estudy/blob/master/Back-End/spring/objmapper.md)
 
 #### JPA & ORM
 - [영속성 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/jpa/persistence/persistcontext.md)
