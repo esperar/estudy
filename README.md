@@ -240,6 +240,7 @@
 - [CDN (Content Delivery Networks)](http://github.com/esperar/estudy/blob/master/Back-End/Internet/cdn.md)
 - [P2P](http://github.com/esperar/estudy/blob/master/Back-End/Internet/p2p.md)
 - [스위치와 라우터, 스위칭과 라우팅](http://github.com/esperar/estudy/blob/master/Back-End/Internet/router_switch.md)
+- [인바운드(Inbound)와 아웃바운드(Outbound)](http://github.com/esperar/estudy/blob/master/Back-End/Internet/inoutbound.md)
 
 #### Computer Science
 - [꼭 알아야 할 기본 CS 지식](http://github.com/esperar/estudy/blob/master/정보처리/응용SW.md)
