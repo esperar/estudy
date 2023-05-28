@@ -136,6 +136,7 @@
 - [옵티마이저의 최적화와 목표 그리고 한계](http://github.com/esperar/estudy/blob/master/DataBase/optimizer2.md)
 - [데이터베이스에서의 클러스터 (Cluster)](http://github.com/esperar/estudy/blob/master/DataBase/cluster.md)
 - [Clustering (Active Clustering, Standby Clustering)](http://github.com/esperar/estudy/blob/master/DataBase/clustering.md)
+- [데이터베이스 정규화 Normalization](http://github.com/esperar/estudy/blob/master/DataBase/정규화.md)
 
 
 

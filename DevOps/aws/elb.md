@@ -1,4 +1,4 @@
-# AWS ELB (Elastic Load Balancer)
+# AWS ELB (Elastic Load Balancer), Sticky Session
 
 `Elastic Load Balancing`은 들어오는 애플리케이션의 트래픽을 Amazon EC2 인스턴스, 컨테이너, IP 주소, Lambda 함수와 같은 여러 대상에 자동으로 분산시킨다.  
    
