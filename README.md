@@ -184,6 +184,7 @@
 - [EBS, Instance Store, AMI](http://github.com/esperar/estudy/blob/master/DevOps/aws/ebs.md)
 - [AWS 보안 그룹 Security Group](http://github.com/esperar/estudy/blob/master/DevOps/aws/securitygroup.md)
 - [AWS ELB (Elastic Load Balancer), Sticky Session](http://github.com/esperar/estudy/blob/master/DevOps/aws/elb.md)
+- [오토 스케일링 (Auto Scaling) 구성과 순서도](http://github.com/esperar/estudy/blob/master/DevOps/aws/as.md)
  
 **모든 개발자를 위한 HTTP 웹 기본 지식**
 - 인터넷 네트워크
