@@ -139,6 +139,7 @@
 - [엔터티(Entity), 속성(Attribute), 관계(Relation)](http://github.com/esperar/estudy/blob/master/DataBase/ear.md)
 - [식별자 Identifier 종류와 분류체계](http://github.com/esperar/estudy/blob/master/DataBase/pk.md)
 - [데이터베이스 정규화 Normalization](http://github.com/esperar/estudy/blob/master/DataBase/정규화.md)
+- [데이터베이스 반정규화 Denormalization](http://github.com/esperar/estudy/blob/master/DataBase/반정규화.md)
 
 
 
