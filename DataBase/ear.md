@@ -1,4 +1,4 @@
-# 엔터티 (Entity), 속성(Attribute), 관계(Relation)
+# 엔터티(Entity), 속성(Attribute), 관계(Relation)
 
 ## ERD 작성 순서
 1. 엔터티를 그린다
