@@ -137,14 +137,14 @@
 - [데이터베이스에서의 클러스터 (Cluster)](http://github.com/esperar/estudy/blob/master/DataBase/cluster.md)
 - [Clustering (Active Clustering, Standby Clustering)](http://github.com/esperar/estudy/blob/master/DataBase/clustering.md)
 - SQLD
-  - [DDL(CREATE, ALTER, DROP, TRUNCATE) 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/ddl.md)
-  - [DML(INSERT, UPDATE, DELETE, SELECT) 실습 + TCL(COMMIT, ROLLBACK)](http://github.com/esperar/estudy/blob/master/DataBase/sql/dml.md)
-  - [DCL(GRANT, REVOKE) 실습, 사용자 생성](http://github.com/esperar/estudy/blob/master/DataBase/sql/dcl.md)
-  - [WHERE 조건절 지정 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/wherer.md)
   - [엔터티(Entity), 속성(Attribute), 관계(Relation)](http://github.com/esperar/estudy/blob/master/DataBase/ear.md)
   - [식별자 Identifier 종류와 분류체계](http://github.com/esperar/estudy/blob/master/DataBase/pk.md)
   - [데이터베이스 정규화 Normalization](http://github.com/esperar/estudy/blob/master/DataBase/정규화.md)
   - [데이터베이스 반정규화 Denormalization](http://github.com/esperar/estudy/blob/master/DataBase/반정규화.md)
+  - [DDL(CREATE, ALTER, DROP, TRUNCATE) 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/ddl.md)
+  - [DML(INSERT, UPDATE, DELETE, SELECT) 실습 + TCL(COMMIT, ROLLBACK)](http://github.com/esperar/estudy/blob/master/DataBase/sql/dml.md)
+  - [DCL(GRANT, REVOKE) 실습, 사용자 생성](http://github.com/esperar/estudy/blob/master/DataBase/sql/dcl.md)
+  - [WHERE 조건절 지정 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/where.md)
   - [Join 연산 (INNER JOIN, OUTER JOIN)](http://github.com/esperar/estudy/blob/master/DataBase/join.md)
 
 
