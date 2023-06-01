@@ -166,9 +166,7 @@
 
 #### DevOps
 - [도커와 쿠버네티스](http://github.com/esperar/estudy/blob/master/정보처리/doker.md)
-- [클라우드와 AWS의 기본 개념](http://github.com/esperar/estudy/blob/master/DevOps/aws.md)
 - [IaaS, PaaS, SaaS 차이](http://github.com/esperar/estudy/blob/master/DevOps/XaaS.md)
-- [Amazon Web Service EC2란?](http://github.com/esperar/estudy/blob/master/DevOps/ec2.md)
 - [CI/CD 파이프라인과 구현과정](http://github.com/esperar/estudy/blob/master/DevOps/cicd.md)
 - [가상머신(Virtual Machine) vs 컨테이너(Container)](http://github.com/esperar/estudy/blob/master/DevOps/vircon.md)
 - [데몬(daemon) 프로세스의 정의](http://github.com/esperar/estudy/blob/master/DevOps/데몬프로세스.md)
@@ -185,18 +183,20 @@
 - [워크스루와 인스펙션](http://github.com/esperar/estudy/blob/master/정보처리/검토.md)
 - [TDD란 (테스트 주도 개발)](http://github.com/esperar/estudy/blob/master/Back-End/test/tdd.md)
 - [깃허브 액션 GitHub Actions](http://github.com/esperar/estudy/blob/master/Back-End/test/gitaction.md)
-- [AWS SNS(Simple Notification Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws/SNS.md)
-- [AWS SQS(Simple Queue Service), SNS와의 차이점](http://github.com/esperar/estudy/blob/master/DevOps/aws/SQS.md)
-- [AWS 클라우드 프론트 CloudFront](http://github.com/esperar/estudy/blob/master/DevOps/aws/cloudfront.md)
-- [AWS ELK(Elastic Search Logstash Kibana)](http://github.com/esperar/estudy/blob/master/DevOps/aws/ELK.md)
-- [EC2의 가격 정책과 타입 종류](http://github.com/esperar/estudy/blob/master/DevOps/aws/EC2Price.md)
-- [EBS, Instance Store, AMI](http://github.com/esperar/estudy/blob/master/DevOps/aws/ebs.md)
-- [AWS 보안 그룹 Security Group](http://github.com/esperar/estudy/blob/master/DevOps/aws/securitygroup.md)
-- [AWS ELB (Elastic Load Balancer), Sticky Session](http://github.com/esperar/estudy/blob/master/DevOps/aws/elb.md)
-- [오토 스케일링 (Auto Scaling) 구성과 순서도](http://github.com/esperar/estudy/blob/master/DevOps/aws/as.md)
-- [VPC(Virtual Private Cloud)와 구성요소](http://github.com/esperar/estudy/blob/master/DevOps/aws/vpc.md)
-- [고가용성과 장애내구성, 재해 복구, 확장성과 탄력성](http://github.com/esperar/estudy/blob/master/DevOps/aws/고가용성_장애내구성.md)
- 
+- [AWS(Amazon Web Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws.md)
+  - [EC2(Elastic Compute Cloud))](http://github.com/esperar/estudy/blob/master/DevOps/ec2.md) 
+  - [EC2의 가격 정책과 타입 종류](http://github.com/esperar/estudy/blob/master/DevOps/aws/EC2Price.md)
+  - [EBS, Instance Store, AMI](http://github.com/esperar/estudy/blob/master/DevOps/aws/ebs.md)
+  - [AWS 보안 그룹 Security Group](http://github.com/esperar/estudy/blob/master/DevOps/aws/securitygroup.md)
+  - [AWS ELB (Elastic Load Balancer), Sticky Session](http://github.com/esperar/estudy/blob/master/DevOps/aws/elb.md)
+  - [오토 스케일링 (Auto Scaling) 구성과 순서도](http://github.com/esperar/estudy/blob/master/DevOps/aws/as.md)
+  - [VPC(Virtual Private Cloud)와 구성요소](http://github.com/esperar/estudy/blob/master/DevOps/aws/vpc.md)
+  - [고가용성과 장애내구성, 재해 복구, 확장성과 탄력성](http://github.com/esperar/estudy/blob/master/DevOps/aws/고가용성_장애내구성.md)
+  - [AWS SNS(Simple Notification Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws/SNS.md)
+  - [AWS SQS(Simple Queue Service), SNS와의 차이점](http://github.com/esperar/estudy/blob/master/DevOps/aws/SQS.md)
+  - [AWS 클라우드 프론트 CloudFront](http://github.com/esperar/estudy/blob/master/DevOps/aws/cloudfront.md)
+  - [AWS ELK(Elastic Search Logstash Kibana)](http://github.com/esperar/estudy/blob/master/DevOps/aws/ELK.md)
+   
 **모든 개발자를 위한 HTTP 웹 기본 지식**
 - 인터넷 네트워크
   - [IP(인터넷 프로토콜)](http://github.com/esperar/estudy/blob/master/Back-End/http/network/ip.md)
