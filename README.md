@@ -184,7 +184,7 @@
 - [TDD란 (테스트 주도 개발)](http://github.com/esperar/estudy/blob/master/Back-End/test/tdd.md)
 - [깃허브 액션 GitHub Actions](http://github.com/esperar/estudy/blob/master/Back-End/test/gitaction.md)
 - [AWS(Amazon Web Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws.md)
-  - [EC2(Elastic Compute Cloud))](http://github.com/esperar/estudy/blob/master/DevOps/ec2.md) 
+  - [EC2(Elastic Compute Cloud)](http://github.com/esperar/estudy/blob/master/DevOps/ec2.md) 
   - [EC2의 가격 정책과 타입 종류](http://github.com/esperar/estudy/blob/master/DevOps/aws/EC2Price.md)
   - [EBS, Instance Store, AMI](http://github.com/esperar/estudy/blob/master/DevOps/aws/ebs.md)
   - [AWS 보안 그룹 Security Group](http://github.com/esperar/estudy/blob/master/DevOps/aws/securitygroup.md)
