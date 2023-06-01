@@ -145,9 +145,8 @@
   - [DML(INSERT, UPDATE, DELETE, SELECT) 실습, TCL(COMMIT, ROLLBACK)](http://github.com/esperar/estudy/blob/master/DataBase/sql/dml.md)
   - [DCL(GRANT, REVOKE) 실습, 사용자 생성](http://github.com/esperar/estudy/blob/master/DataBase/sql/dcl.md)
   - [WHERE 조건절 지정 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/where.md)
+  - [ORDER BY로 데이터 정렬하기 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/orderby.md)
   - [Join 연산 (INNER JOIN, OUTER JOIN)](http://github.com/esperar/estudy/blob/master/DataBase/join.md)
-
-
 
 #### Design Pattern
 - [디자인 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/designp.md)
