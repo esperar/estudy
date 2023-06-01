@@ -146,6 +146,7 @@
   - [DCL(GRANT, REVOKE) 실습, 사용자 생성](http://github.com/esperar/estudy/blob/master/DataBase/sql/dcl.md)
   - [WHERE 조건절 지정 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/where.md)
   - [ORDER BY로 데이터 정렬하기 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/orderby.md)
+  - [GROUP BY, 집계함수로 데이터 그룹별 집계 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/groupby.md)
   - [Join 연산 (INNER JOIN, OUTER JOIN)](http://github.com/esperar/estudy/blob/master/DataBase/join.md)
 
 #### Design Pattern
