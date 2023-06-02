@@ -160,6 +160,7 @@
     - [템플릿 메서드 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/행동/template.md)
     - [옵저버 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/행동/observer.md)
     - [전략 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/행동/strategy.md)
+    - [싱글톤 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/행동/singleton.md)
   - 구조 패턴
     - [프록시 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/구조/proxyp.md)
     - [어댑터 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/구조/adapter.md)
