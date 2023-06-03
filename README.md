@@ -150,6 +150,7 @@
   - [Join 연산 (INNER JOIN, OUTER JOIN)](http://github.com/esperar/estudy/blob/master/DataBase/join.md)
   - [INNER JOIN & OUTER JOIN SQL 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/innerjoin.md)
   - [날짜(DATE) 함수를 사용한 실습 + DUAL 테이블](http://github.com/esperar/estudy/blob/master/DataBase/sql/date.md)
+  - [REPLACE() 함수로 데이터 수정하기 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/replace.md)
 
 #### Design Pattern
 - [디자인 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/designp.md)
