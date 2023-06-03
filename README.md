@@ -153,6 +153,7 @@
   - [REPLACE() 함수로 데이터 수정하기 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/replace.md)
   - [SUBSTR() 함수를 사용한 문자 데이터 자르기 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/substr.md)
   - [UPPER(), LOWER() 함수를 사용한 대소문자 구분 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/upperlower.md)
+  - [숫자함수 ROUND(), TRUNC(), CEIL() 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/numberfun.md)
 
 #### Design Pattern
 - [디자인 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/designp.md)
