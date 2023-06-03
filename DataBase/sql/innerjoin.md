@@ -1,0 +1,59 @@
+# INNER JOIN & OUTER JOIN 실습
+
+## INNER JOIN
+> 공통된 데이터만 묶는 조인 NULL 허용 x
+
+이전 실습에 사용했던 넷플릭스 테이블과, 넷플릭스 캐스팅 멤버들이 섞여있는 NETFLIX_CAST 테이블을 사용하겠다.
+
+```sql
+SELECT A.VIDEO_NAME, B.CAST_MEMBER, B.BIRTHDAY
+FROM NETFLIX A, NETFLIX_CAST B
+WHERE A.VIDEO_NAME = B.VIDEO_NAME;
+```
+
+Type Alias를 통해 A, B를 지정해서 사용  
+A,B의 비디오 네임이 같은 것들만 출력 즉 -> 같은 비디오 네임의 캐스팅된 멤버가 두명이라면 두 개의 결과가 나옴
+
+```sql
+SELECT A.VIDEO_NAME, B.CAST_MEMBER, B.BIRTHDAY
+FROM NETFLIX A, NETFLIX_CAST B
+WHERE A.VIDEO_NAME = B.VIDEO_NAME 
+AND A.CATEGORY = '예능';
+```
+
+다중으로 조건을 주고싶다면 그냥 AND를 붙여주면 됨
+
+## OUTER JOIN
+
+OUTER JOIN은 여러가지가 있다.
+
+1. LEFT OUTER JOIN
+2. RIGHT OUTER JOIN
+3. FULL OVER JOIN
+
+지정된 테이블의 값은 모두 출력된다. 즉 NULL 을 허용하기도 한다.
+  
+LEFT OUTER JOIN을 사용해보겠다.  
+아래의 결과는 캐스트 멤버들이 있는 행은 모두 출력되고 캐스트 멤버가 없는 행은 캐스트 멤버칸에 NULL이 출력된다. 
+```sql
+SELECT A.VIDEO_NAME, A.CATEGORY, B.CAST_MEMBER, B.BIRTHDAY
+FROM NETFLIX A
+LEFT OUTER JOIN NETFLIX_CAST B
+ON A.VIDEO_NAME = B.VIDEO_NAME
+```
+
+INNER JOIN과 같은 결과를 OUTER JOIN으로 내려면
+
+```sql
+SELECT A.VIDEO_NAME, A.CATEGORY, B.CAST_MEMBER, B.BIRTHDAY
+FROM NETFLIX A
+LEFT OUTER JOIN NETFLIX_CAST B
+ON A.VIDEO_NAME = B.VIDEO_NAME
+WHERE B.CAST_MEMBER IS NOT NULL
+
+SELECT A.VIDEO_NAME, A.CATEGORY, B.CAST_MEMBER, B.BIRTHDAY
+FROM NETFLIX A, NETFLIX_CAST B
+WHERE A.VIDEO_NAME = B.VIDEO_NAME
+```
+
+위의 쿼리와 아래 쿼리는 동일한 결과를 갖는다.
