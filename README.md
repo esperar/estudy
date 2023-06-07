@@ -94,7 +94,7 @@
 - [플러시 (flush)](http://github.com/esperar/estudy/blob/master/Back-End/jpa/persistence/flush.md)
 - [객체와 테이블 매핑](http://github.com/esperar/estudy/blob/master/Back-End/jpa/table/entity.md)
 - [데이터베이스 스키마 자동 생성](http://github.com/esperar/estudy/blob/master/Back-End/jpa/table/util.md)
-- [Team.MSG GAuth-BackEnd 동적 검색 API QueryDSL 적용 사례](https://esperer.tistory.com/27)
+- [Team.MSG GAuth-BackEnd 동적 검색 API QueryDSL 적용 사례](https://velog.io/@hope0206/%EC%9A%B0%EB%8B%B9%ED%83%95%ED%83%95-%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B2%AB-QueryDSL-%EC%A0%81%EC%9A%A9%EA%B8%B0)
 - [Hibernate 하이버 네이트, Spring Data JPA](http://github.com/esperar/estudy/blob/master/Back-End/jpa/hibernate.md)
 - [임베디드 타입, @Embedded, @Embeddable, @AttributeOverride](http://github.com/esperar/estudy/blob/master/Back-End/jpa/embedded.md)
 - [@Query 어노테이션에서 FK로 객체를 찾는 방법](http://github.com/esperar/estudy/blob/master/Back-End/jpa/queryfk.md)
