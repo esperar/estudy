@@ -157,6 +157,7 @@
   - [SQL 윈도우 함수 (WINDOW FUNCTION) 실습](http://github.com/esperar/estudy/blob/master/DataBase/sql/windowfun.md)
   - [계층형 쿼리(START WITH, CONNECT BY PRIOR, SIBLINGS BY)](http://github.com/esperar/estudy/blob/master/DataBase/sql/level.md)
   - [SQL NULL 관련 함수 - NVL, NVL2, NULLIF, COALESCE](http://github.com/esperar/estudy/blob/master/DataBase/sql/null.md)
+- [프로시저와 트리거의 차이점](http://github.com/esperar/estudy/blob/master/DataBase/sql/프로시저_트리거.md)
 
 #### Design Pattern
 - [디자인 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/designp.md)
