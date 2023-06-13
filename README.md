@@ -78,8 +78,8 @@
 - [AOP(Aspect Oriented Programming) 대체 뭘까?](https://esperer.tistory.com/8)
 - [디스패처 서블릿 Dispatcher-Servlet의 개념과 동작 과정 알아보기](https://esperer.tistory.com/7)
 - [Servlet Filter, Spring Intercepter 특징과 차이 이해하기](https://esperer.tistory.com/9)
-- [[Kotlin, Spring boot] copy() 깊은복사, 얕은복사 성능상의 이점?](https://esperer.tistory.com/16)
-- [[Kotlin, Spring boot] 검색 api에서 find Query vs Internal Function 데이터 처리 효율?](https://esperer.tistory.com/17)
+- [[Kotlin, Spring boot] copy() 깊은복사, 얕은복사 성능상의 이점](https://esperer.tistory.com/16)
+- [[Kotlin, Spring boot] 검색 api에서 find Query vs Internal Function 데이터 처리 효율](https://esperer.tistory.com/17)
 - [Spring boot Actuator 스프링 부트 액추에이터 API + Spring Cloud를 사용한 예제](https://esperer.tistory.com/28)
 - [Spring WebFlux, Reactive Stream, R2DBC, Mono, Flux 정복하기](https://esperer.tistory.com/29)
 - [Springboot에서 데이터베이스 인덱싱 하는 방법](http://github.com/esperar/estudy/blob/master/Back-End/spring/indexing.md)
@@ -91,6 +91,7 @@
 - [코틀린 테스트 프레임워크 mockk 사용법](http://github.com/esperar/estudy/blob/master/Back-End/spring/mockk.md)
 - [Spring Data Binding, Converter, Formatter](http://github.com/esperar/estudy/blob/master/Back-End/spring/data_binding.md)
 - [Spring Resource Interface, Resource 추상화와 구현체](http://github.com/esperar/estudy/blob/master/Back-End/spring/resource.md)
+- [ResourceLoader, ResourcePatternResolver, ApplicationContext and Resources Paths](ttp://github.com/esperar/estudy/blob/master/Back-End/spring/resource2.md)
 
 #### JPA & ORM
 - [영속성 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/jpa/persistence/persistcontext.md)
