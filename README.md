@@ -90,6 +90,7 @@
 - [ObjectMapper의 동작 방식과 Spring boot가 제공하는 추가 기능들](http://github.com/esperar/estudy/blob/master/Back-End/spring/objmapper.md)
 - [코틀린 테스트 프레임워크 mockk 사용법](http://github.com/esperar/estudy/blob/master/Back-End/spring/mockk.md)
 - [Spring Data Binding, Converter, Formatter](http://github.com/esperar/estudy/blob/master/Back-End/spring/data_binding.md)
+- [Spring Resource Interface, Resource 추상화와 구현체](http://github.com/esperar/estudy/blob/master/Back-End/spring/resource.md)
 
 #### JPA & ORM
 - [영속성 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/jpa/persistence/persistcontext.md)
