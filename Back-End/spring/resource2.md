@@ -38,3 +38,22 @@ public interface ApplicationContext extends EnvironmentCapable, ListableBeanFact
 ```
 
 > ApplicationContext에 ResourcePatternResolver가 extends 되어 있음.
+
+
+## ApplicationContext and Resource Paths
+
+applicationContext(스프링의 핵심 설정)을 이루는 설정값을 가져오는 방법들
+
+```java
+//create applicationContext
+ApplicationContext ctx = new ClassPathXmlApplicationContext("conf/appContext.xml");
+
+ApplicationContext ctx = new FileSystemXmlApplicationContext("conf/appContext.xml");
+
+ApplicationContext ctx = new FileSystemXmlApplicationContext("classpath:conf/appContext.xml");
+
+//then use
+Bear bear = (Bear) ctx.getBean("bear");
+```
+
+> XML 사용하는 건 다 과거. 요즘은 그냥 어노테이션 기반으로 설정값을 잡는다.
