@@ -89,7 +89,7 @@
 - [ControllerAdvice는 AOP로 구현되어 있을까? 동작 과정 살펴보기](http://github.com/esperar/estudy/blob/master/Back-End/spring/controlleradvice.md)
 - [ObjectMapper의 동작 방식과 Spring boot가 제공하는 추가 기능들](http://github.com/esperar/estudy/blob/master/Back-End/spring/objmapper.md)
 - [코틀린 테스트 프레임워크 mockk 사용법](http://github.com/esperar/estudy/blob/master/Back-End/spring/mockk.md)
-- [Spring Data Binding, Converter, Formatter(http://github.com/esperar/estudy/blob/master/Back-End/spring/data_binding.md)]
+- [Spring Data Binding, Converter, Formatter](http://github.com/esperar/estudy/blob/master/Back-End/spring/data_binding.md)
 
 #### JPA & ORM
 - [영속성 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/jpa/persistence/persistcontext.md)
