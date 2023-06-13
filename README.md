@@ -61,6 +61,7 @@
 - [IoC 컨테이너 (Inversion of Controll)](http://github.com/esperar/estudy/blob/master/Back-End/spring/ioc.md)
 - [스프링 빈(Bean)과 빈 등록 방법](http://github.com/esperar/estudy/blob/master/Back-End/spring/bean.md)
 - [Spring AOP (Aspect Oriented Programming) 개념](http://github.com/esperar/estudy/blob/master/Back-End/spring/aop.md)
+- [Sprint AOP 라이브러리 AspectJ](http://github.com/esperar/estudy/blob/master/Back-End/spring/aspectj.md)
 - [Spring의 대표적인 @Annotation과 역할](http://github.com/esperar/estudy/blob/master/Back-End/spring/annotation.md)
 - [Spring JDBC와 DataSorce 알아보기](http://github.com/esperar/estudy/blob/master/Back-End/spring/jdbc.md)
 - [스프링 패키지 구조(Spring Package Structure) - 계층형 vs 도메인형](http://github.com/esperar/estudy/blob/master/Back-End/spring/package.md)
@@ -92,6 +93,7 @@
 - [Spring Data Binding, Converter, Formatter](http://github.com/esperar/estudy/blob/master/Back-End/spring/data_binding.md)
 - [Spring Resource Interface, Resource 추상화와 구현체](http://github.com/esperar/estudy/blob/master/Back-End/spring/resource.md)
 - [ResourceLoader, ResourcePatternResolver, ApplicationContext and Resources Paths](http://github.com/esperar/estudy/blob/master/Back-End/spring/resource2.md)
+
 
 #### JPA & ORM
 - [영속성 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/jpa/persistence/persistcontext.md)
