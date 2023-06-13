@@ -110,6 +110,7 @@
 - [일반 조인(Join)과 패치 조인(Fetch Join)의 차이](http://github.com/esperar/estudy/blob/master/Back-End/jpa/fetchjoin.md)
 - [일반 조인 Join은 언제 사용될까?](http://github.com/esperar/estudy/blob/master/Back-End/jpa/일반Join은언제?.md)
 - [JPA Propagation 트랜잭션 전파 단계](http://github.com/esperar/estudy/blob/master/Back-End/jpa/propagration.md)
+- [프록시(Proxy)와 지연 로딩](http://github.com/esperar/estudy/blob/master/Back-End/jpa/proxy.md)
 
 #### Domain Driven Design
 - [DDD(Domain Driven Design) 도메인 주도 설계 알아보기](https://esperer.tistory.com/18)
