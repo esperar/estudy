@@ -94,7 +94,7 @@
 - [Spring Resource Interface, Resource 추상화와 구현체](http://github.com/esperar/estudy/blob/master/Back-End/spring/resource.md)
 - [ResourceLoader, ResourcePatternResolver, ApplicationContext and Resources Paths](http://github.com/esperar/estudy/blob/master/Back-End/spring/resource2.md)
 - [SeucityContextHolderStrategy (ThreadLocal, InheritableThreadLocal, Global)](http://github.com/esperar/estudy/blob/master/Back-End/spring/security_strategy.md)
-- [Spring Security 여러 Filter들](http://github.com/esperar/estudy/blob/master/Back-End/spring/security_filter.md)
+- [Spring Security의 여러가지 Filter](http://github.com/esperar/estudy/blob/master/Back-End/spring/security_filter.md)
 
 
 #### JPA & ORM
