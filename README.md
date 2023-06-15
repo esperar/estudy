@@ -7,6 +7,7 @@
 - [클린 아키텍처 with Spring boot](http://github.com/esperar/estudy/blob/master/Back-End/backend/cleanspring.md)
 - [OAuth 2.0 개념과 권한 부여 방식 알아보기](https://esperer.tistory.com/14)
 - [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
+- [제 3회 당근마켓 SRE 밋업](http://github.com/esperar/estudy/blob/master/Back-End/backend/당근밋업.md)
 
 #### Java & OOP
 - [Java란](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/JAVA.md)
