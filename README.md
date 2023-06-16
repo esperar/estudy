@@ -292,6 +292,7 @@
 - [JVM Garbage Collection 구조와 동작](http://github.com/esperar/estudy/blob/master/Computer-Science/gc.md)
 - [OS의 스와핑 Swapping](http://github.com/esperar/estudy/blob/master/Computer-Science/swapping.md)
 - [가상 메모리 Virtual Memory System](http://github.com/esperar/estudy/blob/master/Computer-Science/vm.md)
+- [뮤텍스(Mutex)와 세마포어(Semaphore)](http://github.com/esperar/estudy/blob/master/Computer-Science/mutex_semaphore.md)
 
 #### 자료구조
 - 선형 구조
