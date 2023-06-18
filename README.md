@@ -96,6 +96,7 @@
 - [ResourceLoader, ResourcePatternResolver, ApplicationContext and Resources Paths](http://github.com/esperar/estudy/blob/master/Back-End/spring/resource2.md)
 - [SeucityContextHolderStrategy (ThreadLocal, InheritableThreadLocal, Global)](http://github.com/esperar/estudy/blob/master/Back-End/spring/security_strategy.md)
 - [Spring Security의 여러가지 Filter](http://github.com/esperar/estudy/blob/master/Back-End/spring/security_filter.md)
+- [Mock 테스트와 Stub 테스트의 차이]((http://github.com/esperar/estudy/blob/master/Back-End/spring/mock_stub.md)
 
 
 #### JPA & ORM
