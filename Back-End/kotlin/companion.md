@@ -38,7 +38,7 @@ class Base {
 ### val 사용시
 
 kotlin
-```
+```kt
 class Base {
     companion object {
         val type: Int = 0
