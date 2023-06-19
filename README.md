@@ -282,6 +282,8 @@
 - [P2P](http://github.com/esperar/estudy/blob/master/Back-End/Internet/p2p.md)
 - [스위치와 라우터, 스위칭과 라우팅](http://github.com/esperar/estudy/blob/master/Back-End/Internet/router_switch.md)
 - [인바운드(Inbound)와 아웃바운드(Outbound)](http://github.com/esperar/estudy/blob/master/Back-End/Internet/inoutbound.md)
+- [회선교환 방식과 패킷교환 방식](ttp://github.com/esperar/estudy/blob/master/Back-End/Internet/trace.md)
+
 
 #### Computer Science
 - [꼭 알아야 할 기본 CS 지식](http://github.com/esperar/estudy/blob/master/정보처리/응용SW.md)
