@@ -224,6 +224,7 @@
 - [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
 - [마이크로서비스 아키텍쳐 (MicroService Architecture)](http://github.com/esperar/estudy/blob/master/Back-End/backend/msa.md)
 - [모놀리식 아키텍처 (Monolithic Architecture)](http://github.com/esperar/estudy/blob/master/Back-End/backend/mono.md)
+- [MSA에서의 Service discovery 패턴](http://github.com/esperar/estudy/blob/master/Back-End/backend/service_discovery.md)
    
 **모든 개발자를 위한 HTTP 웹 기본 지식**
 - 인터넷 네트워크
