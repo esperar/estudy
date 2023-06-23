@@ -287,6 +287,7 @@
 - [OSI 7계층과 TCP/IP 4계층](http://github.com/esperar/estudy/blob/master/Back-End/Internet/ositcp.md)
 - [TCP/IP Packet, TCP vs UDP](http://github.com/esperar/estudy/blob/master/Back-End/Internet/tcppacket.md)
 - [웹 캐시 Web Cache](http://github.com/esperar/estudy/blob/master/Back-End/Internet/cache.md)
+- [캐시 검증 헤더(Last-Modified, If-Modified-Since)](http://github.com/esperar/estudy/blob/master/Back-End/Internet/cache.md)
 
 
 #### Computer Science
