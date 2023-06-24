@@ -95,6 +95,7 @@
 - [SeucityContextHolderStrategy (ThreadLocal, InheritableThreadLocal, Global)](http://github.com/esperar/estudy/blob/master/Back-End/spring/security_strategy.md)
 - [Spring Security의 여러가지 Filter](http://github.com/esperar/estudy/blob/master/Back-End/spring/security_filter.md)
 - [Mock 테스트와 Stub 테스트의 차이](http://github.com/esperar/estudy/blob/master/Back-End/spring/mock_stub.md)
+- [Koltin에서 Spring을 실행하기 위한 plugin, dependencies](http://github.com/esperar/estudy/blob/master/Back-End/spring/plugko.md)
 
 
 #### JPA & ORM
