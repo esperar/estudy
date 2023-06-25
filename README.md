@@ -54,6 +54,7 @@
 - [Kotlin 코루틴 (Coroutine)과 동시성 프로그래밍](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/coroutine.md)
 - [내가 제일 좋아하는 Kotlin의 companion object ❤️](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/companion.md)
 - [Kotlin Generics 공변성, 반공변성, 무변성](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/공변성.md)
+- [Kotlin Generics 스타 프로젝션, reified 자료형](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/starpro.md)
 
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/esperar/estudy/blob/master/Back-End/spring/mvc.md)
