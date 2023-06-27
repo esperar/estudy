@@ -99,6 +99,7 @@
 - [Mock 테스트와 Stub 테스트의 차이](http://github.com/esperar/estudy/blob/master/Back-End/spring/mock_stub.md)
 - [Koltin에서 Spring을 실행하기 위한 plugin, dependencies](http://github.com/esperar/estudy/blob/master/Back-End/spring/plugko.md)
 - [Spring boot 내장 웹 서버 톰캣 설정, 다른 내장 웹 서버 설정하는 방법](http://github.com/esperar/estudy/blob/master/Back-End/spring/tomcat.md)
+- [Spring ArgumentResolver를 이용한 유연성 있는 파라미터 처리](http://github.com/esperar/estudy/blob/master/Back-End/spring/args_resolver.md)
 
 
 #### JPA & ORM
