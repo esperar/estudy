@@ -294,6 +294,7 @@
 - [웹 캐시 Web Cache](http://github.com/esperar/estudy/blob/master/Back-End/Internet/cache.md)
 - [캐시 검증 헤더(Last-Modified, If-Modified-Since)](http://github.com/esperar/estudy/blob/master/Back-End/Internet/cache.md)
 - [캐시 검증 헤더(ETag, If-None-Match)](http://github.com/esperar/estudy/blob/master/Back-End/Internet/etag.md)
+- [L1, L2, L3, L4, L5, L6, L7 스위치](http://github.com/esperar/estudy/blob/master/Back-End/Internet/ln.md)
 
 
 #### Computer Science
