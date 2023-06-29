@@ -1,4 +1,4 @@
-# Spring ArgumentResolver를 이용한 유연성 있는 파라미터 저리
+# Spring ArgumentResolver를 이용한 유연성 있는 파라미터 처리
 
 서비스를 운영해다보면 다양한 종류의 데이터를 받게 된다.  
   

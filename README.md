@@ -101,6 +101,7 @@
 - [Spring boot 내장 웹 서버 톰캣 설정, 다른 내장 웹 서버 설정하는 방법](http://github.com/esperar/estudy/blob/master/Back-End/spring/tomcat.md)
 - [Spring ArgumentResolver를 이용한 유연성 있는 파라미터 처리](http://github.com/esperar/estudy/blob/master/Back-End/spring/args_resolver.md)
 - [Spring Scheduler를 사용해 일정 주기로 동작 수행](http://github.com/esperar/estudy/blob/master/Back-End/spring/scheduler.md)
+- [Spring boot 프로젝트 profile 설정하기](http://github.com/esperar/estudy/blob/master/Back-End/spring/profile.md)
 
 
 #### JPA & ORM
