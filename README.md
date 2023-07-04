@@ -330,6 +330,12 @@
     - [깊이 우선 탐색(DFS , Depth-Fist Search)](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/graph/search/dfs.md)
     - [너비 우선 탐색(BFS, Breadth-First Search)](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/graph/search/bfs.md)
 
+#### 알고리즘
+- [그리디 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/greedy.md)
+- [프림 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/prim.md)
+- [다익스트라 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/dijkstra.md)
+- [벨만 포드 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/bellman_ford.md)
+- [플로이드 와샬 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/floyd_warshall.md)
 
 #### JavaScript  
 - [함수와 함수의 종류](https://github.com/esperar/estudy/blob/master/Front-End/JS/function.md)
