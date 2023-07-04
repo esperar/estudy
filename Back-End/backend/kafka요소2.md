@@ -196,11 +196,11 @@ $ cd confluent-7.0.1/bin
 ```
 
 #topic 생성
-`./kafka-topics --bootstrap-server localhost:19092 --create --topic test --partitions 2 --replication-factor 3`
-#test라는 토픽으로 producer가 메시지를 보낼 수 있는 shell이 실행됨
-`./kafka-console-producer --bootstrap-server localhost:19092 --topic test`
-#test라는 토픽에서 consumer가 메시지를 받을 수 있는 것을 볼 수 있음
-`./kafka-console-consumer --bootstrap-server localhost:19092 --topic test`
+`./kafka-topics --bootstrap-server localhost:19092 --create --topic test --partitions 2 --replication-factor 3`  
+#test라는 토픽으로 producer가 메시지를 보낼 수 있는 shell이 실행됨  
+`./kafka-console-producer --bootstrap-server localhost:19092 --topic test`  
+#test라는 토픽에서 consumer가 메시지를 받을 수 있는 것을 볼 수 있음  
+`./kafka-console-consumer --bootstrap-server localhost:19092 --topic test`  
 
 ![](https://velog.velcdn.com/images%2Fkidae92%2Fpost%2F3a82f94e-7c7d-4f85-9db4-79ecae6b96f3%2Fimage.png)
 
