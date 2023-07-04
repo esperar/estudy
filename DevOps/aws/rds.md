@@ -65,4 +65,99 @@ AWS Secret Manager와 연동하여 자동 로테이션 가능
 Reserved Instance 구매 가능
 - EC2와 마찬가지로 일정 기간을 게약하여 저렴한 가격에 서비스를 이용
 
+## RDS에서 제공하는 DB 엔진
+- MS SQL SERVER
+- Oracle
+  - Oracle OLAP
+- MySQL Server
+- PostgreSQL
+- MariaDB
+- Amazon Aurora
+- MS SQL Server, Oracle, Oracle OLAP는 오픈소스가 아니기 때문에 라이선스 비용 추가(자신의 라이선스 사용 가능)
 
+## RDS의 암호화
+- 암호화 지원
+  - SQL 서버 혹은 Oracle에서는 TDE(Transparent Data Encryption) 지원
+  - 모든 엔진에서 EBS 볼륨 암호화 지원
+    - Default Master Key 혹은 생성한 Master Key 선택 가능
+  - 자동 백업, 스냅샷, Read Replica 등에 적용됨
+
+## RDS의 백업
+
+### 자동 백업
+매일마다 스냅샷을 만들고 트랜잭션 로그를 저장
+  
+데이터는 S3에 저장되며 데이터베이스의 크기 만큼의 공간 점유
+  
+저장된 데이터를 바탕으로 일정 기간 내에 특정 시간으로 롤백 가능 (다른 DB 클러스터를 새로 생성)
+  
+1~35일 까지 보관 지원
+  
+Backup을 시행할 때는 약간의 딜레이 발생 가능성
+  
+기본적으로 사용 상태로 설정되어 있음
+
+### 수동 백업(DB 스냅샷)
+유저, 혹은 다른 프로세스로 부터 요청에 따라 만들어지는 스냅샷
+  
+데이터베이스가 삭제된 이후에도 계속 보관
+  
+스냅샷의 복구는 항상 새로운 DB Instance를 생성하여 수행
+
+
+
+## RDS Multi AZ
+두 개 이상의 AZ에 걸쳐 데이터베이스를 구축하고 원본가 다른 DB(Standby)를 자동으로 동기화(Sync)  
+- SQL Server, Oracle, MySQL, PosgreSQL, MariaDB에서 지원
+- Aurora의 경우 다중 AZ를 설계 단계에서 지원
+
+원본 DB의 장애 발생 시 자동으로 다른 DB가 원본으로 승격됨(DNS가 Standby DB로)
+  
+StandBy DB는 접근 불가능
+  
+퍼포먼스의 상승 효과가 아닌 안정성을 위한 서비스
+
+![](https://user-images.githubusercontent.com/28394879/141416100-f7134381-f45f-4a7e-bff1-5086adf3d94a.png)
+
+![](https://user-images.githubusercontent.com/28394879/141416236-cf001439-dbfc-4645-8585-fd05c4d9ce81.png)
+
+## Read Replica(읽기 전용 복제본)
+
+원래 데이터베이스의 읽기 전용 복제본을 생성(Async)
+  
+- 쓰기는 원본 데이터베이스, 읽기는 복제본에서 처리하여 워크로드 분산
+- MySQL, PostgreSQL, MariaDB, Oracle, Aurora에서 지원
+
+안정성이 아닌 퍼포먼스를 위한 서비스
+  
+총 5개 까지 생성 가능
+  
+각각의 복제본은 고유 DNS가 할당됨 -> 접근 가능
+- 원본 DB 장애 발생 시 수동으로 DNS 변경이 필요함
+
+복제본 자체에 Multi-AZ 설정 가능 (MySQL, PostgreSQL, MariaDB, Oracle)
+  
+Multi-AZ DB에 Read Replica 설정 가능
+  
+자동 백업이 활성화 되어 있어야 읽기 전용 복제본 생성 가능
+  
+각 DB의 엔진 버전이 다를 수 있음
+
+![](https://user-images.githubusercontent.com/28394879/141417131-c92bc7c6-8f64-4644-b2c0-7eb8e2bd2fb6.png)
+
+![](https://user-images.githubusercontent.com/28394879/141417813-182df6ec-a81b-4055-8014-e63a4e3e7a9a.png)
+
+위 사진에서 복제를 끊고 아래 사진처럼 구성할 수 있다.
+
+![](https://user-images.githubusercontent.com/28394879/141417884-68265c7c-25f5-497d-87de-1cae5cf13eb8.png)
+
+## RDS Multi Region
+다른 리전에 지속적으로 동기화 시키는 DB클러스터를 생성(Async 복제)
+  
+주로 로컬 퍼포먼스 혹은 DR(Disaster Recovery)시나리오로 활용
+  
+각 리전별로 자동 백업 가능
+  
+리전별로 Multi-AZ 가능
+
+![](https://user-images.githubusercontent.com/28394879/141418965-f6e98382-43bf-4a2e-ba53-b7e2036d607c.png)
