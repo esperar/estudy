@@ -229,6 +229,7 @@
   - [고가용성과 장애내구성, 재해 복구, 확장성과 탄력성](http://github.com/esperar/estudy/blob/master/DevOps/aws/고가용성_장애내구성.md)
   - [AWS RDS(Relation Database Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws/rds.md)
   - [Elastic IP, ENI(Elastic Network Interface)](http://github.com/esperar/estudy/blob/master/DevOps/aws/elastic_ip.md)
+  - [System Manager Session Manager](http://github.com/esperar/estudy/blob/master/DevOps/aws/session_manager.md)
   - [AWS SNS(Simple Notification Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws/SNS.md)
   - [AWS SQS(Simple Queue Service), SNS와의 차이점](http://github.com/esperar/estudy/blob/master/DevOps/aws/SQS.md)
   - [AWS 클라우드 프론트 CloudFront](http://github.com/esperar/estudy/blob/master/DevOps/aws/cloudfront.md)
