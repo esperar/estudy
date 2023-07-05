@@ -187,6 +187,7 @@
     - [팩토리 메서드 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/생성/factory_method.md)
     - [추상 팩토리 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/생성/abstract_factory.md)
     - [빌더 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/생성/builder.md)
+    - [프로토타입 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/생성/prototype.md)
   - 행동 패턴
     - [템플릿 메서드 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/행동/template.md)
     - [옵저버 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/행동/observer.md)
