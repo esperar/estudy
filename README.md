@@ -210,6 +210,7 @@
   - [컨테이너 관리 명령어](http://github.com/esperar/estudy/blob/master/DevOps/Docker/컨테이너관리명령어.md)
   - [이미지 관련 명령어](http://github.com/esperar/estudy/blob/master/DevOps/Docker/이미지관련명령어.md)
   - [도커 컨테이너를 띄워보자](http://github.com/esperar/estudy/blob/master/DevOps/Docker/container.md)
+  - [컨테이너 외부 노출](http://github.com/esperar/estudy/blob/master/DevOps/Docker/컨테이너외부노출.md)
   - [Docker Swarm](http://github.com/esperar/estudy/blob/master/DevOps/Docker/swarm.md)
   - [spring boot 프로젝트를 Docker를 사용해 배포하기](http://github.com/esperar/estudy/blob/master/DevOps/Docker/spring_docker.md)
 - [애자일(Agile) 방법론](http://github.com/esperar/estudy/blob/master/DevOps/agile.md)
