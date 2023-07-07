@@ -7,6 +7,7 @@
 - [2023 제 3회 당근마켓 SRE 밋업](http://github.com/esperar/estudy/blob/master/Back-End/backend/당근밋업.md)
 - [Apache Kafka 주요 요소 Producer, Counsumer, Topic, Partition, Segment](http://github.com/esperar/estudy/blob/master/Back-End/backend/kafka요소.md)
 - [Apaceh Kafka 주요 요소2 Broker, Zookeeper + 클러스터링 해보기](http://github.com/esperar/estudy/blob/master/Back-End/backend/kafka요소2.md)
+- [IntelliJ 테스트 커버리지 확인하기](http://github.com/esperar/estudy/blob/master/Back-End/backend/test_cov.md)
 
 #### Java & OOP
 - [Java란](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/JAVA.md)
