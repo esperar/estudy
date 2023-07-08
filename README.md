@@ -205,6 +205,7 @@
 
 
 #### DevOps
+- [DevOps Engineer](http://github.com/esperar/estudy/blob/master/DevOps/devops.md)
 - [도커와 쿠버네티스](http://github.com/esperar/estudy/blob/master/정보처리/doker.md)
 - [IaaS, PaaS, SaaS 차이](http://github.com/esperar/estudy/blob/master/DevOps/XaaS.md)
 - [CI/CD 파이프라인과 구현과정](http://github.com/esperar/estudy/blob/master/DevOps/cicd.md)
