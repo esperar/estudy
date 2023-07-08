@@ -234,6 +234,7 @@
 - [AWS(Amazon Web Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws.md)
   - [EC2(Elastic Compute Cloud)](http://github.com/esperar/estudy/blob/master/DevOps/ec2.md) 
   - [EC2의 가격 정책과 타입 종류](http://github.com/esperar/estudy/blob/master/DevOps/aws/EC2Price.md)
+  - [IAM(Identity and Access Management)](http://github.com/esperar/estudy/blob/master/DevOps/aws/EC2Price.md)
   - [EBS, Instance Store, AMI](http://github.com/esperar/estudy/blob/master/DevOps/aws/ebs.md)
   - [AWS 보안 그룹 Security Group](http://github.com/esperar/estudy/blob/master/DevOps/aws/securitygroup.md)
   - [AWS ELB (Elastic Load Balancer), Sticky Session](http://github.com/esperar/estudy/blob/master/DevOps/aws/elb.md)
