@@ -76,8 +76,8 @@ DevOps 엔지니어는 보다 협업적인 환경을 조성하기 위해서 사�
 <br>
 
 ### 참고 자료
-[Software Development DevOps principles](https://www.atlassian.com/devops/what-is-devops/devops-engineer)
-[DevOps란?](https://www.netapp.com/ko/devops-solutions/what-is-devops/)
-[DevOps의 탄생과 역사](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ydot&logNo=221536323043)
-[사일로 Silo 환경](https://business.adobe.com/kr/blog/the-latest/how-to-overcome-silos)
-[인프라 프로비저닝이란?](https://www.redhat.com/ko/topics/automation/what-is-provisioning)
+- [Software Development DevOps principles](https://www.atlassian.com/devops/what-is-devops/devops-engineer)
+- [DevOps란?](https://www.netapp.com/ko/devops-solutions/what-is-devops/)
+- [DevOps의 탄생과 역사](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ydot&logNo=221536323043)
+- [사일로 Silo 환경](https://business.adobe.com/kr/blog/the-latest/how-to-overcome-silos)
+- [인프라 프로비저닝이란?](https://www.redhat.com/ko/topics/automation/what-is-provisioning)
