@@ -62,6 +62,7 @@
 
 #### Golang
 - [Go Handle, Handler, HandleFunc 이해](http://github.com/esperar/estudy/blob/master/Back-End/go/http_handler.md)
+- [Golang에서의 포인터와 역참조](http://github.com/esperar/estudy/blob/master/Back-End/go/pointer.md)
 
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/esperar/estudy/blob/master/Back-End/spring/mvc.md)
