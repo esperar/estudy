@@ -222,6 +222,7 @@
   - [도커 네트워크 구조](http://github.com/esperar/estudy/blob/master/DevOps/Docker/network.md)
   - [컨테이너 로깅](http://github.com/esperar/estudy/blob/master/DevOps/Docker/컨테이너로깅.md)
   - [컨테이너 자원 제한](http://github.com/esperar/estudy/blob/master/DevOps/Docker/컨테이너자원제한.md)
+  - [도커 이미지 생성](http://github.com/esperar/estudy/blob/master/DevOps/Docker/docker_image.md)
   - [Docker Swarm](http://github.com/esperar/estudy/blob/master/DevOps/Docker/swarm.md)
   - [spring boot 프로젝트를 Docker를 사용해 배포하기](http://github.com/esperar/estudy/blob/master/DevOps/Docker/spring_docker.md)
 - [애자일(Agile) 방법론](http://github.com/esperar/estudy/blob/master/DevOps/agile.md)
