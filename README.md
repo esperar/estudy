@@ -60,6 +60,9 @@
 - [Kotlin Generics 공변성, 반공변성, 무변성](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/공변성.md)
 - [Kotlin Generics 스타 프로젝션, reified 자료형](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/starpro.md)
 
+#### Golang
+- [Go Handle, Handler , HandleFunc 이해](http://github.com/esperar/estudy/blob/master/Back-End/go/http_handler.md)
+
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/esperar/estudy/blob/master/Back-End/spring/mvc.md)
 - [Controller, Service, Repository 역할](http://github.com/esperar/estudy/blob/master/Back-End/spring/cre.md)
@@ -124,9 +127,6 @@
 - [프록시(Proxy)와 지연 로딩](http://github.com/esperar/estudy/blob/master/Back-End/jpa/proxy.md)
 - [OSIV(Open Session In View)](http://github.com/esperar/estudy/blob/master/Back-End/jpa/osiv.md)
 - [벌크 수정, 삭제 연산과 영속성 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/jpa/bulk.md)
-
-#### Golang
-- [Go Handle, Handler , HandleFunc 이해](http://github.com/esperar/estudy/blob/master/Back-End/go/http_handler.md)
 
 
 #### Domain Driven Design
