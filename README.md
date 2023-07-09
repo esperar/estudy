@@ -61,7 +61,7 @@
 - [Kotlin Generics 스타 프로젝션, reified 자료형](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/starpro.md)
 
 #### Golang
-- [Go Handle, Handler , HandleFunc 이해](http://github.com/esperar/estudy/blob/master/Back-End/go/http_handler.md)
+- [Go Handle, Handler, HandleFunc 이해](http://github.com/esperar/estudy/blob/master/Back-End/go/http_handler.md)
 
 #### Spring boot
 - [MVC 패턴과 사용하는 이유](http://github.com/esperar/estudy/blob/master/Back-End/spring/mvc.md)
