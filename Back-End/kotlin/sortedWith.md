@@ -22,7 +22,7 @@ Comparator 사용에 대한 핵심.
   
 따라서 [2,9,6,1,7,4,3]로 이루어진 List<Int> 변수에 위 코드를 수행하면 오름차순으로 정렬된 결과가 나오게 된다.
 
-```
+```kt
 fun main() {
     var list = listOf(2,9,6,1,7,4,3)
     list = list.sortedWith(Comparator<Int> {a, b -> 
