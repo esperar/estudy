@@ -9,6 +9,7 @@
 - [Apaceh Kafka 주요 요소2 Broker, Zookeeper + 클러스터링 해보기](http://github.com/esperar/estudy/blob/master/Back-End/backend/kafka요소2.md)
 - [IntelliJ 테스트 커버리지 확인하기](http://github.com/esperar/estudy/blob/master/Back-End/backend/test_cov.md)
 - [SOLID 원칙과 각 원칙의 장단점](http://github.com/esperar/estudy/blob/master/Back-End/backend/solid.md)
+- [Kotlin, JPA가 서로 지향하는 방향의 차이](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/koltin_jpa.md)
 
 #### Java & OOP
 - [Java란](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/JAVA.md)
@@ -60,7 +61,7 @@
 - [Kotlin Generics 공변성, 반공변성, 무변성](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/공변성.md)
 - [Kotlin Generics 스타 프로젝션, reified 자료형](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/starpro.md)
 - [sortedWith, Comparator 정렬 람다식 예제](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/sortedWith.md)
-- [Kotlin, JPA가 서로 지향하는 방향의 차이](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/koltin_jpa.md)
+
 
 #### Golang
 - [Go Handle, Handler, HandleFunc 이해](http://github.com/esperar/estudy/blob/master/Back-End/go/http_handler.md)
