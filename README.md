@@ -60,6 +60,7 @@
 - [Kotlin Generics 공변성, 반공변성, 무변성](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/공변성.md)
 - [Kotlin Generics 스타 프로젝션, reified 자료형](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/starpro.md)
 - [sortedWith, Comparator 정렬 람다식 예제](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/sortedWith.md)
+- [Kotlin, JPA가 서로 지향하는 방향의 차이](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/koltin_jpa.md)
 
 #### Golang
 - [Go Handle, Handler, HandleFunc 이해](http://github.com/esperar/estudy/blob/master/Back-End/go/http_handler.md)
