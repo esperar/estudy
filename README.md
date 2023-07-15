@@ -331,6 +331,7 @@
 - [캐시 검증 헤더(Last-Modified, If-Modified-Since)](http://github.com/esperar/estudy/blob/master/Back-End/Internet/cache.md)
 - [캐시 검증 헤더(ETag, If-None-Match)](http://github.com/esperar/estudy/blob/master/Back-End/Internet/etag.md)
 - [L1, L2, L3, L4, L5, L6, L7 스위치](http://github.com/esperar/estudy/blob/master/Back-End/Internet/ln.md)
+- [웹소켓(WebSocket), HTTP와의 차이](ttp://github.com/esperar/estudy/blob/master/Back-End/Internet/websocket.md)
 
 
 #### Computer Science
