@@ -1,3 +1,11 @@
+### estudy 👋
+
+위대한 백엔드 개발자가 되기위한 저의 여정을 기록합니다.
+
+오늘도 난 하루하루 정진합니다. 대기업을 가기위한 여정 🚢
+
+> 마크다운으로 작성합니다. 단순 복붙이 아닌 내용을 전부 이해합니다.
+
 #### Backend & Dev
 - [인증(Authentication) vs 인가(Authorization)](http://github.com/esperar/estudy/blob/master/Back-End/backend/auth.md)
 - [Back-End 효율적인 API 명세서 설계방법](http://github.com/esperar/estudy/blob/master/Back-End/backend/api.md)
