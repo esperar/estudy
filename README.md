@@ -221,7 +221,7 @@
 - [IaaS, PaaS, SaaS 차이](http://github.com/esperar/estudy/blob/master/DevOps/XaaS.md)
 - [CI/CD 파이프라인과 구현과정](http://github.com/esperar/estudy/blob/master/DevOps/cicd.md)
 - [가상머신(Virtual Machine) vs 컨테이너(Container)](http://github.com/esperar/estudy/blob/master/DevOps/vircon.md)
-- [데몬(daemon) 프로세스의 정의](http://github.com/esperar/estudy/blob/master/DevOps/데몬프로세스.md)
+- [배포 전략의 종류(롤링/블루 그린/카나리)](http://github.com/esperar/estudy/blob/master/DevOps/deploy.md)
 - [도커(Docker)](http://github.com/esperar/estudy/blob/master/DevOps/Docker/docker.md)
   - [컨테이너 제어 명령어](http://github.com/esperar/estudy/blob/master/DevOps/Docker/컨테이너제어명령어.md)
   - [컨테이너 관리 명령어](http://github.com/esperar/estudy/blob/master/DevOps/Docker/컨테이너관리명령어.md)
@@ -351,6 +351,7 @@
 - [OS의 스와핑 Swapping](http://github.com/esperar/estudy/blob/master/Computer-Science/swapping.md)
 - [가상 메모리 Virtual Memory System](http://github.com/esperar/estudy/blob/master/Computer-Science/vm.md)
 - [뮤텍스(Mutex)와 세마포어(Semaphore)](http://github.com/esperar/estudy/blob/master/Computer-Science/mutex_semaphore.md)
+- [데몬(daemon) 프로세스의 정의](http://github.com/esperar/estudy/blob/master/DevOps/데몬프로세스.md)]
 
 #### 자료구조
 - 선형 구조
