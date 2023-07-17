@@ -348,7 +348,7 @@
 - [메시지 큐(Message Queue, MQ) 개념](http://github.com/esperar/estudy/blob/master/Back-End/Internet/mq.md)
 
 
-#### Operation System
+#### Operating System
 - [꼭 알아야 할 기본 CS 지식](http://github.com/esperar/estudy/blob/master/정보처리/응용SW.md)
 - [OS(운영체제) 구조와 원리](http://github.com/esperar/estudy/blob/master/Back-End/Internet/host.md)
 - [스레드와 동시성](http://github.com/esperar/estudy/blob/master/Back-End/Internet/host.md)
@@ -356,11 +356,11 @@
 - [CPU 스케줄링이란 ?](http://github.com/esperar/estudy/blob/master/정보처리/cpus.md)
 - [Synchronize(동기화)와 Deadlock](http://github.com/esperar/estudy/blob/master/정보처리/동기화.md)
 - [런타임과 컴파일타임](http://github.com/esperar/estudy/blob/master/정보처리/comrun.md)
-- [JVM Garbage Collection 구조와 동작](http://github.com/esperar/estudy/blob/master/Computer-Science/gc.md)
-- [OS의 스와핑 Swapping](http://github.com/esperar/estudy/blob/master/Computer-Science/swapping.md)
-- [가상 메모리 Virtual Memory System](http://github.com/esperar/estudy/blob/master/Computer-Science/vm.md)
-- [뮤텍스(Mutex)와 세마포어(Semaphore)](http://github.com/esperar/estudy/blob/master/Computer-Science/mutex_semaphore.md)
-- [데몬(daemon) 프로세스의 정의](http://github.com/esperar/estudy/blob/master/DevOps/데몬프로세스.md)]
+- [JVM Garbage Collection 구조와 동작](http://github.com/esperar/estudy/blob/master/Operating-System/gc.md)
+- [OS의 스와핑 Swapping](http://github.com/esperar/estudy/blob/master/COperating-System/swapping.md)
+- [가상 메모리 Virtual Memory System](http://github.com/esperar/estudy/blob/master/Operating-System/vm.md)
+- [뮤텍스(Mutex)와 세마포어(Semaphore)](http://github.com/esperar/estudy/blob/master/Operating-System/mutex_semaphore.md)
+- [데몬(daemon) 프로세스의 정의](http://github.com/esperar/estudy/blob/master/DevOps/데몬프로세스.md)
 
 #### 자료구조
 - 선형 구조
