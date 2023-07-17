@@ -6,7 +6,7 @@
 
 마크다운으로 작성합니다. 단순 복붙이 아닌 내용을 전부 이해합니다.
 
-<br>
+<hr>
 
 #### Backend & Dev
 - [인증(Authentication) vs 인가(Authorization)](http://github.com/esperar/estudy/blob/master/Back-End/backend/auth.md)
