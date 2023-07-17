@@ -369,6 +369,7 @@
 
 #### 알고리즘
 - [너비 우선 탐색(BFS)](http://github.com/esperar/estudy/blob/master/Algorithm/bfs.md)
+- [깊이 우선 탐색(DFS)](http://github.com/esperar/estudy/blob/master/Algorithm/dfs.md)
 - [그리디 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/greedy.md)
 - [프림 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/prim.md)
 - [다익스트라 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/dijkstra.md)
