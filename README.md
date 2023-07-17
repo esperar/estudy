@@ -338,9 +338,8 @@
 - [메시지 큐(Message Queue, MQ) 개념](http://github.com/esperar/estudy/blob/master/Back-End/Internet/mq.md)
 
 
-#### Computer Science
+#### Operation System
 - [꼭 알아야 할 기본 CS 지식](http://github.com/esperar/estudy/blob/master/정보처리/응용SW.md)
-- [자료구조,알고리즘](http://github.com/esperar/estudy/blob/master/정보처리/자료구조알고리즘.md)
 - [OS(운영체제) 구조와 원리](http://github.com/esperar/estudy/blob/master/Back-End/Internet/host.md)
 - [스레드와 동시성](http://github.com/esperar/estudy/blob/master/Back-End/Internet/host.md)
 - [멀티 스레드와 멀티 프로세스](http://github.com/esperar/estudy/blob/master/정보처리/processthread.md)
@@ -369,6 +368,7 @@
     - [너비 우선 탐색(BFS, Breadth-First Search)](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/graph/search/bfs.md)
 
 #### 알고리즘
+- [자료구조와 알고리즘](http://github.com/esperar/estudy/blob/master/정보처리/자료구조알고리즘.md)
 - [너비 우선 탐색(BFS)](http://github.com/esperar/estudy/blob/master/Algorithm/bfs.md)
 - [깊이 우선 탐색(DFS)](http://github.com/esperar/estudy/blob/master/Algorithm/dfs.md)
 - [그리디 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/greedy.md)
