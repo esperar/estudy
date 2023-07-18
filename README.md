@@ -458,4 +458,4 @@
 - [GitHub 갖가지 용어정리](https://github.com/esperar/estudy/blob/master/Back-End/git/용어.md)
 - [git/github Issue란?](https://github.com/esperar/estudy/blob/master/Back-End/git/issue.md)
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/esperar&count_bg=%239576FF&title_bg=%23555555&icon=golang.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fesperar%2Festudy&count_bg=%23009FFF&title_bg=%2313D5C9&icon=spring.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
