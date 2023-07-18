@@ -277,7 +277,7 @@
 - [MSA에서의 Service discovery 패턴](http://github.com/esperar/estudy/blob/master/Back-End/backend/service_discovery.md)
 - [gRPC, RPC, 작동원리, HTTP API 비교](http://github.com/esperar/estudy/blob/master/DevOps/grpc.md)
 - [RabbitMQ](http://github.com/esperar/estudy/blob/master/DevOps/rabbitmq.md)
-- [서비스 메시 Service Mesh](http://github.com/esperar/estudy/blob/master/DevOps/service_mesg.md)
+- [서비스 메시 Service Mesh](http://github.com/esperar/estudy/blob/master/DevOps/service_mesh.md)
    
 **모든 개발자를 위한 HTTP 웹 기본 지식**
 - 인터넷 네트워크
