@@ -267,6 +267,7 @@
   - [Elastic IP, ENI(Elastic Network Interface)](http://github.com/esperar/estudy/blob/master/DevOps/aws/elastic_ip.md)
   - [System Manager Session Manager](http://github.com/esperar/estudy/blob/master/DevOps/aws/session_manager.md)
   - [Amazon Aurora, Aurora Architecture](http://github.com/esperar/estudy/blob/master/DevOps/aws/aurora.md)
+  - [CloudWatch vs CloudTrail](http://github.com/esperar/estudy/blob/master/DevOps/aws/cloudwatch.md)
   - [AWS SES(Simple Email Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws/SES.md)
   - [AWS SNS(Simple Notification Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws/SNS.md)
   - [AWS SQS(Simple Queue Service), SNS와의 차이점](http://github.com/esperar/estudy/blob/master/DevOps/aws/SQS.md)
