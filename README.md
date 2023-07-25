@@ -350,6 +350,7 @@
 - [웹소켓(WebSocket), HTTP와의 차이](http://github.com/esperar/estudy/blob/master/Back-End/Internet/websocket.md)
 - [SSL(Security Socket Layer), TLS(Transfer Layer Security)](http://github.com/esperar/estudy/blob/master/Back-End/Internet/ssl_tls.md)
 - [메시지 큐(Message Queue, MQ) 개념](http://github.com/esperar/estudy/blob/master/Back-End/Internet/mq.md)
+- [서브넷팅 & 슈퍼넷팅 개념 및 쉬운 계산 방법](ttp://github.com/esperar/estudy/blob/master/Back-End/Internet/subnetsupernet.md)
 
 
 #### Operating System
