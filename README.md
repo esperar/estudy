@@ -368,6 +368,7 @@
 - [뮤텍스(Mutex)와 세마포어(Semaphore)](http://github.com/esperar/estudy/blob/master/Operating-System/mutex_semaphore.md)
 - [데몬(daemon) 프로세스의 정의](http://github.com/esperar/estudy/blob/master/DevOps/데몬프로세스.md)
 - [컴퓨팅 시스템 Computing System](http://github.com/esperar/estudy/blob/master/Operating-System/computingsystem.md)
+- [페이지 교체 알고리즘 FIFO, LRU, LFU, MFU, NUR](http://github.com/esperar/estudy/blob/master/Operating-System/page.md)
 
 #### 자료구조
 - 선형 구조
