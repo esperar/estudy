@@ -48,6 +48,7 @@
 - [자바 리플랙션 Reflection 개념과 사용방법](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/reflection.md)
 - [자바 익스큐터 java Executors](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/executor.md)
 - [java Callable, Future](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/callable_future.md)
+- [자바에서 Finalize 메서드의 역할은 무엇일까요?](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/callable_future.md)
 
 #### Kotlin
 - [코틀린이란 무엇이며 왜 필요한가?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kotlin.md)
