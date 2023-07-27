@@ -370,6 +370,7 @@
 - [컴퓨팅 시스템 Computing System](http://github.com/esperar/estudy/blob/master/Operating-System/computingsystem.md)
 - [페이지 교체 알고리즘 FIFO, LRU, LFU, MFU, NUR](http://github.com/esperar/estudy/blob/master/Operating-System/page.md)
 - [메모리 단편화 Fragmentation](http://github.com/esperar/estudy/blob/master/Operating-System/fragmentation.md)
+- [하이퍼바이저 Hypervisor](http://github.com/esperar/estudy/blob/master/Operating-System/hypervisor.md)
 
 #### 자료구조
 - 선형 구조
