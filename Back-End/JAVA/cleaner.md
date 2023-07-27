@@ -81,4 +81,4 @@ public class PhantomReferenceExample {
 
 위의 예에서 ReferenceQueue는 선택 사항이며 개체가 완료를 위해 대기열에 추가될 때 알림을 받는 데 사용할 수 있습니다. 이 알림이 필요하지 않은 경우 ReferenceQueue를 제공하지 않고 PhantomReferece를 만들 수 있습니다.
 
-PhantomReference는 일반적으로 사용자가 지정 정리 메커니즘 생성 또는 개체 부활 구현과 같은 고급 시나리오에서 사용된다는 점은 주목할 가치가 있습니다. 대ㅜㅂ분의 일반적인 사용 사례에서는 SoftReference, WeakReference 또는 Cleaner로도 충분합니다.
+PhantomReference는 일반적으로 사용자가 지정 정리 메커니즘 생성 또는 개체 부활 구현과 같은 고급 시나리오에서 사용된다는 점은 주목할 가치가 있습니다. 대부분의 일반적인 사용 사례에서는 SoftReference, WeakReference 또는 Cleaner로도 충분합니다.
