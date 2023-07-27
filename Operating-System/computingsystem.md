@@ -27,7 +27,7 @@ Tightly coupled system - 프로세서들이 메모리와 클락을 공유하면�
 3. graceful degradation, fail-soft system: 시간이 지날 수록 실패하는 비율이 작다.
 4. 신뢰성이 높다: 하나의 CPU가 고장이 나더라도 다른 CPU가 일을 수행할 수 있다.
 
-![Alt text](image.png)
+![Alt text](./image/image.png)
 
 쉬운 이해: 공장에서 여러 사람들이 각자의 물품을 만들어 내는 과정을 생각하면 병렬 시스템이다.
 
@@ -45,7 +45,7 @@ Loosely coupled system - 각각의 프로세서는 각자의 로컬 메모리를
 
 병렬 시스템과 차이점이다. (병렬 시스템은 메모리를 공유) 또한 high-speed 버스와 네트워크를 통해 다른 프로세서오의 소통을 한다.
 
-![Alt text](image-1.png)
+![Alt text](./image/image-1.png)
 
 ### 장점
 
