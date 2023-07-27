@@ -359,7 +359,7 @@
 - [OS(운영체제) 구조와 원리](http://github.com/esperar/estudy/blob/master/Back-End/Internet/host.md)
 - [스레드와 동시성](http://github.com/esperar/estudy/blob/master/Back-End/Internet/host.md)
 - [멀티 스레드와 멀티 프로세스](http://github.com/esperar/estudy/blob/master/정보처리/processthread.md)
-- [CPU 스케줄링이란 ?](http://github.com/esperar/estudy/blob/master/정보처리/cpus.md)
+- [CPU 스케줄링이란](http://github.com/esperar/estudy/blob/master/정보처리/cpus.md)
 - [Synchronize(동기화)와 Deadlock](http://github.com/esperar/estudy/blob/master/정보처리/동기화.md)
 - [런타임과 컴파일타임](http://github.com/esperar/estudy/blob/master/정보처리/comrun.md)
 - [JVM Garbage Collection 구조와 동작](http://github.com/esperar/estudy/blob/master/Operating-System/gc.md)
@@ -423,7 +423,7 @@
 
 
 #### TypeScript
-- [TypeScript란 ?](https://github.com/esperar/estudy/blob/master/Front-End/TS/TypeScript.md)
+- [TypeScript](https://github.com/esperar/estudy/blob/master/Front-End/TS/TypeScript.md)
 - [Basic_Types 정리](https://github.com/esperar/estudy/blob/master/Front-End/TS/TS_Type.md)
 - [Basic_Function 정리](https://github.com/esperar/estudy/blob/master/Front-End/TS/TS_function.md)
 - [작성자와 사용자의 관점으로 코드 바라보기](https://github.com/esperar/Study_TypeScript/blob/main/Type_System/TypeSystem.md)
