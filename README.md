@@ -369,6 +369,7 @@
 - [데몬(daemon) 프로세스의 정의](http://github.com/esperar/estudy/blob/master/DevOps/데몬프로세스.md)
 - [컴퓨팅 시스템 Computing System](http://github.com/esperar/estudy/blob/master/Operating-System/computingsystem.md)
 - [페이지 교체 알고리즘 FIFO, LRU, LFU, MFU, NUR](http://github.com/esperar/estudy/blob/master/Operating-System/page.md)
+- [메모리 단편화 Fragmentation](http://github.com/esperar/estudy/blob/master/Operating-System/fragmentation.md)
 
 #### 자료구조
 - 선형 구조
@@ -419,7 +420,6 @@
 - [Promise 알아보기](https://github.com/esperar/estudy/blob/master/Front-End/JS/promise.md)
 - [ajax 알아보기](https://github.com/esperar/estudy/blob/master/Front-End/JS/ajax.md)
 - [fetch API 알아보기](https://github.com/esperar/estudy/blob/master/Front-End/JS/fetch.md)
-
 
 
 #### TypeScript
