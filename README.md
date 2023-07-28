@@ -52,6 +52,7 @@
 - [자바 Cleaner, PhantomReference Class](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/cleaner.md)
 - [객체의 생명주기(생성, 사용, 소멸)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/cleaner.md)
 - [OutOfMemoryError가 발생했을 때 해결하는 방법](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/oom.md)
+- [JMM(Java Memory Model)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/jmm.md)
 
 #### Kotlin
 - [코틀린이란 무엇이며 왜 필요한가?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kotlin.md)
