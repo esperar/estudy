@@ -26,6 +26,9 @@
 - [Java란](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/JAVA.md)
 - [객체지향 프로그래밍](http://github.com/esperar/estudy/blob/master/정보처리/Java.md)
 - [JVM 메모리 구조 알아보기](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/jvm.md)
+- [JMM(Java Memory Model)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/jmm.md)
+- [JVM 메모리 모델](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/jvmm.md)
+- [JVM Garbage Collection 구조와 동작](http://github.com/esperar/estudy/blob/master/Operating-System/gc.md)
 - [객체지향의 4가지 특징](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/4특징.md)
 - [객체지향 설계의 5원칙(SOLID)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/5원칙.md)
 - [클래스와 인스턴스 개념과 차이](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/coi.md)
@@ -52,7 +55,7 @@
 - [자바 Cleaner, PhantomReference Class](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/cleaner.md)
 - [객체의 생명주기(생성, 사용, 소멸)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/cleaner.md)
 - [OutOfMemoryError가 발생했을 때 해결하는 방법](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/oom.md)
-- [JMM(Java Memory Model)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/jmm.md)
+
 
 #### Kotlin
 - [코틀린이란 무엇이며 왜 필요한가?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kotlin.md)
@@ -368,7 +371,6 @@
 - [CPU 스케줄링이란](http://github.com/esperar/estudy/blob/master/정보처리/cpus.md)
 - [Synchronize(동기화)와 Deadlock](http://github.com/esperar/estudy/blob/master/정보처리/동기화.md)
 - [런타임과 컴파일타임](http://github.com/esperar/estudy/blob/master/정보처리/comrun.md)
-- [JVM Garbage Collection 구조와 동작](http://github.com/esperar/estudy/blob/master/Operating-System/gc.md)
 - [OS의 스와핑 Swapping](http://github.com/esperar/estudy/blob/master/COperating-System/swapping.md)
 - [가상 메모리 Virtual Memory System](http://github.com/esperar/estudy/blob/master/Operating-System/vm.md)
 - [뮤텍스(Mutex)와 세마포어(Semaphore)](http://github.com/esperar/estudy/blob/master/Operating-System/mutex_semaphore.md)
