@@ -86,6 +86,7 @@
 - [sortedWith, Comparator 정렬 람다식 예제](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/sortedWith.md)
 - [Kotlin runCatching과 Result 타입](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/runcatching.md)
 - [Kotlin에서 Unit과 Nothing의 차이점](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/unit_nothing.md)
+- [Kotlin에서 싱글톤 클래스를 어떻게 생성할까요?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/singleton.md)
 
 #### Golang
 - [Go Handle, Handler, HandleFunc 이해](http://github.com/esperar/estudy/blob/master/Back-End/go/http_handler.md)
