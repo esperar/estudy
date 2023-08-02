@@ -89,7 +89,7 @@
 - [Kotlin에서 싱글톤 클래스를 어떻게 생성할까요?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/singleton.md)
 - [companion object와 object의 차이점은 무엇일까요?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/companion_and_object.md)
 - [클래스 외부의 함수(A package-level/ Top-level 함수)](http://github.com/esperar/estudy/blob/master/Back-End/top_level.md)
-- [Kotlin Class, Field vs Property]()
+- [Kotlin Class, Field vs Property](http://github.com/esperar/estudy/blob/master/Back-End/field_property.md)
 
 #### Golang
 - [Go Handle, Handler, HandleFunc 이해](http://github.com/esperar/estudy/blob/master/Back-End/go/http_handler.md)
