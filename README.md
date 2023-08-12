@@ -289,6 +289,7 @@
   - [AWS SNS(Simple Notification Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws/SNS.md)
   - [AWS SQS(Simple Queue Service), SNS와의 차이점](http://github.com/esperar/estudy/blob/master/DevOps/aws/SQS.md)
   - [AWS 클라우드 프론트 CloudFront](http://github.com/esperar/estudy/blob/master/DevOps/aws/cloudfront.md)
+  - [AWS ECR(Elastic Container Registry)](http://github.com/esperar/estudy/blob/master/DevOps/aws/ecr.md)
   - [AWS ELK(Elastic Search Logstash Kibana)](http://github.com/esperar/estudy/blob/master/DevOps/aws/ELK.md)
 - [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
 - [마이크로서비스 아키텍쳐 (MicroService Architecture)](http://github.com/esperar/estudy/blob/master/Back-End/backend/msa.md)
