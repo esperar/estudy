@@ -281,6 +281,7 @@
   - [오토 스케일링 (Auto Scaling) 구성과 순서도](http://github.com/esperar/estudy/blob/master/DevOps/aws/as.md)
   - [VPC(Virtual Private Cloud)와 구성요소](http://github.com/esperar/estudy/blob/master/DevOps/aws/vpc.md)
   - [NAT, NAPT 그리고 AWS NAT Gateway](http://github.com/esperar/estudy/blob/master/DevOps/aws/natgateway.md)
+  - [AWS 라우팅 테이블 개념과 구성](http://github.com/esperar/estudy/blob/master/DevOps/aws/라우팅테이블.md)
   - [고가용성과 장애내구성, 재해 복구, 확장성과 탄력성](http://github.com/esperar/estudy/blob/master/DevOps/aws/고가용성_장애내구성.md)
   - [AWS RDS(Relation Database Service)](http://github.com/esperar/estudy/blob/master/DevOps/aws/rds.md)
   - [Elastic IP, ENI(Elastic Network Interface)](http://github.com/esperar/estudy/blob/master/DevOps/aws/elastic_ip.md)
