@@ -14,4 +14,4 @@ WebMVC 기반으로 프로젝트를 만든다고 가정할 때, 요청 한 개�
 
 ## Global
 
-`GlobalSecurityContextHolderStrategy를 사용하며, 글로벌로 설정되어 application 전체에서 SecurityContext를 공유한다.
+`GlobalSecurityContextHolderStrategy`를 사용하며, 글로벌로 설정되어 application 전체에서 SecurityContext를 공유한다.
