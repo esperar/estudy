@@ -1,4 +1,4 @@
-# SeucityContextHolderStrategy (ThreadLocal, InheritableThreadLocal, Global)
+# SecurityContextHolderStrategy (ThreadLocal, InheritableThreadLocal, Global)
 
 ## TheradLocal
 WebMVC 기반으로 프로젝트를 만든다고 가정할 때, 요청 한 개당 스레드 한 개가 생성된다.
