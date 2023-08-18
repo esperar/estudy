@@ -135,7 +135,7 @@
 - [Spring Data Binding, Converter, Formatter](http://github.com/esperar/estudy/blob/master/Back-End/spring/data_binding.md)
 - [Spring Resource Interface, Resource 추상화와 구현체](http://github.com/esperar/estudy/blob/master/Back-End/spring/resource.md)
 - [ResourceLoader, ResourcePatternResolver, ApplicationContext and Resources Paths](http://github.com/esperar/estudy/blob/master/Back-End/spring/resource2.md)
-- [SeucityContextHolderStrategy (ThreadLocal, InheritableThreadLocal, Global)](http://github.com/esperar/estudy/blob/master/Back-End/spring/security_strategy.md)
+- [SecurityContextHolderStrategy (ThreadLocal, InheritableThreadLocal, Global)](http://github.com/esperar/estudy/blob/master/Back-End/spring/security_strategy.md)
 - [Spring Security의 여러가지 Filter](http://github.com/esperar/estudy/blob/master/Back-End/spring/security_filter.md)
 - [Mock 테스트와 Stub 테스트의 차이](http://github.com/esperar/estudy/blob/master/Back-End/spring/mock_stub.md)
 - [Koltin에서 Spring을 실행하기 위한 plugin, dependencies](http://github.com/esperar/estudy/blob/master/Back-End/spring/plugko.md)
