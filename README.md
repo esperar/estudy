@@ -22,9 +22,9 @@
 - [Kotlin, JPA가 서로 지향하는 방향의 차이](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kotlin_jpa.md)
 - [PUB/SUB (발행/구독) 아키텍처의 이해](http://github.com/esperar/estudy/blob/master/Back-End/backend/pub_sub.md)
 - [Netty](http://github.com/esperar/estudy/blob/master/Back-End/backend/netty.md)
-  - [Java IO, NIO](http://github.com/esperar/estudy/blob/master/Back-End/backend/netty/nio.md)
-  - [Java NIO - Selector](http://github.com/esperar/estudy/blob/master/Back-End/backend/netty/selector.md)
-  - [비동기식 이벤트 기반 네트워킹](http://github.com/esperar/estudy/blob/master/Back-End/backend/netty/async.md)
+  - [Java IO, NIO](http://github.com/esperar/estudy/blob/master/Back-End/netty/nio.md)
+  - [Java NIO - Selector](http://github.com/esperar/estudy/blob/master/Back-End/netty/selector.md)
+  - [비동기식 이벤트 기반 네트워킹](http://github.com/esperar/estudy/blob/master/Back-End/netty/async.md)
 
 #### Java & OOP
 - [Java란](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/JAVA.md)
