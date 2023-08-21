@@ -21,6 +21,7 @@
 - [SOLID 원칙과 각 원칙의 장단점](http://github.com/esperar/estudy/blob/master/Back-End/backend/solid.md)
 - [Kotlin, JPA가 서로 지향하는 방향의 차이](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kotlin_jpa.md)
 - [PUB/SUB (발행/구독) 아키텍처의 이해](http://github.com/esperar/estudy/blob/master/Back-End/backend/pub_sub.md)
+- [Netty, Netty의 핵심 컴포넌트]()
 
 #### Java & OOP
 - [Java란](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/JAVA.md)
@@ -97,7 +98,7 @@
 - [Go 데이터베이스 Sqlite3 사용하기](http://github.com/esperar/estudy/blob/master/Back-End/go/sqlite.md)
 - [gorilla/mux를 사용한 REST API 서버](http://github.com/esperar/estudy/blob/master/Back-End/go/mux.md)
 
-#### Spring boot
+#### Spring
 - [MVC 패턴과 사용하는 이유](http://github.com/esperar/estudy/blob/master/Back-End/spring/mvc.md)
 - [Controller, Service, Repository 역할](http://github.com/esperar/estudy/blob/master/Back-End/spring/cre.md)
 - [IoC 컨테이너 (Inversion of Controll)](http://github.com/esperar/estudy/blob/master/Back-End/spring/ioc.md)
