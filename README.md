@@ -23,6 +23,7 @@
 - [PUB/SUB (발행/구독) 아키텍처의 이해](http://github.com/esperar/estudy/blob/master/Back-End/backend/pub_sub.md)
 - [Netty](http://github.com/esperar/estudy/blob/master/Back-End/backend/netty.md)
   - [Java IO, NIO](http://github.com/esperar/estudy/blob/master/Back-End/backend/netty/nio.md)
+  - [Java NIO - Selector](http://github.com/esperar/estudy/blob/master/Back-End/backend/netty/selector.md)
 
 #### Java & OOP
 - [Java란](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/JAVA.md)
