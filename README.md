@@ -21,7 +21,8 @@
 - [SOLID 원칙과 각 원칙의 장단점](http://github.com/esperar/estudy/blob/master/Back-End/backend/solid.md)
 - [Kotlin, JPA가 서로 지향하는 방향의 차이](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kotlin_jpa.md)
 - [PUB/SUB (발행/구독) 아키텍처의 이해](http://github.com/esperar/estudy/blob/master/Back-End/backend/pub_sub.md)
-- [Netty, Netty의 핵심 컴포넌트]()
+- [Netty](http://github.com/esperar/estudy/blob/master/Back-End/backend/netty.md)
+  - [Java IO, NIO](http://github.com/esperar/estudy/blob/master/Back-End/backend/netty/nio.md)
 
 #### Java & OOP
 - [Java란](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/JAVA.md)
