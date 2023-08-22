@@ -25,6 +25,7 @@
   - [Java IO, NIO](https://github.com/esperar/netty.io/blob/master/1-1%20NIO/nio.md)
   - [Java NIO - Selector](https://github.com/esperar/netty.io/blob/master/1-1%20NIO/selector.md)
   - [비동기식 이벤트 기반 네트워킹](https://github.com/esperar/netty.io/blob/master/1-2%20Intro/async.md)
+  - [네티의 핵심 컴포넌트](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
 
 #### Java & OOP
 - [Java란](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/JAVA.md)
