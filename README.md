@@ -269,6 +269,7 @@
   - [도커 이미지 생성](http://github.com/esperar/estudy/blob/master/DevOps/Docker/docker_image.md)
   - [Docker Swarm](http://github.com/esperar/estudy/blob/master/DevOps/Docker/swarm.md)
   - [spring boot 프로젝트를 Docker를 사용해 배포하기](http://github.com/esperar/estudy/blob/master/DevOps/Docker/spring_docker.md)
+- [쿠버네티스](http://github.com/esperar/estudy/blob/master/DevOps/k8s/k8s.md)
 - [애자일(Agile) 방법론](http://github.com/esperar/estudy/blob/master/DevOps/agile.md)
 - [클라우드 아키텍처 Cloud Architecture](http://github.com/esperar/estudy/blob/master/DevOps/cloud_architecture.md)
 - [하이브리드 클라우드 Hybird Cloud](http://github.com/esperar/estudy/blob/master/DevOps/hybrid.md)
