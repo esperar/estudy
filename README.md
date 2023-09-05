@@ -341,7 +341,7 @@
 - MSA 핵심 디자인 패턴
   - [Two Phase Commit](http://github.com/esperar/estudy/blob/master/MSA/two_phase_commit.md)
   - [Saga Pattern](http://github.com/esperar/estudy/blob/master/MSA/saga.md)
-  - [Event Sourcing]()
+  - [Event Sourcing](http://github.com/esperar/estudy/blob/master/MSA/event_sourcing.md)
   - [CQRS]()
 - [서비스 메시 Service Mesh](http://github.com/esperar/estudy/blob/master/DevOps/service_mesh.md)
   - [Istio, Istion Architecture](http://github.com/esperar/estudy/blob/master/DevOps/istio.md)  
