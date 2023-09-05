@@ -338,6 +338,11 @@
 - [확장 큐브로 보는 마이크로서비스](http://github.com/esperar/estudy/blob/master/MSA/확장큐브.md)
 - [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
 - [MSA에서의 Service discovery 패턴](http://github.com/esperar/estudy/blob/master/Back-End/backend/service_discovery.md)
+- [MSA 핵심 디자인 패턴]
+  - [Two Phase Commit](http://github.com/esperar/estudy/blob/master/MSA/two_phase_commit.md)
+  - [Saga Pattern]()
+  - [Event Sourcing]()
+  - [CQRS]()
 - [서비스 메시 Service Mesh](http://github.com/esperar/estudy/blob/master/DevOps/service_mesh.md)
   - [Istio, Istion Architecture](http://github.com/esperar/estudy/blob/master/DevOps/istio.md)  
 
