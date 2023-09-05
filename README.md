@@ -326,18 +326,24 @@
   - [AWS ECR(Elastic Container Registry)](http://github.com/esperar/estudy/blob/master/DevOps/aws/ecr.md)
   - [AWS ELK(Elastic Search Logstash Kibana)](http://github.com/esperar/estudy/blob/master/DevOps/aws/ELK.md)
   - [Bastion 서버로 Private EC2에 접속하는 방법 + Hi-v2 트러블 슈팅](http://github.com/esperar/estudy/blob/master/DevOps/aws/bastion.md)
-- [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
-- [마이크로서비스 아키텍쳐 (MicroService Architecture)](http://github.com/esperar/estudy/blob/master/Back-End/backend/msa.md)
 - [모놀리식 아키텍처 (Monolithic Architecture)](http://github.com/esperar/estudy/blob/master/Back-End/backend/mono.md)
-- [MSA에서의 Service discovery 패턴](http://github.com/esperar/estudy/blob/master/Back-End/backend/service_discovery.md)
 - [APM(Application Performance Management)](http://github.com/esperar/estudy/blob/master/Back-End/backend/apm.md)
 - [gRPC, RPC, 작동원리, HTTP API 비교](http://github.com/esperar/estudy/blob/master/DevOps/grpc.md)
 - [RabbitMQ](http://github.com/esperar/estudy/blob/master/DevOps/rabbitmq.md)
-- [서비스 메시 Service Mesh](http://github.com/esperar/estudy/blob/master/DevOps/service_mesh.md)
-  - [Istio, Istion Architecture](http://github.com/esperar/estudy/blob/master/DevOps/istio.md)  
 - [Blue/Green Deployment, Architecture](http://github.com/esperar/estudy/blob/master/DevOps/blue_green.md)
    
-### 모든 개발자를 위한 HTTP 웹 기본 지식
+#### MSA
+---
+- [마이크로서비스 아키텍쳐 (MicroService Architecture)](http://github.com/esperar/estudy/blob/master/Back-End/backend/msa.md)
+- [확장 큐브로 보는 마이크로서비스](http://github.com/esperar/estudy/blob/master/MSA/확장큐브.md)
+- [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
+- [MSA에서의 Service discovery 패턴](http://github.com/esperar/estudy/blob/master/Back-End/backend/service_discovery.md)
+- [서비스 메시 Service Mesh](http://github.com/esperar/estudy/blob/master/DevOps/service_mesh.md)
+  - [Istio, Istion Architecture](http://github.com/esperar/estudy/blob/master/DevOps/istio.md)  
+
+
+
+#### 모든 개발자를 위한 HTTP 웹 기본 지식
 ---
 
 - 인터넷 네트워크
