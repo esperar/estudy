@@ -6,10 +6,9 @@
 
 마크다운으로 작성합니다. 단순 복붙이 아닌 내용을 전부 이해합니다.
 
-<br>
+---
 
 #### Backend & Dev
----
 
 - [인증(Authentication) vs 인가(Authorization)](http://github.com/esperar/estudy/blob/master/Back-End/backend/auth.md)
 - [Back-End 효율적인 API 명세서 설계방법](http://github.com/esperar/estudy/blob/master/Back-End/backend/api.md)
@@ -29,8 +28,9 @@
   - [비동기식 이벤트 기반 네트워킹](https://github.com/esperar/netty.io/blob/master/1-2%20Intro/async.md)
   - [네티의 핵심 컴포넌트](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
 
-#### Java & OOP
 ---
+
+#### Java & OOP
 
 - [Java란](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/JAVA.md)
 - [객체지향 프로그래밍](http://github.com/esperar/estudy/blob/master/정보처리/Java.md)
@@ -69,9 +69,9 @@
 - [OutOfMemoryError가 발생했을 때 해결하는 방법](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/oom.md)
 - [자바의 네 가지 참조 유형(Strong, Weak, Soft, Phantom)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/reference.md)
 
+---
 
 #### Kotlin
----
 
 - [코틀린이란 무엇이며 왜 필요한가?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kotlin.md)
 - [Kotlin DSL, gradle.kts](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/dsl.md)
@@ -102,16 +102,18 @@
 - [클래스 외부의 함수(A package-level/ Top-level 함수)](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/top_level.md)
 - [Kotlin Class, Field vs Property 🤔](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/field_property.md)
 
-#### Golang
 ---
+
+#### Golang
 
 - [Go Handle, Handler, HandleFunc 이해](http://github.com/esperar/estudy/blob/master/Back-End/go/http_handler.md)
 - [Golang에서의 포인터와 역참조](http://github.com/esperar/estudy/blob/master/Back-End/go/pointer.md)
 - [Go 데이터베이스 Sqlite3 사용하기](http://github.com/esperar/estudy/blob/master/Back-End/go/sqlite.md)
 - [gorilla/mux를 사용한 REST API 서버](http://github.com/esperar/estudy/blob/master/Back-End/go/mux.md)
 
-#### Spring
 ---
+
+#### Spring
 
 - [MVC 패턴과 사용하는 이유](http://github.com/esperar/estudy/blob/master/Back-End/spring/mvc.md)
 - [Controller, Service, Repository 역할](http://github.com/esperar/estudy/blob/master/Back-End/spring/cre.md)
@@ -160,8 +162,9 @@
 - [Spring boot 프로젝트 profile 설정하기](http://github.com/esperar/estudy/blob/master/Back-End/spring/profile.md)
 - [Bean Scope, DL(Dependency Lookup), Provider](http://github.com/esperar/estudy/blob/master/Back-End/spring/beanscope.md)
 
-#### JPA & ORM
 ---
+
+#### JPA & ORM
 
 - [영속성 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/jpa/persistence/persistcontext.md)
 - [플러시 (flush)](http://github.com/esperar/estudy/blob/master/Back-End/jpa/persistence/flush.md)
@@ -180,8 +183,10 @@
 - [벌크 수정, 삭제 연산과 영속성 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/jpa/bulk.md)
 
 
-#### Domain Driven Design
 ---
+
+
+#### Domain Driven Design
 
 - [DDD(Domain Driven Design) 도메인 주도 설계 알아보기](https://esperer.tistory.com/18)
 - [[Domain-Driven-Design] 바운디드 컨텍스트 (Bounded-Context)](https://esperer.tistory.com/19)
@@ -195,9 +200,10 @@
 - [동기 이벤트 처리 문제, 비동기 이벤트 처리](http://github.com/esperar/estudy/blob/master/Back-End/ddd/event3.md)
 - [CQRS (Command Query Responsibility Segregation)](http://github.com/esperar/estudy/blob/master/Back-End/ddd/cqrs.md)
 
+---
+
 
 #### DataBase
----
 
 - [데이터베이스 맛보기](http://github.com/esperer/estudy/blob/master/정보처리/응용SW2.md)
 - [What is DataBase?](http://github.com/esperar/estudy/blob/master/정보처리/database.md)
@@ -241,8 +247,10 @@
   - [SQL NULL 관련 함수 - NVL, NVL2, NULLIF, COALESCE](http://github.com/esperar/estudy/blob/master/DataBase/sql/null.md)
 - [프로시저와 트리거의 차이점](http://github.com/esperar/estudy/blob/master/DataBase/sql/프로시저_트리거.md)
 
-#### Design Pattern
 ---
+
+
+#### Design Pattern
 
 - [디자인 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/designp.md)
   - 생성 패턴
@@ -265,9 +273,10 @@
     - [퍼사드 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/구조/facade.md)
     - [브리지 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/구조/bridge.md)
 
+---
+
 
 #### DevOps & Cloud Native
----
 
 - [DevOps Engineer](http://github.com/esperar/estudy/blob/master/DevOps/devops.md)
 - [도커와 쿠버네티스](http://github.com/esperar/estudy/blob/master/정보처리/doker.md)
@@ -331,9 +340,11 @@
 - [gRPC, RPC, 작동원리, HTTP API 비교](http://github.com/esperar/estudy/blob/master/DevOps/grpc.md)
 - [RabbitMQ](http://github.com/esperar/estudy/blob/master/DevOps/rabbitmq.md)
 - [Blue/Green Deployment, Architecture](http://github.com/esperar/estudy/blob/master/DevOps/blue_green.md)
-   
-#### MicroService Architecture 
+
 ---
+
+
+#### MicroService Architecture 
 - [마이크로서비스 아키텍쳐 (MicroService Architecture)](http://github.com/esperar/estudy/blob/master/Back-End/backend/msa.md)
 - [확장 큐브로 보는 마이크로서비스](http://github.com/esperar/estudy/blob/master/MSA/확장큐브.md)
 - [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
@@ -346,10 +357,10 @@
 - [서비스 메시 Service Mesh](http://github.com/esperar/estudy/blob/master/DevOps/service_mesh.md)
   - [Istio, Istion Architecture](http://github.com/esperar/estudy/blob/master/DevOps/istio.md)  
 
+---
 
 
 #### 모든 개발자를 위한 HTTP 웹 기본 지식
----
 
 - 인터넷 네트워크
   - [IP(인터넷 프로토콜)](http://github.com/esperar/estudy/blob/master/Back-End/http/network/ip.md)
@@ -387,9 +398,10 @@
   - [캐시와 조건부 요청 헤더](http://github.com/esperar/estudy/blob/master/Back-End/http/HTTP헤더2/cachehead.md)
   - [프록시 캐시, 캐시 무효화](http://github.com/esperar/estudy/blob/master/Back-End/http/HTTP헤더2/proxy.md)
 
+---
+
 
 #### Internet & Network
----
 
 - [네트워크의 기초 알아보기](http://github.com/esperar/estudy/blob/master/정보처리/network.md)
 - [네트워크 프로토콜 정리](http://github.com/esperar/estudy/blob/master/정보처리/protocall.md)
@@ -422,9 +434,10 @@
 - [메시지 큐(Message Queue, MQ) 개념](http://github.com/esperar/estudy/blob/master/Back-End/Internet/mq.md)
 - [서브넷팅 & 슈퍼넷팅 개념 및 쉬운 계산 방법](http://github.com/esperar/estudy/blob/master/Back-End/Internet/subnetsupernet.md)
 
+---
+
 
 #### Operating System
----
 
 - [꼭 알아야 할 기본 CS 지식](http://github.com/esperar/estudy/blob/master/정보처리/응용SW.md)
 - [OS(운영체제) 구조와 원리](http://github.com/esperar/estudy/blob/master/Back-End/Internet/host.md)
@@ -442,8 +455,10 @@
 - [메모리 단편화 Fragmentation](http://github.com/esperar/estudy/blob/master/Operating-System/fragmentation.md)
 - [하이퍼바이저 Hypervisor](http://github.com/esperar/estudy/blob/master/Operating-System/hypervisor.md)
 
-#### 자료구조
 ---
+
+
+#### 자료구조
 
 - 선형 구조
   - [선형 리스트](http://github.com/esperar/estudy/blob/master/Data-Structure/선형/linearlist/linearlist.md)
@@ -459,8 +474,9 @@
     - [깊이 우선 탐색(DFS , Depth-Fist Search)](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/graph/search/dfs.md)
     - [너비 우선 탐색(BFS, Breadth-First Search)](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/graph/search/bfs.md)
 
-#### 알고리즘
 ---
+
+#### 알고리즘
 
 - [자료구조와 알고리즘](http://github.com/esperar/estudy/blob/master/정보처리/자료구조알고리즘.md)
 - [너비 우선 탐색(BFS)](http://github.com/esperar/estudy/blob/master/Algorithm/bfs.md)
@@ -471,8 +487,10 @@
 - [벨만 포드 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/bellman_ford.md)
 - [플로이드 와샬 알고리즘](http://github.com/esperar/estudy/blob/master/Algorithm/floyd_warshall.md)
 
-#### JavaScript  
+
 ---
+
+#### JavaScript  
 
 - [함수와 함수의 종류](https://github.com/esperar/estudy/blob/master/Front-End/JS/function.md)
 - <a href ="https://github.com/esperar/estudy/blob/master/Front-End/JS/Object.md">객체란 무엇일까?</a>
@@ -498,9 +516,10 @@
 - [ajax 알아보기](https://github.com/esperar/estudy/blob/master/Front-End/JS/ajax.md)
 - [fetch API 알아보기](https://github.com/esperar/estudy/blob/master/Front-End/JS/fetch.md)
 
+---
+
 
 #### TypeScript
----
 
 - [TypeScript](https://github.com/esperar/estudy/blob/master/Front-End/TS/TypeScript.md)
 - [Basic_Types 정리](https://github.com/esperar/estudy/blob/master/Front-End/TS/TS_Type.md)
@@ -516,13 +535,18 @@
 - [클래스 (class)](https://github.com/esperar/Study_TypeScript/tree/main/class)
 - [Generic 알아보기](https://github.com/esperar/estudy/blob/master/Front-End/TS/TS_generic.md)
 
-#### React
+
 ---
+
+#### React
 
 - [React 시작하기](https://github.com/esperar/estudy/blob/master/Front-End/React/react.md)
 - [Component란?](https://github.com/esperar/estudy/blob/master/Front-End/React/component.md)
 - [함수형 컴포넌트](https://github.com/esperar/estudy/blob/master/Front-End/React/funcompo.md)
 - [클래스형 컴포넌트](https://github.com/esperar/estudy/blob/master/Front-End/React/classcompo.md)
+
+
+---
 
 #### Node.js
 ---
@@ -534,9 +558,9 @@
  - [package.json 생성](http://github.com/esperar/estudy/blob/master/Back-End/Node/npmjson.md)
  - [서버 구축해보기](http://github.com/esperar/estudy/blob/master/Back-End/Node/server.md)
 
+---
 
 #### Git
----
 
 - <a href ="https://github.com/esperar/estudy/blob/master/Back-End/git/basic.md">git이란 무엇인가?<a>  
 - [Git 버전확인하기](https://github.com/esperar/estudy/blob/master/Back-End/git/version.md)  
