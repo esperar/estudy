@@ -304,6 +304,7 @@
   - [쿠버네티스 구성요소](http://github.com/esperar/estudy/blob/master/DevOps/k8s/component.md)
   - [쿠버네티스 API 리소스](http://github.com/esperar/estudy/blob/master/DevOps/k8s/api_resource.md)
   - [쿠버네티스의 동작 흐름](http://github.com/esperar/estudy/blob/master/DevOps/k8s/process.md)
+  - [쿠버네티스 대시보드 토큰 발행 및 접속](http://github.com/esperar/estudy/blob/master/DevOps/k8s/dashboard.md)
   - [Pod - Container, Label, Node Schedule](http://github.com/esperar/estudy/blob/master/DevOps/k8s/pod.md)
 - [애자일(Agile) 방법론](http://github.com/esperar/estudy/blob/master/DevOps/agile.md)
 - [클라우드 아키텍처 Cloud Architecture](http://github.com/esperar/estudy/blob/master/DevOps/cloud_architecture.md)
