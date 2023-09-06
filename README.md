@@ -354,6 +354,7 @@
   - [Saga Pattern](http://github.com/esperar/estudy/blob/master/MSA/pattern/saga.md)
   - [Event Sourcing](http://github.com/esperar/estudy/blob/master/MSA/pattern/event_sourcing.md)
   - [CQRS](http://github.com/esperar/estudy/blob/master/MSA/pattern/cqrs.md)
+- [마이크로서비스 아키텍처 IPC](http://github.com/esperar/estudy/blob/master/MSA/ipc/ipc.md)
 - [서비스 메시 Service Mesh](http://github.com/esperar/estudy/blob/master/DevOps/service_mesh.md)
   - [Istio, Istion Architecture](http://github.com/esperar/estudy/blob/master/DevOps/istio.md)  
 
