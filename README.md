@@ -340,6 +340,7 @@
 - [gRPC, RPC, 작동원리, HTTP API 비교](http://github.com/esperar/estudy/blob/master/DevOps/grpc.md)
 - [RabbitMQ](http://github.com/esperar/estudy/blob/master/DevOps/rabbitmq.md)
 - [Blue/Green Deployment, Architecture](http://github.com/esperar/estudy/blob/master/DevOps/blue_green.md)
+- [Nginx](http://github.com/esperar/estudy/blob/master/DevOps/nginx.md)
 
 ---
 
