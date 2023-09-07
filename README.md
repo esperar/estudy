@@ -362,7 +362,7 @@
   - [서비스 디스커버리 Service Discovery](http://github.com/esperar/estudy/blob/master/Back-End/backend/service_discovery.md)
   - [비동기 메시지 패턴 응용 통신](http://github.com/esperar/estudy/blob/master/MSA/ipc/async_message.md)
 - [서비스 메시 Service Mesh](http://github.com/esperar/estudy/blob/master/DevOps/service_mesh.md)
-  - [Istio, Istion Architecture](http://github.com/esperar/estudy/blob/master/DevOps/istio.md)  
+  - [Istio, Istio Architecture](http://github.com/esperar/estudy/blob/master/DevOps/istio.md)  
 
 ---
 
