@@ -101,7 +101,7 @@
 - [companion object와 object의 차이점은 무엇일까요?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/companion_and_object.md)
 - [클래스 외부의 함수(A package-level/ Top-level 함수)](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/top_level.md)
 - [Kotlin Class, Field vs Property 🤔](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/field_property.md)
-- [Kotlin Delegation으로 결합도 낮추기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/delegation2.md)
+- [Kotlin Delegation으로 결합도 낮추기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/delegate2.md)
 
 ---
 
