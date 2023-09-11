@@ -69,6 +69,7 @@
 - [OutOfMemoryError가 발생했을 때 해결하는 방법](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/oom.md)
 - [자바의 네 가지 참조 유형(Strong, Weak, Soft, Phantom)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/reference.md)
 - [Java 8 Functional Interface](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/functional_interface.md)
+- [Java에서 제공하는 기본적인 Functional Interface](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/functional_interface2.md)
 
 ---
 
