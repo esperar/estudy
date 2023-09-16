@@ -208,7 +208,7 @@
 
 #### DataBase
 
-- [데이터베이스 맛보기](http://github.com/esperer/estudy/blob/master/정보처리/응용SW2.md)
+- [데이터베이스](http://github.com/esperer/estudy/blob/master/정보처리/응용SW2.md)
 - [What is DataBase?](http://github.com/esperar/estudy/blob/master/정보처리/database.md)
 - [DataBase Mangement System](http://github.com/esperar/estudy/blob/master/정보처리/database2.md)
 - [MySQL Query문 정리](http://github.com/esperar/estudy/blob/master/정보처리/sql.md)
