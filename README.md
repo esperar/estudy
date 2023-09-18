@@ -53,7 +53,7 @@
 - [예외 처리 (Exception)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/exception.md)
 - [RuntimeException & Exception](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/runtime.md)
 - [HashMap 메소드 및 사용법](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/hashmap.md)
-- [Optional\<T> 클래스 알아보기](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/optional.md)
+- [옵셔널(Optional) 클래스 알아보기](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/optional.md)
 - [Web 서블릿(Servlet) 이란?](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/servlet.md) 
 - [StringBuilder 사용법과 주요 메서드](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/StringBuilder.md)
 - [래퍼 클래스(Wrapper Class), 박싱 언박싱](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/wrapper.md)
@@ -70,6 +70,7 @@
 - [자바의 네 가지 참조 유형(Strong, Weak, Soft, Phantom)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/reference.md)
 - [Java 8 Functional Interface](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/functional_interface.md)
 - [Java에서 제공하는 기본적인 Functional Interface](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/functional_interface2.md)
+- [Reactive Streams API, back-pressure](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/reactive_stream.md)
 
 ---
 
