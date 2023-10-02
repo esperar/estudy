@@ -1,4 +1,4 @@
-# Reactive Programming 이것들은 꼭 알고가자
+# Reactive Programming 이것만큼은 알고가자
 
 ## 동기, 비동기, Blocking, Non-Blocking
 
