@@ -394,7 +394,7 @@
   - [클라이언트 서버 구조](http://github.com/esperar/estudy/blob/master/Back-End/http/HTTP기본/structclient.md) 
   - [Stateful, Stateless](http://github.com/esperar/estudy/blob/master/Back-End/http/HTTP기본/state.md) 
   - [비 연결성(connectionless)](http://github.com/esperar/estudy/blob/master/Back-End/http/HTTP기본/state.md) 
-  - [HTTP 메시지](http://github.com/esperar/estudy/blob/master/Back-End/http/HTTP기본/httpmessage.md) 
+  - [HTTP 메시지](http://github.com/esperar/estudy/blob/master/Back-End/http/HTTP기본/message.md) 
 - HTTP 메서드, 활용
   - [HTTP API를 만들어보자](http://github.com/esperar/estudy/blob/master/Back-End/http/HTTP메서드/httpapi.md)
   - [HTTP 메서드 - GET, POST](http://github.com/esperar/estudy/blob/master/Back-End/http/HTTP메서드/getpost.md)
