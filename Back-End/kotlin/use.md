@@ -42,3 +42,7 @@ reader.use {
 
 
 마치 자바에서 `try catch resources`를 사용했던 것과 같다.
+
+use를 사용하면 AutoCloseable/Closeable을 구현한 객체를 쉽고 아전하게 처리할 수 있다.
+
+또한 파일을 처리할 때는 파일을 한 줄씩 읽어들이는 useLines를 사용하는 것을 추천한다.
