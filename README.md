@@ -110,6 +110,7 @@
 - [클래스 외부의 함수(A package-level/ Top-level 함수)](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/top_level.md)
 - [Kotlin Class, Field vs Property 🤔](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/field_property.md)
 - [Kotlin Delegation으로 결합도 낮추기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/delegate2.md)
+- [lateinit과 Delegates.notNull<>()로 적절한 null 처리하기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/effectivenull.md)
 
 ---
 
