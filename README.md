@@ -282,6 +282,7 @@
     - [커맨드 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/행동/command.md)
     - [인터프리터 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/행동/interpreter.md)
     - [이터레이터 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/행동/iterator.md)
+    - [중재자 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/행동/mediator.md)
   - 구조 패턴
     - [프록시 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/구조/proxyp.md)
     - [어댑터 패턴](http://github.com/esperar/estudy/blob/master/Design-Pattern/구조/adapter.md)
