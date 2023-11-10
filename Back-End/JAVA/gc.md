@@ -25,7 +25,7 @@
 ![](https://blog.kakaocdn.net/dn/bGghBW/btrvvDgIHRO/HxoX3w9skgah3xFVhfEgD0/img.png)
 
 Mark And Sweep 알고리즘은 가비지 컬렉션이 동작하는 원리로 루트에서부터 해당 객체에 접근 가능한지에 대한 여부를 메모리 해제의 기준으로 삼습니다. Mark And Sweep은 위의 그림과 같이 총 3가지 과정으로 나뉩니다.  
-  
+
 - Mark 
   - 먼저 루트로부터 그래프 순회를 통해 연결된 객체들을 찾아내 각각 어떤 객체를 참조하고 있는지 찾아서 마킹합니다.
 - Sweep
