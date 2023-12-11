@@ -176,6 +176,7 @@
 - [JDBC, DriverManager](https://velog.io/@hope0206/Spring-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%9D%BC%EB%A9%B4-%EC%9D%B4%EA%B1%B4-%EA%BC%AD-%EC%95%8C%EC%95%84%EC%95%BC%ED%95%A9%EB%8B%88%EB%8B%A4-1-JDBC-DriverManager)
 - [Spring AOP와 다이나믹 프록시를 사용해 트랜잭션 분리하기](http://github.com/esperar/estudy/blob/master/Back-End/spring/aop_transaction.md)
 - [애플리케이션 로직, 인프라 빈, 컨테이너 인프라 빈](http://github.com/esperar/estudy/blob/master/Back-End/spring/beans.md)
+- [빈 스코프와 발생할 수 있는 여러 문제들과 해결 방법](http://github.com/esperar/estudy/blob/master/Back-End/spring/bean_scope.md)
 
 ---
 
