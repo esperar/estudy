@@ -485,6 +485,7 @@
 - [페이지 교체 알고리즘 FIFO, LRU, LFU, MFU, NUR](http://github.com/esperar/estudy/blob/master/Operating-System/page.md)
 - [메모리 단편화 Fragmentation](http://github.com/esperar/estudy/blob/master/Operating-System/fragmentation.md)
 - [하이퍼바이저 Hypervisor](http://github.com/esperar/estudy/blob/master/Operating-System/hypervisor.md)
+- [스핀락, 뮤텍스, 세마포어 + 뮤텍스 vs 이진 세마포어](http://github.com/esperar/estudy/blob/master/Operating-System/mutual_exclusion.md)
 
 ---
 
