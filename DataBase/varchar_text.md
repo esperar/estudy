@@ -69,6 +69,7 @@ PRIMARY KEY(id)
 이제 한 번 알아보도록 할게요
 
 <br>
+
 ## VARCHAR vs TEXT
 
 ### 일반적인 RDBMS
