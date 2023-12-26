@@ -137,6 +137,7 @@ mysql> ALTER TABLE tb_lob ADD INDEX ix_fd ( fd(50) );
 결국 Off-Page 저장도 그렇고 , B-Tree 인덱스도 생성이 가능하면 도대체 어떤 차이가 있을까요? 선언의 차이? 오히려 더 차이가 애매모호해지는 것 같아요. 그럼 도대체 어떤 상황에 사용해야할까요?
 
 <br>
+
 ## VARCHAR, TEXT 메모리 활용
 
 MySQL 서버는 스토리지 엔진과 Handler API를 통해서 데이터를 주고받습니다.
