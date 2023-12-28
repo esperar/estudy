@@ -177,6 +177,7 @@
 - [Spring AOP와 다이나믹 프록시를 사용해 트랜잭션 분리하기](http://github.com/esperar/estudy/blob/master/Back-End/spring/aop_transaction.md)
 - [애플리케이션 로직, 인프라 빈, 컨테이너 인프라 빈](http://github.com/esperar/estudy/blob/master/Back-End/spring/beans.md)
 - [빈 스코프와 발생할 수 있는 여러 문제들과 해결 방법](http://github.com/esperar/estudy/blob/master/Back-End/spring/bean_scope.md)
+- [Spring WebFlux vs MVC, 내부 작동 방식](http://github.com/esperar/estudy/blob/master/Back-End/spring/webflux/webflux.md)
 
 ---
 
