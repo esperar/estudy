@@ -77,6 +77,7 @@
 - [Cold Publisher & Hot Publisher](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/hot_cold_publisher.md)
 - [Java AIO](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/aio.md)
 - [JDK Proxy, CGLib Proxy](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/jdkproxy_cglib.md)
+- [Hotspot VM, JIT Compiler 그리고 한계](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/hotspotvm.md)
 
 ---
 
