@@ -180,7 +180,8 @@
 - [애플리케이션 로직, 인프라 빈, 컨테이너 인프라 빈](http://github.com/esperar/estudy/blob/master/Back-End/spring/beans.md)
 - [빈 스코프와 발생할 수 있는 여러 문제들과 해결 방법](http://github.com/esperar/estudy/blob/master/Back-End/spring/bean_scope.md)
 - [Spring WebFlux vs MVC, 내부 작동 방식](http://github.com/esperar/estudy/blob/master/Back-End/spring/webflux/webflux.md)
-- [Spring Batch 기술적 트레이드 오프](http://github.com/esperar/estudy/blob/master/Back-End/spring/batch.md)
+- [Spring Batch 기술적 트레이드 오프](http://github.com/esperar/estudy/blob/master/Back-End/spring/batch_tradeoff.md)
+- [Spring Batch 데이터 일관성 관리](http://github.com/esperar/estudy/blob/master/Back-End/spring/batch_concurrency.md)
 
 ---
 
