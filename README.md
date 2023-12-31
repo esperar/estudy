@@ -42,6 +42,7 @@
 - [JVM 메모리 모델](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/jvmm.md)
 - [JVM Garbage Collection 구조와 동작](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/gc.md)
 - [GC의 종류와 각각의 차이점](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/gc_kind.md)
+- [종류별 Garbage Collector 동작 방식](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/gc_5.md)
 - [Java String Pool](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/string_pool.md)
 - [객체지향의 4가지 특징](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/4특징.md)
 - [객체지향 설계의 5원칙(SOLID)](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/5원칙.md)
