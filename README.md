@@ -396,6 +396,7 @@
 - [마이크로서비스 아키텍쳐 (MicroService Architecture)](http://github.com/esperar/estudy/blob/master/Back-End/backend/msa.md)
 - [확장 큐브로 보는 마이크로서비스](http://github.com/esperar/estudy/blob/master/MSA/확장큐브.md)
 - [MA, MSA, SOA(Service Oriented Architecture), ESB, SOAP](https://esperer.tistory.com/28)
+- [서비스 디스커버리를 DNS, 로드 밸런서 방식을 사용하지 않는 이유](http://github.com/esperar/estudy/blob/master/MSA/service_discovery_dns.md)
 - MSA 핵심 디자인 패턴
   - [Two Phase Commit](http://github.com/esperar/estudy/blob/master/MSA/pattern/two_phase_commit.md)
   - [Saga Pattern](http://github.com/esperar/estudy/blob/master/MSA/pattern/saga.md)
