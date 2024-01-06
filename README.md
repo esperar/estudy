@@ -526,6 +526,7 @@
     - [AVL(Adelson-Velsky and Landis) Tree](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/tree/avl.md)
     - [Red-Black Tree: 레드 블랙 트리](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/tree/redblack.md)
     - [B-Tree](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/tree/btree.md)
+      - [B-Tree의 데이터 삭제](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/tree/btree_delete.md)
   - [그래프 graph](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/graph/graph.md)
     - [깊이 우선 탐색(DFS , Depth-Fist Search)](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/graph/search/dfs.md)
     - [너비 우선 탐색(BFS, Breadth-First Search)](http://github.com/esperar/estudy/blob/master/Data-Structure/비선형/graph/search/bfs.md)
