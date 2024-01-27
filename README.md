@@ -117,7 +117,7 @@
 - [Kotlin에서 싱글톤 클래스를 어떻게 생성할까요?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/singleton.md)
 - [companion object와 object의 차이점은 무엇일까요?](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/companion_and_object.md)
 - [클래스 외부의 함수(A package-level/ Top-level 함수)](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/top_level.md)
-- [Kotlin Class, Field vs Property 🤔](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/field_property.md)
+- [Kotlin Class, Field vs Property](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/field_property.md)
 - [Kotlin Delegation으로 결합도 낮추기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/delegate2.md)
 - [lateinit과 Delegates.notNull<>()로 적절한 null 처리하기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/effectivenull.md)
 - [.close()가 필요한 클래스를 사용할 때, use로 효율적으로 사용하기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/use.md)
