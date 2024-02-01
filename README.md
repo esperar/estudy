@@ -285,6 +285,7 @@
 - [데이터베이스 파티셔닝](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning.md)
 - [파티셔닝 종류와 분할 기준](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning2.md)
 - [VARCHAR vs TEXT](http://github.com/esperar/estudy/blob/master/DataBase/varchar_text.md)
+- [Transaction Recoverability](http://github.com/esperar/estudy/blob/master/DataBase/recoverability.md)
 
 ---
 
