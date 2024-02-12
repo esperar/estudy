@@ -46,7 +46,7 @@ Schedule은 다수의 트랜잭션이 동시에 실행될 때 그 트랜잭션�
 위의 두가지 방법은 매우 치명적인 트레이드 오프가 있으며 이를 해결하기 위해 성능 개선을 위해
 non serial schedule을 사용하면서도 serial schedule과 동일한 결과가 나올 수 있도록 한다.
 
-이를 `conflic serializable`이라고도 하고 `serai schedule`과 `conflic equivalent`하다고 한다.
+이를 `conflict serializable`이라고도 하고 `serial schedule`과 `conflict equivalent`하다고 한다.
 
 conflict는 두개의 오퍼레이션이 충돌하는 것을 의미한다. 여기서 충돌은 아래 세 가지 조건을 만족한다.
 1. 오퍼레이션이 서로 다른 두 트랜잭션에 속해야한다.
@@ -57,4 +57,4 @@ Conflict Equivalent는 아래의 두 조건을 충족한다.
 1. 같은 트랜잭션 오퍼레이션들로 구성된 두 schedule
 2. 양쪽 트랜잭션 내의 confliction operation 실행 순서가 동일
 
-non serial schedule이 serial schedule과 conflic equivalant 하다면. non serial schedule을 적용해 serializability를 보장하며 성능도 향상이 되는 것을 볼 수 있다.
+non serial schedule이 serial schedule과 conflict equivalant 하다면. non serial schedule을 적용해 serializability를 보장하며 성능도 향상이 되는 것을 볼 수 있다.
