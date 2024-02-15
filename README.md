@@ -393,6 +393,7 @@
 - [Blue/Green Deployment, Architecture](http://github.com/esperar/estudy/blob/master/DevOps/blue_green.md)
 - [Nginx](http://github.com/esperar/estudy/blob/master/DevOps/nginx.md)
 - [ELK와 로깅 구성](http://github.com/esperar/estudy/blob/master/DevOps/ELK.md)
+- [Prometheus, Grafana](http://github.com/esperar/estudy/blob/master/DevOps/prometheus_grafana.md)
 
 ---
 
