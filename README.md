@@ -13,7 +13,7 @@
 - [인증(Authentication) vs 인가(Authorization)](http://github.com/esperar/estudy/blob/master/Back-End/backend/auth.md)
 - [Back-End 효율적인 API 명세서 설계방법](http://github.com/esperar/estudy/blob/master/Back-End/backend/api.md)
 - [Java Back-End 웹 기술 역사](http://github.com/esperar/estudy/blob/master/Back-End/backend/history.md)
-- [Clean Architecture with Spring boot](http://github.com/esperar/estudy/blob/master/Back-End/backend/cleanspring.md)
+- [Clean Architecture](http://github.com/esperar/estudy/blob/master/Back-End/backend/cleanspring.md)
 - [OAuth 2.0 개념과 권한 부여 방식 알아보기](https://esperer.tistory.com/14)
 - [2023 제 3회 당근마켓 SRE 밋업](http://github.com/esperar/estudy/blob/master/Back-End/backend/당근밋업.md)
 - [Apache Kafka 주요 요소 Producer, Counsumer, Topic, Partition, Segment](http://github.com/esperar/estudy/blob/master/Back-End/backend/kafka요소.md)
