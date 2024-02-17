@@ -53,3 +53,46 @@ message는 압축되지 않습니다. 메세지는 다른 파일처럼 압축되
 그리고 protobuf는 객체지향도 지원하지 않습니다.
 
 protobuf의 버퍼 메세지는 본질적으로 자체적으로 기술되어있지 않지만, 자체 내부 설명을 구현하기 위해서 반사적인 스키마를 갖고 있으며 해당 proto 파일에 접근하지 않고는 완전히 해석이 불가능하빈다. 이는 메세지가 자체적으로 설명되도록 하는 protobuf의 특징입니다.
+
+<br>
+
+### Protobuf 사용
+
+protobuf를 통해 파일이나 스트림으로부터 생성된 코드는 다양한 유형의 유틸리티 메서드를 제공합니다. 
+
+개별 값들을 추출하거나 데이터가 존재하는지 확인하거나 다시 파일, 스트림 유형의 데이터로 직렬화하거나 등등
+
+다음과 같이 proto 파일을 통해서 정의하고
+
+```proto
+message Person {
+  optional string name = 1;
+  optional int32 id = 2;
+  optional string email = 3;
+}
+```
+
+proto 파일을 java code에서 빌더를 활용해서 만들어보고
+
+```java
+Person john = Person.newBuilder()
+    .setId(1234)
+    .setName("John Doe")
+    .setEmail("jdoe@example.com")
+    .build();
+output = new FileOutputStream(args[0]);
+john.writeTo(output);
+```
+
+C++에서 다음과 같이 활용도 할 수 있습니다. 즉 여러 언어에서 호환되는 것이죠!
+
+```cpp
+Person john;
+fstream input(argv[1], ios::in | ios::binary);
+john.ParseFromIstream(&input);
+int id = john.id();
+std::string name = john.name();
+std::string email = john.email();
+```
+
+참고 자료는 [protocol buffers 공식 문서](https://protobuf.dev/overview/#syntax) 입니다.
