@@ -396,6 +396,7 @@
 - [ELK와 로깅 구성](http://github.com/esperar/estudy/blob/master/DevOps/ELK.md)
 - [Prometheus, Grafana](http://github.com/esperar/estudy/blob/master/DevOps/prometheus_grafana.md)
 - [Exporter - 모니터링 에이전트](http://github.com/esperar/estudy/blob/master/DevOps/exporter.md)
+- [블루/그린 배포](http://github.com/esperar/estudy/blob/master/DevOps/bg.md)
 
 ---
 
