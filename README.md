@@ -494,7 +494,7 @@
 - [메시지 큐(Message Queue, MQ) 개념](http://github.com/esperar/estudy/blob/master/Back-End/Internet/mq.md)
 - [서브넷팅 & 슈퍼넷팅 개념 및 쉬운 계산 방법](http://github.com/esperar/estudy/blob/master/Back-End/Internet/subnetsupernet.md)
 - [3-way / 4-way Handshake](http://github.com/esperar/estudy/blob/master/Back-End/Internet/3handshake.md)
-- [VLAN 이해하기 - VLAN, Trunk, AccessPort](http://github.com/esperar/estudy/blob/master/Back-End/Internet/VLAN.md)
+- [VLAN 이해하기 - VLAN, Trunk/AccessPort](http://github.com/esperar/estudy/blob/master/Back-End/Internet/VLAN.md)
 - [SSL Handshake](http://github.com/esperar/estudy/blob/master/Back-End/Internet/ssl_handshake.md)
 - [라우터 Router](http://github.com/esperar/estudy/blob/master/Network/router.md)
 
