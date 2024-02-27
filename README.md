@@ -224,7 +224,7 @@
 - [애그리거트 트랜잭션 관리 (선점,비선점,오프라인 잠금)](http://github.com/esperar/estudy/blob/master/Back-End/ddd/transaction.md)
 - [도메인 모델과 바운디드 컨텍스트](http://github.com/esperar/estudy/blob/master/Back-End/ddd/boundcontext.md)
 - [시스템 간 강결합(high coupling) 문제](http://github.com/esperar/estudy/blob/master/Back-End/ddd/event.md)
-- [이벤트 (Event) , 핸들러 (Handler), 디스패처 (Dispatcher)](http://github.com/esperar/estudy/blob/master/Back-End/ddd/event2.md)
+- [이벤트 (Event), 핸들러 (Handler), 디스패처 (Dispatcher)](http://github.com/esperar/estudy/blob/master/Back-End/ddd/event2.md)
 - [동기 이벤트 처리 문제, 비동기 이벤트 처리](http://github.com/esperar/estudy/blob/master/Back-End/ddd/event3.md)
 - [CQRS (Command Query Responsibility Segregation)](http://github.com/esperar/estudy/blob/master/Back-End/ddd/cqrs.md)
 
@@ -397,6 +397,7 @@
 - [Prometheus, Grafana](http://github.com/esperar/estudy/blob/master/DevOps/prometheus_grafana.md)
 - [Exporter - 모니터링 에이전트](http://github.com/esperar/estudy/blob/master/DevOps/exporter.md)
 - [블루/그린 배포](http://github.com/esperar/estudy/blob/master/DevOps/bg.md)
+- [서버 이중화 구조](http://github.com/esperar/estudy/blob/master/DevOps/이중화.md)
 
 ---
 
