@@ -3,7 +3,7 @@
 
 Pod은 쿠버네티스의 가장 기본적인 배포 단위입니다.
 
-마스터 노드에서는 워커노드로 Pod을 전달하고 워커노드에서는 Pod을 수행하는 구ㅗ다.
+마스터 노드에서는 워커노드로 Pod을 전달하고 워커노드에서는 Pod을 수행하는 구조다.
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FctN0nC%2FbtqM5VlDbOg%2Fhz31qGnbzLxAnnsfThKwGk%2Fimg.png)
 
