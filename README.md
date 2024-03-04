@@ -354,6 +354,7 @@
   - [쿠버네티스의 동작 흐름](http://github.com/esperar/estudy/blob/master/DevOps/k8s/process.md)
   - [쿠버네티스 대시보드 토큰 발행 및 접속](http://github.com/esperar/estudy/blob/master/DevOps/k8s/dashboard.md)
   - [Pod](http://github.com/esperar/estudy/blob/master/DevOps/k8s/pod.md)
+  - [Pod의 생명주기, 재시작 정책](http://github.com/esperar/estudy/blob/master/DevOps/k8s/podstatus.md)
   - [Service](http://github.com/esperar/estudy/blob/master/DevOps/k8s/service.md)
   - [Volume](http://github.com/esperar/estudy/blob/master/DevOps/k8s/volume.md)
 - [애자일(Agile) 방법론](http://github.com/esperar/estudy/blob/master/DevOps/agile.md)
