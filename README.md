@@ -465,7 +465,7 @@
 ---
 
 
-#### Internet & Network
+#### Network
 
 - [네트워크의 기초 알아보기](http://github.com/esperar/estudy/blob/master/정보처리/network.md)
 - [네트워크 프로토콜 정리](http://github.com/esperar/estudy/blob/master/정보처리/protocall.md)
@@ -501,6 +501,7 @@
 - [VLAN 이해하기 - VLAN, Trunk/AccessPort](http://github.com/esperar/estudy/blob/master/Back-End/Internet/VLAN.md)
 - [SSL Handshake](http://github.com/esperar/estudy/blob/master/Back-End/Internet/ssl_handshake.md)
 - [라우터 Router](http://github.com/esperar/estudy/blob/master/Network/router.md)
+- [DHCP(Dynamic Host Configuration Protocol)](http://github.com/esperar/estudy/blob/master/Network/dhcp.md)
 
 ---
 
