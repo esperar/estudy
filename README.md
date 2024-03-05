@@ -353,6 +353,7 @@
   - [쿠버네티스 API 리소스](http://github.com/esperar/estudy/blob/master/DevOps/k8s/api_resource.md)
   - [쿠버네티스의 동작 흐름](http://github.com/esperar/estudy/blob/master/DevOps/k8s/process.md)
   - [쿠버네티스 대시보드 토큰 발행 및 접속](http://github.com/esperar/estudy/blob/master/DevOps/k8s/dashboard.md)
+  - [Kubernetes Cluster](http://github.com/esperar/estudy/blob/master/DevOps/k8s/cluster.md)
   - [Pod](http://github.com/esperar/estudy/blob/master/DevOps/k8s/pod.md)
   - [Pod의 생명주기, 재시작 정책](http://github.com/esperar/estudy/blob/master/DevOps/k8s/podstatus.md)
   - [Probe](http://github.com/esperar/estudy/blob/master/DevOps/k8s/probe.md)
