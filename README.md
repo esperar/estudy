@@ -361,6 +361,7 @@
   - [멀티 컨테이너 파드 디자인 패턴](http://github.com/esperar/estudy/blob/master/DevOps/k8s/multipod.md)
   - [Probe](http://github.com/esperar/estudy/blob/master/DevOps/k8s/probe.md)
   - [Service](http://github.com/esperar/estudy/blob/master/DevOps/k8s/service.md)
+  - [ReplicaSet](http://github.com/esperar/estudy/blob/master/DevOps/k8s/replicaset.md)
   - [Volume](http://github.com/esperar/estudy/blob/master/DevOps/k8s/volume.md)
 - [애자일(Agile) 방법론](http://github.com/esperar/estudy/blob/master/DevOps/agile.md)
 - [클라우드 아키텍처 Cloud Architecture](http://github.com/esperar/estudy/blob/master/DevOps/cloud_architecture.md)
