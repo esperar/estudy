@@ -71,3 +71,18 @@ kubectl scale --replicas=6 -f replicaset.yaml
 # myapp 이름의 레플리카셋이 가진 레플리카 수를 6으로 조정
 kubectl scale --replicas=6 replicaset myapp
 ```
+
+
+### Template, Replicas, Selector
+
+추가로 위와 같은 세 가지 구성 요소를 알아보겠다.
+
+위의 구성요소중 template, replicas는 현재 deprecated된 Replication Controller에 포함되어있다.
+그리고 ReplicaSet은 ReplicationController에서 Selector가 추가되어진 것이다.
+
+- `Template`: Template는 파드가 죽게 되어 다시 재생성 해야할 때 어떤 파드를 띄울 것인지 명시하는 것이다.
+- `Replicas`: Replicas는 스케일아웃(인) 기능을 수행하는 컴포넌트다.
+- `Selector`: Selector는 replication controller의 label match 기능과 더불어 좀 더 세밀한 조건 설정을 할 수 있다 matchExpression로 가능
+
+> 컨트롤러 - 쿠버네티스의 컨트롤러는 다음과 같은 4가지를 관리한다. 오토 힐링, 오토 스케일링, 소프트웨어 업데이트, Job(특정 시기에 필요한 정적인 작업)
+
