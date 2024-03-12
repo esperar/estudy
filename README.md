@@ -363,6 +363,7 @@
   - [Service](http://github.com/esperar/estudy/blob/master/DevOps/k8s/service.md)
   - [ReplicaSet](http://github.com/esperar/estudy/blob/master/DevOps/k8s/replicaset.md)
   - [Deployment](http://github.com/esperar/estudy/blob/master/DevOps/k8s/deployment.md)
+  - [DaemonSet, Job, CronJob](http://github.com/esperar/estudy/blob/master/DevOps/k8s/daemonset.md)
   - [Volume](http://github.com/esperar/estudy/blob/master/DevOps/k8s/volume.md)
   - [ConfigMap, Secret](http://github.com/esperar/estudy/blob/master/DevOps/k8s/config_map.md)
   - [Namespace, ResourceQuota, LimitRange](http://github.com/esperar/estudy/blob/master/DevOps/k8s/namespace.md)
