@@ -357,6 +357,7 @@
   - [Control Plane](http://github.com/esperar/estudy/blob/master/DevOps/k8s/control_plane.md)
   - [Node Components](http://github.com/esperar/estudy/blob/master/DevOps/k8s/node_components.md)
   - [Pod](http://github.com/esperar/estudy/blob/master/DevOps/k8s/pod.md)
+  - [Pod LifeCycle(Phase, Condition)](http://github.com/esperar/estudy/blob/master/DevOps/k8s/pod_lifecycle.md)
   - [Pod의 생명주기, 재시작 정책](http://github.com/esperar/estudy/blob/master/DevOps/k8s/podstatus.md)
   - [멀티 컨테이너 파드 디자인 패턴](http://github.com/esperar/estudy/blob/master/DevOps/k8s/multipod.md)
   - [Probe](http://github.com/esperar/estudy/blob/master/DevOps/k8s/probe.md)
