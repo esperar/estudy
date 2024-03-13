@@ -76,7 +76,6 @@ Pod은 여러 노드들 중 한 노드에 올라가야합니다.
 명령어로도 할 수 있지만 이번에는 manifest로 작성해보겠다. yaml파일을 생성해준다.
 
 ```yaml
-```yaml
 apiVersion: v1
 kind: Pod
 metadata:
