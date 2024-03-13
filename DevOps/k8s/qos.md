@@ -62,7 +62,9 @@ _즉, 때에 따라서는 노드에 존재하는 모든 자원을 사용할 수�
 BestEffort가 노드에서 OOM이 발생할 경우 가장 먼저 자원을 회수당한다.
 
 <br>
+
 ###  Guaranteed
+
 ```yaml
 apiVersion: v1
 kind: Pod 
