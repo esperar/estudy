@@ -363,7 +363,8 @@
   - [Qos Classes](http://github.com/esperar/estudy/blob/master/DevOps/k8s/qos.md)
   - [Node Scheduling](http://github.com/esperar/estudy/blob/master/DevOps/k8s/node_scheduling.md)
   - [Probe](http://github.com/esperar/estudy/blob/master/DevOps/k8s/probe.md)
-  - [Service(ClusterIP, NodePort, LoadBalancer)](http://github.com/esperar/estudy/blob/master/DevOps/k8s/service.md)
+  - [Service - ClusterIP, NodePort, LoadBalancer](http://github.com/esperar/estudy/blob/master/DevOps/k8s/service.md)
+  - [Service - Headless, Endpoint, ExternalName](http://github.com/esperar/estudy/blob/master/DevOps/k8s/service2.md)
   - [ReplicaSet](http://github.com/esperar/estudy/blob/master/DevOps/k8s/replicaset.md)
   - [Deployment](http://github.com/esperar/estudy/blob/master/DevOps/k8s/deployment.md)
   - [DaemonSet, Job, CronJob](http://github.com/esperar/estudy/blob/master/DevOps/k8s/daemonset.md)
@@ -579,7 +580,7 @@
 #### JavaScript  
 
 - [함수와 함수의 종류](https://github.com/esperar/estudy/blob/master/Front-End/JS/function.md)
-- <a href ="https://github.com/esperar/estudy/blob/master/Front-End/JS/Object.md">객체란 무엇일까?</a>
+- [객체 Object](https://github.com/esperar/estudy/blob/master/Front-End/JS/Object.md)
 - [프로토타입이란?](https://github.com/esperar/estudy/blob/master/Front-End/JS/Object2.md)
 - [가비지 컬렉션이란?](https://github.com/esperar/estudy/blob/master/Front-End/JS/garbage.md)
 - [객체 메소드 정리](https://github.com/esperar/estudy/blob/master/Front-End/JS/Object3.md)
