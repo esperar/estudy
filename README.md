@@ -647,7 +647,7 @@
 
 #### Git
 
-- <a href ="https://github.com/esperar/estudy/blob/master/Back-End/git/basic.md">git이란 무엇인가?<a>  
+- [Git](https://github.com/esperar/estudy/blob/master/Back-End/git/basic.md)
 - [Git 버전확인하기](https://github.com/esperar/estudy/blob/master/Back-End/git/version.md)  
 - [git 기초 문법 정리](https://github.com/esperar/estudy/blob/master/Back-End/git/basic2.md)  
 - [branch와 리퍼지토리 관리](https://github.com/esperar/estudy/blob/master/Back-End/git/branch.md)  
