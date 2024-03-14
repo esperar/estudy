@@ -363,7 +363,7 @@
   - [Qos Classes](http://github.com/esperar/estudy/blob/master/DevOps/k8s/qos.md)
   - [Node Scheduling](http://github.com/esperar/estudy/blob/master/DevOps/k8s/node_scheduling.md)
   - [Probe](http://github.com/esperar/estudy/blob/master/DevOps/k8s/probe.md)
-  - [Service](http://github.com/esperar/estudy/blob/master/DevOps/k8s/service.md)
+  - [Service(ClusterIP, NodePort, LoadBalancer)](http://github.com/esperar/estudy/blob/master/DevOps/k8s/service.md)
   - [ReplicaSet](http://github.com/esperar/estudy/blob/master/DevOps/k8s/replicaset.md)
   - [Deployment](http://github.com/esperar/estudy/blob/master/DevOps/k8s/deployment.md)
   - [DaemonSet, Job, CronJob](http://github.com/esperar/estudy/blob/master/DevOps/k8s/daemonset.md)
