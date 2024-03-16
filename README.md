@@ -31,6 +31,7 @@
 - [우아한테크세미나 - 우아한스프링배치 by 이동욱](http://github.com/esperar/estudy/blob/master/Back-End/baemin_batch.md)
 - [Cache - Eviction, Expiration, Passivation](http://github.com/esperar/estudy/blob/master/Back-End/backend/eviction.md)
 - [Protocol Buffers](http://github.com/esperar/estudy/blob/master/Back-End/backend/protobuf.md)
+- [Redis 분산락 + WebFlux 프로젝트](https://github.com/esperar/concurrency-project)
 
 ---
 
