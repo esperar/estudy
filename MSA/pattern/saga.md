@@ -2,9 +2,12 @@
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLiCWK%2Fbtrx07FIYlZ%2F3Jt15icBW8abKVlW40UKd1%2Fimg.png)
 
+
 Saga 패턴은 트랜잭션의 관리주체가 DBMS가 아닌 애플리케이션에 있다. app이 분산되어있을 때, 각 App 하위에 존재하는 DB는 local 트랜잭션 처리만 담당한다.
 
+
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlM0vB%2Fbtrx1ITg4Nj%2F4JO3jSBcbbsug1cc2n8hxk%2Fimg.png)
+
 
 따라서 각각의 app에 대한 연속적인 트랜잭션 요청 및 실패의 경우에 rollback 처리(보상 트랜잭션)을 애플리케이션에서 구현해야 한다.
 
@@ -26,17 +29,19 @@ Two Phase Commit과는 다르게 saga를 활용한 트랜잭션은 데이터 격
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbJRsvG%2Fbtrx1HthITO%2F1RmKKioRKJYEILMpuhusO1%2Fimg.png)
 
+
 Choreography-Based Saga는 자신이 보유한 서비스 내 Local 트랜잭션을 관리하여, 트랜잭션이 종료되면 이벤트를 발행한다.
 
 만약 그 다음으로 수행해야할 트랜잭션이 있다면, 해당 트랜잭션을 수행해야하는 app에 완료 이벤트를 수신받고 다음 작업을 처리해야한다.
 
 이때 Event는 Kafka와 같은 메시지 큐 서비스를 이용해 비동기 방식으로 전달할 수 있다.
 
+
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbQWoIC%2Fbtrx1Jdy2pS%2FgmtWWcOH2AkuQw3Hl71k9k%2Fimg.png)
 
 각 app 별로 트랜잭션을 관리하는 로직이 있다. 따라서 중간에 트랜잭션이 실패하면, 해당 트랜잭션 취소 처리를 실패한 app에서 보상 이벤트를 발생하여 rollback을 시도한다.
 
-위와 같은 구성은 구축하기 쉬운 장점이 있으나, 운영자의 입장에서 트랜잭션의 현재 상태를 알기가 어렵다.'
+위와 같은 구성은 구축하기 쉬운 장점이 있으나, 운영자의 입장에서 트랜잭션의 현재 상태를 알기가 어렵다.
 
 
 ### Orchestration-Based Saga
