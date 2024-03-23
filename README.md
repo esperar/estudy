@@ -190,6 +190,7 @@
 - [Spring WebFlux vs MVC, 내부 작동 방식](http://github.com/esperar/estudy/blob/master/Back-End/spring/webflux/webflux.md)
 - [Spring Batch 기술적 트레이드 오프](http://github.com/esperar/estudy/blob/master/Back-End/spring/batch_tradeoff.md)
 - [Spring Batch 데이터 일관성 관리](http://github.com/esperar/estudy/blob/master/Back-End/spring/batch_concurrency.md)
+- [Spring Data JPA와 @Transactional](http://github.com/esperar/estudy/blob/master/Back-End/spring/transactionaljpa.md)
 
 ---
 
