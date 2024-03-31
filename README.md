@@ -417,6 +417,7 @@
 - [블루/그린 배포](http://github.com/esperar/estudy/blob/master/DevOps/bg.md)
 - [서버 이중화 구조](http://github.com/esperar/estudy/blob/master/DevOps/이중화.md)
 - [GitOps](http://github.com/esperar/estudy/blob/master/DevOps/gitops.md)
+- [Terraform, EKS 배포 프로젝트](https://github.com/esperar/hcl-eks-gitops)
 
 ---
 
