@@ -133,6 +133,7 @@
   - [[Terraform] 작동 원리](http://github.com/esperar/estudy/blob/master/DevOps/hcl/terraform_work.md)
   - [[Terraform] Custom Condition(precondition, postcondition)](http://github.com/esperar/estudy/blob/master/DevOps/hcl/condition.md)
   - [[Terraform] dynamic block](http://github.com/esperar/estudy/blob/master/DevOps/hcl/dynamic_block.md)
+  - [[Terraform] state, remote_state, backend](http://github.com/esperar/estudy/blob/master/DevOps/hcl/state.md)
 
 ---
 
