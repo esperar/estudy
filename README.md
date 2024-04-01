@@ -129,10 +129,10 @@
 - [서버 이중화 구조](http://github.com/esperar/estudy/blob/master/DevOps/이중화.md)
 - [GitOps](http://github.com/esperar/estudy/blob/master/DevOps/gitops.md)
 - [HCL](http://github.com/esperar/estudy/blob/master/DevOps/hcl/hcl.md)
-  - [Terraform, EKS 배포 프로젝트](https://github.com/esperar/hcl-eks-gitops)
-  - [Terraform 작동 원리](http://github.com/esperar/estudy/blob/master/DevOps/hcl/terraform_work.md)
-  - [Terraform Custom Condition(precondition, postcondition)](http://github.com/esperar/estudy/blob/master/DevOps/hcl/condition.md)
-  - [Terraform dynamic block](http://github.com/esperar/estudy/blob/master/DevOps/hcl/dynamic_block.md)
+  - [[Terraform] EKS 배포 프로젝트](https://github.com/esperar/hcl-eks-gitops)
+  - [[Terraform] 작동 원리](http://github.com/esperar/estudy/blob/master/DevOps/hcl/terraform_work.md)
+  - [[Terraform] Custom Condition(precondition, postcondition)](http://github.com/esperar/estudy/blob/master/DevOps/hcl/condition.md)
+  - [[Terraform] dynamic block](http://github.com/esperar/estudy/blob/master/DevOps/hcl/dynamic_block.md)
 
 ---
 
