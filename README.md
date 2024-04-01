@@ -131,6 +131,7 @@
 - [Terraform, EKS 배포 프로젝트](https://github.com/esperar/hcl-eks-gitops)
 - [Terraform 작동 원리](http://github.com/esperar/estudy/blob/master/DevOps/hcl/terraform_work.md)
 - [HCL 언어](http://github.com/esperar/estudy/blob/master/DevOps/hcl/hcl.md)
+- [Terraform Custom Condition(precondition, postcondition)](http://github.com/esperar/estudy/blob/master/DevOps/hcl/condition.md)
 
 ---
 
