@@ -119,7 +119,7 @@
   - [EKS](http://github.com/esperar/estudy/blob/master/DevOps/aws/eks/eks.md)
     - [EKS CNI](http://github.com/esperar/estudy/blob/master/DevOps/aws/eks/cni.md)
 - [모놀리식 아키텍처 (Monolithic Architecture)](http://github.com/esperar/estudy/blob/master/Back-End/backend/mono.md)
-- [APM(Application Performance Management)](http://github.com/esperar/estudy/blob/master/Back-End/backend/apm.md)
+- [APM(Application Performance Management)](http://github.com/esperar/estudy/blob/master/DevOps/apm.md)
 - [gRPC, RPC, 작동원리, HTTP API 비교](http://github.com/esperar/estudy/blob/master/DevOps/grpc.md)
 - [RabbitMQ](http://github.com/esperar/estudy/blob/master/DevOps/rabbitmq.md)
 - [Blue/Green Deployment, Architecture](http://github.com/esperar/estudy/blob/master/DevOps/blue_green.md)
