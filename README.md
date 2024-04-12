@@ -32,6 +32,7 @@
 - [Cache - Eviction, Expiration, Passivation](http://github.com/esperar/estudy/blob/master/Back-End/backend/eviction.md)
 - [Protocol Buffers](http://github.com/esperar/estudy/blob/master/Back-End/backend/protobuf.md)
 - [Redis 분산락 + WebFlux 프로젝트](https://github.com/esperar/concurrency-project)
+- [Kafka 리밸런싱](http://github.com/esperar/estudy/blob/master/Back-End/kafka/rebalancing.md)
 
 ---
 
