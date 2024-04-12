@@ -33,6 +33,7 @@
   - [Zookeeper](http://github.com/esperar/estudy/blob/master/Back-End/backend/kafka요소2.md)
   - [PUB/SUB Architecture](http://github.com/esperar/estudy/blob/master/Back-End/backend/pub_sub.md)
   - [Kafka 리밸런싱](http://github.com/esperar/estudy/blob/master/Back-End/kafka/rebalancing.md)
+  - [Kafka 파티션 할당 전략](http://github.com/esperar/estudy/blob/master/Back-End/kafka/rebalancing.md)
 
 ---
 
