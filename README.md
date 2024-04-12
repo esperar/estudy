@@ -15,13 +15,10 @@
 - [Java Back-End 웹 기술 역사](http://github.com/esperar/estudy/blob/master/Back-End/backend/history.md)
 - [Clean Architecture](http://github.com/esperar/estudy/blob/master/Back-End/backend/cleanspring.md)
 - [OAuth 2.0 개념과 권한 부여 방식 알아보기](https://esperer.tistory.com/14)
-- [2023 제 3회 당근마켓 SRE 밋업](http://github.com/esperar/estudy/blob/master/Back-End/backend/당근밋업.md)
-- [Apache Kafka 주요 요소 Producer, Counsumer, Topic, Partition, Segment](http://github.com/esperar/estudy/blob/master/Back-End/backend/kafka요소.md)
-- [Apaceh Kafka 주요 요소2 Broker, Zookeeper + 클러스터링 해보기](http://github.com/esperar/estudy/blob/master/Back-End/backend/kafka요소2.md)
+- [2023 제 3회 당근마켓 SRE 밋업 후기](http://github.com/esperar/estudy/blob/master/Back-End/backend/당근밋업.md)
 - [IntelliJ 테스트 커버리지 확인하기](http://github.com/esperar/estudy/blob/master/Back-End/backend/test_cov.md)
 - [SOLID 원칙과 각 원칙의 장단점](http://github.com/esperar/estudy/blob/master/Back-End/backend/solid.md)
 - [Kotlin, JPA가 서로 지향하는 방향의 차이](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/kotlin_jpa.md)
-- [PUB/SUB (발행/구독) 아키텍처의 이해](http://github.com/esperar/estudy/blob/master/Back-End/backend/pub_sub.md)
 - [Netty](http://github.com/esperar/estudy/blob/master/Back-End/backend/netty.md)
   - [Java IO, NIO](https://github.com/esperar/netty.io/blob/master/1-1%20NIO/nio.md)
   - [Java NIO - Selector](https://github.com/esperar/netty.io/blob/master/1-1%20NIO/selector.md)
@@ -32,7 +29,10 @@
 - [Cache - Eviction, Expiration, Passivation](http://github.com/esperar/estudy/blob/master/Back-End/backend/eviction.md)
 - [Protocol Buffers](http://github.com/esperar/estudy/blob/master/Back-End/backend/protobuf.md)
 - [Redis 분산락 + WebFlux 프로젝트](https://github.com/esperar/concurrency-project)
-- [Kafka 리밸런싱](http://github.com/esperar/estudy/blob/master/Back-End/kafka/rebalancing.md)
+- [Kafka](http://github.com/esperar/estudy/blob/master/Back-End/backend/kafka요소.md)
+  - [Zookeeper](http://github.com/esperar/estudy/blob/master/Back-End/backend/kafka요소2.md)
+  - [PUB/SUB Architecture](http://github.com/esperar/estudy/blob/master/Back-End/backend/pub_sub.md)
+  - [Kafka 리밸런싱](http://github.com/esperar/estudy/blob/master/Back-End/kafka/rebalancing.md)
 
 ---
 
