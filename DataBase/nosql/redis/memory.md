@@ -70,7 +70,7 @@ redis에서는 os 페이지 교체 알고리즘 중에서 LRU, LFU, RANDOM 3가�
 ### Redis key eviction 프로세스
 
 redis eviction 프로세스는 다음과 같이 진행된다.
-1. client가 새로운 command를 실앻하여, 더 많은 데이터가 추가된다.
+1. client가 새로운 command를 실행하여, 더 많은 데이터가 추가된다.
 2. redis는 메모리 사용량을 확인하고, 설정된 maxmemory 값보다 크면 정책에 따라 keys를 evict한다.
 3. 새로운 command가 실행된다.
 
