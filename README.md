@@ -395,6 +395,7 @@
   - [MongoDB 샤딩](http://github.com/esperar/estudy/blob/master/DataBase/nosql/mongodb/shard.md)
   - [MongoDB 데이터 복구(UNDO, REDO)](http://github.com/esperar/estudy/blob/master/DataBase/nosql/mongodb/undo_redo.md)
 - [Redis](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/redis.md)
+  - [레디스 메모리 관리, 최적화 방안](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/memory.md)
 - [데이터베이스 부하분산(파티셔닝, 샤딩, 레플리케이션) 개념](http://github.com/esperar/estudy/blob/master/DataBase/dbload.md)
 - [데이터베이스 파티셔닝](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning.md)
 - [파티셔닝 종류와 분할 기준](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning2.md)
