@@ -398,7 +398,7 @@
   - [Redis 효율적인 서버 구성](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/config.md)
   - [Redis 메모리 관리, 최적화 방안](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/memory.md)
   - [Redis Fragmentation Ratio](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/fragment.md)
-  - [Redis ]
+  - [Redis Distributed Lock, RedLock](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/distributed.md)
 - [데이터베이스 부하분산(파티셔닝, 샤딩, 레플리케이션) 개념](http://github.com/esperar/estudy/blob/master/DataBase/dbload.md)
 - [데이터베이스 파티셔닝](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning.md)
 - [파티셔닝 종류와 분할 기준](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning2.md)
