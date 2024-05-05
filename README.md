@@ -174,6 +174,7 @@
 - [Web 서블릿(Servlet) 이란?](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/servlet.md) 
 - [StringBuilder 사용법과 주요 메서드](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/StringBuilder.md)
 - [래퍼 클래스(Wrapper Class), 박싱 언박싱](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/wrapper.md)
+- [Java Generic](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/generic.md)
 - [SocketAdress 클래스 & NetworkInterface 클래스](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/javanet.md)
 - [Java String, StringBuilder, StringBuffer 차이 알아보기](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/stringB.md)
 - [POJO (Plain Old Java Object)](https://esperer.tistory.com/12)
