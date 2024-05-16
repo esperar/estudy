@@ -461,6 +461,7 @@
   - [비동기 메시지 패턴 응용 통신](http://github.com/esperar/estudy/blob/master/MSA/ipc/async_message.md)
 - [서비스 메시 Service Mesh](http://github.com/esperar/estudy/blob/master/DevOps/service_mesh.md)
   - [Istio, Istio Architecture](http://github.com/esperar/estudy/blob/master/DevOps/istio.md)  
+- [마이크로서비스에서 분산 트랜잭션 관리하기](http://github.com/esperar/estudy/blob/master/MSA/disitribution.md)
 
 ---
 
