@@ -34,6 +34,7 @@
   - [PUB/SUB Architecture](http://github.com/esperar/estudy/blob/master/Back-End/backend/pub_sub.md)
   - [Kafka 리밸런싱](http://github.com/esperar/estudy/blob/master/Back-End/kafka/rebalancing.md)
   - [Kafka 파티션 할당 전략](http://github.com/esperar/estudy/blob/master/Back-End/kafka/rebalancing.md)
+  - [Kafka Consumer Offset 수동 commit](http://github.com/esperar/estudy/blob/master/Back-End/kafka/autocommit.md)
 - [State Machine Pattern](http://github.com/esperar/estudy/blob/master/Back-End/state_machine.md)
 
 ---
