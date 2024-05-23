@@ -201,7 +201,7 @@
 - [Reactive Stream, Backpressure, API Components](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/reactive_stream.md)
 - [Java의 예외 생성 비용, 비용 절감 방법](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/exception_cost.md)
 - [JVM Warm Up - 배포 직후 Latancy 성능 저하 원인](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/warmup1.md)
-
+- [JVM Warm Up 적용하기](http://github.com/esperar/estudy/blob/master/Back-End/JAVA/warmup2.md)
 
 ---
 
