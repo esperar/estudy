@@ -36,6 +36,7 @@
   - [Kafka 파티션 할당 전략](http://github.com/esperar/estudy/blob/master/Back-End/kafka/rebalancing.md)
   - [Kafka Consumer Offset 수동 commit](http://github.com/esperar/estudy/blob/master/Back-End/kafka/autocommit.md)
   - [Kafka ISR(In Sync Replica)](http://github.com/esperar/estudy/blob/master/Back-End/kafka/isr.md)
+  - [Producer 주요 Options](http://github.com/esperar/estudy/blob/master/Back-End/kafka/producer.md)
 - [State Machine Pattern](http://github.com/esperar/estudy/blob/master/Back-End/state_machine.md)
 
 ---
