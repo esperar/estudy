@@ -242,6 +242,7 @@
 - [lateinit과 Delegates.notNull<>()로 적절한 null 처리하기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/effectivenull.md)
 - [.close()가 필요한 클래스를 사용할 때, use로 효율적으로 사용하기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/use.md)
 - [infix, inline function](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/inline.md)
+- [Kotlin Sealed Class](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/sealed.md)
 
 ---
 
