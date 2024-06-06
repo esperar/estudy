@@ -411,6 +411,7 @@
   - [Redis Distributed Lock, RedLock](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/distributed.md)
   - [Redis Cluster](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/cluster.md)
   - [Redis Distributed Lock, Spring Boot Example](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/distributed2.md)
+  - [Redis 다중 명령에 대한 원자성 보장 방법](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/distributed2.md)
 - [데이터베이스 부하분산(파티셔닝, 샤딩, 레플리케이션) 개념](http://github.com/esperar/estudy/blob/master/DataBase/dbload.md)
 - [데이터베이스 파티셔닝](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning.md)
 - [파티셔닝 종류와 분할 기준](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning2.md)
