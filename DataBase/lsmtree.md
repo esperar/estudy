@@ -46,7 +46,7 @@ hash index의 단점으로는 range query가 불가능하단 점, 메모리에 �
 
 ![](https://velog.velcdn.com/images/salgu1998/post/721a61d9-8e90-4c47-acc9-1c17f4ba5a36/image.png)
 
-LSM Tree의 memtable은 balanced binary tree를 이루며 정렬되어있고 특정 사이즈만큼 커지면 sstable에 fluxh하는 방식으로 되어있다. 
+LSM Tree의 memtable은 balanced binary tree를 이루며 정렬되어있고 특정 사이즈만큼 커지면 sstable에 flush하는 방식으로 되어있다. 
 
 모든 쓰기 작업은 memtable을 통해서 진행된다. memtable은 메모리에 위치하므로 데이터베이스 쓰기 연산은 매우 빠르게 처리될 수 있다 disk io가 없으니까!
 
