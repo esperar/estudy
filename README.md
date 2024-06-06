@@ -419,6 +419,7 @@
 - [전문 검색 인덱스](http://github.com/esperar/estudy/blob/master/DataBase/전문검색인덱스.md)
 - [커버링 인덱스](http://github.com/esperar/estudy/blob/master/DataBase/coverindex.md)
 - [MMR, BKA](http://github.com/esperar/estudy/blob/master/DataBase/mmr.md)
+- [MySQL 8.0 InnoDB Locking](http://github.com/esperar/estudy/blob/master/DataBase/mysql_lock.md)
 
 ---
 
