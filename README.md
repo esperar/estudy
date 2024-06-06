@@ -420,6 +420,7 @@
 - [커버링 인덱스](http://github.com/esperar/estudy/blob/master/DataBase/coverindex.md)
 - [MMR, BKA](http://github.com/esperar/estudy/blob/master/DataBase/mmr.md)
 - [MySQL 8.0 InnoDB Locking](http://github.com/esperar/estudy/blob/master/DataBase/mysql_lock.md)
+- [Pessmistic Lock, Optimistic Lock](http://github.com/esperar/estudy/blob/master/DataBase/lock.md)
 
 ---
 
