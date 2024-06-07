@@ -58,9 +58,11 @@ ISR 내에서 모든 팔로워의 복제가 완료되면 리더에서 commit을 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwG0gJ%2FbtrAp6k4y5P%2Ff6cfsCffw67BAXhFL68o0k%2Fimg.png)
 
 **커밋되기 이전 메시지를 컨슈머가 읽을 수 있다면?**
+
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwBPZV%2FbtrAoEIQjkL%2FsgaBB349gA3uF0oXekkJGk%2Fimg.png)
 
 **각기 다른 컨슈머가 메시지를 컨슘하는 동안 파티션의 리더 선출이 발생하는 경우라면**?
+
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbf40Y8%2FbtrAoDwoWMI%2F6zfG1oWl7vJFmMm7U7d500%2Fimg.png)
 
 -> 커밋되지 않은 메시지를 컨슈머가 읽을 수 있게 허용해버리면, 동일한 토픽의 파티션에서 컨슘했을 때도 메시지가 일치하지 않는 현상이 발생할 수 있다. 따라서 **커밋된 메시지만 컨슈머가 읽을 수 있도록 구현되어있다.**
