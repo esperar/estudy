@@ -118,6 +118,7 @@ RabbitMQ는 Ack를 통해 메시지를 받았는지 알 수 있으나 카프카�
 **리더에포크는** 카프카의 파티션들이 복구 동작을 할 때 메시지의 일관성을 유지하기 위한 용도로 사용된다. (redis의 configEpoch, currentEpoch 같은 느낌이라 생각하면 될듯) 컨트롤러에 의해 관리되는 32비트 숫자로 표기된다. leaderEpoch 정보는 **리플리케이션 프로토콜**에 의해 전파되고, 새로운 리더가 변경된 후 변경된 리더에 대한 정보는 팔로워에게 전달된다. **리더에포크는 복구 동작시에 하이워터마크를 대체하는 수단으로 활용된다.**
 
 **리더에포크 사용 x**
+
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb7qhBN%2FbtrAtLNpUXZ%2FSFnniNCXZMNYe7K4IrXXXK%2Fimg.png)
 
 리더 에포크가 없다면 장애 복구 과정은 다음과 같다.
