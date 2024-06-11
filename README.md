@@ -24,6 +24,7 @@
   - [Java NIO - Selector](https://github.com/esperar/netty.io/blob/master/1-1%20NIO/selector.md)
   - [비동기식 이벤트 기반 네트워킹](https://github.com/esperar/netty.io/blob/master/1-2%20Intro/async.md)
   - [네티의 핵심 컴포넌트](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
+  - [Netty Thread Model](http://github.com/esperar/estudy/blob/master/Back-End/netty_thread.md)
 - [Reactive Programming 이것만큼은 알고가자](http://github.com/esperar/estudy/blob/master/Back-End/backend/reactive_programming.md)
 - [우아한테크세미나 - 우아한스프링배치 by 이동욱](http://github.com/esperar/estudy/blob/master/Back-End/baemin_batch.md)
 - [Cache - Eviction, Expiration, Passivation](http://github.com/esperar/estudy/blob/master/Back-End/backend/eviction.md)
