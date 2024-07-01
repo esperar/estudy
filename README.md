@@ -252,7 +252,8 @@
 - [inline fun 함수를 사용해 고차 함수 최적화](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/inline2.md)
 - [Coroutine](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/coroutine/coroutine.md)
   - [CoroutineDispatcher](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/coroutine/coroutinedispatcher.md)
-  - [launch, async](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/coroutine/coroutinedispatcher.md)
+  - [launch, async](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/coroutine/launch.md)
+  - [susepnd fun](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/coroutine/launch.md)
 
 ---
 
