@@ -255,6 +255,7 @@
   - [launch, async](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/coroutine/launch.md)
   - [susepnd fun](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/coroutine/suspend.md)
   - [Coroutine Job을 Lazy하게 만들기](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/coroutine/lazy.md)
+  - [Coroutine Job 상태 관리](http://github.com/esperar/estudy/blob/master/Back-End/kotlin/coroutine/state.md)
 
 ---
 
