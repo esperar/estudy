@@ -1,4 +1,3 @@
-# Coroutine Job을 Lazy하게 만들기
 
 코루틴 빌더인 launch를 사용하면 Job이 생성되는 것을 볼 수 있다.
 
@@ -44,11 +43,11 @@ fun main() = runBlocking<Unit> {
 
 <br>
 
-#### start()
+#### start() or join()
 
 Lazy하게 생성된 Job은 start()를 통해 실행이 가능하다. 
 
-start()를 호출하면 생성된 코루틴을 즉시 실행시킨다.
+start() or join() 를 호출하면 생성된 코루틴을 즉시 실행시킨다.
 
 ```kotlin
 fun main() = runBlocking<Unit> {
@@ -56,24 +55,8 @@ fun main() = runBlocking<Unit> {
     println("가나다")
   }
 
-  job.start()
+  job.start() // or job.join()
 }
 // 가나다
 ```
 
-
-#### withContext(job)
-
-`withContext(job)` 블럭을 사용하면 job이 자동으로 시작되어 실행됩니다. 이 방법은 job을 명시적으로 시작시킬 필요가 없습니다.
-
-```kotlin
-fun main() = runBlocking<Unit> {
-    val job = launch(start = CoroutineStart.LAZY) {
-        println("가나다")
-    }
-    
-    withContext(job) { // job 내부에서 실행됨
-        // 코드
-    }
-}
-```
