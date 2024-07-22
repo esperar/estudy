@@ -45,6 +45,8 @@
 - [State Machine Pattern](http://github.com/esperar/estudy/blob/master/Back-End/state_machine.md)
 - [다중 환경에서 세션은 어떻게 공유하고 관리할까?](http://github.com/esperar/estudy/blob/master/Back-End/backend/multi_session.md)
 - [분산 환경 합의 알고리즘 Paxos](http://github.com/esperar/estudy/blob/master/Back-End/backend/paxos.md)
+- [Kernel Programming]()
+  - [Block IO (Buffer Head, BIO Struct, Scheduler)]
 
 ---
 
@@ -575,7 +577,7 @@
 - [SSL Handshake](http://github.com/esperar/estudy/blob/master/Back-End/Internet/ssl_handshake.md)
 - [라우터 Router](http://github.com/esperar/estudy/blob/master/Network/router.md)
 - [DHCP(Dynamic Host Configuration Protocol)](http://github.com/esperar/estudy/blob/master/Network/dhcp.md)
-- [TCP Header](http://github.com/esperar/estudy/blob/master/Network/dhcp.md)
+- [TCP Header](http://github.com/esperar/estudy/blob/master/Network/tcp_header.md)
 
 ---
 
