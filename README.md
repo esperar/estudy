@@ -45,7 +45,7 @@
 - [State Machine Pattern](http://github.com/esperar/estudy/blob/master/Back-End/state_machine.md)
 - [다중 환경에서 세션은 어떻게 공유하고 관리할까?](http://github.com/esperar/estudy/blob/master/Back-End/backend/multi_session.md)
 - [분산 환경 합의 알고리즘 Paxos](http://github.com/esperar/estudy/blob/master/Back-End/backend/paxos.md)
-- [Kernel](http://github.com/esperar/estudy/blob/master/Back-End/kernel/blockio.md)
+- [Kernel](http://github.com/esperar/estudy/blob/master/Back-End/kernel/kernel.md)
   - [Block IO (Buffer Head, BIO Struct, Scheduler)](http://github.com/esperar/estudy/blob/master/Back-End/kernel/blockio.md)
 
 ---
@@ -429,6 +429,7 @@
   - [Redis Distributed Lock, Spring Boot Example](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/distributed2.md)
   - [Redis 다중 명령에 대한 원자성 보장 방법](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/atomic.md)
   - [Redis Architecture](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/architecture.md)
+  - [Redis Replication](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/replication.md)
 - [데이터베이스 부하분산(파티셔닝, 샤딩, 레플리케이션) 개념](http://github.com/esperar/estudy/blob/master/DataBase/dbload.md)
 - [데이터베이스 파티셔닝](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning.md)
 - [파티셔닝 종류와 분할 기준](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning2.md)
