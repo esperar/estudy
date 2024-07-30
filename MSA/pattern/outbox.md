@@ -1,4 +1,4 @@
-# Transaction Outbox Pattern
+# Transactional Outbox Pattern
 
 ### Transactional Event
 
