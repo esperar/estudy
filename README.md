@@ -489,6 +489,7 @@
   - [Saga Pattern](http://github.com/esperar/estudy/blob/master/MSA/pattern/saga.md)
   - [Event Sourcing](http://github.com/esperar/estudy/blob/master/MSA/pattern/event_sourcing.md)
   - [CQRS](http://github.com/esperar/estudy/blob/master/MSA/pattern/cqrs.md)
+  - [Transaction Outbox Pattern](http://github.com/esperar/estudy/blob/master/MSA/pattern/outbox.md)
 - [마이크로서비스 아키텍처 IPC](http://github.com/esperar/estudy/blob/master/MSA/ipc/ipc.md)
   - [동기 RPI 패턴 응용 통신](http://github.com/esperar/estudy/blob/master/MSA/ipc/rpi.md)
   - [서비스 디스커버리 Service Discovery](http://github.com/esperar/estudy/blob/master/MSA/service_discovery.md)
