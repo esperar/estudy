@@ -443,6 +443,7 @@
 - [Pessmistic Lock, Optimistic Lock](http://github.com/esperar/estudy/blob/master/DataBase/lock.md)
 - [LSM Tree](http://github.com/esperar/estudy/blob/master/DataBase/lsmtree.md)
 - [B+Tree](http://github.com/esperar/estudy/blob/master/DataBase/b+tree.md)
+- [LIKE 쿼리 검색 성능 개선, Full-Text Search](http://github.com/esperar/estudy/blob/master/DataBase/sql/full_text.md)
 
 ---
 
