@@ -81,6 +81,7 @@ key를 통해 context로부터 가져온 값을 이전에 결합한 CoroutineCon
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbmgCZp%2FbtrcM1Hxi7w%2FDnYHHuIDEZiKYs71krajUK%2Fimg.png)
 
 <br>
+
 #### CoroutineContext에서 CoroutineContext 제거하기
 
 위에서와 같이 CoroutineContext에 접근이 가능하면, 당연하게 제거도 가능하다. CoroutineContext의 제거는 `minusKey()` 메서드를 통해 가능하다.
