@@ -587,6 +587,7 @@
 - [TCP Header](http://github.com/esperar/estudy/blob/master/Network/tcp_header.md)
 - [TCP 세션 유지 Keepalive](http://github.com/esperar/estudy/blob/master/Network/tcp_keepalive.md)
 - [TCP Flag, ECN](http://github.com/esperar/estudy/blob/master/Network/tcp_flag.md)
+- [QoS 3가지 수행 모델 (Best Effort, IntServ, DiffServ)](http://github.com/esperar/estudy/blob/master/Network/qos.md)
 
 ---
 
