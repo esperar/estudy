@@ -50,7 +50,7 @@ public class AspectSomething {
 	
     @Order(1)
     @Around("Pointcuts.allOrderAndAllDo()")
-    public Object doTransaction(ProceedingJoinPoint joinPoint) throws Throwable {
+    public Object doTransaction(ProceedingJoinPoint joinPoint) throws Throwable {
       // tx process
       return joinPoint.proceed();
     }
