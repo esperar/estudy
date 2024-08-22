@@ -332,6 +332,7 @@
 - [Spring Batch 데이터 일관성 관리](http://github.com/esperar/estudy/blob/master/Back-End/spring/batch_concurrency.md)
 - [Spring Data JPA와 @Transactional](http://github.com/esperar/estudy/blob/master/Back-End/spring/transactionaljpa.md)
 - [Spring Data JPA 동작 원리](http://github.com/esperar/estudy/blob/master/Back-End/spring/datajpa.md)
+- [Spring AOP Advice 순서 제어 방법](http://github.com/esperar/estudy/blob/master/Back-End/spring/advice_control.md)
 
 ---
 
