@@ -42,7 +42,7 @@ public class AspectSomething {
 @Aspect
 public class AspectSomething {
     @Order(2)
-	@Around("Pointcuts.allOrder()")
+    @Around("Pointcuts.allOrder()")
 	public Object doLog(ProceedingJoinPoint joinPoint) throws Throwable {
 	  log.info("log {}", joinPoint.getSignature());
 	  return joinPoint.proceed();
