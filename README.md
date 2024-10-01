@@ -619,6 +619,7 @@
 - [캐시 메모리 구조와 작동 방식](http://github.com/esperar/estudy/blob/master/Operating-System/cache_memory.md)
 - [Memory - Address, Contiguous allocation, MMU](http://github.com/esperar/estudy/blob/master/Operating-System/mmu.md)
 - [Paging, Fragmentation, TLB](http://github.com/esperar/estudy/blob/master/Operating-System/tlb.md)
+- [UDS, 0000.sock](http://github.com/esperar/estudy/blob/master/Operating-System/uds.md)
 
 ---
 
