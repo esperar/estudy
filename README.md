@@ -50,6 +50,8 @@
 - [Linux](http://github.com/esperar/estudy/blob/master/Back-End/linux)
   - [Command nmap](http://github.com/esperar/estudy/blob/master/Back-End/linux/nmap.md)
   - [LXC(Linux Container)](http://github.com/esperar/estudy/blob/master/Back-End/linux/lxc.md)
+- [분산 시스템에서 시간 동기화 문제와 해결 알고리즘](http://github.com/esperar/estudy/blob/master/Back-End/backend/timesync.md)
+- [분산 시스템 논리적 시계](http://github.com/esperar/estudy/blob/master/Back-End/backend/logicaltime.md)
 
 ---
 
