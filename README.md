@@ -442,6 +442,7 @@
   - [Redis Replication](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/replication.md)
   - [Redis Failover시 데이터 손실 방지 방법](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/locksync.md)
   - [Redis important fact about replication](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/replica.md)
+  - [Redis INCR](http://github.com/esperar/estudy/blob/master/DataBase/nosql/redis/incr.md)
 - [데이터베이스 부하분산(파티셔닝, 샤딩, 레플리케이션) 개념](http://github.com/esperar/estudy/blob/master/DataBase/dbload.md)
 - [데이터베이스 파티셔닝](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning.md)
 - [파티셔닝 종류와 분할 기준](http://github.com/esperar/estudy/blob/master/DataBase/load/partitioning2.md)
