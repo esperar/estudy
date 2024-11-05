@@ -55,6 +55,7 @@
 - [IDC 이중화 구성으로 DR하기 + Kafka 이중화 예시](http://github.com/esperar/estudy/blob/master/Back-End/backend/dr.md)
 - [Linux Performance analysis commands](http://github.com/esperar/estudy/blob/master/Linux)
   - [uptime](http://github.com/esperar/estudy/blob/master/Linux/uptime.md)
+  - [dmesg](http://github.com/esperar/estudy/blob/master/Linux/dmesg.md)
 
 ---
 
