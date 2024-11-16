@@ -60,7 +60,7 @@
 - [분산 시스템에서 시간 동기화 문제와 해결 알고리즘](http://github.com/esperar/estudy/blob/master/Back-End/backend/timesync.md)
 - [분산 시스템 논리적 시계(렘포트 시계, 벡터 시계)](http://github.com/esperar/estudy/blob/master/Back-End/backend/logicaltime.md)
 - [IDC 이중화 구성으로 DR하기 + Kafka 이중화 예시](http://github.com/esperar/estudy/blob/master/Back-End/backend/dr.md)
-- [Data Partitioning](http://github.com/esperar/estudy/blob/master/Back-End/partition.md)
+- [Data Partitioning](http://github.com/esperar/estudy/blob/master/Back-End/backend/partition.md)
 
 ---
 
