@@ -347,6 +347,7 @@
 - [Spring AOP Advice 순서 제어 방법](http://github.com/esperar/estudy/blob/master/Back-End/spring/advice_control.md)
 - [Spring Data JPA @Modifiying](http://github.com/esperar/estudy/blob/master/Back-End/spring/modifiying.md)
 - [High Performance Hibernate, @NaturalId](http://github.com/esperar/estudy/blob/master/Back-End/spring/naturalid.md)
+- [JPA Entity equals(), hashcode() overriding](http://github.com/esperar/estudy/blob/master/Back-End/spring/jpa/equals.md)
 
 ---
 
