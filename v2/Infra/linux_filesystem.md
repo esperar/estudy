@@ -93,3 +93,10 @@ i_mode 필드는 16bit으로 구성되며 상위 4bit는 파일의 유형을 의
 #### 파일 유형
 
 ![](https://miro.medium.com/v2/resize:fit:748/format:webp/1*sRfTNJ1x6B8VpA4e69MLaw.png)
+
+다음 3bits는 특수 권한으로 사용된다
+- u 비트는 setuid 비트로 특정 작업을 수행하기 위한 일시적 파일 소유자의 권한을 얻는데 사용된다.
+- g 비트는 setgid 비트로 일시적 파일 그룹 권한을 얻게 된다.
+- s 비트는 sticky bit로 directory file에 sticky bit를 지정하면 누구나 파일을 생성할 수 있지만 자신의 소유가 아닌 파일은 삭제할 수 없다.
+
+마지막 9bits는 접근 제어 읽기/쓰기/실행을 위해 사용되며 3bits씩 user, group, other(다른 사용자)에 대한 접근 제어를 나타낸다.
