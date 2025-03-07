@@ -649,7 +649,6 @@
 - [Paging, Fragmentation, TLB](http://github.com/esperar/estudy/blob/master/Operating-System/tlb.md)
 - [UDS, 0000.sock](http://github.com/esperar/estudy/blob/master/Operating-System/uds.md)
 - [Parity bit, Pararell Paritiy, Hamming Code](http://github.com/esperar/estudy/blob/master/Operating-System/paritiy.md)
-]
 
 ---
 
